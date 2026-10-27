@@ -1,0 +1,48 @@
+---
+import AuthUI from '../components/AuthUI.astro';
+
+// Đọc danh sách file để tạo link truy cập tạm thời
+const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
+---
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ - Kinh Điển Tam Tạng</title>
+  </head>
+  <body class="max-w-4xl mx-auto p-6 bg-gray-50 text-gray-900 relative">
+    
+    <!-- Nhúng giao diện đăng nhập -->
+    <AuthUI />
+    
+    <header class="mt-16 mb-10 text-center">
+      <h1 class="text-4xl font-bold text-gray-800">Thư Viện Kinh Điển Tam Tạng</h1>
+      <p class="text-gray-600 mt-2">Hệ thống lưu trữ và tra cứu kinh điển tốc độ cao</p>
+    </header>
+
+    <main class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+      <h2 class="text-2xl font-semibold mb-4 border-b pb-2">Truy cập nhanh (Bản thử nghiệm)</h2>
+      
+      <ul class="space-y-3 pl-4 list-disc marker:text-blue-500">
+        {tatCaKinh.slice(0, 50).map((kinh) => {
+          const filePath = kinh.file;
+          const pathParts = filePath.split('/content/kinhdien/');
+          const urlSlug = pathParts[1].replace('.md', '');
+          
+          return (
+            <li>
+              <a href={`/${urlSlug}`} class="text-blue-600 hover:text-blue-800 hover:underline transition">
+                {urlSlug}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      
+      {tatCaKinh.length > 50 && (
+         <p class="mt-6 text-gray-500 italic font-medium">... và hơn {tatCaKinh.length - 50} bài kinh khác đang được ẩn. Chúng ta sẽ làm thanh menu phân cấp dạng cây (Tree-view) ở bước sau.</p>
+      )}
+    </main>
+    
+  </body>
+</html>
