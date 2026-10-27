@@ -1,0 +1,153 @@
+---
+// src/components/AuthUI.astro
+---
+<div id="auth-container" class="fixed top-4 right-4 z-50">
+  <!-- Nút mở menu (Khi chưa đăng nhập) -->
+  <button id="auth-toggle-btn" class="bg-gray-800 text-white px-4 py-2 rounded shadow-md hover:bg-gray-700 transition">
+    Đăng nhập / Đăng ký
+  </button>
+
+  <!-- Khung hiển thị khi ĐÃ đăng nhập -->
+  <div id="user-info" class="hidden bg-white px-4 py-2 rounded shadow-md border border-gray-200">
+    <span class="text-gray-700 mr-3">Xin chào, <span id="username-display" class="font-bold text-gray-900"></span></span>
+    <button id="logout-btn" class="text-red-500 hover:text-red-700 text-sm font-semibold underline">Đăng xuất</button>
+  </div>
+
+  <!-- Modal Đăng nhập / Đăng ký -->
+  <div id="auth-modal" class="hidden absolute top-12 right-0 bg-white w-72 p-5 rounded-xl shadow-2xl border border-gray-200">
+    <div class="flex justify-between mb-4 border-b pb-2">
+      <button id="tab-login" class="font-semibold text-blue-600 border-b-2 border-blue-600 pb-1 w-1/2">Đăng nhập</button>
+      <button id="tab-register" class="font-semibold text-gray-400 hover:text-blue-500 pb-1 w-1/2">Đăng ký</button>
+    </div>
+
+    <form id="auth-form" class="flex flex-col space-y-3">
+      <input type="text" id="username" placeholder="Tên tài khoản" class="border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-50" required>
+      <input type="password" id="pin" placeholder="Mã PIN (Đúng 6 số)" pattern="[0-9]{6}" maxlength="6" class="border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-50" required title="Vui lòng nhập chính xác 6 chữ số">
+      
+      <p id="auth-message" class="text-sm hidden"></p>
+      
+      <button type="submit" id="submit-btn" class="bg-blue-600 text-white font-bold py-2 rounded hover:bg-blue-700 transition">
+        Đăng nhập ngay
+      </button>
+    </form>
+  </div>
+</div>
+
+<script>
+  const toggleBtn = document.getElementById('auth-toggle-btn');
+  const authModal = document.getElementById('auth-modal');
+  const userInfo = document.getElementById('user-info');
+  const usernameDisplay = document.getElementById('username-display');
+  const logoutBtn = document.getElementById('logout-btn');
+  
+  const authForm = document.getElementById('auth-form');
+  const tabLogin = document.getElementById('tab-login');
+  const tabRegister = document.getElementById('tab-register');
+  const usernameInput = document.getElementById('username') as HTMLInputElement;
+  const pinInput = document.getElementById('pin') as HTMLInputElement;
+  const authMessage = document.getElementById('auth-message');
+  const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
+
+  let isLoginMode = true;
+
+  // 1. Kiểm tra trạng thái đăng nhập từ LocalStorage
+  function checkAuth() {
+    const tokenStr = localStorage.getItem('auth_token');
+    if (tokenStr) {
+      try {
+        const tokenData = JSON.parse(atob(tokenStr));
+        if (tokenData.exp > Date.now()) {
+          // Trạng thái: Đã đăng nhập
+          toggleBtn.classList.add('hidden');
+          authModal.classList.add('hidden');
+          userInfo.classList.remove('hidden');
+          usernameDisplay.textContent = tokenData.username;
+          return;
+        } else {
+          localStorage.removeItem('auth_token'); // Token hết hạn
+        }
+      } catch(e) {}
+    }
+    // Trạng thái: Chưa đăng nhập
+    toggleBtn.classList.remove('hidden');
+    userInfo.classList.add('hidden');
+  }
+
+  checkAuth();
+
+  // 2. Chuyển đổi giao diện (UI Toggles)
+  toggleBtn.addEventListener('click', () => {
+    authModal.classList.toggle('hidden');
+    authMessage.classList.add('hidden');
+  });
+
+  tabLogin.addEventListener('click', (e) => {
+    e.preventDefault();
+    isLoginMode = true;
+    tabLogin.className = "font-semibold text-blue-600 border-b-2 border-blue-600 pb-1 w-1/2";
+    tabRegister.className = "font-semibold text-gray-400 hover:text-blue-500 pb-1 w-1/2";
+    submitBtn.textContent = "Đăng nhập ngay";
+    authMessage.classList.add('hidden');
+  });
+
+  tabRegister.addEventListener('click', (e) => {
+    e.preventDefault();
+    isLoginMode = false;
+    tabRegister.className = "font-semibold text-blue-600 border-b-2 border-blue-600 pb-1 w-1/2";
+    tabLogin.className = "font-semibold text-gray-400 hover:text-blue-500 pb-1 w-1/2";
+    submitBtn.textContent = "Tạo tài khoản";
+    authMessage.classList.add('hidden');
+  });
+
+  logoutBtn.addEventListener('click', () => {
+    localStorage.removeItem('auth_token');
+    checkAuth();
+  });
+
+  // 3. Xử lý Form Submit (Gọi API)
+  authForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Đang xử lý...";
+    authMessage.classList.add('hidden');
+
+    const endpoint = isLoginMode ? '/api/login' : '/api/register';
+    
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          username: usernameInput.value.trim(),
+          pin: pinInput.value.trim()
+        })
+      });
+      
+      const data = await res.json();
+      
+      if (!res.ok) throw new Error(data.error || 'Có lỗi xảy ra từ máy chủ');
+
+      if (isLoginMode) {
+        // Lưu token vào trình duyệt và đổi giao diện
+        localStorage.setItem('auth_token', data.token);
+        usernameInput.value = '';
+        pinInput.value = '';
+        checkAuth();
+      } else {
+        // Đăng ký thành công -> Báo xanh và tự động chuyển về tab đăng nhập
+        authMessage.textContent = 'Đăng ký thành công! Đang chuyển...';
+        authMessage.className = "text-sm text-green-600 font-medium";
+        authMessage.classList.remove('hidden');
+        setTimeout(() => tabLogin.click(), 1000);
+      }
+    } catch (err: any) {
+      // Báo lỗi đỏ
+      authMessage.textContent = err.message;
+      authMessage.className = "text-sm text-red-500 font-medium";
+      authMessage.classList.remove('hidden');
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = isLoginMode ? "Đăng nhập ngay" : "Tạo tài khoản";
+    }
+  });
+</script>
