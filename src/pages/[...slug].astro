@@ -1,4 +1,6 @@
 ---
+import AuthUI from '../components/AuthUI.astro';
+
 export async function getStaticPaths() {
   const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
   
@@ -23,8 +25,12 @@ const { Content } = kinh;
     <meta charset="utf-8" />
     <title>Kinh Điển Tam Tạng</title>
   </head>
-  <body class="max-w-4xl mx-auto p-6 bg-gray-50 text-gray-900 leading-relaxed">
-    <article class="prose prose-lg">
+  <body class="max-w-4xl mx-auto p-6 bg-gray-50 text-gray-900 leading-relaxed relative">
+    
+    <!-- Nhúng giao diện đăng nhập / đăng ký -->
+    <AuthUI />
+
+    <article class="prose prose-lg mt-12">
       <Content />
     </article>
   </body>
