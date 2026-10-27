@@ -1,0 +1,69 @@
+---
+// src/components/Sidebar.astro
+const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
+
+// Thuật toán xây dựng cây thư mục từ đường dẫn file
+const tree = {};
+tatCaKinh.forEach(kinh => {
+  const filePath = kinh.file;
+  // Cắt bỏ phần đầu và đuôi .md để lấy danh sách các cấp thư mục
+  const pathParts = filePath.split('/content/kinhdien/')[1].replace('.md', '').split('/');
+  
+  let currentLevel = tree;
+  pathParts.forEach((part, index) => {
+    if (index === pathParts.length - 1) {
+      currentLevel[part] = { isFile: true, url: filePath.split('/content/kinhdien/')[1].replace('.md', '') };
+    } else {
+      if (!currentLevel[part]) currentLevel[part] = { isFile: false, children: {} };
+      currentLevel = currentLevel[part].children;
+    }
+  });
+});
+
+// Hàm đệ quy tạo HTML lồng nhau
+function buildHTML(node) {
+  const keys = Object.keys(node).sort();
+  if (keys.length === 0) return '';
+  
+  let html = '<ul class="pl-3 border-l border-gray-200 ml-2 space-y-1">';
+  for (const key of keys) {
+    const item = node[key];
+    if (item.isFile) {
+      html += `<li class="my-1 py-1">
+        <a href="/${item.url}" class="text-sm text-gray-600 hover:text-blue-600 transition block truncate" title="${key}">📄 ${key}</a>
+      </li>`;
+    } else {
+      // Dùng thẻ details mặc định của HTML để làm menu đóng mở (Không cần JS)
+      html += `<li class="my-1">
+        <details class="group">
+          <summary class="text-sm font-medium text-gray-800 cursor-pointer hover:text-blue-600 list-none flex items-center py-1">
+            <svg class="w-4 h-4 mr-1 text-gray-400 transition-transform group-open:rotate-90 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            <span class="truncate" title="${key}">📁 ${key}</span>
+          </summary>
+          ${buildHTML(item.children)}
+        </details>
+      </li>`;
+    }
+  }
+  html += '</ul>';
+  return html;
+}
+
+const sidebarHTML = buildHTML(tree);
+---
+<aside class="w-full md:w-80 bg-white border-r border-gray-200 md:h-screen md:sticky top-0 overflow-y-auto flex-shrink-0 custom-scrollbar shadow-sm">
+  <div class="p-5">
+    <a href="/" class="text-xl font-bold text-gray-800 mb-6 block border-b pb-4 hover:text-blue-600">📚 Thư Viện Tam Tạng</a>
+    <div class="sidebar-tree -ml-5" set:html={sidebarHTML}></div>
+  </div>
+</aside>
+
+<style is:global>
+  /* Ẩn dấu mũi tên mặc định của thẻ details trên các trình duyệt cũ */
+  summary::-webkit-details-marker { display: none; }
+  summary { list-style: none; }
+  /* Làm đẹp thanh cuộn */
+  .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 20px; }
+</style>
