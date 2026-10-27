@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Kulāvakavagga
+
+# 2. Naccajātaka
+
+**ja32:1.1** “Rudaṁ manuññaṁ rucirā ca piṭṭhi,
+
+**ja32:1.2** Veḷuriyavaṇṇūpanibhā ca gīvā;
+
+**ja32:1.3** Byāmamattāni ca pekhuṇāni,
+
+**ja32:1.4** Naccena te dhītaraṁ no dadāmī”ti.
+
+**ja32:2.1** Naccajātakaṁ dutiyaṁ.
+

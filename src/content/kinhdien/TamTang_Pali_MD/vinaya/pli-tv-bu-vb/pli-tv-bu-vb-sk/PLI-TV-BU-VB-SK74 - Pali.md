@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theravāda Vinaya
+
+# Mahāvibhaṅga
+
+# Sekhiyakaṇḍa
+
+# Pādukavagga
+
+# 74. Hariteuccārasikkhāpada
+
+**pli-tv-bu-vb-sk74:1.1** Tena samayena buddho bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme.
+
+**pli-tv-bu-vb-sk74:1.2** Tena kho pana samayena chabbaggiyā bhikkhū harite uccārampi passāvampi kheḷampi karonti …pe….
+
+**pli-tv-bu-vb-sk74:1.3.1** “Na harite agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmīti sikkhā karaṇīyā”ti.
+
+**pli-tv-bu-vb-sk74:1.4** Na harite agilānena uccāro vā passāvo vā kheḷo vā kātabbo.
+
+**pli-tv-bu-vb-sk74:1.5** Yo anādariyaṁ paṭicca harite agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karoti, āpatti dukkaṭassa.
+
+**pli-tv-bu-vb-sk74:1.6.1** Anāpatti—
+
+**pli-tv-bu-vb-sk74:1.7** asañcicca,
+
+**pli-tv-bu-vb-sk74:1.8** assatiyā,
+
+**pli-tv-bu-vb-sk74:1.9** ajānantassa,
+
+**pli-tv-bu-vb-sk74:1.10** gilānassa,
+
+**pli-tv-bu-vb-sk74:1.11** appaharite kato haritaṁ ottharati,
+
+**pli-tv-bu-vb-sk74:1.12** āpadāsu,
+
+**pli-tv-bu-vb-sk74:1.13** ummattakassa,
+
+**pli-tv-bu-vb-sk74:1.14** ādikammikassāti.
+
+**pli-tv-bu-vb-sk74:1.15** Cuddasamasikkhāpadaṁ niṭṭhitaṁ.
+

@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Tikapaṭṭhānapāḷi (1)
+
+# 19.16. Sanidassanattika
+
+**patthana19.16:1.1** Nasanidassanasappaṭighaṁ dhammaṁ paṭicca sanidassanasappaṭigho dhammo uppajjati hetupaccayā. Nasanidassanasappaṭighaṁ dhammaṁ paṭicca anidassanasappaṭigho dhammo uppajjati hetupaccayā. Nasanidassanasappaṭighaṁ dhammaṁ paṭicca anidassanaappaṭigho dhammo uppajjati hetupaccayā. Nasanidassanasappaṭighaṁ dhammaṁ paṭicca sanidassanasappaṭigho ca anidassanaappaṭigho ca dhammā uppajjanti hetupaccayā. Nasanidassanasappaṭighaṁ dhammaṁ paṭicca anidassanasappaṭigho ca anidassanaappaṭigho ca dhammā uppajjanti hetupaccayā. Nasanidassanasappaṭighaṁ dhammaṁ paṭicca sanidassanasappaṭigho ca anidassanasappaṭigho ca dhammā uppajjanti hetupaccayā. Nasanidassanasappaṭighaṁ dhammaṁ paṭicca sanidassanasappaṭigho ca anidassanasappaṭigho ca anidassanaappaṭigho ca dhammā uppajjanti hetupaccayā … satta.
+
+**patthana19.16:2.1** Naanidassanasappaṭighaṁ dhammaṁ paṭicca anidassanasappaṭigho dhammo uppajjati hetupaccayā. Naanidassanasappaṭighaṁ dhammaṁ paṭicca sanidassanasappaṭigho dhammo uppajjati hetupaccayā … satta.
+
+**patthana19.16:3.1** Naanidassanaappaṭighaṁ dhammaṁ paṭicca anidassanaappaṭigho dhammo uppajjati hetupaccayā … satta. (Saṅkhittaṁ.)
+
+**patthana19.16:4.1** Hetuyā pañcatiṁsa, ārammaṇe tīṇi …pe… aññamaññe dasa …pe… avigate pañcatiṁsa.
+
+**patthana19.16:5.1** (Pañhāvārampi vitthāretabbaṁ.)
+

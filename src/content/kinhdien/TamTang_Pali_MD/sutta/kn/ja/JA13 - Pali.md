@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Sīlavagga
+
+# 3. Kaṇḍijātaka
+
+**ja13:1.1** “Dhiratthu kaṇḍinaṁ sallaṁ,
+
+**ja13:1.2** purisaṁ gāḷhavedhinaṁ;
+
+**ja13:1.3** Dhiratthu taṁ janapadaṁ,
+
+**ja13:1.4** yatthitthī pariṇāyikā;
+
+**ja13:1.5** Te cāpi dhikkitā sattā,
+
+**ja13:1.6** ye itthīnaṁ vasaṅgatā”ti.
+
+**ja13:2.1** Kaṇḍijātakaṁ tatiyaṁ.
+

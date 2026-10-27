@@ -1,0 +1,32 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theravāda Vinaya
+
+# Mahāvibhaṅga
+
+# Sekhiyakaṇḍa
+
+# Sakkaccavagga
+
+# 32. Pattasaññīsikkhāpada
+
+**pli-tv-bu-vb-sk32:1.1** Tena samayena buddho bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme.
+
+**pli-tv-bu-vb-sk32:1.2** Tena kho pana samayena chabbaggiyā bhikkhū tahaṁ tahaṁ olokentā piṇḍapātaṁ bhuñjanti, ākirantepi atikkantepi na jānanti …pe….
+
+**pli-tv-bu-vb-sk32:1.3.1** “Pattasaññī piṇḍapātaṁ bhuñjissāmīti sikkhā karaṇīyā”ti.
+
+**pli-tv-bu-vb-sk32:1.4** Pattasaññinā piṇḍapāto bhuñjitabbo.
+
+**pli-tv-bu-vb-sk32:1.5** Yo anādariyaṁ paṭicca tahaṁ tahaṁ olokento piṇḍapātaṁ bhuñjati, āpatti dukkaṭassa.
+
+**pli-tv-bu-vb-sk32:1.6.1** Anāpatti—
+
+**pli-tv-bu-vb-sk32:1.7.1** asañcicca …pe…
+
+**pli-tv-bu-vb-sk32:1.8** ādikammikassāti.
+
+**pli-tv-bu-vb-sk32:1.9** Dutiyasikkhāpadaṁ niṭṭhitaṁ.
+

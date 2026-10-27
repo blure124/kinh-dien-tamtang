@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.19. Hetuduka, Atītārammaṇattika
+
+**patthana15.19:1.1** Hetuṁ atītārammaṇaṁ dhammaṁ paṭicca nahetu naatītārammaṇo dhammo uppajjati hetupaccayā …. Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana15.19:2.1** Hetuṁ anāgatārammaṇaṁ dhammaṁ paṭicca nahetu naanāgatārammaṇo dhammo uppajjati hetupaccayā …. Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana15.19:3.1** Hetuṁ paccuppannārammaṇaṁ dhammaṁ paṭicca nahetu napaccuppannārammaṇo dhammo uppajjati hetupaccayā …. Hetuyā tīṇi …pe… avigate tīṇi.
+

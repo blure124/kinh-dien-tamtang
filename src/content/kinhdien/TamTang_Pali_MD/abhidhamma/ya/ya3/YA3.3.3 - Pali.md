@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# 3 Āyatanayamaka
+
+# 3.3 Pariññāvāra
+
+# 3.3.3. Anāgatavāra
+
+**ya3.3.3:1.1** Yo cakkhāyatanaṁ parijānissati so sotāyatanaṁ parijānissatīti? Āmantā.
+
+**ya3.3.3:2.1** Yo vā pana sotāyatanaṁ parijānissati so cakkhāyatanaṁ parijānissatīti? Āmantā.
+
+**ya3.3.3:3.1** Yo cakkhāyatanaṁ na parijānissati so sotāyatanaṁ na parijānissatīti? Āmantā.
+
+**ya3.3.3:4.1** Yo vā pana sotāyatanaṁ na parijānissati so cakkhāyatanaṁ na parijānissatīti? Āmantā.
+

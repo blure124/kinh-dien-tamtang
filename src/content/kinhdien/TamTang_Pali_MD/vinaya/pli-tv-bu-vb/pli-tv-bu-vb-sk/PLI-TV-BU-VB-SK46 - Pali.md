@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theravāda Vinaya
+
+# Mahāvibhaṅga
+
+# Sekhiyakaṇḍa
+
+# Kabaḷavagga
+
+# 46. Avagaṇḍakārakasikkhāpada
+
+**pli-tv-bu-vb-sk46:1.1** Tena samayena buddho bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme.
+
+**pli-tv-bu-vb-sk46:1.2** Tena kho pana samayena chabbaggiyā bhikkhū avagaṇḍakārakaṁ bhuñjanti …pe…
+
+**pli-tv-bu-vb-sk46:1.3.1** “Na avagaṇḍakārakaṁ bhuñjissāmīti sikkhā karaṇīyā”ti.
+
+**pli-tv-bu-vb-sk46:1.4** Na avagaṇḍakārakaṁ bhuñjitabbaṁ.
+
+**pli-tv-bu-vb-sk46:1.5** Yo anādariyaṁ paṭicca ekato vā ubhato vā gaṇḍaṁ katvā bhuñjati, āpatti dukkaṭassa.
+
+**pli-tv-bu-vb-sk46:1.6.1** Anāpatti—
+
+**pli-tv-bu-vb-sk46:1.7** asañcicca,
+
+**pli-tv-bu-vb-sk46:1.8** assatiyā,
+
+**pli-tv-bu-vb-sk46:1.9** ajānantassa,
+
+**pli-tv-bu-vb-sk46:1.10** gilānassa,
+
+**pli-tv-bu-vb-sk46:1.11** phalāphale,
+
+**pli-tv-bu-vb-sk46:1.12** āpadāsu,
+
+**pli-tv-bu-vb-sk46:1.13** ummattakassa,
+
+**pli-tv-bu-vb-sk46:1.14** ādikammikassāti.
+
+**pli-tv-bu-vb-sk46:1.15** Chaṭṭhasikkhāpadaṁ niṭṭhitaṁ.
+

@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Milindapañha
+
+# Mahāvagga
+
+# 6. Paṭisandhipañha
+
+**mil3.1.6:1.1** Rājā āha—
+
+**mil3.1.6:1.2** “bhante nāgasena, atthi koci mato na paṭisandahatī”ti.
+
+**mil3.1.6:1.3** Thero āha—
+
+**mil3.1.6:1.4** “koci paṭisandahati, koci na paṭisandahatī”ti.
+
+**mil3.1.6:1.5** “Ko paṭisandahati, ko na paṭisandahatī”ti?
+
+**mil3.1.6:1.6** “Sakileso, mahārāja, paṭisandahati, nikkileso na paṭisandahatī”ti.
+
+**mil3.1.6:1.7** “Tvaṁ pana, bhante nāgasena, paṭisandahissasī”ti?
+
+**mil3.1.6:1.8** “Sace, mahārāja, saupādāno bhavissāmi paṭisandahissāmi, sace anupādāno bhavissāmi na paṭisandahissāmī”ti.
+
+**mil3.1.6:2.1** “Kallosi, bhante nāgasenā”ti.
+
+**mil3.1.6:3.1** Paṭisandhipañho chaṭṭho.
+

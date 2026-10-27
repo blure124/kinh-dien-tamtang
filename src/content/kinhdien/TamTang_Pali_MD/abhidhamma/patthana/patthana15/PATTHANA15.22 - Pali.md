@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.22. Hetuduka, Sanidassanattika
+
+**patthana15.22:1.1** Nahetu sanidassanasappaṭigho dhammo nanahetussa nasanidassanasappaṭighassa dhammassa ārammaṇapaccayena paccayo …pe… nahetu sanidassanasappaṭigho dhammo nahetussa nasanidassanasappaṭighassa ca nanahetussa nasanidassanasappaṭighassa ca dhammassa ārammaṇapaccayena paccayo. Ārammaṇe tīṇi, adhipatiyā upanissaye purejāte atthiyā avigate tīṇi.
+
+**patthana15.22:2.1** Nahetuṁ anidassanasappaṭighaṁ dhammaṁ paṭicca nahetu naanidassanasappaṭigho dhammo uppajjati hetupaccayā. Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana15.22:3.1** Hetuṁ anidassanaappaṭighaṁ dhammaṁ paṭicca nahetu naanidassanaappaṭigho dhammo uppajjati hetupaccayā. Nahetuṁ anidassanaappaṭighaṁ dhammaṁ paṭicca nahetu naanidassanaappaṭigho dhammo uppajjati hetupaccayā. Hetuṁ anidassanaappaṭighañca nahetuṁ anidassanaappaṭighañca dhammaṁ paṭicca nahetu naanidassanaappaṭigho dhammo uppajjati hetupaccayā. (3) Hetuyā tīṇi …pe… avigate tīṇi.
+

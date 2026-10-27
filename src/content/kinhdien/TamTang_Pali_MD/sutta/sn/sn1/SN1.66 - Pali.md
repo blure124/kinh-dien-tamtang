@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.66
+
+# 7. Addhavagga
+
+# Attahatasutta
+
+**sn1.66:1.1** “Kenassubbhāhato loko,
+
+**sn1.66:1.2** kenassu parivārito;
+
+**sn1.66:1.3** Kena sallena otiṇṇo,
+
+**sn1.66:1.4** kissa dhūpāyito sadā”ti.
+
+**sn1.66:2.1** “Maccunābbhāhato loko,
+
+**sn1.66:2.2** jarāya parivārito;
+
+**sn1.66:2.3** Taṇhāsallena otiṇṇo,
+
+**sn1.66:2.4** icchādhūpāyito sadā”ti.
+

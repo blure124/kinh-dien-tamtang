@@ -1,0 +1,24 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.94
+
+# 10. Kakudhavagga
+
+# Phāsuvihārasutta
+
+**an5.94:1.1** “Pañcime, bhikkhave, phāsuvihārā.
+
+**an5.94:1.2** Katame pañca?
+
+**an5.94:1.3** Idha, bhikkhave, bhikkhu vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati;
+
+**an5.94:1.4** vitakkavicārānaṁ vūpasamā …pe… dutiyaṁ jhānaṁ … tatiyaṁ jhānaṁ … catutthaṁ jhānaṁ upasampajja viharati;
+
+**an5.94:1.5** āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati.
+
+**an5.94:1.6** Ime kho, bhikkhave, pañca phāsuvihārā”ti.
+
+**an5.94:1.7** Catutthaṁ.
+

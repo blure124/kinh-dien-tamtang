@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.78. Saraṇaduka, Dassanahetuttika
+
+**patthana15.78:1.1** Saraṇaṁ dassanena pahātabbahetukaṁ dhammaṁ paṭicca nasaraṇo nadassanena pahātabbahetuko dhammo uppajjati hetupaccayā. Hetuyā ekaṁ, ārammaṇe ekaṁ …pe… sahajāte tīṇi …pe… avigate tīṇi.
+
+**patthana15.78:2.1** Saraṇaṁ bhāvanāya pahātabbahetukaṁ dhammaṁ paṭicca nasaraṇo nabhāvanāya pahātabbahetuko dhammo uppajjati hetupaccayā. Hetuyā ekaṁ, ārammaṇe ekaṁ …pe… sahajāte tīṇi …pe… avigate tīṇi.
+
+**patthana15.78:3.1** Araṇaṁ nevadassanena nabhāvanāya pahātabbahetukaṁ dhammaṁ paṭicca naaraṇo nanevadassanena nabhāvanāya pahātabbahetuko dhammo uppajjati hetupaccayā. Hetuyā ekaṁ …pe… avigate ekaṁ.
+

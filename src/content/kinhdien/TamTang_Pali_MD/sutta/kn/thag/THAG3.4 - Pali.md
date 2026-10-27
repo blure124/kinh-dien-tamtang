@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 3.4
+
+# Tikanipāta
+
+# Paṭhamavagga
+
+# Dhaniyattheragāthā
+
+**thag3.4:1.1** “Sukhañce jīvituṁ icche,
+
+**thag3.4:1.2** sāmaññasmiṁ apekkhavā;
+
+**thag3.4:1.3** Saṅghikaṁ nātimaññeyya,
+
+**thag3.4:1.4** cīvaraṁ pānabhojanaṁ.
+
+**thag3.4:2.1** Sukhañce jīvituṁ icche,
+
+**thag3.4:2.2** sāmaññasmiṁ apekkhavā;
+
+**thag3.4:2.3** Ahi mūsikasobbhaṁva,
+
+**thag3.4:2.4** sevetha sayanāsanaṁ.
+
+**thag3.4:3.1** Sukhañce jīvituṁ icche,
+
+**thag3.4:3.2** sāmaññasmiṁ apekkhavā;
+
+**thag3.4:3.3** Itarītarena tusseyya,
+
+**thag3.4:3.4** ekadhammañca bhāvaye”ti.
+
+**thag3.4:3.5** … Dhaniyo thero ….
+

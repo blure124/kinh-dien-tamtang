@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Milindapañha
+
+# Nibbānavagga
+
+# 9. Nibbānalabhanapañha
+
+**mil3.4.9:1.1** Rājā āha—
+
+**mil3.4.9:1.2** “bhante nāgasena, sabbeva labhanti nibbānan”ti?
+
+**mil3.4.9:1.3** “Na kho, mahārāja, sabbeva labhanti nibbānaṁ, api ca kho, mahārāja, yo sammā paṭipanno abhiññeyye dhamme abhijānāti, pariññeyye dhamme parijānāti, pahātabbe dhamme pajahati, bhāvetabbe dhamme bhāveti, sacchikātabbe dhamme sacchikaroti, so labhati nibbānan”ti.
+
+**mil3.4.9:2.1** “Kallosi, bhante nāgasenā”ti.
+
+**mil3.4.9:3.1** Nibbānalabhanapañho navamo.
+

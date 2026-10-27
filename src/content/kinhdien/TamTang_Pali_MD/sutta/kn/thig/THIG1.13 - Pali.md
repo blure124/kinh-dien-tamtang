@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 1.13
+
+# Ekakanipāta
+
+# Visākhātherīgāthā
+
+**thig1.13:1.1** “Karotha buddhasāsanaṁ,
+
+**thig1.13:1.2** yaṁ katvā nānutappati;
+
+**thig1.13:1.3** Khippaṁ pādāni dhovitvā,
+
+**thig1.13:1.4** ekamante nisīdathā”ti.
+
+**thig1.13:2.1** … Visākhā therī ….
+

@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.44. Cittasaṁsaṭṭhasamuṭṭhānānuparivattiduka
+
+**patthana8.44:1.1** Nacittasaṁsaṭṭhasamuṭṭhānānuparivattiṁ dhammaṁ paṭicca nacittasaṁsaṭṭhasamuṭṭhānānuparivatti dhammo uppajjati hetupaccayā …. (Saṅkhittaṁ.)
+
+**patthana8.44:2.1** Hetuyā nava …pe… purejāte āsevane pañca …pe… avigate nava. (Sabbattha vitthāro.)
+

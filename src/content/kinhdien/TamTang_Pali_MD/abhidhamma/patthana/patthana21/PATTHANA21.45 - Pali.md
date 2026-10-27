@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukatikapaṭṭhānapāḷi (3)
+
+# 21.45. Kenaciviññeyyaduka, Sanidassanattika
+
+**patthana21.45:1.1** Nakenaci viññeyyaṁ nasanidassanasappaṭighaṁ dhammaṁ paṭicca kenaci viññeyyo sanidassanasappaṭigho dhammo uppajjati hetupaccayā. Nakenaci viññeyyaṁ nasanidassanasappaṭighaṁ dhammaṁ paṭicca kenaci naviññeyyo sanidassanasappaṭigho dhammo uppajjati hetupaccayā. Nakenaci viññeyyaṁ nasanidassanasappaṭighaṁ dhammaṁ paṭicca kenaci viññeyyo sanidassanasappaṭigho ca kenaci naviññeyyo sanidassanasappaṭigho ca dhammā uppajjanti hetupaccayā.
+
+**patthana21.45:2.1** Nakenaci naviññeyyaṁ nasanidassanasappaṭighaṁ dhammaṁ paṭicca … tīṇiyeva.
+
+**patthana21.45:3.1** Nakenaci viññeyyaṁ nasanidassanasappaṭighañca nakenaci naviññeyyaṁ nasanidassanasappaṭighañca dhammaṁ paṭicca … tīṇiyeva. (Sabbattha nava.)
+
+**patthana21.45:4.1** Nakenaci viññeyyaṁ naanidassanasappaṭighassa purimasadisaṁ navapañhaṁ kātabbaṁ. Nakenaci viññeyyaṁ naanidassanaappaṭighamūlassa nava pañhāyeva.
+
+**patthana21.45:5.1** Hetuyā nava, adhipatiyā nava …pe… avigate nava.
+

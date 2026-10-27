@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 7.65. Xấu Hổ
+
+TTC 1 —Khi tàm quý không có, này các Tỷ-kheo, với người thiếu tàm quý, chế ngự các căn đi đến hủy diệt. Khi chế ngự các căn không có, với người thiếu chế ngự các căn, giới đi đến hủy diệt. Khi giới không có, với người thiếu giới, chánh định đi đến hủy diệt. Khi chánh định không có, với người không có chánh định, tri kiến như thật đi đến hủy diệt. Khi tri kiến như thật không có, với người thiếu tri kiến như thật, nhàm chán ly tham đi đến hủy diệt. Khi nhàm chán ly tham không có, với người thiếu nhàm chán ly tham, giải thoát tri kiến đi đến hủy diệt. Ví như, này các Tỷ-kheo, một cây không có cành và lá, các mầm non của cây cấy không đi đến thành mãn; vỏ trong, giác cây, lõi cây không đi đến thành mãn. Cũng vậy, này các Tỷ-kheo, khi tàm quý không có, với người không có tàm quý, chế ngự các căn đi đến hủy diệt… giải thoát tri kiến đi đến hủy diệt.
+
+TTC 2 Khi tàm quý có mặt, này các Tỷ-kheo, với người đầy đủ tàm quý, chế ngự các căn đi đến đầy đủ. Khi chế ngự các căn có mặt, với người đầy đủ chế ngự các căn, giới đi đến đầy đủ. Khi giới có mặt, với người đầy đủ giới, chánh định đi đến đầy đủ. Khi chánh định có mặt, với người đầy đủ chánh định, tri kiến như thật đi đến đầy đủ. Khi tri kiến như thật có mặt, với người đầy đủ tri kiến như thật, nhàm chán, ly tham đi đến đầy đủ. Khi nhàm chán, ly tham có mặt, với người đầy đủ nhàm chán, ly tham, giải thoát tri kiến đi đến đầy đủ. Ví như, này các Tỷ-kheo, một cây có cành và lá, các mầm non của cây ấy đi đến thành mãn; vỏ trong, giác cây, lõi cây đi đến thành mãn. Cũng vậy, này các Tỷ-kheo, khi tàm quý có mặt, với người đầy đủ tàm quý … giải thoát tri kiến đi đến đầy đủ.
+
+Bộ kinh nầy được Hòa thượng Thích Minh Châu dịch từ tạng Pali sang Việt ngữ năm 1976–1977, và được Viện Phật Học Vạn Hạnh, Sài Gòn, ấn hành năm 1980–1981 . Trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được hiệu đính thành 4 tập và tái bản năm 1996, qua số thứ tự 21, 22, 23, và 24.
+
+These texts have been used with the kind permission of the webmaster of http://www.budsas.net/
+
+Prepared for SuttaCentral by Ayya Vimala .
+

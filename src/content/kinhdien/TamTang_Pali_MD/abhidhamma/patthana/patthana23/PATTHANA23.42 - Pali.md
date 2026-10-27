@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Tikatikapaṭṭhānapāḷi (5)
+
+# 23.42. Sanidassanattika, Upādinnattika
+
+**patthana23.42:1.1** Nasanidassanasappaṭigho naupādinnupādāniyo dhammo anidassanaappaṭighassa upādinnupādāniyassa dhammassa ārammaṇapaccayena paccayo. (Saṅkhittaṁ.) Ārammaṇe cha, anantare samanantare tīṇi, upanissaye purejāte cha, kamme āhāre indriye tīṇi, atthiyā cha …pe… avigate cha.
+
+**patthana23.42:2.1** Nasanidassanasappaṭighaṁ naanupādinnupādāniyaṁ dhammaṁ paṭicca sanidassanasappaṭigho anupādinnupādāniyo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekavīsa, adhipatiyā ekavīsa …pe… aññamaññe tīṇi …pe… avigate ekavīsa.
+
+**patthana23.42:3.1** Nasanidassanasappaṭighaṁ naanupādinnaanupādāniyaṁ dhammaṁ paccayā anidassanaappaṭigho anupādinnaanupādāniyo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+

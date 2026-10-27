@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Upāhanavagga
+
+# 8. Ekapadajātaka
+
+**ja238:1.1** “Iṅgha ekapadaṁ tāta,
+
+**ja238:1.2** anekatthapadassitaṁ;
+
+**ja238:1.3** Kiñci saṅgāhikaṁ brūsi,
+
+**ja238:1.4** yenatthe sādhayemase”.
+
+**ja238:2.1** “Dakkheyyekapadaṁ tāta,
+
+**ja238:2.2** anekatthapadassitaṁ;
+
+**ja238:2.3** Tañca sīlena saññuttaṁ,
+
+**ja238:2.4** khantiyā upapāditaṁ;
+
+**ja238:2.5** Alaṁ mitte sukhāpetuṁ,
+
+**ja238:2.6** amittānaṁ dukhāya cā”ti.
+
+**ja238:3.1** Ekapadajātakaṁ aṭṭhamaṁ.
+

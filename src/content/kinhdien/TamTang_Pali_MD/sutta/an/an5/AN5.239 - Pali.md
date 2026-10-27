@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.239
+
+# 24. Āvāsikavagga
+
+# Paṭhamamacchariyasutta
+
+**an5.239:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ niraye.
+
+**an5.239:1.2** Katamehi pañcahi?
+
+**an5.239:1.3** Āvāsamaccharī hoti;
+
+**an5.239:1.4** kulamaccharī hoti;
+
+**an5.239:1.5** lābhamaccharī hoti;
+
+**an5.239:1.6** vaṇṇamaccharī hoti;
+
+**an5.239:1.7** saddhādeyyaṁ vinipāteti.
+
+**an5.239:1.8** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ niraye.
+
+**an5.239:2.1** Pañcahi, bhikkhave, dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ sagge.
+
+**an5.239:2.2** Katamehi pañcahi?
+
+**an5.239:2.3** Na āvāsamaccharī hoti;
+
+**an5.239:2.4** na kulamaccharī hoti;
+
+**an5.239:2.5** na lābhamaccharī hoti;
+
+**an5.239:2.6** na vaṇṇamaccharī hoti;
+
+**an5.239:2.7** saddhādeyyaṁ na vinipāteti.
+
+**an5.239:2.8** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ sagge”ti.
+
+**an5.239:2.9** Navamaṁ.
+

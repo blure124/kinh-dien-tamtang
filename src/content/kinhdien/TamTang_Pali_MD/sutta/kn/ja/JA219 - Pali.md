@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Bīraṇathambhavagga
+
+# 9. Garahitajātaka
+
+**ja219:1.1** “Hiraññaṁ me suvaṇṇaṁ me,
+
+**ja219:1.2** esā rattiṁ divā kathā;
+
+**ja219:1.3** Dummedhānaṁ manussānaṁ,
+
+**ja219:1.4** ariyadhammaṁ apassataṁ.
+
+**ja219:2.1** Dve dve gahapatayo gehe,
+
+**ja219:2.2** eko tattha amassuko;
+
+**ja219:2.3** Lambatthano veṇikato,
+
+**ja219:2.4** atho aṅkitakaṇṇako;
+
+**ja219:2.5** Kīto dhanena bahunā,
+
+**ja219:2.6** so taṁ vitudate janan”ti.
+
+**ja219:3.1** Garahitajātakaṁ navamaṁ.
+

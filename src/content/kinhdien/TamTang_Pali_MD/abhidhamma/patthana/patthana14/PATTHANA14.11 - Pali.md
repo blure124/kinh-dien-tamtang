@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukapaṭṭhānapāḷi (2)
+
+# 14.11. Lokiyaduka
+
+**patthana14.11:1.1** Lokiyaṁ dhammaṁ paṭicca nalokuttaro dhammo uppajjati hetupaccayā.
+
+**patthana14.11:2.1** Lokuttaraṁ dhammaṁ paṭicca nalokuttaro dhammo uppajjati hetupaccayā. Lokuttaraṁ dhammaṁ paṭicca nalokiyo dhammo uppajjati hetupaccayā. (Lokuttaraṁ dhammaṁ paṭicca nalokiyo ca nalokuttaro ca dhammā uppajjanti hetupaccayā.)
+
+**patthana14.11:3.1** Lokiyañca lokuttarañca dhammaṁ paṭicca nalokuttaro dhammo uppajjati hetupaccayā.  (Saṅkhittaṁ.)
+
+**patthana14.11:4.1** Hetuyā pañca, ārammaṇe dve …pe… avigate pañca. (Sabbattha pañca.)
+

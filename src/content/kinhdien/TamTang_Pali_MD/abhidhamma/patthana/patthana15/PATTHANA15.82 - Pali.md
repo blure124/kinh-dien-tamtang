@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.82. Saraṇaduka, Parittārammaṇattika
+
+**patthana15.82:1.1** Saraṇaṁ parittārammaṇaṁ dhammaṁ paṭicca nasaraṇo naparittārammaṇo dhammo uppajjati hetupaccayā. Araṇaṁ parittārammaṇaṁ dhammaṁ paṭicca nasaraṇo naparittārammaṇo dhammo uppajjati hetupaccayā. Hetuyā dve …pe… avigate dve.
+
+**patthana15.82:2.1** Saraṇaṁ mahaggatārammaṇaṁ dhammaṁ paṭicca nasaraṇo namahaggatārammaṇo dhammo uppajjati hetupaccayā. Araṇaṁ mahaggatārammaṇaṁ dhammaṁ paṭicca nasaraṇo namahaggatārammaṇo dhammo uppajjati hetupaccayā. Hetuyā dve …pe… avigate dve.
+
+**patthana15.82:3.1** Araṇaṁ appamāṇārammaṇaṁ dhammaṁ paṭicca nasaraṇo naappamāṇārammaṇo dhammo uppajjati hetupaccayā. Hetuyā ekaṁ …pe… avigate ekaṁ.
+

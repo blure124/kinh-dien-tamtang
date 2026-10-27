@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 2.1
+
+# Dukanipāta
+
+# Abhirūpanandātherīgāthā
+
+**thig2.1:1.1** “Āturaṁ asuciṁ pūtiṁ,
+
+**thig2.1:1.2** passa nande samussayaṁ;
+
+**thig2.1:1.3** Asubhāya cittaṁ bhāvehi,
+
+**thig2.1:1.4** ekaggaṁ susamāhitaṁ.
+
+**thig2.1:2.1** Animittañca bhāvehi,
+
+**thig2.1:2.2** mānānusayamujjaha;
+
+**thig2.1:2.3** Tato mānābhisamayā,
+
+**thig2.1:2.4** upasantā carissasī”ti.
+
+**thig2.1:3.1** Itthaṁ sudaṁ abhirūpanandā therī gāthāyo abhāsitthāti.
+

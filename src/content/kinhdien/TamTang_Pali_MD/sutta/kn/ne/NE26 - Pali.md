@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Netti
+
+# Paṭiniddesavāra
+
+# Sampāta 7
+
+# Āvaṭṭahārasampāta
+
+**ne26:1.1** Tattha katamo āvaṭṭo hārasampāto?
+
+**ne26:2.1** “Tasmā rakkhitacittassa, sammāsaṅkappagocaro”ti gāthā.
+
+**ne26:2.2** “Tasmā rakkhitacittassa, sammāsaṅkappagocaro”ti samatho.
+
+**ne26:2.3** “Sammādiṭṭhipurekkhāro”ti vipassanā.
+
+**ne26:2.4** “Ñatvāna udayabbayan”ti dukkhapariññā.
+
+**ne26:2.5** “Thinamiddhābhibhū bhikkhū”ti samudayapahānaṁ.
+
+**ne26:2.6** “Sabbā duggatiyo jahe”ti nirodho.
+
+**ne26:2.7** Imāni cattāri saccāni.
+
+**ne26:2.8** Niyutto āvaṭṭo hārasampāto.
+

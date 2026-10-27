@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.256
+
+# 26. Abhiññāvagga
+
+# Saṅgahavatthusutta
+
+**an4.256:1.1** “Cattārimāni, bhikkhave, saṅgahavatthūni.
+
+**an4.256:1.2** Katamāni cattāri?
+
+**an4.256:1.3** Dānaṁ, peyyavajjaṁ, atthacariyā, samānattatā—
+
+**an4.256:1.4** Imāni kho, bhikkhave, cattāri saṅgahavatthūnī”ti.
+
+**an4.256:1.5** Tatiyaṁ.
+

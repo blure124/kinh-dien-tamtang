@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 8.4
+
+# 1. Mettāvagga
+
+# Dutiyaappiyasutta
+
+**an8.4:1.1** “Aṭṭhahi, bhikkhave, dhammehi samannāgato bhikkhu sabrahmacārīnaṁ appiyo ca hoti amanāpo ca agaru ca abhāvanīyo ca.
+
+**an8.4:1.2** Katamehi aṭṭhahi?
+
+**an8.4:1.3** Idha, bhikkhave, bhikkhu lābhakāmo ca hoti, sakkārakāmo ca, anavaññattikāmo ca, akālaññū ca, amattaññū ca, asuci ca, bahubhāṇī ca, akkosakaparibhāsako ca sabrahmacārīnaṁ.
+
+**an8.4:1.4** Imehi kho, bhikkhave, aṭṭhahi dhammehi samannāgato bhikkhu sabrahmacārīnaṁ appiyo ca hoti amanāpo ca agaru ca abhāvanīyo ca.
+
+**an8.4:2.1** Aṭṭhahi, bhikkhave, dhammehi samannāgato bhikkhu sabrahmacārīnaṁ piyo ca hoti manāpo ca garu ca bhāvanīyo ca.
+
+**an8.4:2.2** Katamehi aṭṭhahi?
+
+**an8.4:2.3** Idha, bhikkhave, bhikkhu na lābhakāmo ca hoti, na sakkārakāmo ca, na anavaññattikāmo ca, kālaññū ca, mattaññū ca, suci ca, na bahubhāṇī ca, anakkosakaparibhāsako ca sabrahmacārīnaṁ.
+
+**an8.4:2.4** Imehi kho, bhikkhave, aṭṭhahi dhammehi samannāgato bhikkhu sabrahmacārīnaṁ piyo ca hoti manāpo ca garu ca bhāvanīyo cā”ti.
+
+**an8.4:2.5** Catutthaṁ.
+

@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikapaṭṭhānapāḷi (1)
+
+# 13.9. Dassanahetuttika
+
+**patthana13.9:1.1** Dassanena pahātabbahetukaṁ dhammaṁ paṭicca nadassanena pahātabbahetuko dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.)
+
+**patthana13.9:2.1** Hetuyā chabbīsa, ārammaṇe ekavīsa, adhipatiyā ekūnavīsa …pe… vipāke tīṇi …pe… avigate chabbīsa. (Vitthāretabbaṁ.)
+

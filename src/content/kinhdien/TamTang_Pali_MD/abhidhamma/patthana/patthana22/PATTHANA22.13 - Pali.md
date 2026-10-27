@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Tikadukapaṭṭhānapāḷi (4)
+
+# 22.13. Kusalattika, Niyyānikaduka
+
+**patthana22.13:1.1** Nakusalaṁ naniyyānikaṁ dhammaṁ paccayā kusalo niyyāniko dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana22.13:2.1** Naakusalaṁ naaniyyānikaṁ dhammaṁ paṭicca abyākato aniyyāniko dhammo uppajjati hetupaccayā. Naabyākataṁ naaniyyānikaṁ dhammaṁ paṭicca abyākato aniyyāniko dhammo uppajjati hetupaccayā. Naakusalaṁ naaniyyānikañca naabyākataṁ naaniyyānikañca dhammaṁ paṭicca abyākato aniyyāniko dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi, adhipatiyā tīṇi …pe… avigate tīṇi.
+

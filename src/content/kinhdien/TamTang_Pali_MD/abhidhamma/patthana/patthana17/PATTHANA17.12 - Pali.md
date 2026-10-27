@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikatikapaṭṭhānapāḷi (5)
+
+# 17.12. Kusalattika, Parittārammaṇattika
+
+**patthana17.12:1.1** Kusalaṁ parittārammaṇaṁ dhammaṁ paṭicca nakusalo naparittārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā nava, adhipatiyā nava …pe… aññamaññe tīṇi …pe… vipāke tīṇi …pe… avigate nava.
+
+**patthana17.12:2.1** Kusalaṁ mahaggatārammaṇaṁ dhammaṁ paṭicca nakusalo namahaggatārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā nava, adhipatiyā nava …pe… avigate nava.
+
+**patthana17.12:3.1** Kusalaṁ appamāṇārammaṇaṁ dhammaṁ paṭicca nakusalo naappamāṇārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā cha, adhipatiyā cha …pe… vipāke tīṇi …pe… avigate cha.
+

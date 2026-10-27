@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.29. Ganthaganthaniyaduka
+
+**patthana8.29:1.1** Naganthañceva naaganthaniyañca dhammaṁ paṭicca nagantho ceva naaganthaniyo ca dhammo uppajjati hetupaccayā. Naganthañceva naaganthaniyañca dhammaṁ paṭicca naaganthaniyo ceva nano ca gantho dhammo uppajjati hetupaccayā. Naganthañceva naaganthaniyañca dhammaṁ paṭicca nagantho ceva naaganthaniyo ca naaganthaniyo ceva nano ca gantho ca dhammā uppajjanti hetupaccayā.
+
+**patthana8.29:2.1** Naaganthaniyañceva nano ca ganthaṁ dhammaṁ paṭicca naaganthaniyo ceva nanogantho ca dhammo uppajjati hetupaccayā. Naaganthaniyañceva nano ca ganthaṁ dhammaṁ paṭicca nagantho ceva naaganthaniyo ca dhammo uppajjati hetupaccayā. Naaganthaniyañceva nano ca ganthaṁ dhammaṁ paṭicca nagantho ceva naaganthaniyo ca naaganthaniyo ceva nano ca gantho ca dhammā uppajjanti hetupaccayā.
+
+**patthana8.29:3.1** Naganthañceva naaganthaniyañca naaganthaniyañceva nano ca ganthañca dhammaṁ paṭicca nagantho ceva naaganthaniyo ca dhammo uppajjati hetupaccayā … tīṇi. (Saṅkhittaṁ.)
+
+**patthana8.29:4.1** Hetuyā nava …pe… vipāke ekaṁ …pe… avigate nava. (Sabbattha vitthāro.)
+

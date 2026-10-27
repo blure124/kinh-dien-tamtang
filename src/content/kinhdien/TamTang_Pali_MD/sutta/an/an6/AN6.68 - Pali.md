@@ -1,0 +1,36 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 6.68
+
+# 7. Devatāvagga
+
+# Saṅgaṇikārāmasutta
+
+**an6.68:1.1** “‘So vata, bhikkhave, bhikkhu saṅgaṇikārāmo saṅgaṇikarato saṅgaṇikārāmataṁ anuyutto, gaṇārāmo gaṇarato gaṇārāmataṁ anuyutto, eko paviveke abhiramissatī’ti netaṁ ṭhānaṁ vijjati.
+
+**an6.68:1.2** ‘Eko paviveke anabhiramanto cittassa nimittaṁ gahessatī’ti netaṁ ṭhānaṁ vijjati.
+
+**an6.68:1.3** ‘Cittassa nimittaṁ agaṇhanto sammādiṭṭhiṁ paripūressatī’ti netaṁ ṭhānaṁ vijjati.
+
+**an6.68:1.4** ‘Sammādiṭṭhiṁ aparipūretvā sammāsamādhiṁ paripūressatī’ti netaṁ ṭhānaṁ vijjati.
+
+**an6.68:1.5** ‘Sammāsamādhiṁ aparipūretvā saṁyojanāni pajahissatī’ti netaṁ ṭhānaṁ vijjati.
+
+**an6.68:1.6** ‘Saṁyojanāni appahāya nibbānaṁ sacchikarissatī’ti netaṁ ṭhānaṁ vijjati.
+
+**an6.68:2.1** ‘So vata, bhikkhave, bhikkhu na saṅgaṇikārāmo na saṅgaṇikarato na saṅgaṇikārāmataṁ anuyutto, na gaṇārāmo na gaṇarato na gaṇārāmataṁ anuyutto, eko paviveke abhiramissatī’ti ṭhānametaṁ vijjati.
+
+**an6.68:2.2** ‘Eko paviveke abhiramanto cittassa nimittaṁ gahessatī’ti ṭhānametaṁ vijjati.
+
+**an6.68:2.3** ‘Cittassa nimittaṁ gaṇhanto sammādiṭṭhiṁ paripūressatī’ti ṭhānametaṁ vijjati.
+
+**an6.68:2.4** ‘Sammādiṭṭhiṁ paripūretvā sammāsamādhiṁ paripūressatī’ti ṭhānametaṁ vijjati.
+
+**an6.68:2.5** ‘Sammāsamādhiṁ paripūretvā saṁyojanāni pajahissatī’ti ṭhānametaṁ vijjati.
+
+**an6.68:2.6** ‘Saṁyojanāni pahāya nibbānaṁ sacchikarissatī’ti ṭhānametaṁ vijjatī”ti.
+
+**an6.68:2.7** Catutthaṁ.
+

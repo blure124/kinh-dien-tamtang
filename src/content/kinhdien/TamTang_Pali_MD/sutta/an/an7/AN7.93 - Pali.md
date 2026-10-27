@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 7.93
+
+# 9. Samaṇavagga
+
+# Asaddhammasutta
+
+**an7.93:1.1** “Sattime, bhikkhave, asaddhammā.
+
+**an7.93:1.2** Katame satta?
+
+**an7.93:1.3** Assaddho hoti, ahiriko hoti, anottappī hoti, appassuto hoti, kusīto hoti, muṭṭhassati hoti, duppañño hoti.
+
+**an7.93:1.4** Ime kho, bhikkhave, satta asaddhammā”ti.
+
+**an7.93:1.5** Navamaṁ.
+

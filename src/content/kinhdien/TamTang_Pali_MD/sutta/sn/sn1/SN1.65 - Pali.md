@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.65
+
+# 7. Addhavagga
+
+# Bandhanasutta
+
+**sn1.65:1.1** “Kiṁsu sambandhano loko,
+
+**sn1.65:1.2** kiṁsu tassa vicāraṇaṁ;
+
+**sn1.65:1.3** Kissassu vippahānena,
+
+**sn1.65:1.4** sabbaṁ chindati bandhanan”ti.
+
+**sn1.65:2.1** “Nandīsambandhano loko,
+
+**sn1.65:2.2** vitakkassa vicāraṇaṁ;
+
+**sn1.65:2.3** Taṇhāya vippahānena,
+
+**sn1.65:2.4** sabbaṁ chindati bandhanan”ti.
+

@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Tikatikapaṭṭhānapāḷi (5)
+
+# 23.57. Sanidassanattika, Atītārammaṇattika
+
+**patthana23.57:1.1** Nasanidassanasappaṭighaṁ naatītārammaṇaṁ dhammaṁ paṭicca anidassanaappaṭigho atītārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana23.57:2.1** Nasanidassanasappaṭighaṁ naanāgatārammaṇaṁ dhammaṁ paccayā anidassanaappaṭigho anāgatārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana23.57:3.1** Nasanidassanasappaṭighaṁ napaccuppannārammaṇaṁ dhammaṁ paṭicca anidassanaappaṭigho paccuppannārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+

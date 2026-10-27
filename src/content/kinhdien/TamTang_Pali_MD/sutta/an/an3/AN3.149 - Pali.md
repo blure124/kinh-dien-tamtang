@@ -1,0 +1,24 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 3.149
+
+# 15. Maṅgalavagga
+
+# Asucisutta
+
+**an3.149:1.1** “Tīhi, bhikkhave …pe…
+
+**an3.149:1.2** asucinā kāyakammena, asucinā vacīkammena, asucinā manokammena—
+
+**an3.149:1.3** imehi kho …pe… evaṁ niraye.
+
+**an3.149:2.1** Tīhi, bhikkhave …pe…
+
+**an3.149:2.2** sucinā kāyakammena, sucinā vacīkammena, sucinā manokammena—
+
+**an3.149:2.3** Imehi kho, bhikkhave, tīhi dhammehi samannāgato yathābhataṁ nikkhitto evaṁ sagge”ti.
+
+**an3.149:2.4** Catutthaṁ.
+

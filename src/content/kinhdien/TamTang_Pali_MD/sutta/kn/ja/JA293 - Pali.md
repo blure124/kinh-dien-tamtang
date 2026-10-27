@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Tikanipāta
+
+# Kumbhavagga
+
+# 3. Kāyanibbindajātaka
+
+**ja293:1.1** “Phuṭṭhassa me aññatarena byādhinā,
+
+**ja293:1.2** Rogena bāḷhaṁ dukhitassa ruppato;
+
+**ja293:1.3** Parisussati khippamidaṁ kaḷevaraṁ,
+
+**ja293:1.4** Pupphaṁ yathā paṁsuni ātape kataṁ.
+
+**ja293:2.1** Ajaññaṁ jaññasaṅkhātaṁ,
+
+**ja293:2.2** asuciṁ sucisammataṁ;
+
+**ja293:2.3** Nānākuṇapaparipūraṁ,
+
+**ja293:2.4** jaññarūpaṁ apassato.
+
+**ja293:3.1** Dhiratthumaṁ āturaṁ pūtikāyaṁ,
+
+**ja293:3.2** Jegucchiyaṁ assuciṁ byādhidhammaṁ;
+
+**ja293:3.3** Yatthappamattā adhimucchitā pajā,
+
+**ja293:3.4** Hāpenti maggaṁ sugatūpapattiyā”ti.
+
+**ja293:4.1** Kāyanibbindajātakaṁ tatiyaṁ.
+

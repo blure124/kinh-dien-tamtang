@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.7. Sappaccayaduka
+
+**patthana8.7:1.1** Naappaccayaṁ dhammaṁ paṭicca naappaccayo dhammo uppajjati hetupaccayā.
+
+**patthana8.7:2.1** Hetuyā ekaṁ …pe… avigate ekaṁ. (Sabbattha vitthāro.)
+
+**patthana8.7:3.1** Naappaccayo dhammo naappaccayassa dhammassa hetupaccayena paccayo.
+
+**patthana8.7:4.1** Nasappaccayo dhammo naappaccayassa dhammassa ārammaṇapaccayena paccayo. (Saṅkhittaṁ.)
+
+**patthana8.7:5.1** Hetuyā ekaṁ, ārammaṇe dve, adhipatiyā dve …pe… upanissaye dve …pe… avigate ekaṁ. (Sabbattha vitthāro.)
+

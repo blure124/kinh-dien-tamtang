@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 6.4
+
+# 1. Āhuneyyavagga
+
+# Balasutta
+
+**an6.4:1.1** “Chahi, bhikkhave, dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassa.
+
+**an6.4:1.2** Katamehi chahi?
+
+**an6.4:1.3** Saddhābalena, vīriyabalena, satibalena, samādhibalena, paññābalena, āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati.
+
+**an6.4:1.4** Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu āhuneyyo hoti …pe… anuttaraṁ puññakkhettaṁ lokassā”ti.
+
+**an6.4:1.5** Catutthaṁ.
+

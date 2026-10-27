@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.155
+
+# 16. Indriyavagga
+
+# Paṭisaṅkhānabalasutta
+
+**an4.155:1.1** “Cattārimāni, bhikkhave, balāni.
+
+**an4.155:1.2** Katamāni cattāri?
+
+**an4.155:1.3** Paṭisaṅkhānabalaṁ, bhāvanābalaṁ, anavajjabalaṁ, saṅgahabalaṁ—
+
+**an4.155:1.4** Imāni kho, bhikkhave, cattāri balānī”ti.
+
+**an4.155:1.5** Pañcamaṁ.
+

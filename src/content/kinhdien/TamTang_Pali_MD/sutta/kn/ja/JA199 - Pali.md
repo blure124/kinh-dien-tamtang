@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Ruhakavagga
+
+# 9. Gahapatijātaka
+
+**ja199:1.1** “Ubhayaṁ me na khamati,
+
+**ja199:1.2** ubhayaṁ me na ruccati;
+
+**ja199:1.3** Yācāyaṁ koṭṭhamotiṇṇā,
+
+**ja199:1.4** nāddasaṁ iti bhāsati.
+
+**ja199:2.1** Taṁ taṁ gāmapati brūmi,
+
+**ja199:2.2** kadare appasmi jīvite;
+
+**ja199:2.3** Dve māse saṅgaraṁ katvā,
+
+**ja199:2.4** maṁsaṁ jaraggavaṁ kisaṁ;
+
+**ja199:2.5** Appattakāle codesi,
+
+**ja199:2.6** tampi mayhaṁ na ruccatī”ti.
+
+**ja199:3.1** Gahapatijātakaṁ navamaṁ.
+

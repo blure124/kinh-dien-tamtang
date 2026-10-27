@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.89
+
+# 9. Theravagga
+
+# Paṭhamasekhasutta
+
+**an5.89:1.1** “Pañcime, bhikkhave, dhammā sekhassa bhikkhuno parihānāya saṁvattanti.
+
+**an5.89:1.2** Katame pañca?
+
+**an5.89:1.3** Kammārāmatā, bhassārāmatā, niddārāmatā, saṅgaṇikārāmatā, yathāvimuttaṁ cittaṁ na paccavekkhati—
+
+**an5.89:1.4** ime kho, bhikkhave, pañca dhammā sekhassa bhikkhuno parihānāya saṁvattanti.
+
+**an5.89:2.1** Pañcime, bhikkhave, dhammā sekhassa bhikkhuno aparihānāya saṁvattanti.
+
+**an5.89:2.2** Katame pañca?
+
+**an5.89:2.3** Na kammārāmatā, na bhassārāmatā, na niddārāmatā, na saṅgaṇikārāmatā, yathāvimuttaṁ cittaṁ paccavekkhati—
+
+**an5.89:2.4** ime kho, bhikkhave, pañca dhammā sekhassa bhikkhuno aparihānāya saṁvattantī”ti.
+
+**an5.89:2.5** Navamaṁ.
+

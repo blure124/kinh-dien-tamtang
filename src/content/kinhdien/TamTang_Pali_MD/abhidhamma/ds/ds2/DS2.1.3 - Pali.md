@@ -1,0 +1,42 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Dhammasaṅgaṇī
+
+# 2 Niddesa
+
+# 2.1 Cittuppādakaṇḍa
+
+# 2.1.3. Arūpāvacarakusala
+
+**ds2.1.3:1.0** 2.1.3.1. Cattāri arūpajhānāni soḷasakkhattukāni
+
+**ds2.1.3:1.1** Katame dhammā kusalā?
+
+**ds2.1.3:1.2** Yasmiṁ samaye arūpūpapattiyā maggaṁ bhāveti sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ākāsānañcāyatanasaññāsahagataṁ sukhassa ca pahānā …pe… catutthaṁ jhānaṁ upasampajja viharati upekkhāsahagataṁ, tasmiṁ samaye phasso hoti …pe… avikkhepo hoti …pe…
+
+**ds2.1.3:1.3** ime dhammā kusalā.
+
+**ds2.1.3:2.1** Katame dhammā kusalā?
+
+**ds2.1.3:2.2** Yasmiṁ samaye arūpūpapattiyā maggaṁ bhāveti sabbaso ākāsānañcāyatanaṁ samatikkamma viññāṇañcāyatanasaññāsahagataṁ sukhassa ca pahānā …pe… catutthaṁ jhānaṁ upasampajja viharati upekkhāsahagataṁ, tasmiṁ samaye phasso hoti …pe… avikkhepo hoti …pe…
+
+**ds2.1.3:2.3** ime dhammā kusalā.
+
+**ds2.1.3:3.1** Katame dhammā kusalā?
+
+**ds2.1.3:3.2** Yasmiṁ samaye arūpūpapattiyā maggaṁ bhāveti sabbaso viññāṇañcāyatanaṁ samatikkamma ākiñcaññāyatanasaññāsahagataṁ sukhassa ca pahānā …pe… catutthaṁ jhānaṁ upasampajja viharati upekkhāsahagataṁ, tasmiṁ samaye phasso hoti …pe… avikkhepo hoti …pe…
+
+**ds2.1.3:3.3** ime dhammā kusalā.
+
+**ds2.1.3:4.1** Katame dhammā kusalā?
+
+**ds2.1.3:4.2** Yasmiṁ samaye arūpūpapattiyā maggaṁ bhāveti sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanasaññāsahagataṁ sukhassa ca pahānā …pe… catutthaṁ jhānaṁ upasampajja viharati upekkhāsahagataṁ, tasmiṁ samaye phasso hoti …pe… avikkhepo hoti …pe…
+
+**ds2.1.3:4.3** ime dhammā kusalā.
+
+**ds2.1.3:4.4** Cattāri arūpajhānāni soḷasakkhattukāni.
+
+**ds2.1.3:4.5** Arūpāvacarakusalaṁ.
+

@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Tikanipāta
+
+# Abbhantaravagga
+
+# 7. Lābhagarahajātaka
+
+**ja287:1.1** “Nānummatto nāpisuṇo,
+
+**ja287:1.2** nānaṭo nākutūhalo;
+
+**ja287:1.3** Mūḷhesu labhate lābhaṁ,
+
+**ja287:1.4** esā te anusāsanī”.
+
+**ja287:2.1** “Dhiratthu taṁ yasalābhaṁ,
+
+**ja287:2.2** dhanalābhañca brāhmaṇa;
+
+**ja287:2.3** Yā vutti vinipātena,
+
+**ja287:2.4** adhammacaraṇena vā.
+
+**ja287:3.1** Api ce pattamādāya,
+
+**ja287:3.2** anagāro paribbaje;
+
+**ja287:3.3** Esāva jīvikā seyyo,
+
+**ja287:3.4** yā cādhammena esanā”ti.
+
+**ja287:4.1** Lābhagarahajātakaṁ sattamaṁ.
+

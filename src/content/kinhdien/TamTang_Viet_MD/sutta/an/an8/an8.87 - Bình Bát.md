@@ -1,0 +1,24 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 8.87. Bình Bát
+
+TTC 1 —Này các Tỷ-kheo, nếu muốn, chúng Tăng có thể lật úp bình bát của một nam cư sĩ thành tựu tám pháp. Thế nào là tám?
+
+TTC 2 Cố gắng đem lại thiệt hại cho các Tỷ-kheo, cố gắng đem lại bất lợi cho các Tỷ-kheo, cố gắng đuổi các Tỷ-kheo không cho trú ở, mắng nhiếc chỉ trích các Tỷ-kheo, làm ly gián giữa các Tỷ-kheo, hủy báng Phật, hủy báng Pháp, hủy báng Tăng.
+
+Này các Tỷ-kheo, nếu muốn, chúng Tăng có thể lật úp bình bát của một cư sĩ thành tựu tám pháp này.
+
+TTC 3 Này các Tỷ-kheo, nếu muốn, chúng Tăng có thể lật ngửa bình bát của một nam cư sĩ thành tựu tám pháp. Thế nào là tám?
+
+TTC 4 Không cố gắng đem lại thiệt hại cho các Tỷ-kheo, không cố gắng đem lại bất lợi cho các Tỷ-kheo, cho trú ở, không cố gắng đuổi các Tỷ-kheo, không mắng nhiếc chỉ trích các Tỷ-kheo, không làm ly gián giữa các Tỷ-kheo, tán thán Phật, tán thán Pháp, tán thán chúng Tăng.
+
+Này các Tỷ-kheo, nếu muốn, chúng Tăng có thể lật ngửa bình bát của một nam cư sĩ thành tựu tám pháp này.
+
+Bộ kinh nầy được Hòa thượng Thích Minh Châu dịch từ tạng Pali sang Việt ngữ năm 1976–1977, và được Viện Phật Học Vạn Hạnh, Sài Gòn, ấn hành năm 1980–1981 . Trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được hiệu đính thành 4 tập và tái bản năm 1996, qua số thứ tự 21, 22, 23, và 24.
+
+These texts have been used with the kind permission of the webmaster of http://www.budsas.net/
+
+Prepared for SuttaCentral by Ayya Vimala .
+

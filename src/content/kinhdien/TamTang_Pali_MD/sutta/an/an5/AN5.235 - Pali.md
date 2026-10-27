@@ -1,0 +1,32 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.235
+
+# 24. Āvāsikavagga
+
+# Anukampasutta
+
+**an5.235:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato āvāsiko bhikkhu gihīnaṁ anukampati.
+
+**an5.235:1.2** Katamehi pañcahi?
+
+**an5.235:1.3** Adhisīle samādapeti;
+
+**an5.235:1.4** dhammadassane niveseti;
+
+**an5.235:1.5** gilānake upasaṅkamitvā satiṁ uppādeti:
+
+**an5.235:1.6** ‘arahaggataṁ āyasmanto satiṁ upaṭṭhāpethā’ti;
+
+**an5.235:1.7** mahā kho pana bhikkhusaṅgho abhikkanto nānāverajjakā bhikkhū gihīnaṁ upasaṅkamitvā āroceti:
+
+**an5.235:1.8** ‘mahā kho, āvuso, bhikkhusaṅgho abhikkanto nānāverajjakā bhikkhū, karotha puññāni, samayo puññāni kātun’ti;
+
+**an5.235:1.9** yaṁ kho panassa bhojanaṁ denti lūkhaṁ vā paṇītaṁ vā taṁ attanā paribhuñjati, saddhādeyyaṁ na vinipāteti.
+
+**an5.235:1.10** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato āvāsiko bhikkhu gihīnaṁ anukampatī”ti.
+
+**an5.235:1.11** Pañcamaṁ.
+

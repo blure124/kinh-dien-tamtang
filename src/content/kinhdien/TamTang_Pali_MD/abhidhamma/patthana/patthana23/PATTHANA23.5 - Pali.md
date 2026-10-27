@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Tikatikapaṭṭhānapāḷi (5)
+
+# 23.5. Kusalattika, Vitakkattika
+
+**patthana23.5:1.1** Nakusalaṁ nasavitakkasavicāraṁ dhammaṁ paṭicca akusalo savitakkasavicāro dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā nava …pe… vipāke tīṇi …pe… avigate nava.
+
+**patthana23.5:2.1** Nakusalaṁ naavitakkavicāramattaṁ dhammaṁ paṭicca akusalo avitakkavicāramatto dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā nava …pe… vipāke tīṇi …pe… avigate nava.
+
+**patthana23.5:3.1** Nakusalaṁ naavitakkaavicāraṁ dhammaṁ paṭicca abyākato avitakkaavicāro dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā dvādasa, ārammaṇe tīṇi …pe… avigate dvādasa.
+

@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 6.90
+
+# 9. Sītivagga
+
+# Pahīnasutta
+
+**an6.90:1.1** “Chayime, bhikkhave, dhammā diṭṭhisampannassa puggalassa pahīnā.
+
+**an6.90:1.2** Katame cha?
+
+**an6.90:1.3** Sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso, apāyagamanīyo rāgo, apāyagamanīyo doso, apāyagamanīyo moho.
+
+**an6.90:1.4** Ime kho, bhikkhave, cha dhammā diṭṭhisampannassa puggalassa pahīnā”ti.
+
+**an6.90:1.5** Chaṭṭhaṁ.
+

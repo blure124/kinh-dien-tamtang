@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.270
+
+# 27. Kammapathavagga
+
+# Samphappalāpasutta
+
+**an4.270:1.1** …pe… Attanā ca samphappalāpī hoti, parañca samphappalāpe samādapeti, samphappalāpe ca samanuñño hoti, samphappalāpassa ca vaṇṇaṁ bhāsati—imehi …pe….
+
+**an4.270:2.1** Attanā ca samphappalāpā paṭivirato hoti, parañca samphappalāpā veramaṇiyā samādapeti, samphappalāpā veramaṇiyā ca samanuñño hoti, samphappalāpā veramaṇiyā ca vaṇṇaṁ bhāsati—imehi kho, bhikkhave …pe….
+
+**an4.270:2.2** Sattamaṁ.
+

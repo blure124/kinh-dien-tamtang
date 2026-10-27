@@ -1,0 +1,62 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 6.10
+
+# Chakkanipāta
+
+# Paṭhamavagga
+
+# Sumanattheragāthā
+
+**thag6.10:1.1** “Yadā navo pabbajito,
+
+**thag6.10:1.2** jātiyā sattavassiko;
+
+**thag6.10:1.3** Iddhiyā abhibhotvāna,
+
+**thag6.10:1.4** pannagindaṁ mahiddhikaṁ.
+
+**thag6.10:2.1** Upajjhāyassa udakaṁ,
+
+**thag6.10:2.2** anotattā mahāsarā;
+
+**thag6.10:2.3** Āharāmi tato disvā,
+
+**thag6.10:2.4** maṁ satthā etadabravi”.
+
+**thag6.10:3.1** “Sāriputta imaṁ passa,
+
+**thag6.10:3.2** āgacchantaṁ kumārakaṁ;
+
+**thag6.10:3.3** Udakakumbhamādāya,
+
+**thag6.10:3.4** ajjhattaṁ susamāhitaṁ.
+
+**thag6.10:4.1** Pāsādikena vattena,
+
+**thag6.10:4.2** kalyāṇairiyāpatho;
+
+**thag6.10:4.3** Sāmaṇeronuruddhassa,
+
+**thag6.10:4.4** iddhiyā ca visārado.
+
+**thag6.10:5.1** Ājānīyena ājañño,
+
+**thag6.10:5.2** sādhunā sādhukārito;
+
+**thag6.10:5.3** Vinīto anuruddhena,
+
+**thag6.10:5.4** katakiccena sikkhito.
+
+**thag6.10:6.1** So patvā paramaṁ santiṁ,
+
+**thag6.10:6.2** sacchikatvā akuppataṁ;
+
+**thag6.10:6.3** Sāmaṇero sa sumano,
+
+**thag6.10:6.4** mā maṁ jaññāti icchatī”ti.
+
+**thag6.10:6.5** … Sumano thero ….
+

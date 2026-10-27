@@ -1,0 +1,46 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 80
+
+# Tikanipāta
+
+# Catutthavagga
+
+# Vitakkasutta
+
+**iti80:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti80:2.1** “Tayome, bhikkhave, akusalavitakkā.
+
+**iti80:2.2** Katame tayo?
+
+**iti80:2.3** Anavaññattipaṭisaṁyutto vitakko, lābhasakkārasilokapaṭisaṁyutto vitakko, parānuddayatāpaṭisaṁyutto vitakko.
+
+**iti80:2.4** Ime kho, bhikkhave, tayo akusalavitakkā”ti.
+
+**iti80:2.5** Etamatthaṁ bhagavā avoca.
+
+**iti80:2.6** Tatthetaṁ iti vuccati:
+
+**iti80:3.1** “Anavaññattisaṁyutto,
+
+**iti80:3.2** lābhasakkāragāravo;
+
+**iti80:3.3** Sahanandī amaccehi,
+
+**iti80:3.4** ārā saṁyojanakkhayā.
+
+**iti80:4.1** Yo ca puttapasuṁ hitvā,
+
+**iti80:4.2** Vivāhe saṁharāni ca;
+
+**iti80:4.3** Bhabbo so tādiso bhikkhu,
+
+**iti80:4.4** Phuṭṭhuṁ sambodhimuttaman”ti.
+
+**iti80:5.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti80:5.2** Paṭhamaṁ.
+

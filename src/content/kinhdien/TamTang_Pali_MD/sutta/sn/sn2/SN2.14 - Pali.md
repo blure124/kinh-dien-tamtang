@@ -1,0 +1,40 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 2.14
+
+# 2. Anāthapiṇḍikavagga
+
+# Nandanasutta
+
+**sn2.14:1.1** Ekamantaṁ ṭhito kho nandano devaputto bhagavantaṁ gāthāya ajjhabhāsi:
+
+**sn2.14:2.1** “Pucchāmi taṁ gotama bhūripañña,
+
+**sn2.14:2.2** Anāvaṭaṁ bhagavato ñāṇadassanaṁ;
+
+**sn2.14:2.3** Kathaṁvidhaṁ sīlavantaṁ vadanti,
+
+**sn2.14:2.4** Kathaṁvidhaṁ paññavantaṁ vadanti;
+
+**sn2.14:2.5** Kathaṁvidho dukkhamaticca iriyati,
+
+**sn2.14:2.6** Kathaṁvidhaṁ devatā pūjayantī”ti.
+
+**sn2.14:3.1** “Yo sīlavā paññavā bhāvitatto,
+
+**sn2.14:3.2** Samāhito jhānarato satīmā;
+
+**sn2.14:3.3** Sabbassa sokā vigatā pahīnā,
+
+**sn2.14:3.4** Khīṇāsavo antimadehadhārī.
+
+**sn2.14:4.1** Tathāvidhaṁ sīlavantaṁ vadanti,
+
+**sn2.14:4.2** Tathāvidhaṁ paññavantaṁ vadanti;
+
+**sn2.14:4.3** Tathāvidho dukkhamaticca iriyati,
+
+**sn2.14:4.4** Tathāvidhaṁ devatā pūjayantī”ti.
+

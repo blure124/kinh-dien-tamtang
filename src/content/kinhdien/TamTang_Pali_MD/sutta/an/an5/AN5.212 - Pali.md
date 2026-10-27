@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.212
+
+# 22. Akkosakavagga
+
+# Bhaṇḍanakārakasutta
+
+**an5.212:1.1** “Yo so, bhikkhave, bhikkhu bhaṇḍanakārako kalahakārako vivādakārako bhassakārako saṅghe adhikaraṇakārako, tassa pañca ādīnavā pāṭikaṅkhā.
+
+**an5.212:1.2** Katame pañca?
+
+**an5.212:1.3** Anadhigataṁ nādhigacchati, adhigatā parihāyati, pāpako kittisaddo abbhuggacchati, sammūḷho kālaṁ karoti, kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati.
+
+**an5.212:1.4** Yo so, bhikkhave, bhikkhu bhaṇḍanakārako kalahakārako vivādakārako bhassakārako saṅghe adhikaraṇakārako, tassa ime pañca ādīnavā pāṭikaṅkhā”ti.
+
+**an5.212:1.5** Dutiyaṁ.
+

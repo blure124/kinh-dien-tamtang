@@ -1,0 +1,46 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Catukkanipāta
+
+# Kuṭidūsakavagga
+
+# 8. Ananusociyajātaka
+
+**ja328:1.1** “Bahūnaṁ vijjatī bhotī,
+
+**ja328:1.2** tehi me kiṁ bhavissati;
+
+**ja328:1.3** Tasmā etaṁ na socāmi,
+
+**ja328:1.4** piyaṁ sammillahāsiniṁ.
+
+**ja328:2.1** Taṁ tañce anusoceyya,
+
+**ja328:2.2** yaṁ yaṁ tassa na vijjati;
+
+**ja328:2.3** Attānamanusoceyya,
+
+**ja328:2.4** sadā maccuvasaṁ pataṁ.
+
+**ja328:3.1** Na heva ṭhitaṁ nāsīnaṁ,
+
+**ja328:3.2** Na sayānaṁ na paddhaguṁ;
+
+**ja328:3.3** Yāva byāti nimisati,
+
+**ja328:3.4** Tatrāpi rasatī vayo.
+
+**ja328:4.1** Tatthattani vatappaddhe,
+
+**ja328:4.2** vinābhāve asaṁsaye;
+
+**ja328:4.3** Bhūtaṁ sesaṁ dayitabbaṁ,
+
+**ja328:4.4** vītaṁ ananusociyan”ti.
+
+**ja328:5.1** Ananusociyajātakaṁ aṭṭhamaṁ.
+

@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.223
+
+# 23. Dīghacārikavagga
+
+# Atinivāsasutta
+
+**an5.223:1.1** “Pañcime, bhikkhave, ādīnavā atinivāse.
+
+**an5.223:1.2** Katame pañca?
+
+**an5.223:1.3** Bahubhaṇḍo hoti bahubhaṇḍasannicayo, bahubhesajjo hoti bahubhesajjasannicayo, bahukicco hoti bahukaraṇīyo byatto kiṅkaraṇīyesu, saṁsaṭṭho viharati gahaṭṭhapabbajitehi ananulomikena gihisaṁsaggena, tamhā ca āvāsā pakkamanto sāpekkho pakkamati.
+
+**an5.223:1.4** Ime kho, bhikkhave, pañca ādīnavā atinivāse.
+
+**an5.223:2.1** Pañcime, bhikkhave, ānisaṁsā samavatthavāse.
+
+**an5.223:2.2** Katame pañca?
+
+**an5.223:2.3** Na bahubhaṇḍo hoti na bahubhaṇḍasannicayo, na bahubhesajjo hoti na bahubhesajjasannicayo, na bahukicco hoti na bahukaraṇīyo na byatto kiṅkaraṇīyesu, asaṁsaṭṭho viharati gahaṭṭhapabbajitehi ananulomikena gihisaṁsaggena, tamhā ca āvāsā pakkamanto anapekkho pakkamati.
+
+**an5.223:2.4** Ime kho, bhikkhave, pañca ānisaṁsā samavatthavāse”ti.
+
+**an5.223:2.5** Tatiyaṁ.
+

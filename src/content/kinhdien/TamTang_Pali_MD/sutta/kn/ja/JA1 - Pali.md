@@ -1,0 +1,24 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Apaṇṇakavagga
+
+# 1. Apaṇṇakajātaka
+
+**ja1:1.1** Namo tassa Bhagavato Arahato Sammāsambuddhassa.
+
+**ja1:2.1** “Apaṇṇakaṁ ṭhānameke,
+
+**ja1:2.2** Dutiyaṁ āhu takkikā;
+
+**ja1:2.3** Etadaññāya medhāvī,
+
+**ja1:2.4** Taṁ gaṇhe yadapaṇṇakan”ti.
+
+**ja1:3.1** Apaṇṇakajātakaṁ paṭhamaṁ.
+

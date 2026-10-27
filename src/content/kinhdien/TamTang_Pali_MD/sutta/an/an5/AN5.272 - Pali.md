@@ -1,0 +1,36 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.272
+
+# 27. Sammutipeyyāla
+
+# Bhattuddesakasutta
+
+**an5.272:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato bhattuddesako na sammannitabbo.
+
+**an5.272:1.2** Katamehi pañcahi?
+
+**an5.272:1.3** Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ na jānāti.
+
+**an5.272:1.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato bhattuddesako na sammannitabbo.
+
+**an5.272:2.1** Pañcahi, bhikkhave, dhammehi samannāgato bhattuddesako sammannitabbo.
+
+**an5.272:2.2** Katamehi pañcahi?
+
+**an5.272:2.3** Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ jānāti.
+
+**an5.272:2.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato bhattuddesako sammannitabboti.
+
+**an5.272:3.1** Pañcahi, bhikkhave, dhammehi samannāgato bhattuddesako sammato na pesetabbo …pe… sammato pesetabbo … bālo veditabbo … paṇḍito veditabbo … khataṁ upahataṁ attānaṁ pariharati … akkhataṁ anupahataṁ attānaṁ pariharati … yathābhataṁ nikkhitto evaṁ niraye … yathābhataṁ nikkhitto evaṁ sagge.
+
+**an5.272:3.2** Katamehi pañcahi?
+
+**an5.272:3.3** Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ jānāti.
+
+**an5.272:3.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato bhattuddesako yathābhataṁ nikkhitto evaṁ sagge”ti.
+
+**an5.272:3.5** Paṭhamaṁ.
+

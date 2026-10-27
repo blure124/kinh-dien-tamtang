@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikadukapaṭṭhānapāḷi (4)
+
+# 16.91. Sanidassanattika, Pariyāpannaduka
+
+**patthana16.91:1.1** Anidassanaappaṭighaṁ pariyāpannaṁ dhammaṁ paccayā nasanidassanasappaṭigho napariyāpanno dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana16.91:2.1** Anidassanaappaṭighaṁ apariyāpannaṁ dhammaṁ paṭicca naanidassanaappaṭigho naapariyāpanno dhammo uppajjati hetupaccayā. Anidassanaappaṭighaṁ apariyāpannaṁ dhammaṁ paṭicca nasanidassanasappaṭigho naapariyāpanno dhammo uppajjati hetupaccayā …pe… anidassanaappaṭighaṁ apariyāpannaṁ dhammaṁ paṭicca nasanidassanasappaṭigho naapariyāpanno ca naanidassanasappaṭigho naapariyāpanno ca dhammā uppajjanti hetupaccayā. (Saṅkhittaṁ.) Hetuyā cha, adhipatiyā cha …pe… avigate cha.
+

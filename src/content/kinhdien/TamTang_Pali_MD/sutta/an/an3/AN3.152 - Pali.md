@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 3.152
+
+# 15. Maṅgalavagga
+
+# Tatiyakhatasutta
+
+**an3.152:1.1** “Tīhi, bhikkhave …pe…
+
+**an3.152:1.2** visamena kāyakammena, visamena vacīkammena, visamena manokammena …pe….
+
+**an3.152:2.1** Tīhi, bhikkhave …pe…
+
+**an3.152:2.2** samena kāyakammena, samena vacīkammena, samena manokammena …pe….
+
+**an3.152:2.3** Sattamaṁ.
+

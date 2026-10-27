@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 46
+
+# Dukanipāta
+
+# Dutiyavagga
+
+# Sikkhānisaṁsasutta
+
+**iti46:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti46:2.1** “Sikkhānisaṁsā, bhikkhave, viharatha paññuttarā vimuttisārā satādhipateyyā.
+
+**iti46:2.2** Sikkhānisaṁsānaṁ, bhikkhave, viharataṁ paññuttarānaṁ vimuttisārānaṁ satādhipateyyānaṁ dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ—
+
+**iti46:2.3** diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti.
+
+**iti46:2.4** Etamatthaṁ bhagavā avoca.
+
+**iti46:2.5** Tatthetaṁ iti vuccati:
+
+**iti46:3.1** “Paripuṇṇasikkhaṁ apahānadhammaṁ,
+
+**iti46:3.2** Paññuttaraṁ jātikhayantadassiṁ;
+
+**iti46:3.3** Taṁ ve muniṁ antimadehadhāriṁ,
+
+**iti46:3.4** Mārañjahaṁ brūmi jarāya pāraguṁ.
+
+**iti46:4.1** Tasmā sadā jhānaratā samāhitā,
+
+**iti46:4.2** Ātāpino jātikhayantadassino;
+
+**iti46:4.3** Māraṁ sasenaṁ abhibhuyya bhikkhavo,
+
+**iti46:4.4** Bhavatha jātimaraṇassa pāragā”ti.
+
+**iti46:5.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti46:5.2** Navamaṁ.
+

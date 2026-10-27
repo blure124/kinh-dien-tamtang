@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.68. Niyataduka, Kusalattika
+
+**patthana15.68:1.1** Niyataṁ kusalaṁ dhammaṁ paṭicca naniyato nakusalo dhammo uppajjati hetupaccayā. Aniyataṁ kusalaṁ dhammaṁ paṭicca naniyato nakusalo dhammo uppajjati hetupaccayā. Hetuyā dve …pe… avigate dve.
+
+**patthana15.68:2.1** Niyataṁ akusalaṁ dhammaṁ paṭicca naniyato naakusalo dhammo uppajjati hetupaccayā. Aniyataṁ akusalaṁ dhammaṁ paṭicca naniyato naakusalo dhammo uppajjati hetupaccayā. Hetuyā dve …pe… avigate dve. (Abyākatamūle dve paccayavasena.)
+

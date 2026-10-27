@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.86. Saraṇaduka, Uppannattika
+
+**patthana15.86:1.1** Saraṇo anuppanno dhammo nasaraṇassa naanuppannassa dhammassa ārammaṇapaccayena paccayo. Ārammaṇe cattāri, adhipatiyā tīṇi, upanissaye cattāri.
+
+**patthana15.86:2.1** Araṇo uppādī dhammo naaraṇassa nauppādissa dhammassa ārammaṇapaccayena paccayo. Araṇo uppādī dhammo nasaraṇassa nauppādissa dhammassa ārammaṇapaccayena paccayo. Ārammaṇe dve, adhipatiyā ekaṁ, upanissaye dve.
+

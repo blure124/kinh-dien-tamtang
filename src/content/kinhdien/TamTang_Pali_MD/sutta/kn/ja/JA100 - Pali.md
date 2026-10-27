@@ -1,0 +1,36 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Littavagga
+
+# 10. Asātarūpajātaka
+
+**ja100:1.1** “Asātaṁ sātarūpena,
+
+**ja100:1.2** piyarūpena appiyaṁ;
+
+**ja100:1.3** Dukkhaṁ sukhassa rūpena,
+
+**ja100:1.4** pamattamativattatī”ti.
+
+**ja100:2.1** Asātarūpajātakaṁ dasamaṁ.
+
+**ja100:2.2** Littavaggo dasamo.
+
+**ja100:3.1** Tassuddānaṁ
+
+**ja100:4.1** Gilamakkhakutūhala mātukassā,
+
+**ja100:4.2** Muninā ca aniccata pattavaraṁ;
+
+**ja100:4.3** Dhanapālivaro atipaṇḍitako,
+
+**ja100:4.4** Saparosahassaasātadasāti.
+
+**ja100:5.1** Majjhimo paṇṇāsako.
+

@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Upāhanavagga
+
+# 5. Vacchanakhajātaka
+
+**ja235:1.1** “Sukhā gharā vacchanakha,
+
+**ja235:1.2** sahiraññā sabhojanā;
+
+**ja235:1.3** Yattha bhutvā pivitvā ca,
+
+**ja235:1.4** sayeyyātha anussuko”.
+
+**ja235:2.1** “Gharā nānīhamānassa,
+
+**ja235:2.2** Gharā nābhaṇato musā;
+
+**ja235:2.3** Gharā nādinnadaṇḍassa,
+
+**ja235:2.4** Paresaṁ anikubbato;
+
+**ja235:2.5** Evaṁ chiddaṁ durabhisambhavaṁ,
+
+**ja235:2.6** Ko gharaṁ paṭipajjatī”ti.
+
+**ja235:3.1** Vacchanakhajātakaṁ pañcamaṁ.
+

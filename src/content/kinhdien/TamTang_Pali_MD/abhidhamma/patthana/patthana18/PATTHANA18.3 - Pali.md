@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukadukapaṭṭhānapāḷi (6)
+
+# 18.3. Hetuduka, Hetusahetukadukādi
+
+**patthana18.3:1.1** Hetuṁ hetuñceva sahetukañca dhammaṁ paṭicca nahetu nahetu ceva naahetuko ca dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana18.3:2.1** Nahetuṁ sahetukañceva na ca hetuṁ dhammaṁ paṭicca nanahetu naahetuko ceva nanahetu ca dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana18.3:3.1** Hetuṁ hetuñceva hetusampayuttañca dhammaṁ paṭicca nahetu nahetu ceva nahetuvippayutto ca dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana18.3:4.1** Nahetuṁ hetusampayuttañceva na ca hetuṁ dhammaṁ paṭicca nanahetu nahetuvippayutto ceva nanahetu ca dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana18.3:5.1** Nahetuṁ nahetuṁ sahetukaṁ dhammaṁ paṭicca nahetu nahetu nasahetuko dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā adhipatiyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana18.3:6.1** Nahetuṁ nahetuṁ ahetukaṁ dhammaṁ paṭicca nahetu nahetu naahetuko dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ …pe… avigate ekaṁ.
+

@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.92
+
+# 10. Kakudhavagga
+
+# Dutiyasampadāsutta
+
+**an5.92:1.1** “Pañcimā, bhikkhave, sampadā.
+
+**an5.92:1.2** Katamā pañca?
+
+**an5.92:1.3** Sīlasampadā, samādhisampadā, paññāsampadā, vimuttisampadā, vimuttiñāṇadassanasampadā—
+
+**an5.92:1.4** imā kho, bhikkhave, pañca sampadā”ti.
+
+**an5.92:1.5** Dutiyaṁ.
+

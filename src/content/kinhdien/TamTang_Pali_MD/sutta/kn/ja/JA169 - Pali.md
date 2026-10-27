@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Santhavavagga
+
+# 9. Arakajātaka
+
+**ja169:1.1** “Yo ve mettena cittena,
+
+**ja169:1.2** sabbalokānukampati;
+
+**ja169:1.3** Uddhaṁ adho ca tiriyaṁ,
+
+**ja169:1.4** appamāṇena sabbaso.
+
+**ja169:2.1** Appamāṇaṁ hitaṁ cittaṁ,
+
+**ja169:2.2** paripuṇṇaṁ subhāvitaṁ;
+
+**ja169:2.3** Yaṁ pamāṇakataṁ kammaṁ,
+
+**ja169:2.4** na taṁ tatrāvasissatī”ti.
+
+**ja169:3.1** Arakajātakaṁ navamaṁ.
+

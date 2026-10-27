@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 2.17
+
+# Dukanipāta
+
+# Dutiyavagga
+
+# Tissattheragāthā
+
+**thag2.17:1.1** “Bahū sapatte labhati,
+
+**thag2.17:1.2** muṇḍo saṅghāṭipāruto;
+
+**thag2.17:1.3** Lābhī annassa pānassa,
+
+**thag2.17:1.4** vatthassa sayanassa ca.
+
+**thag2.17:2.1** Etamādīnavaṁ ñatvā,
+
+**thag2.17:2.2** sakkāresu mahabbhayaṁ;
+
+**thag2.17:2.3** Appalābho anavassuto,
+
+**thag2.17:2.4** sato bhikkhu paribbaje”ti.
+
+**thag2.17:2.5** … Tisso thero ….
+

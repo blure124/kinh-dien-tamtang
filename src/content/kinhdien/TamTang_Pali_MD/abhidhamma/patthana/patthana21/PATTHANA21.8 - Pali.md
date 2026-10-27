@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukatikapaṭṭhānapāḷi (3)
+
+# 21.8. Āsavasampayuttaduka, Kusalattika
+
+**patthana21.8:1.1** Naāsavasampayuttaṁ nakusalaṁ dhammaṁ paccayā āsavavippayutto kusalo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana21.8:2.1** Naāsavasampayuttaṁ naakusalaṁ dhammaṁ paccayā āsavasampayutto akusalo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana21.8:3.1** Naāsavasampayuttaṁ naabyākataṁ dhammaṁ paṭicca āsavavippayutto abyākato dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi, adhipatiyā tīṇi …pe… avigate tīṇi.
+

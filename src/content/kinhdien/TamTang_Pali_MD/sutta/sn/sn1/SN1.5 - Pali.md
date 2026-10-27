@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.5
+
+# 1. Naḷavagga
+
+# Katichindasutta
+
+**sn1.5:1.1** Sāvatthinidānaṁ.
+
+**sn1.5:1.2** Ekamantaṁ ṭhitā kho sā devatā bhagavato santike imaṁ gāthaṁ abhāsi:
+
+**sn1.5:2.1** “Kati chinde kati jahe,
+
+**sn1.5:2.2** kati cuttari bhāvaye;
+
+**sn1.5:2.3** Kati saṅgātigo bhikkhu,
+
+**sn1.5:2.4** oghatiṇṇoti vuccatī”ti.
+
+**sn1.5:3.1** “Pañca chinde pañca jahe,
+
+**sn1.5:3.2** pañca cuttari bhāvaye;
+
+**sn1.5:3.3** Pañca saṅgātigo bhikkhu,
+
+**sn1.5:3.4** oghatiṇṇoti vuccatī”ti.
+

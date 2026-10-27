@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.148
+
+# 15. Ābhāvagga
+
+# Duccaritasutta
+
+**an4.148:1.1** “Cattārimāni, bhikkhave, vacīduccaritāni.
+
+**an4.148:1.2** Katamāni cattāri?
+
+**an4.148:1.3** Musāvādo, pisuṇā vācā, pharusā vācā, samphappalāpo—
+
+**an4.148:1.4** Imāni kho, bhikkhave, cattāri vacīduccaritānī”ti.
+
+**an4.148:1.5** Aṭṭhamaṁ.
+

@@ -1,0 +1,42 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theravāda Vinaya
+
+# Mahāvibhaṅga
+
+# Sekhiyakaṇḍa
+
+# Parimaṇḍalavagga
+
+# 7. Okkhittacakkhusikkhāpada
+
+**pli-tv-bu-vb-sk7:1.1** Tena samayena buddho bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme.
+
+**pli-tv-bu-vb-sk7:1.2** Tena kho pana samayena chabbaggiyā bhikkhū tahaṁ tahaṁ olokentā antaraghare gacchanti …pe….
+
+**pli-tv-bu-vb-sk7:1.3.1** “Okkhittacakkhu antaraghare gamissāmīti sikkhā karaṇīyā”ti.
+
+**pli-tv-bu-vb-sk7:1.4** Okkhittacakkhunā antaraghare gantabbaṁ yugamattaṁ pekkhantena.
+
+**pli-tv-bu-vb-sk7:1.5** Yo anādariyaṁ paṭicca tahaṁ tahaṁ olokento antaraghare gacchati, āpatti dukkaṭassa.
+
+**pli-tv-bu-vb-sk7:1.6.1** Anāpatti—
+
+**pli-tv-bu-vb-sk7:1.7** asañcicca,
+
+**pli-tv-bu-vb-sk7:1.8** assatiyā,
+
+**pli-tv-bu-vb-sk7:1.9** ajānantassa,
+
+**pli-tv-bu-vb-sk7:1.10** gilānassa,
+
+**pli-tv-bu-vb-sk7:1.11** āpadāsu,
+
+**pli-tv-bu-vb-sk7:1.12** ummattakassa,
+
+**pli-tv-bu-vb-sk7:1.13** ādikammikassāti.
+
+**pli-tv-bu-vb-sk7:1.14** Sattamasikkhāpadaṁ niṭṭhitaṁ.
+

@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.14
+
+# 2. Nandanavagga
+
+# Khattiyasutta
+
+**sn1.14:1.1** “Khattiyo dvipadaṁ seṭṭho,
+
+**sn1.14:1.2** balībaddo catuppadaṁ;
+
+**sn1.14:1.3** Komārī seṭṭhā bhariyānaṁ,
+
+**sn1.14:1.4** yo ca puttāna pubbajo”ti.
+
+**sn1.14:2.1** “Sambuddho dvipadaṁ seṭṭho,
+
+**sn1.14:2.2** ājānīyo catuppadaṁ;
+
+**sn1.14:2.3** Sussūsā seṭṭhā bhariyānaṁ,
+
+**sn1.14:2.4** yo ca puttānamassavo”ti.
+

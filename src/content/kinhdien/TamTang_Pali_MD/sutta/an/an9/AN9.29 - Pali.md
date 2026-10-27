@@ -1,0 +1,36 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 9.29
+
+# 3. Sattāvāsavagga
+
+# Āghātavatthusutta
+
+**an9.29:1.1** “Navayimāni, bhikkhave, āghātavatthūni.
+
+**an9.29:1.2** Katamāni nava?
+
+**an9.29:1.3** ‘Anatthaṁ me acarī’ti āghātaṁ bandhati;
+
+**an9.29:1.4** ‘anatthaṁ me caratī’ti āghātaṁ bandhati;
+
+**an9.29:1.5** ‘anatthaṁ me carissatī’ti āghātaṁ bandhati;
+
+**an9.29:1.6** ‘piyassa me manāpassa anatthaṁ acarī’ti …pe…
+
+**an9.29:1.7** ‘anatthaṁ caratī’ti …pe…
+
+**an9.29:1.8** ‘anatthaṁ carissatī’ti āghātaṁ bandhati;
+
+**an9.29:1.9** ‘appiyassa me amanāpassa atthaṁ acarī’ti …pe…
+
+**an9.29:1.10** ‘atthaṁ caratī’ti …pe…
+
+**an9.29:1.11** ‘atthaṁ carissatī’ti āghātaṁ bandhati.
+
+**an9.29:1.12** Imāni kho, bhikkhave, nava āghātavatthūnī”ti.
+
+**an9.29:1.13** Navamaṁ.
+

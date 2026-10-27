@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 6.82
+
+# 8. Arahattavagga
+
+# Dutiyanirayasutta
+
+**an6.82:1.1** “Chahi, bhikkhave, dhammehi samannāgato yathābhataṁ nikkhitto evaṁ niraye.
+
+**an6.82:1.2** Katamehi chahi?
+
+**an6.82:1.3** Pāṇātipātī hoti, adinnādāyī hoti, kāmesumicchācārī hoti, musāvādī hoti, luddho ca, pagabbho ca.
+
+**an6.82:1.4** Imehi kho, bhikkhave, chahi dhammehi samannāgato yathābhataṁ nikkhitto evaṁ niraye.
+
+**an6.82:2.1** Chahi, bhikkhave, dhammehi samannāgato yathābhataṁ nikkhitto evaṁ sagge.
+
+**an6.82:2.2** Katamehi chahi?
+
+**an6.82:2.3** Pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato hoti, kāmesumicchācārā paṭivirato hoti, musāvādā paṭivirato hoti, aluddho ca, appagabbho ca.
+
+**an6.82:2.4** Imehi kho, bhikkhave, chahi dhammehi samannāgato yathābhataṁ nikkhitto evaṁ sagge”ti.
+
+**an6.82:2.5** Aṭṭhamaṁ.
+

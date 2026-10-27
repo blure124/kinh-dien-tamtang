@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Tikanipāta
+
+# Kumbhavagga
+
+# 7. Kāmavilāpajātaka
+
+**ja297:1.1** “Ucce sakuṇa ḍemāna,
+
+**ja297:1.2** pattayāna vihaṅgama;
+
+**ja297:1.3** Vajjāsi kho tvaṁ vāmūruṁ,
+
+**ja297:1.4** ciraṁ kho sā karissati.
+
+**ja297:2.1** Idaṁ kho sā na jānāti,
+
+**ja297:2.2** asiṁ sattiñca oḍḍitaṁ;
+
+**ja297:2.3** Sā caṇḍī kāhati kodhaṁ,
+
+**ja297:2.4** taṁ me tapati no idaṁ.
+
+**ja297:3.1** Esa uppalasannāho,
+
+**ja297:3.2** nikkhañcussīsakohitaṁ;
+
+**ja297:3.3** Kāsikañca muduṁ vatthaṁ,
+
+**ja297:3.4** tappetu dhanikā piyā”ti.
+
+**ja297:4.1** Kāmavilāpajātakaṁ sattamaṁ.
+

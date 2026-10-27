@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 8
+
+# 11. Rāgapeyyāla
+
+# ~
+
+**an8.120:1.1** “Rāgassa, bhikkhave, abhiññāya aṭṭha dhammā bhāvetabbā.
+
+**an8.120:1.2** Katame aṭṭha?
+
+**an8.120:1.3** Rūpī rūpāni passati, ajjhattaṁ arūpasaññī bahiddhā rūpāni passati, subhanteva adhimutto hoti, sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati, sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati, sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati, sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati, sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati—
+
+**an8.120:1.4** rāgassa, bhikkhave, abhiññāya ime aṭṭha dhammā bhāvetabbā”.
+

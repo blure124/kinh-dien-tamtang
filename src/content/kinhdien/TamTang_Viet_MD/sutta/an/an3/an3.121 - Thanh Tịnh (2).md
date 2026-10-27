@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 3.121. Thanh Tịnh (2)
+
+TTC 1 —Này các Tỷ-kheo, có ba thanh tịnh này, Thế nào là ba? Thân thanh tịnh, lời nói thanh tịnh, ý thanh tịnh.
+
+TTC 2 Và này các Tỷ-kheo, thế nào là thân thanh tịnh? (như kinh 118, về thân thanh tịnh).
+
+TTC 3 Và này các Tỷ-kheo, thế nào là lời nói thanh tịnh? (như kinh 118, về lời nói thanh tịnh).
+
+TTC 4 Và này các Tỷ-kheo, thế nào là ý thanh tịnh?
+
+Ở đây, này các Tỷ-kheo, vị Tỷ-kheo, nếu nội tâm có ước muốn về dục, vị ấy rõ biết: “Nội tâm ta có ước muốn về dục”. Nếu nội tâm không có ước muốn về dục, vị ấy rõ biết: “Nội tâm ta không có ước muốn về dục”. Ước muốn về dục chưa sanh khởi, được sanh khởi thế nào, vị ấy rõ biết như vậy. Ước muốn về dục đã sanh khởi, được đoạn trừ thế nào, vị ấy rõ biết như vậy. Và ước muốn về dục đã được đoạn trừ, tương lai không sanh khởi thế nào, vị ấy rõ biết như vậy.
+
+TTC 5 Nếu nội tâm có sân, vị ấy rõ biết: “Nội tâm ta có sân”. Nếu nội tâm không có sân, vị ấy rõ biết: “Nội tâm ta không có sân”. Sân chưa sanh khởi, được sanh khởi thế nào, vị ấy rõ biết như vậy. Sân đã sanh khởi, được đoạn trừ thế nào, vị ấy rõ biết như vậy. Và sân đã được đoạn trừ, tương lai không sanh khởi thế nào, vị ấy rõ biết như vậy.
+
+TTC 6 Nếu tâm có hôn trầm thụy miên, vị ấy rõ biết: “Nội tâm ta có hôn trầm thụy miên”. Nếu nội tâm không có hôn trầm thụy miên, vị ấy rõ biết: “Nội tâm ta không có hôn trầm thụy miên”. Hôn trầm thụy miên chưa sanh khởi, được sanh khởi thế nào, vị ấy rõ biết như vậy. Hôn trầm thụy miên đã sanh khởi, được đoạn trừ thế nào, vị ấy rõ biết như vậy. Và hôn trầm thụy miên đã được đoạn trừ, tương lai không sanh khởi thế nào, vị ấy rõ biết như vậy.
+
+TTC 7 Nếu tâm có trạo hối, vị ấy rõ biết: “Nội tâm ta có trạo hối”. Nếu nội tâm không có trạo hối, vị ấy rõ biết: “Nội tâm ta không có trạo hối”. Trạo hối chưa sanh khởi, được sanh khởi thế nào, vị ấy rõ biết như vậy. Trạo hối đã sanh khởi, được đoạn trừ thế nào, vị ấy rõ biết như vậy. Và trạo hối đã được đoạn trừ, tương lai không sanh khởi thế nào, vị ấy rõ biết như vậy.
+
+TTC 8 Nếu tâm có nghi, vị ấy rõ biết: “Nội tâm ta có nghi”. Nếu nội tâm không có nghi, vị ấy rõ biết: “Nội tâm ta không có nghi”. Nghi chưa sanh khởi, được sanh khởi thế nào, vị ấy rõ biết như vậy. Nghi đã sanh khởi, được đoạn trừ thế nào, vị ấy rõ biết như vậy. Và nghi đã được đoạn trừ, tương lai không sanh khởi thế nào, vị ấy rõ biết như vậy.
+
+Này các Tỷ-kheo, đây gọi là ý thanh tịnh. Các pháp này, này các Tỷ-kheo, là ba thanh tịnh.
+
+TTC 9
+
+> Thân và lời thanh tịnh Tâm thanh tịnh vô lậu Trong sạch được thanh tịnh Ðược gọi ác đoạn trừ.
+
+Thân và lời thanh tịnh Tâm thanh tịnh vô lậu Trong sạch được thanh tịnh Ðược gọi ác đoạn trừ.
+
+Bộ kinh nầy được Hòa thượng Thích Minh Châu dịch từ tạng Pali sang Việt ngữ năm 1976–1977, và được Viện Phật Học Vạn Hạnh, Sài Gòn, ấn hành năm 1980–1981 . Trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được hiệu đính thành 4 tập và tái bản năm 1996, qua số thứ tự 21, 22, 23, và 24.
+
+These texts have been used with the kind permission of the webmaster of http://www.budsas.net/
+
+Prepared for SuttaCentral by Ayya Vimala .
+

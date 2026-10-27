@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukatikapaṭṭhānapāḷi (3)
+
+# 21.34. Hetuduka, Atītārammaṇattika
+
+**patthana21.34:1.1** Nahetuṁ naatītārammaṇaṁ dhammaṁ paṭicca hetu atītārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana21.34:2.1** Nahetuṁ naanāgatārammaṇaṁ dhammaṁ paccayā hetu anāgatārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+
+**patthana21.34:3.1** Nahetuṁ napaccuppannārammaṇaṁ dhammaṁ paṭicca hetu paccuppannārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+

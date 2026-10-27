@@ -1,0 +1,40 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 3.45
+
+# 5. Cūḷavagga
+
+# Paṇḍitasutta
+
+**an3.45:1.1** “Tīṇimāni, bhikkhave, paṇḍitapaññattāni sappurisapaññattāni.
+
+**an3.45:1.2** Katamāni tīṇi?
+
+**an3.45:1.3** Dānaṁ, bhikkhave, paṇḍitapaññattaṁ sappurisapaññattaṁ.
+
+**an3.45:1.4** Pabbajjā, bhikkhave, paṇḍitapaññattā sappurisapaññattā.
+
+**an3.45:1.5** Mātāpitūnaṁ, bhikkhave, upaṭṭhānaṁ paṇḍitapaññattaṁ sappurisapaññattaṁ.
+
+**an3.45:1.6** Imāni kho, bhikkhave, tīṇi paṇḍitapaññattāni sappurisapaññattānīti.
+
+**an3.45:2.1** Sabbhi dānaṁ upaññattaṁ,
+
+**an3.45:2.2** ahiṁsā saṁyamo damo;
+
+**an3.45:2.3** Mātāpitu upaṭṭhānaṁ,
+
+**an3.45:2.4** santānaṁ brahmacārinaṁ.
+
+**an3.45:3.1** Sataṁ etāni ṭhānāni,
+
+**an3.45:3.2** yāni sevetha paṇḍito;
+
+**an3.45:3.3** Ariyo dassanasampanno,
+
+**an3.45:3.4** sa lokaṁ bhajate sivan”ti.
+
+**an3.45:3.5** Pañcamaṁ.
+

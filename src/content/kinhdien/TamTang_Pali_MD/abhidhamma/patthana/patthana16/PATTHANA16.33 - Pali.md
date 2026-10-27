@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikadukapaṭṭhānapāḷi (4)
+
+# 16.33. Dassanahetuttika, Hetuduka
+
+**patthana16.33:1.1** Dassanena pahātabbahetukaṁ hetuṁ dhammaṁ paṭicca nadassanena pahātabbahetuko nahetu dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā soḷasa, ārammaṇe dvādasa, adhipatiyā terasa …pe… vipāke tīṇi …pe… avigate soḷasa.
+
+**patthana16.33:2.1** Dassanena pahātabbahetukaṁ nahetuṁ dhammaṁ paṭicca nabhāvanāya pahātabbahetuko nanahetu dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā nava …pe… vipāke tīṇi …pe… avigate nava.
+

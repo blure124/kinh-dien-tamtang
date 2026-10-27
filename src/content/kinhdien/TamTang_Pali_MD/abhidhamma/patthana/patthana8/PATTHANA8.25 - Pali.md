@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.25. Saññojanavippayuttasaññojaniyaduka
+
+**patthana8.25:1.1** Saññojanavippayuttaṁ nasaññojaniyaṁ dhammaṁ paṭicca saññojanavippayutto nasaññojaniyo dhammo uppajjati hetupaccayā. Saññojanavippayuttaṁ nasaññojaniyaṁ dhammaṁ paṭicca saññojanavippayutto naasaññojaniyo dhammo uppajjati hetupaccayā. Saññojanavippayuttaṁ nasaññojaniyaṁ dhammaṁ paṭicca saññojanavippayutto nasaññojaniyo ca saññojanavippayutto naasaññojaniyo ca dhammā uppajjanti hetupaccayā.
+
+**patthana8.25:2.1** Saññojanavippayuttaṁ naasaññojaniyaṁ dhammaṁ paṭicca saññojanavippayutto naasaññojaniyo dhammo uppajjati hetupaccayā.
+
+**patthana8.25:3.1** Saññojanavippayuttaṁ nasaññojaniyañca saññojanavippayuttaṁ naasaññojaniyañca dhammaṁ paṭicca saññojanavippayutto naasaññojaniyo dhammo uppajjati hetupaccayā.  (Saṅkhittaṁ.)
+
+**patthana8.25:4.1** Hetuyā pañca, ārammaṇe dve …pe… avigate pañca. (Sabbattha vitthāro.)
+
+**patthana8.25:5.1** Saññojanagocchakaṁ niṭṭhitaṁ.
+

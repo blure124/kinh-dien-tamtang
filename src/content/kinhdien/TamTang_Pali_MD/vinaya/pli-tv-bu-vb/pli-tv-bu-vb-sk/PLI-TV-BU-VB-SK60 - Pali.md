@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theravāda Vinaya
+
+# Mahāvibhaṅga
+
+# Sekhiyakaṇḍa
+
+# Surusuruvagga
+
+# 60. Āvudhapāṇisikkhāpada
+
+**pli-tv-bu-vb-sk60:1.1** Tena samayena buddho bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme.
+
+**pli-tv-bu-vb-sk60:1.2** Tena kho pana samayena chabbaggiyā bhikkhū āvudhapāṇissa dhammaṁ desenti …pe….
+
+**pli-tv-bu-vb-sk60:1.3.1** “Na āvudhapāṇissa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā”ti.
+
+**pli-tv-bu-vb-sk60:1.4.1** Āvudhaṁ nāma
+
+**pli-tv-bu-vb-sk60:1.5** cāpo kodaṇḍo.
+
+**pli-tv-bu-vb-sk60:1.6** Na āvudhapāṇissa agilānassa dhammo desetabbo.
+
+**pli-tv-bu-vb-sk60:1.7** Yo anādariyaṁ paṭicca āvudhapāṇissa agilānassa dhammaṁ deseti, āpatti dukkaṭassa.
+
+**pli-tv-bu-vb-sk60:1.8.1** Anāpatti—
+
+**pli-tv-bu-vb-sk60:1.9.1** asañcicca …pe…
+
+**pli-tv-bu-vb-sk60:1.10** ādikammikassāti.
+
+**pli-tv-bu-vb-sk60:1.11** Dasamasikkhāpadaṁ niṭṭhitaṁ.
+
+**pli-tv-bu-vb-sk60:1.12** Surusuruvaggo chaṭṭho.
+

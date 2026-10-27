@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 7.46
+
+# 5. Mahāyaññavagga
+
+# Paṭhamaaggisutta
+
+**an7.46:1.1** “Sattime, bhikkhave, aggī.
+
+**an7.46:1.2** Katame satta?
+
+**an7.46:1.3** Rāgaggi, dosaggi, mohaggi, āhuneyyaggi, gahapataggi, dakkhiṇeyyaggi, kaṭṭhaggi—
+
+**an7.46:1.4** ime kho, bhikkhave, satta aggī”ti.
+
+**an7.46:1.5** Tatiyaṁ.
+

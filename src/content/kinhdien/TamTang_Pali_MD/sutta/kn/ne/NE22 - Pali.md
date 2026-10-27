@@ -1,0 +1,32 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Netti
+
+# Paṭiniddesavāra
+
+# Sampāta 3
+
+# Yuttihārasampāta
+
+**ne22:1.1** Tattha katamo yuttihārasampāto?
+
+**ne22:2.1** “Tasmā rakkhitacittassa,
+
+**ne22:2.2** sammāsaṅkappagocaro;
+
+**ne22:2.3** Sammādiṭṭhipurekkhāro,
+
+**ne22:2.4** ñatvāna udayabbayaṁ;
+
+**ne22:2.5** Thinamiddhābhibhū bhikkhu,
+
+**ne22:2.6** sabbā duggatiyo jahe”ti.
+
+**ne22:3.1** “Tasmā rakkhitacittassa, sammāsaṅkappagocaro”ti rakkhitacittassa sammāsaṅkappagocaro bhavissatīti yujjati, sammāsaṅkappagocaro sammādiṭṭhi bhavissatīti yujjati, sammādiṭṭhipurekkhāro viharanto udayabbayaṁ paṭivijjhissatīti yujjati, udayabbayaṁ paṭivijjhanto sabbā duggatiyo jahissatīti yujjati.
+
+**ne22:3.2** Sabbā duggatiyo jahanto sabbāni duggativinipātabhayāni samatikkamissatīti yujjatīti.
+
+**ne22:3.3** Niyutto yuttihārasampāto.
+

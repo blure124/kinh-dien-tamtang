@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.74. Saraṇaduka
+
+**patthana8.74:1.1** Nasaraṇaṁ dhammaṁ paṭicca nasaraṇo dhammo uppajjati hetupaccayā … ekaṁ.
+
+**patthana8.74:2.1** Naaraṇaṁ dhammaṁ paṭicca naaraṇo dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana8.74:3.1** Nasaraṇañca naaraṇañca dhammaṁ paṭicca nasaraṇo dhammo uppajjati hetupaccayā … ekaṁ. (Saṅkhittaṁ.)
+
+**patthana8.74:4.1** Hetuyā pañca, ārammaṇe dve …pe… vipāke ekaṁ …pe… avigate pañca.
+

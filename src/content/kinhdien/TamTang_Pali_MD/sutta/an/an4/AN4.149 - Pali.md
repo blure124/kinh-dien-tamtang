@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.149
+
+# 15. Ābhāvagga
+
+# Sucaritasutta
+
+**an4.149:1.1** “Cattārimāni, bhikkhave, vacīsucaritāni.
+
+**an4.149:1.2** Katamāni cattāri?
+
+**an4.149:1.3** Saccavācā, apisuṇā vācā, saṇhā vācā, mantabhāsā—
+
+**an4.149:1.4** Imāni kho, bhikkhave, cattāri vacīsucaritānī”ti.
+
+**an4.149:1.5** Navamaṁ.
+

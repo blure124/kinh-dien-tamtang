@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 8.68
+
+# 7. Bhūmicālavagga
+
+# Ariyavohārasutta
+
+**an8.68:1.1** “Aṭṭhime, bhikkhave, ariyavohārā.
+
+**an8.68:1.2** Katame aṭṭha?
+
+**an8.68:1.3** Adiṭṭhe adiṭṭhavāditā, asute asutavāditā, amute amutavāditā, aviññāte aviññātavāditā, diṭṭhe diṭṭhavāditā, sute sutavāditā, mute mutavāditā, viññāte viññātavāditā.
+
+**an8.68:1.4** Ime kho, bhikkhave, aṭṭha ariyavohārā”ti.
+
+**an8.68:1.5** Aṭṭhamaṁ.
+

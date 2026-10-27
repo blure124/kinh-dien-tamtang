@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.225
+
+# 23. Dīghacārikavagga
+
+# Paṭhamakulūpakasutta
+
+**an5.225:1.1** “Pañcime, bhikkhave, ādīnavā kulūpake.
+
+**an5.225:1.2** Katame pañca?
+
+**an5.225:1.3** Anāmantacāre āpajjati, raho nisajjāya āpajjati, paṭicchanne āsane āpajjati, mātugāmassa uttari chappañcavācāhi dhammaṁ desento āpajjati, kāmasaṅkappabahulo viharati.
+
+**an5.225:1.4** Ime kho, bhikkhave, pañca ādīnavā kulūpake”ti.
+
+**an5.225:1.5** Pañcamaṁ.
+

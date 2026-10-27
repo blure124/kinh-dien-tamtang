@@ -1,0 +1,12 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# 8 Cittayamaka
+
+# 8.1 Uddesa
+
+# 8.1.2. Suttantacittamissakavisesa
+
+**ya8.1.2:1.1** Yassa sarāgaṁ cittaṁ uppajjati …pe… yassa vītarāgaṁ cittaṁ uppajjati … yassa sadosaṁ cittaṁ uppajjati … yassa vītadosaṁ cittaṁ uppajjati … yassa samohaṁ cittaṁ uppajjati … yassa vītamohaṁ cittaṁ uppajjati … yassa saṅkhittaṁ cittaṁ uppajjati … yassa vikkhittaṁ cittaṁ uppajjati … yassa mahaggataṁ cittaṁ uppajjati … yassa amahaggataṁ cittaṁ uppajjati … yassa sauttaraṁ cittaṁ uppajjati … yassa anuttaraṁ cittaṁ uppajjati … yassa samāhitaṁ cittaṁ uppajjati … yassa asamāhitaṁ cittaṁ uppajjati … yassa vimuttaṁ cittaṁ uppajjati … yassa avimuttaṁ cittaṁ uppajjati … ?
+

@@ -1,0 +1,24 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 3.41
+
+# 5. Cūḷavagga
+
+# Sammukhībhāvasutta
+
+**an3.41:1.1** “Tiṇṇaṁ, bhikkhave, sammukhībhāvā saddho kulaputto bahuṁ puññaṁ pasavati.
+
+**an3.41:1.2** Katamesaṁ tiṇṇaṁ?
+
+**an3.41:1.3** Saddhāya, bhikkhave, sammukhībhāvā saddho kulaputto bahuṁ puññaṁ pasavati.
+
+**an3.41:1.4** Deyyadhammassa, bhikkhave, sammukhībhāvā saddho kulaputto bahuṁ puññaṁ pasavati.
+
+**an3.41:1.5** Dakkhiṇeyyānaṁ, bhikkhave, sammukhībhāvā saddho kulaputto bahuṁ puññaṁ pasavati.
+
+**an3.41:1.6** Imesaṁ kho, bhikkhave, tiṇṇaṁ sammukhībhāvā saddho kulaputto bahuṁ puññaṁ pasavatī”ti.
+
+**an3.41:1.7** Paṭhamaṁ.
+

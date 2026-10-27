@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.147
+
+# 15. Tikaṇḍakīvagga
+
+# Asappurisadānasutta
+
+**an5.147:1.1** “Pañcimāni, bhikkhave, asappurisadānāni.
+
+**an5.147:1.2** Katamāni pañca?
+
+**an5.147:1.3** Asakkaccaṁ deti, acittīkatvā deti, asahatthā deti, apaviddhaṁ deti, anāgamanadiṭṭhiko deti.
+
+**an5.147:1.4** Imāni kho, bhikkhave, pañca asappurisadānāni.
+
+**an5.147:2.1** Pañcimāni, bhikkhave, sappurisadānāni.
+
+**an5.147:2.2** Katamāni pañca?
+
+**an5.147:2.3** Sakkaccaṁ deti, cittīkatvā deti, sahatthā deti, anapaviddhaṁ deti, āgamanadiṭṭhiko deti.
+
+**an5.147:2.4** Imāni kho, bhikkhave, pañca sappurisadānānī”ti.
+
+**an5.147:2.5** Sattamaṁ.
+

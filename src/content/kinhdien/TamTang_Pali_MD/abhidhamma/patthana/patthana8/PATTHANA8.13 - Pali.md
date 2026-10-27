@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.13. Kenaciviññeyyaduka
+
+**patthana8.13:1.1** Nakenaci viññeyyaṁ dhammaṁ paṭicca nakenaci viññeyyo dhammo uppajjati hetupaccayā. Nakenaci viññeyyaṁ dhammaṁ paṭicca nanakenaci viññeyyo dhammo uppajjati hetupaccayā. Nakenaci viññeyyaṁ dhammaṁ paṭicca nakenaci viññeyyo ca nanakenaci viññeyyo ca dhammā uppajjanti hetupaccayā.
+
+**patthana8.13:2.1** Nanakenaci viññeyyaṁ dhammaṁ paṭicca nanakenaci viññeyyo dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana8.13:3.1** Nakenaci viññeyyañca nanakenaci viññeyyañca dhammaṁ paṭicca nakenaci viññeyyo dhammo uppajjati hetupaccayā … tīṇi. (Saṅkhittaṁ.)
+
+**patthana8.13:4.1** Hetuyā nava …pe… avigate nava. (Sabbattha vitthāro.)
+
+**patthana8.13:5.1** Cūḷantaradukaṁ niṭṭhitaṁ.
+

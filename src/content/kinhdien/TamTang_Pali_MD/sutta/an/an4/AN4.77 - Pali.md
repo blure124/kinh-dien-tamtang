@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.77
+
+# 8. Apaṇṇakavagga
+
+# Acinteyyasutta
+
+**an4.77:1.1** “Cattārimāni, bhikkhave, acinteyyāni, na cintetabbāni; yāni cintento ummādassa vighātassa bhāgī assa.
+
+**an4.77:1.2** Katamāni cattāri?
+
+**an4.77:1.3** Buddhānaṁ, bhikkhave, buddhavisayo acinteyyo, na cintetabbo;
+
+**an4.77:1.4** yaṁ cintento ummādassa vighātassa bhāgī assa.
+
+**an4.77:1.5** Jhāyissa, bhikkhave, jhānavisayo acinteyyo, na cintetabbo;
+
+**an4.77:1.6** yaṁ cintento ummādassa vighātassa bhāgī assa.
+
+**an4.77:1.7** Kammavipāko, bhikkhave, acinteyyo, na cintetabbo;
+
+**an4.77:1.8** yaṁ cintento ummādassa vighātassa bhāgī assa.
+
+**an4.77:1.9** Lokacintā, bhikkhave, acinteyyā, na cintetabbā;
+
+**an4.77:1.10** yaṁ cintento ummādassa vighātassa bhāgī assa.
+
+**an4.77:1.11** Imāni kho, bhikkhave, cattāri acinteyyāni, na cintetabbāni; yāni cintento ummādassa vighātassa bhāgī assā”ti.
+
+**an4.77:1.12** Sattamaṁ.
+

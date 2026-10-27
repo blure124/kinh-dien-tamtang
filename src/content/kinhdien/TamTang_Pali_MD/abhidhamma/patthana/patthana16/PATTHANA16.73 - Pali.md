@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikadukapaṭṭhānapāḷi (4)
+
+# 16.73. Sanidassanattika, Cittasaṁsaṭṭhasamuṭṭhānadukādi
+
+**patthana16.73:1.1** Anidassanaappaṭighaṁ cittasaṁsaṭṭhasamuṭṭhānaṁ dhammaṁ paṭicca naanidassanaappaṭigho nocittasaṁsaṭṭhasamuṭṭhāno dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.)
+
+**patthana16.73:2.1** Hetuyā cha, ārammaṇe tīṇi …pe… avigate cha.
+
+**patthana16.73:3.1** Anidassanaappaṭighaṁ cittasaṁsaṭṭhasamuṭṭhānasahabhuṁ dhammaṁ paṭicca naanidassanaappaṭigho nocittasaṁsaṭṭhasamuṭṭhānasahabhū dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.)
+
+**patthana16.73:4.1** Hetuyā cha, ārammaṇe tīṇi …pe… avigate cha.
+
+**patthana16.73:5.1** Anidassanaappaṭighaṁ cittasaṁsaṭṭhasamuṭṭhānānuparivattiṁ dhammaṁ paṭicca naanidassanaappaṭigho nocittasaṁsaṭṭhasamuṭṭhānānuparivattī dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.)
+
+**patthana16.73:6.1** Hetuyā cha, ārammaṇe tīṇi …pe… avigate cha.
+

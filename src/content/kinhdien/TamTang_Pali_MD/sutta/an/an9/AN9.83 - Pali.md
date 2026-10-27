@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 9.83
+
+# 9. Iddhipādavagga
+
+# Sikkhasutta
+
+**an9.83:1.1** “Pañcimāni, bhikkhave, sikkhādubbalyāni.
+
+**an9.83:1.2** Katamāni pañca?
+
+**an9.83:1.3** Pāṇātipāto …pe… surāmerayamajjapamādaṭṭhānaṁ—
+
+**an9.83:1.4** imāni kho, bhikkhave, pañca sikkhādubbalyāni.
+
+**an9.83:2.1** Imesaṁ kho, bhikkhave, pañcannaṁ sikkhādubbalyānaṁ pahānāya cattāro iddhipādā bhāvetabbā.
+
+**an9.83:2.2** Katame cattāro?
+
+**an9.83:2.3** Idha, bhikkhave, bhikkhu chandasamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti,
+
+**an9.83:2.4** vīriyasamādhi …
+
+**an9.83:2.5** cittasamādhi …
+
+**an9.83:2.6** vīmaṁsāsamādhipadhānasaṅkhārasamannāgataṁ iddhipādaṁ bhāveti.
+
+**an9.83:2.7** Imesaṁ kho, bhikkhave, pañcannaṁ sikkhādubbalyānaṁ pahānāya ime cattāro iddhipādā bhāvetabbā”ti.
+
+**an9.83:2.8** Paṭhamaṁ.
+

@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.230
+
+# 23. Duccaritavagga
+
+# Duppaññasutta
+
+**an4.230:1.1** …pe… Assaddho hoti, dussīlo hoti, kusīto hoti, duppañño hoti …pe… saddho hoti, sīlavā hoti, āraddhavīriyo hoti, paññavā hoti—
+
+**an4.230:1.2** imehi kho, bhikkhave, catūhi dhammehi samannāgato paṇḍito viyatto sappuriso akkhataṁ anupahataṁ attānaṁ pariharati, anavajjo ca hoti ananuvajjo viññūnaṁ, bahuñca puññaṁ pasavatī”ti.
+
+**an4.230:1.3** Dasamaṁ.
+

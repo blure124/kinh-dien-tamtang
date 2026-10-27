@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 17
+
+# Ekakanipāta
+
+# Dutiyavagga
+
+# Dutiyasekhasutta
+
+**iti17:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti17:2.1** “Sekhassa, bhikkhave, bhikkhuno appattamānasassa anuttaraṁ yogakkhemaṁ patthayamānassa viharato bāhiraṁ aṅganti karitvā nāññaṁ ekaṅgampi samanupassāmi yaṁ evaṁ bahūpakāraṁ yathayidaṁ, bhikkhave, kalyāṇamittatā.
+
+**iti17:2.2** Kalyāṇamitto, bhikkhave, bhikkhu akusalaṁ pajahati, kusalaṁ bhāvetī”ti.
+
+**iti17:2.3** Etamatthaṁ bhagavā avoca.
+
+**iti17:2.4** Tatthetaṁ iti vuccati:
+
+**iti17:3.1** “Kalyāṇamitto yo bhikkhu,
+
+**iti17:3.2** sappatisso sagāravo;
+
+**iti17:3.3** Karaṁ mittānaṁ vacanaṁ,
+
+**iti17:3.4** sampajāno patissato;
+
+**iti17:3.5** Pāpuṇe anupubbena,
+
+**iti17:3.6** sabbasaṁyojanakkhayan”ti.
+
+**iti17:4.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti17:4.2** Sattamaṁ.
+

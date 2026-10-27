@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 1.72. Cỗ Xe
+
+> —Cỗ xe hiện tướng gì? Ngọn lửa hiện tướng gì? Vương quốc hiện tướng gì? Phụ nữ hiện tướng gì? —Cờ hiện tướng cỗ xe, Khói hiện tướng ngọn lửa, Vua hiện tướng vương quốc, Chồng hiện tướng nữ nhân.
+
+—Cỗ xe hiện tướng gì? Ngọn lửa hiện tướng gì? Vương quốc hiện tướng gì? Phụ nữ hiện tướng gì? —Cờ hiện tướng cỗ xe, Khói hiện tướng ngọn lửa, Vua hiện tướng vương quốc, Chồng hiện tướng nữ nhân.
+
+Bộ kinh đã được Hòa thượng Thích Minh Châu dịch sang Việt ngữ và Thiền viện Vạn Hạnh phát hành trong đầu thập niên 1980 . Sau đó, trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được tái bản năm 1993 và có số thứ tự từ 12 đến 16.
+
+Prepared for SuttaCentral by Blake Walsh .
+

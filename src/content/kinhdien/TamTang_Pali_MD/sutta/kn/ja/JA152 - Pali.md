@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Daḷhavagga
+
+# 2. Siṅgālajātaka
+
+**ja152:1.1** “Asamekkhitakammantaṁ,
+
+**ja152:1.2** turitābhinipātinaṁ;
+
+**ja152:1.3** Sāni kammāni tappenti,
+
+**ja152:1.4** uṇhaṁvajjhohitaṁ mukhe”.
+
+**ja152:2.1** “Sīho ca sīhanādena,
+
+**ja152:2.2** daddaraṁ abhinādayi;
+
+**ja152:2.3** Sutvā sīhassa nigghosaṁ,
+
+**ja152:2.4** siṅgālo daddare vasaṁ;
+
+**ja152:2.5** Bhīto santāsamāpādi,
+
+**ja152:2.6** hadayañcassa apphalī”ti.
+
+**ja152:3.1** Siṅgālajātakaṁ dutiyaṁ.
+

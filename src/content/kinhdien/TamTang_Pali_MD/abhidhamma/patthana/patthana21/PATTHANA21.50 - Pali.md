@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukatikapaṭṭhānapāḷi (3)
+
+# 21.50. Āsavavippayuttasāsavaduka, Sanidassanattika
+
+**patthana21.50:1.1** Āsavavippayuttaṁ nasāsavaṁ nasanidassanasappaṭighaṁ dhammaṁ paṭicca āsavavippayutto sāsavo sanidassanasappaṭigho dhammo uppajjati hetupaccayā … ekaṁ.
+
+**patthana21.50:2.1** Āsavavippayuttaṁ naanāsavaṁ nasanidassanasappaṭighaṁ dhammaṁ paṭicca āsavavippayutto sāsavo sanidassanasappaṭigho dhammo uppajjati hetupaccayā … ekaṁ. (Gaṇitakena tīṇi. Saṅkhittaṁ.) Hetuyā tīṇi, adhipatiyā tīṇi …pe… avigate tīṇi.
+
+**patthana21.50:3.1** (Āsavavippayuttanasāsavanaanidassanasappaṭighamūlepi purimanayeneva tīṇi pañhā.) Hetuyā tīṇi, adhipatiyā tīṇi …pe… aññamaññe ekaṁ …pe… avigate tīṇi.
+
+**patthana21.50:4.1** Āsavavippayuttaṁ naanāsavaṁ naanidassanaappaṭighaṁ dhammaṁ paṭicca āsavavippayutto sāsavo anidassanaappaṭigho dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ, adhipatiyā ekaṁ …pe… avigate ekaṁ.
+

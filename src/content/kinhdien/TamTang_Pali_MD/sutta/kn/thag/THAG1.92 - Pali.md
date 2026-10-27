@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 1.92
+
+# Ekakanipāta
+
+# Dasamavagga
+
+# Vijayattheragāthā
+
+**thag1.92:1.1** “Yassāsavā parikkhīṇā,
+
+**thag1.92:1.2** āhāre ca anissito;
+
+**thag1.92:1.3** Suññato animitto ca,
+
+**thag1.92:1.4** vimokkho yassa gocaro;
+
+**thag1.92:1.5** Ākāseva sakuntānaṁ,
+
+**thag1.92:1.6** padaṁ tassa durannayan”ti.
+
+**thag1.92:1.7** … Vijayo thero ….
+

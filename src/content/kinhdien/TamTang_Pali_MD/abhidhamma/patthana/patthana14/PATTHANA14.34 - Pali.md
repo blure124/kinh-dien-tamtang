@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukapaṭṭhānapāḷi (2)
+
+# 14.34. Niyyānikaduka
+
+**patthana14.34:1.1** Niyyānikaṁ dhammaṁ paṭicca naniyyāniko dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana14.34:2.1** Aniyyānikaṁ dhammaṁ paṭicca naniyyāniko dhammo uppajjati hetupaccayā.
+
+**patthana14.34:3.1** Niyyānikañca aniyyānikañca dhammaṁ paṭicca naniyyāniko dhammo uppajjati hetupaccayā.  (Saṅkhittaṁ.)
+
+**patthana14.34:4.1** Hetuyā pañca, ārammaṇe dve …pe… vipāke ekaṁ …pe… avigate pañca.
+

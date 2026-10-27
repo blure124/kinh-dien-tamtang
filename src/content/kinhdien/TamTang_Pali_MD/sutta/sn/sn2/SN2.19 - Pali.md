@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 2.19
+
+# 2. Anāthapiṇḍikavagga
+
+# Uttarasutta
+
+**sn2.19:1.1** Rājagahanidānaṁ.
+
+**sn2.19:1.2** Ekamantaṁ ṭhito kho uttaro devaputto bhagavato santike imaṁ gāthaṁ abhāsi:
+
+**sn2.19:2.1** “Upanīyati jīvitamappamāyu,
+
+**sn2.19:2.2** Jarūpanītassa na santi tāṇā;
+
+**sn2.19:2.3** Etaṁ bhayaṁ maraṇe pekkhamāno,
+
+**sn2.19:2.4** Puññāni kayirātha sukhāvahānī”ti.
+
+**sn2.19:3.1** “Upanīyati jīvitamappamāyu,
+
+**sn2.19:3.2** Jarūpanītassa na santi tāṇā;
+
+**sn2.19:3.3** Etaṁ bhayaṁ maraṇe pekkhamāno,
+
+**sn2.19:3.4** Lokāmisaṁ pajahe santipekkho”ti.
+

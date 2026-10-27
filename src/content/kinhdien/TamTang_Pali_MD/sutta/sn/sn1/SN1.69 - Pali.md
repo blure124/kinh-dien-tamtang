@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.69
+
+# 7. Addhavagga
+
+# Icchāsutta
+
+**sn1.69:1.1** “Kenassu bajjhatī loko,
+
+**sn1.69:1.2** kissa vinayāya muccati;
+
+**sn1.69:1.3** Kissassu vippahānena,
+
+**sn1.69:1.4** sabbaṁ chindati bandhanan”ti.
+
+**sn1.69:2.1** “Icchāya bajjhatī loko,
+
+**sn1.69:2.2** icchāvinayāya muccati;
+
+**sn1.69:2.3** Icchāya vippahānena,
+
+**sn1.69:2.4** sabbaṁ chindati bandhanan”ti.
+

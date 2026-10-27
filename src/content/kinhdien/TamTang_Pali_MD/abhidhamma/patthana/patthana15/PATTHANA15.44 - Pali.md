@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.44. Cittasahabhūduka, Kusalattika
+
+**patthana15.44:1.1** Cittasahabhuṁ kusalaṁ dhammaṁ paṭicca nocittasahabhū nakusalo dhammo uppajjati hetupaccayā …. Hetuyā nava …pe… avigate nava.
+
+**patthana15.44:2.1** Cittasahabhuṁ akusalaṁ dhammaṁ paṭicca nocittasahabhū naakusalo dhammo uppajjati hetupaccayā …. Hetuyā nava …pe… avigate nava. (Abyākatamūlaṁ tīṇiyeva paccayavasena.)
+

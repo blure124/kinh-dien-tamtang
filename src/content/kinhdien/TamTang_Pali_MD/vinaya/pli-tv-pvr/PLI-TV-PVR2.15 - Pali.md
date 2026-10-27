@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Parivāra
+
+# Bhikkhunivibhaṅga
+
+# Dutiyabhāga
+
+# 2.15 Samathavāra
+
+**pli-tv-pvr2.15:1.1** Kāyasaṁsaggaṁ sādiyanapaccayā āpattiyo sattannaṁ samathānaṁ katihi samathehi sammanti?
+
+**pli-tv-pvr2.15:1.2** Kāyasaṁsaggaṁ sādiyanapaccayā āpattiyo sattannaṁ samathānaṁ tīhi samathehi sammanti—
+
+**pli-tv-pvr2.15:1.3** siyā sammukhāvinayena ca paṭiññātakaraṇena ca, siyā sammukhāvinayena ca tiṇavatthārakena ca …pe….
+
+**pli-tv-pvr2.15:2.1** Dadhiṁ viññāpetvā bhuñjanapaccayā āpattiyo sattannaṁ samathānaṁ katihi samathehi sammanti?
+
+**pli-tv-pvr2.15:2.2** Dadhiṁ viññāpetvā bhuñjanapaccayā āpattiyo sattannaṁ samathānaṁ tīhi samathehi sammanti—
+
+**pli-tv-pvr2.15:2.3** siyā sammukhāvinayena ca paṭiññātakaraṇena ca, siyā sammukhāvinayena ca tiṇavatthārakena ca.
+
+**pli-tv-pvr2.15:3.1** Samathavāro niṭṭhito sattamo.
+

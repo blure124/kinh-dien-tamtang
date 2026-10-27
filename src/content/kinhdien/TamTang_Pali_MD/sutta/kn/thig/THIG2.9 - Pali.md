@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 2.9
+
+# Dukanipāta
+
+# Abhayātherīgāthā
+
+**thig2.9:1.1** “Abhaye bhiduro kāyo,
+
+**thig2.9:1.2** yattha satā puthujjanā;
+
+**thig2.9:1.3** Nikkhipissāmimaṁ dehaṁ,
+
+**thig2.9:1.4** sampajānā satīmatī.
+
+**thig2.9:2.1** Bahūhi dukkhadhammehi,
+
+**thig2.9:2.2** appamādaratāya me;
+
+**thig2.9:2.3** Taṇhakkhayo anuppatto,
+
+**thig2.9:2.4** kataṁ buddhassa sāsanan”ti.
+
+**thig2.9:3.1** … Abhayā therī ….
+

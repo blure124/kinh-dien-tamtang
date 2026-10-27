@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.67. Kāmāvacaraduka
+
+**patthana8.67:1.1** Nakāmāvacaraṁ dhammaṁ paṭicca nakāmāvacaro dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana8.67:2.1** Nanakāmāvacaraṁ dhammaṁ paṭicca nanakāmāvacaro dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana8.67:3.1** Nakāmāvacarañca nanakāmāvacarañca dhammaṁ paṭicca nakāmāvacaro dhammo uppajjati hetupaccayā … tīṇi. (Saṅkhittaṁ.)
+
+**patthana8.67:4.1** Hetuyā nava, ārammaṇe cattāri, adhipatiyā pañca …pe… aññamaññe cha …pe… purejāte āsevane dve …pe… avigate nava.
+

@@ -1,0 +1,24 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 4.182. An Toàn
+
+TTC 1 —Này các Tỷ-kheo, không một Sa-môn, Bà-la-môn, Thiên, Nhân, Màra, Phạm thiên hay một ai ở đời có được sự an toàn đối với bốn pháp. Thế nào là bốn?
+
+Bản tánh bị già, mong rằng không già, không một Sa-môn, Bà-la-môn, Thiên, Nhân … đối với pháp này.
+
+TTC 2 Bản tánh bị bệnh, mong rằng không bệnh, không một Sa-môn, Bà-la-môn, Thiên, Nhân … đối với pháp này.
+
+TTC 3 Bản tánh bị chết, mong rằng không bị chết, không một Sa-môn, Bà-la-môn, Thiên, Nhân … đối với pháp này.
+
+TTC 4 Khổ quả của những ác nghiệp ấy (những nghiệp) tạp nhiễm, đưa đến tái sanh, đem lại phiền muộn, đem lại khổ quả dị thục sanh, già, chết trong tương lai, kết quả của những nghiệp ấy mong rằng không có hiện hữu. Không một Sa-môn, Bà-la-môn, Thiên, Nhân, Màra, Phạm thiên hay một ai ở đời có được sự an toàn đối với bốn pháp này.
+
+Này các Tỷ-kheo, không một Sa-môn, Bà-la-môn, Thiên, Nhân, Màra, Phạm thiên hay một ai ở đời có được sự an toàn đối với bốn pháp này.
+
+Bộ kinh nầy được Hòa thượng Thích Minh Châu dịch từ tạng Pali sang Việt ngữ năm 1976–1977, và được Viện Phật Học Vạn Hạnh, Sài Gòn, ấn hành năm 1980–1981 . Trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được hiệu đính thành 4 tập và tái bản năm 1996, qua số thứ tự 21, 22, 23, và 24.
+
+These texts have been used with the kind permission of the webmaster of http://www.budsas.net/
+
+Prepared for SuttaCentral by Ayya Vimala .
+

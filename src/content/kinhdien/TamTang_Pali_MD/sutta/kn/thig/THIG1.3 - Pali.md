@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 1.3
+
+# Ekakanipāta
+
+# Puṇṇātherīgāthā
+
+**thig1.3:1.1** “Puṇṇe pūrassu dhammehi,
+
+**thig1.3:1.2** Cando pannaraseriva;
+
+**thig1.3:1.3** Paripuṇṇāya paññāya,
+
+**thig1.3:1.4** Tamokhandhaṁ padālayā”ti.
+
+**thig1.3:2.1** Itthaṁ sudaṁ puṇṇā therī gāthaṁ abhāsitthāti.
+

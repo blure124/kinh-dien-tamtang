@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Bīraṇathambhavagga
+
+# 10. Dhammadhajajātaka
+
+**ja220:1.1** “Sukhaṁ jīvitarūposi,
+
+**ja220:1.2** raṭṭhā vivanamāgato;
+
+**ja220:1.3** So ekako rukkhamūle,
+
+**ja220:1.4** kapaṇo viya jhāyasi”.
+
+**ja220:2.1** “Sukhaṁ jīvitarūposmi,
+
+**ja220:2.2** raṭṭhā vivanamāgato;
+
+**ja220:2.3** So ekako rukkhamūle,
+
+**ja220:2.4** kapaṇo viya jhāyāmi;
+
+**ja220:2.5** Sataṁ dhammaṁ anussaran”ti.
+
+**ja220:3.1** Dhammadhajajātakaṁ dasamaṁ.
+
+**ja220:3.2** Bīraṇathambhavaggo sattamo.
+
+**ja220:4.1** Tassuddānaṁ
+
+**ja220:5.1** Atha bīraṇathambhavaro ca naṭo,
+
+**ja220:5.2** Bharurājavaruttamapuṇṇanadī;
+
+**ja220:5.3** Bahubhāṇi aggipavane mūsikā,
+
+**ja220:5.4** Sahalambatthano kapaṇena dasāti.
+

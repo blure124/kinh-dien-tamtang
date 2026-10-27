@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 8
+
+# 11. Rāgapeyyāla
+
+# ~
+
+**an8.121-147:1.1** “Rāgassa, bhikkhave, pariññāya …pe…
+
+**an8.121-147:1.2** parikkhayāya …
+
+**an8.121-147:1.3** pahānāya …
+
+**an8.121-147:1.4** khayāya …
+
+**an8.121-147:1.5** vayāya …
+
+**an8.121-147:1.6** virāgāya …
+
+**an8.121-147:1.7** nirodhāya …
+
+**an8.121-147:1.8** cāgāya …
+
+**an8.121-147:1.9** paṭinissaggāya …pe…
+
+**an8.121-147:1.10** ime aṭṭha dhammā bhāvetabbā”.
+

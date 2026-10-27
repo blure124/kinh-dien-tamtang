@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukatikapaṭṭhānapāḷi (3)
+
+# 21.33. Hetuduka, Atītattika
+
+**patthana21.33:1.1** Nahetu napaccuppanno dhammo hetussa paccuppannassa dhammassa ārammaṇapaccayena paccayo. (Saṅkhittaṁ.)
+
+**patthana21.33:2.1** Ārammaṇe nava, adhipatiyā nava, anantare samanantare nava, upanissaye nava, natthiyā vigate nava.
+

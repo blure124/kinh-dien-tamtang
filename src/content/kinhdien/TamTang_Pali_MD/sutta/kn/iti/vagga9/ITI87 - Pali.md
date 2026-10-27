@@ -1,0 +1,58 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 87
+
+# Tikanipāta
+
+# Catutthavagga
+
+# Andhakaraṇasutta
+
+**iti87:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti87:2.1** “Tayome, bhikkhave, akusalavitakkā andhakaraṇā acakkhukaraṇā aññāṇakaraṇā paññānirodhikā vighātapakkhikā anibbānasaṁvattanikā.
+
+**iti87:2.2** Katame tayo?
+
+**iti87:2.3** Kāmavitakko, bhikkhave, andhakaraṇo acakkhukaraṇo aññāṇakaraṇo paññānirodhiko vighātapakkhiko anibbānasaṁvattaniko.
+
+**iti87:2.4** Byāpādavitakko, bhikkhave, andhakaraṇo acakkhukaraṇo aññāṇakaraṇo paññānirodhiko vighātapakkhiko anibbānasaṁvattaniko.
+
+**iti87:2.5** Vihiṁsāvitakko, bhikkhave, andhakaraṇo acakkhukaraṇo aññāṇakaraṇo paññānirodhiko vighātapakkhiko anibbānasaṁvattaniko.
+
+**iti87:2.6** Ime kho, bhikkhave, tayo akusalavitakkā andhakaraṇā acakkhukaraṇā aññāṇakaraṇā paññānirodhikā vighātapakkhikā anibbānasaṁvattanikā.
+
+**iti87:3.1** Tayome, bhikkhave, kusalavitakkā anandhakaraṇā cakkhukaraṇā ñāṇakaraṇā paññāvuddhikā avighātapakkhikā nibbānasaṁvattanikā.
+
+**iti87:3.2** Katame tayo?
+
+**iti87:3.3** Nekkhammavitakko, bhikkhave, anandhakaraṇo cakkhukaraṇo ñāṇakaraṇo paññāvuddhiko avighātapakkhiko nibbānasaṁvattaniko.
+
+**iti87:3.4** Abyāpādavitakko, bhikkhave, anandhakaraṇo cakkhukaraṇo ñāṇakaraṇo paññāvuddhiko avighātapakkhiko nibbānasaṁvattaniko.
+
+**iti87:3.5** Avihiṁsāvitakko, bhikkhave, anandhakaraṇo cakkhukaraṇo ñāṇakaraṇo paññāvuddhiko avighātapakkhiko nibbānasaṁvattaniko.
+
+**iti87:3.6** Ime kho, bhikkhave, tayo kusalavitakkā anandhakaraṇā cakkhukaraṇā ñāṇakaraṇā paññāvuddhikā avighātapakkhikā nibbānasaṁvattanikā”ti.
+
+**iti87:3.7** Etamatthaṁ bhagavā avoca.
+
+**iti87:3.8** Tatthetaṁ iti vuccati:
+
+**iti87:4.1** “Tayo vitakke kusale vitakkaye,
+
+**iti87:4.2** Tayo pana akusale nirākare;
+
+**iti87:4.3** Sa ve vitakkāni vicāritāni,
+
+**iti87:4.4** Sameti vuṭṭhīva rajaṁ samūhataṁ;
+
+**iti87:4.5** Sa ve vitakkūpasamena cetasā,
+
+**iti87:4.6** Idheva so santipadaṁ samajjhagā”ti.
+
+**iti87:5.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti87:5.2** Aṭṭhamaṁ.
+

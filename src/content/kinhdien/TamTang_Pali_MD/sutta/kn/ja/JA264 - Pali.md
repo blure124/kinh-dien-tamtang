@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Tikanipāta
+
+# Padumavagga
+
+# 4. Mahāpanādajātaka
+
+**ja264:1.1** “Panādo nāma so rājā,
+
+**ja264:1.2** yassa yūpo suvaṇṇayo;
+
+**ja264:1.3** Tiriyaṁ soḷasubbedho,
+
+**ja264:1.4** uddhamāhu sahassadhā.
+
+**ja264:2.1** Sahassakaṇḍo satageṇḍu,
+
+**ja264:2.2** dhajālu haritāmayo;
+
+**ja264:2.3** Anaccuṁ tattha gandhabbā,
+
+**ja264:2.4** cha sahassāni sattadhā.
+
+**ja264:3.1** Evametaṁ tadā āsi,
+
+**ja264:3.2** yathā bhāsasi bhaddaji;
+
+**ja264:3.3** Sakko ahaṁ tadā āsiṁ,
+
+**ja264:3.4** veyyāvaccakaro tavā”ti.
+
+**ja264:4.1** Mahāpanādajātakaṁ catutthaṁ.
+

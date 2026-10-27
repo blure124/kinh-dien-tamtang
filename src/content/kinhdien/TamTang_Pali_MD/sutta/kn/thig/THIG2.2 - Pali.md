@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 2.2
+
+# Dukanipāta
+
+# Jentātherīgāthā
+
+**thig2.2:1.1** “Ye ime satta bojjhaṅgā,
+
+**thig2.2:1.2** maggā nibbānapattiyā;
+
+**thig2.2:1.3** Bhāvitā te mayā sabbe,
+
+**thig2.2:1.4** yathā buddhena desitā.
+
+**thig2.2:2.1** Diṭṭho hi me so bhagavā,
+
+**thig2.2:2.2** antimoyaṁ samussayo;
+
+**thig2.2:2.3** Vikkhīṇo jātisaṁsāro,
+
+**thig2.2:2.4** natthi dāni punabbhavo”ti.
+
+**thig2.2:3.1** Itthaṁ sudaṁ jentā therī gāthāyo abhāsitthāti.
+

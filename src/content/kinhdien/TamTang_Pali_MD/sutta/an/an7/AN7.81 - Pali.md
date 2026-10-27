@@ -1,0 +1,32 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 7.81
+
+# 8. Vinayavagga
+
+# Tatiyavinayadharasobhanasutta
+
+**an7.81:1.1** “Sattahi, bhikkhave, dhammehi samannāgato vinayadharo sobhati.
+
+**an7.81:1.2** Katamehi sattahi?
+
+**an7.81:1.3** Āpattiṁ jānāti,
+
+**an7.81:1.4** anāpattiṁ jānāti,
+
+**an7.81:1.5** lahukaṁ āpattiṁ jānāti,
+
+**an7.81:1.6** garukaṁ āpattiṁ jānāti,
+
+**an7.81:1.7** vinaye kho pana ṭhito hoti asaṁhīro,
+
+**an7.81:1.8** catunnaṁ jhānānaṁ …pe… akasiralābhī,
+
+**an7.81:1.9** āsavānaṁ khayā …pe… sacchikatvā upasampajja viharati.
+
+**an7.81:1.10** Imehi kho, bhikkhave, sattahi dhammehi samannāgato vinayadharo sobhatī”ti.
+
+**an7.81:1.11** Sattamaṁ.
+

@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukatikapaṭṭhānapāḷi (3)
+
+# 21.11. Āsavavippayuttasāsavaduka, Kusalattika
+
+**patthana21.11:1.1** Āsavavippayuttaṁ naanāsavaṁ nakusalaṁ dhammaṁ paccayā āsavavippayutto anāsavo kusalo dhammo uppajjati hetupaccayā. Āsavavippayuttaṁ naanāsavaṁ nakusalaṁ dhammaṁ paccayā āsavavippayutto sāsavo kusalo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā dve …pe… avigate dve.
+
+**patthana21.11:2.1** Āsavavippayuttaṁ naanāsavaṁ naakusalaṁ dhammaṁ paccayā āsavavippayutto sāsavo akusalo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana21.11:3.1** Āsavavippayuttaṁ nasāsavaṁ naabyākataṁ dhammaṁ paṭicca āsavavippayutto sāsavo abyākato dhammo uppajjati hetupaccayā. Āsavavippayuttaṁ naanāsavaṁ naabyākataṁ dhammaṁ paṭicca āsavavippayutto sāsavo abyākato dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā dve, adhipatiyā dve …pe… avigate dve.
+

@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 1.7
+
+# Ekakanipāta
+
+# Vīrātherīgāthā
+
+**thig1.7:1.1** “Vīrā vīrehi dhammehi,
+
+**thig1.7:1.2** bhikkhunī bhāvitindriyā;
+
+**thig1.7:1.3** Dhāreti antimaṁ dehaṁ,
+
+**thig1.7:1.4** jetvā māraṁ savāhinin”ti.
+
+**thig1.7:2.1** … Vīrā therī ….
+

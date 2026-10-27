@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Kalyāṇavagga
+
+# 7. Tindukajātaka
+
+**ja177:1.1** “Dhanuhatthakalāpehi,
+
+**ja177:1.2** nettiṁ savaradhāribhi;
+
+**ja177:1.3** Samantā parikiṇṇamha,
+
+**ja177:1.4** kathaṁ mokkho bhavissati”.
+
+**ja177:2.1** “Appeva bahukiccānaṁ,
+
+**ja177:2.2** attho jāyetha koci naṁ;
+
+**ja177:2.3** Atthi rukkhassa acchinnaṁ,
+
+**ja177:2.4** khajjathaññeva tindukan”ti.
+
+**ja177:3.1** Tindukajātakaṁ sattamaṁ.
+

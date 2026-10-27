@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukapaṭṭhānapāḷi (2)
+
+# 8.62. Savicāraduka
+
+**patthana8.62:1.1** Nasavicāraṁ dhammaṁ paṭicca nasavicāro dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana8.62:2.1** Naavicāraṁ dhammaṁ paṭicca naavicāro dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana8.62:3.1** Nasavicārañca naavicārañca dhammaṁ paṭicca nasavicāro dhammo uppajjati hetupaccayā … tīṇi. (Saṅkhittaṁ.)
+
+**patthana8.62:4.1** Hetuyā nava …pe… purejāte āsevane cha …pe… avigate nava.
+

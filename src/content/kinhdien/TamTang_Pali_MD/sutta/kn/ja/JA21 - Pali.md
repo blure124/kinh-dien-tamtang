@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Kuruṅgavagga
+
+# 1. Kuruṅgamigajātaka
+
+**ja21:1.1** “Ñātametaṁ kuruṅgassa,
+
+**ja21:1.2** yaṁ tvaṁ sepaṇṇi siyyasi;
+
+**ja21:1.3** Aññaṁ sepaṇṇi gacchāmi,
+
+**ja21:1.4** na me te ruccate phalan”ti.
+
+**ja21:2.1** Kuruṅgamigajātakaṁ paṭhamaṁ.
+

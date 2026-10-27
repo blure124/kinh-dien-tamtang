@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 9.67
+
+# 7. Satipaṭṭhānavagga
+
+# Orambhāgiyasutta
+
+**an9.67:1.1** “Pañcimāni, bhikkhave, orambhāgiyāni saṁyojanāni.
+
+**an9.67:1.2** Katamāni pañca?
+
+**an9.67:1.3** Sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso, kāmacchando, byāpādo—
+
+**an9.67:1.4** imāni kho, bhikkhave, pañcorambhāgiyāni saṁyojanāni.
+
+**an9.67:2.1** Imesaṁ kho, bhikkhave, pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ pahānāya …pe… ime cattāro satipaṭṭhānā bhāvetabbā”ti.
+
+**an9.67:2.2** Pañcamaṁ.
+

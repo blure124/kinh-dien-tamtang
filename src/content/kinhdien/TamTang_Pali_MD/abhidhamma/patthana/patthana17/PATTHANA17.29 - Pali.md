@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikatikapaṭṭhānapāḷi (5)
+
+# 17.29. Sanidassanattika, Vipākattika
+
+**patthana17.29:1.1** Anidassanaappaṭighaṁ vipākaṁ dhammaṁ paṭicca naanidassanaappaṭigho navipāko dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā cha, adhipatiyā cha …pe… aññamaññe tīṇi …pe… avigate cha.
+
+**patthana17.29:2.1** Anidassanaappaṭighaṁ vipākadhammadhammaṁ paṭicca naanidassanaappaṭigho navipākadhammadhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā cha, adhipatiyā cha …pe… avigate cha.
+
+**patthana17.29:3.1** Anidassanaappaṭighaṁ nevavipākanavipākadhammadhammaṁ paṭicca nasanidassanasappaṭigho nanevavipākanavipākadhammadhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+

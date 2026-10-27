@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 7.27
+
+# 3. Vajjisattakavagga
+
+# Saññāsutta
+
+**an7.27:1.1** “Satta vo, bhikkhave, aparihāniye dhamme desessāmi.
+
+**an7.27:1.2** Taṁ suṇātha, sādhukaṁ manasi karotha …pe….
+
+**an7.27:1.3** Katame ca, bhikkhave, satta aparihāniyā dhammā?
+
+**an7.27:1.4** Yāvakīvañca, bhikkhave, bhikkhū aniccasaññaṁ bhāvessanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni.
+
+**an7.27:2.1** Yāvakīvañca, bhikkhave, bhikkhū anattasaññaṁ bhāvessanti …pe…
+
+**an7.27:2.2** asubhasaññaṁ bhāvessanti …
+
+**an7.27:2.3** ādīnavasaññaṁ bhāvessanti …
+
+**an7.27:2.4** pahānasaññaṁ bhāvessanti …
+
+**an7.27:2.5** virāgasaññaṁ bhāvessanti …
+
+**an7.27:2.6** nirodhasaññaṁ bhāvessanti;
+
+**an7.27:3.1** vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu, bhikkhū sandississanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihānī”ti.
+
+**an7.27:3.2** Sattamaṁ.
+

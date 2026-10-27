@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.38. Sārammaṇaduka, Kusalattika
+
+**patthana15.38:1.1** Sārammaṇaṁ kusalaṁ dhammaṁ paṭicca nasārammaṇo nakusalo dhammo uppajjati hetupaccayā. Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana15.38:2.1** Sārammaṇaṁ akusalaṁ dhammaṁ paṭicca nasārammaṇo naakusalo dhammo uppajjati hetupaccayā. Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana15.38:3.1** Anārammaṇaṁ abyākataṁ dhammaṁ paccayā naanārammaṇo naabyākato dhammo uppajjati hetupaccayā. Hetuyā ekaṁ …pe… avigate ekaṁ.
+

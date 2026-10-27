@@ -1,0 +1,42 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 57
+
+# Tikanipāta
+
+# Paṭhamavagga
+
+# Dutiyaāsavasutta
+
+**iti57:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti57:2.1** “Tayome, bhikkhave, āsavā.
+
+**iti57:2.2** Katame tayo?
+
+**iti57:2.3** Kāmāsavo, bhavāsavo, avijjāsavo—
+
+**iti57:2.4** ime kho, bhikkhave, tayo āsavā”ti.
+
+**iti57:2.5** Etamatthaṁ bhagavā avoca.
+
+**iti57:2.6** Tatthetaṁ iti vuccati:
+
+**iti57:3.1** “Yassa kāmāsavo khīṇo,
+
+**iti57:3.2** avijjā ca virājitā;
+
+**iti57:3.3** Bhavāsavo parikkhīṇo,
+
+**iti57:3.4** vippamutto nirūpadhi;
+
+**iti57:3.5** Dhāreti antimaṁ dehaṁ,
+
+**iti57:3.6** jetvā māraṁ savāhinin”ti.
+
+**iti57:4.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti57:4.2** Aṭṭhamaṁ.
+

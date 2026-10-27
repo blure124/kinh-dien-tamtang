@@ -1,0 +1,46 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Catukkanipāta
+
+# Kāliṅgavagga
+
+# 8. Sakuṇajātaka
+
+**ja308:1.1** “Akaramhasa te kiccaṁ,
+
+**ja308:1.2** yaṁ balaṁ ahuvamhase;
+
+**ja308:1.3** Migarāja namo tyatthu,
+
+**ja308:1.4** api kiñci labhāmase”.
+
+**ja308:2.1** “Mama lohitabhakkhassa,
+
+**ja308:2.2** niccaṁ luddāni kubbato;
+
+**ja308:2.3** Dantantaragato santo,
+
+**ja308:2.4** taṁ bahuṁ yampi jīvasi”.
+
+**ja308:3.1** “Akataññumakattāraṁ,
+
+**ja308:3.2** katassa appaṭikārakaṁ;
+
+**ja308:3.3** Yasmiṁ kataññutā natthi,
+
+**ja308:3.4** niratthā tassa sevanā.
+
+**ja308:4.1** Yassa sammukhaciṇṇena,
+
+**ja308:4.2** Mittadhammo na labbhati;
+
+**ja308:4.3** Anusūyamanakkosaṁ,
+
+**ja308:4.4** Saṇikaṁ tamhā apakkame”ti.
+
+**ja308:5.1** Sakuṇajātakaṁ aṭṭhamaṁ.
+

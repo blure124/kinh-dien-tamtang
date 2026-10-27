@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Asampadānavagga
+
+# 9. Ubhatobhaṭṭhajātaka
+
+**ja139:1.1** “Akkhī bhinnā paṭo naṭṭho,
+
+**ja139:1.2** sakhigehe ca bhaṇḍanaṁ;
+
+**ja139:1.3** Ubhato paduṭṭhā kammantā,
+
+**ja139:1.4** udakamhi thalamhi cā”ti.
+
+**ja139:2.1** Ubhatobhaṭṭhajātakaṁ navamaṁ.
+

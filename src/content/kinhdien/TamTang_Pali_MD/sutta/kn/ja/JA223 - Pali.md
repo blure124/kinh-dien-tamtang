@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Kāsāvavagga
+
+# 3. Puṭabhattajātaka
+
+**ja223:1.1** “Name namantassa bhaje bhajantaṁ,
+
+**ja223:1.2** Kiccānukubbassa kareyya kiccaṁ;
+
+**ja223:1.3** Nānatthakāmassa kareyya atthaṁ,
+
+**ja223:1.4** Asambhajantampi na sambhajeyya.
+
+**ja223:2.1** Caje cajantaṁ vanathaṁ na kayirā,
+
+**ja223:2.2** Apetacittena na sambhajeyya;
+
+**ja223:2.3** Dijo dumaṁ khīṇaphalanti ñatvā,
+
+**ja223:2.4** Aññaṁ samekkheyya mahā hi loko”ti.
+
+**ja223:3.1** Puṭabhattajātakaṁ tatiyaṁ.
+

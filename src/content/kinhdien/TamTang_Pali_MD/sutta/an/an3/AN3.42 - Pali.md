@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 3.42
+
+# 5. Cūḷavagga
+
+# Tiṭhānasutta
+
+**an3.42:1.1** “Tīhi, bhikkhave, ṭhānehi saddho pasanno veditabbo.
+
+**an3.42:1.2** Katamehi tīhi?
+
+**an3.42:1.3** Sīlavantānaṁ dassanakāmo hoti, saddhammaṁ sotukāmo hoti, vigatamalamaccherena cetasā agāraṁ ajjhāvasati muttacāgo payatapāṇi vossaggarato yācayogo dānasaṁvibhāgarato.
+
+**an3.42:1.4** Imehi kho, bhikkhave, tīhi ṭhānehi saddho pasanno veditabbo.
+
+**an3.42:2.1** Dassanakāmo sīlavataṁ,
+
+**an3.42:2.2** saddhammaṁ sotumicchati;
+
+**an3.42:2.3** Vinaye maccheramalaṁ,
+
+**an3.42:2.4** sa ve saddhoti vuccatī”ti.
+
+**an3.42:2.5** Dutiyaṁ.
+

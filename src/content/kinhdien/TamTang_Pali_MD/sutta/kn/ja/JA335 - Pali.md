@@ -1,0 +1,46 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Catukkanipāta
+
+# Kokilavagga
+
+# 5. Jambukajātaka
+
+**ja335:1.1** “Brahā pavaḍḍhakāyo so,
+
+**ja335:1.2** dīghadāṭho ca jambuka;
+
+**ja335:1.3** Na tvaṁ tattha kule jāto,
+
+**ja335:1.4** yattha gaṇhanti kuñjaraṁ”.
+
+**ja335:2.1** “Asīho sīhamānena,
+
+**ja335:2.2** yo attānaṁ vikubbati;
+
+**ja335:2.3** Kotthūva gajamāsajja,
+
+**ja335:2.4** seti bhūmyā anutthunaṁ.
+
+**ja335:3.1** Yasassino uttamapuggalassa,
+
+**ja335:3.2** Sañjātakhandhassa mahabbalassa;
+
+**ja335:3.3** Asamekkhiya thāmabalūpapattiṁ,
+
+**ja335:3.4** Sa seti nāgena hatoyaṁ jambuko.
+
+**ja335:4.1** Yo cīdha kammaṁ kurute pamāya,
+
+**ja335:4.2** Thāmabbalaṁ attani saṁviditvā;
+
+**ja335:4.3** Jappena mantena subhāsitena,
+
+**ja335:4.4** Parikkhavā so vipulaṁ jinātī”ti.
+
+**ja335:5.1** Jambukajātakaṁ pañcamaṁ.
+

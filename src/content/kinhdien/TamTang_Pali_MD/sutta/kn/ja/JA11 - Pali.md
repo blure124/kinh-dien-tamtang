@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Sīlavagga
+
+# 1. Lakkhaṇamigajātaka
+
+**ja11:1.1** “Hoti sīlavataṁ attho,
+
+**ja11:1.2** paṭisanthāravuttinaṁ;
+
+**ja11:1.3** Lakkhaṇaṁ passa āyantaṁ,
+
+**ja11:1.4** ñātisaṅghapurakkhataṁ;
+
+**ja11:1.5** Atha passasimaṁ kāḷaṁ,
+
+**ja11:1.6** suvihīnaṁva ñātibhī”ti.
+
+**ja11:2.1** Lakkhaṇamigajātakaṁ paṭhamaṁ.
+

@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukadukapaṭṭhānapāḷi (6)
+
+# 24.13. Mahantaradukādi, Hetuduka
+
+**patthana24.13:1.1** Nasārammaṇaṁ nahetuṁ dhammaṁ paṭicca sārammaṇo hetu dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi, ārammaṇe tīṇi, adhipatiyā ekaṁ …pe… purejāte āsevane ekaṁ …pe… avigate tīṇi.
+
+**patthana24.13:2.1** Naanārammaṇaṁ nanahetuṁ dhammaṁ paṭicca sārammaṇo nahetu dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi, ārammaṇe ekaṁ …pe… avigate tīṇi.
+

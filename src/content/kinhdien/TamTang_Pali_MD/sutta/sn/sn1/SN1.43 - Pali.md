@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.43
+
+# 5. Ādittavagga
+
+# Annasutta
+
+**sn1.43:1.1** “Annamevābhinandanti,
+
+**sn1.43:1.2** ubhaye devamānusā;
+
+**sn1.43:1.3** Atha ko nāma so yakkho,
+
+**sn1.43:1.4** yaṁ annaṁ nābhinandatī”ti.
+
+**sn1.43:2.1** “Ye naṁ dadanti saddhāya,
+
+**sn1.43:2.2** vippasannena cetasā;
+
+**sn1.43:2.3** Tameva annaṁ bhajati,
+
+**sn1.43:2.4** asmiṁ loke paramhi ca.
+
+**sn1.43:3.1** Tasmā vineyya maccheraṁ,
+
+**sn1.43:3.2** dajjā dānaṁ malābhibhū;
+
+**sn1.43:3.3** Puññāni paralokasmiṁ,
+
+**sn1.43:3.4** patiṭṭhā honti pāṇinan”ti.
+

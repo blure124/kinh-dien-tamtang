@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīya (2), Dukatikapaṭṭhānapāḷi (3)
+
+# 9.11. Chagocchaka, Kusalattika
+
+**patthana9.11:1.1** Nosaññojanaṁ nakusalaṁ dhammaṁ paṭicca …pe… nanosaññojanaṁ nakusalaṁ dhammaṁ paṭicca …. (Saṅkhittaṁ.)
+
+**patthana9.11:2.1** Hetuyā nava …pe… vipāke ekaṁ …pe… avigate nava.
+
+**patthana9.11:3.1** Noganthaṁ nakusalaṁ dhammaṁ paṭicca …pe… nooghaṁ …pe… noyogaṁ …pe… nonīvaraṇaṁ. (Saṅkhittaṁ.) Hetuyā nava …pe… vipāke ekaṁ …pe… avigate nava.
+
+**patthana9.11:4.1** Noparāmāsaṁ nakusalaṁ dhammaṁ paṭicca …. (Saṅkhittaṁ.) Hetuyā pañca …pe… vipāke ekaṁ …pe… avigate pañca.
+

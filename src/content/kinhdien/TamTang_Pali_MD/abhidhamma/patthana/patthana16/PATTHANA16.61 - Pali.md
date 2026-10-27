@@ -1,0 +1,14 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikadukapaṭṭhānapāḷi (4)
+
+# 16.61. Sanidassanattika, Āsavasāsavaduka
+
+**patthana16.61:1.1** Anidassanaappaṭighaṁ āsavañceva sāsavañca dhammaṁ paṭicca naanidassanaappaṭigho naāsavo ceva naanāsavo ca dhammo uppajjati hetupaccayā. Anidassanaappaṭighaṁ āsavañceva sāsavañca dhammaṁ paṭicca nasanidassanasappaṭigho naāsavo ceva naanāsavo ca dhammo uppajjati hetupaccayā …pe… anidassanaappaṭighaṁ āsavañceva sāsavañca dhammaṁ paṭicca nasanidassanasappaṭigho naāsavo ceva naanāsavo ca naanidassanasappaṭigho naāsavo ceva naanāsavo ca dhammā uppajjanti hetupaccayā. (Saṅkhittaṁ.) Hetuyā cha, ārammaṇe tīṇi …pe… avigate cha.
+
+**patthana16.61:2.1** Anidassanaappaṭighaṁ sāsavañceva no ca āsavaṁ dhammaṁ paṭicca nasanidassanasappaṭigho naanāsavo ceva nanoāsavo ca dhammo uppajjati hetupaccayā. Anidassanaappaṭighaṁ sāsavañceva no ca āsavaṁ dhammaṁ paṭicca naanidassanasappaṭigho naanāsavo ceva nano ca āsavo dhammo uppajjati hetupaccayā. Anidassanasappaṭighaṁ sāsavañceva no ca āsavaṁ dhammaṁ paṭicca nasanidassanasappaṭigho naanāsavo ceva nano ca āsavo naanidassanasappaṭigho naanāsavo ceva nano āsavo ca dhammā uppajjanti hetupaccayā. (Saṅkhittaṁ.) Hetuyā tīṇi …pe… avigate tīṇi.
+

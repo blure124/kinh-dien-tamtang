@@ -1,0 +1,42 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 15
+
+# Ekakanipāta
+
+# Dutiyavagga
+
+# Taṇhāsaṁyojanasutta
+
+**iti15:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti15:2.1** “Nāhaṁ, bhikkhave, aññaṁ ekasaṁyojanampi samanupassāmi yena saṁyojanena saṁyuttā sattā dīgharattaṁ sandhāvanti saṁsaranti yathayidaṁ, bhikkhave, taṇhāsaṁyojanaṁ.
+
+**iti15:2.2** Taṇhāsaṁyojanena hi, bhikkhave, saṁyuttā sattā dīgharattaṁ sandhāvanti saṁsarantī”ti.
+
+**iti15:2.3** Etamatthaṁ bhagavā avoca.
+
+**iti15:2.4** Tatthetaṁ iti vuccati:
+
+**iti15:3.1** “Taṇhādutiyo puriso,
+
+**iti15:3.2** dīghamaddhāna saṁsaraṁ;
+
+**iti15:3.3** Itthabhāvaññathābhāvaṁ,
+
+**iti15:3.4** saṁsāraṁ nātivattati.
+
+**iti15:4.1** Etamādīnavaṁ ñatvā,
+
+**iti15:4.2** Taṇhaṁ dukkhassa sambhavaṁ;
+
+**iti15:4.3** Vītataṇho anādāno,
+
+**iti15:4.4** Sato bhikkhu paribbaje”ti.
+
+**iti15:5.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti15:5.2** Pañcamaṁ.
+

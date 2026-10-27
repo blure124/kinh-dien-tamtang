@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.118
+
+# 12. Kesivagga
+
+# Saṁvejanīyasutta
+
+**an4.118:1.1** “Cattārimāni, bhikkhave, saddhassa kulaputtassa dassanīyāni saṁvejanīyāni ṭhānāni.
+
+**an4.118:1.2** Katamāni cattāri?
+
+**an4.118:1.3** ‘Idha tathāgato jāto’ti, bhikkhave, saddhassa kulaputtassa dassanīyaṁ saṁvejanīyaṁ ṭhānaṁ.
+
+**an4.118:1.4** ‘Idha tathāgato anuttaraṁ sammāsambodhiṁ abhisambuddho’ti, bhikkhave, saddhassa kulaputtassa dassanīyaṁ saṁvejanīyaṁ ṭhānaṁ.
+
+**an4.118:1.5** ‘Idha tathāgato anuttaraṁ dhammacakkaṁ pavattesī’ti, bhikkhave, saddhassa kulaputtassa dassanīyaṁ saṁvejanīyaṁ ṭhānaṁ.
+
+**an4.118:1.6** ‘Idha tathāgato anupādisesāya nibbānadhātuyā parinibbuto’ti, bhikkhave, saddhassa kulaputtassa dassanīyaṁ saṁvejanīyaṁ ṭhānaṁ.
+
+**an4.118:1.7** Imāni kho, bhikkhave, cattāri saddhassa kulaputtassa dassanīyāni saṁvejanīyāni ṭhānānī”ti.
+
+**an4.118:1.8** Aṭṭhamaṁ.
+

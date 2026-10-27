@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Kuruṅgavagga
+
+# 3. Bhojājānīyajātaka
+
+**ja23:1.1** “Api passena semāno,
+
+**ja23:1.2** sallebhi sallalīkato;
+
+**ja23:1.3** Seyyova vaḷavā bhojjo,
+
+**ja23:1.4** yuñja maññeva sārathī”ti.
+
+**ja23:2.1** Bhojājānīyajātakaṁ tatiyaṁ.
+

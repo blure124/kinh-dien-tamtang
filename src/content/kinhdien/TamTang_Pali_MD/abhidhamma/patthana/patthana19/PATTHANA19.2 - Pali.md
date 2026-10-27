@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Tikapaṭṭhānapāḷi (1)
+
+# 19.2. Vedanāttika
+
+**patthana19.2:1.1** Nasukhāya vedanāya sampayuttaṁ dhammaṁ paṭicca sukhāya vedanāya sampayutto dhammo uppajjati hetupaccayā. Nasukhāya vedanāya sampayuttaṁ dhammaṁ paṭicca dukkhāya vedanāya sampayutto dhammo uppajjati hetupaccayā. Nasukhāya vedanāya sampayuttaṁ dhammaṁ paṭicca adukkhamasukhāya vedanāya sampayutto dhammo uppajjati hetupaccayā.
+
+**patthana19.2:2.1** Nadukkhāya vedanāya sampayuttaṁ dhammaṁ paṭicca dukkhāya vedanāya sampayutto dhammo uppajjati hetupaccayā. Nadukkhāya vedanāya sampayuttaṁ dhammaṁ paṭicca sukhāya vedanāya sampayutto dhammo uppajjati hetupaccayā. Nadukkhāya vedanāya sampayuttaṁ dhammaṁ paṭicca adukkhamasukhāya vedanāya sampayutto dhammo uppajjati hetupaccayā.
+
+**patthana19.2:3.1** Naadukkhamasukhāya vedanāya sampayuttaṁ dhammaṁ paṭicca adukkhamasukhāya vedanāya sampayutto dhammo uppajjati hetupaccayā. Naadukkhamasukhāya vedanāya sampayuttaṁ dhammaṁ paṭicca sukhāya vedanāya sampayutto dhammo uppajjati hetupaccayā. Naadukkhamasukhāya vedanāya sampayuttaṁ dhammaṁ paṭicca dukkhāya vedanāya sampayutto dhammo uppajjati hetupaccayā.  (Saṅkhittaṁ.)
+
+**patthana19.2:4.1** Hetuyā ekavīsa, adhipatiyā ekavīsa …pe… avigate ekavīsa.
+

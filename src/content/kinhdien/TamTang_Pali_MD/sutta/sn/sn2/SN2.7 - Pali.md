@@ -1,0 +1,32 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 2.7
+
+# 1. Paṭhamavagga
+
+# Pañcālacaṇḍasutta
+
+**sn2.7:1.1** Sāvatthinidānaṁ.
+
+**sn2.7:1.2** Ekamantaṁ ṭhito kho pañcālacaṇḍo devaputto bhagavato santike imaṁ gāthaṁ abhāsi:
+
+**sn2.7:2.1** “Sambādhe vata okāsaṁ,
+
+**sn2.7:2.2** Avindi bhūrimedhaso;
+
+**sn2.7:2.3** Yo jhānamabujjhi buddho,
+
+**sn2.7:2.4** Paṭilīnanisabho munī”ti.
+
+**sn2.7:3.1** “Sambādhe vāpi vindanti,
+
+**sn2.7:3.2** (pañcālacaṇḍāti bhagavā)
+
+**sn2.7:3.3** Dhammaṁ nibbānapattiyā;
+
+**sn2.7:3.4** Ye satiṁ paccalatthaṁsu,
+
+**sn2.7:3.5** Sammā te susamāhitā”ti.
+

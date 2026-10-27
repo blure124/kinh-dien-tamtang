@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Kuruṅgavagga
+
+# 5. Titthajātaka
+
+**ja25:1.1** “Aññamaññehi titthehi,
+
+**ja25:1.2** assaṁ pāyehi sārathi;
+
+**ja25:1.3** Accāsanassa puriso,
+
+**ja25:1.4** pāyāsassapi tappatī”ti.
+
+**ja25:2.1** Titthajātakaṁ pañcamaṁ.
+

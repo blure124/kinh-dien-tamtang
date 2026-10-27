@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.6
+
+# 1. Naḷavagga
+
+# Jāgarasutta
+
+**sn1.6:1.1** Sāvatthinidānaṁ.
+
+**sn1.6:1.2** Ekamantaṁ ṭhitā kho sā devatā bhagavato santike imaṁ gāthaṁ abhāsi:
+
+**sn1.6:2.1** “Kati jāgarataṁ suttā,
+
+**sn1.6:2.2** kati suttesu jāgarā;
+
+**sn1.6:2.3** Katibhi rajamādeti,
+
+**sn1.6:2.4** katibhi parisujjhatī”ti.
+
+**sn1.6:3.1** “Pañca jāgarataṁ suttā,
+
+**sn1.6:3.2** pañca suttesu jāgarā;
+
+**sn1.6:3.3** Pañcabhi rajamādeti,
+
+**sn1.6:3.4** pañcabhi parisujjhatī”ti.
+

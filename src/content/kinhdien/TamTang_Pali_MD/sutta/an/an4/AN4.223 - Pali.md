@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.223
+
+# 23. Duccaritavagga
+
+# Akataññutāsutta
+
+**an4.223:1.1** “Catūhi, bhikkhave, dhammehi samannāgato bālo abyatto asappuriso khataṁ upahataṁ attānaṁ pariharati, sāvajjo ca hoti sānuvajjo viññūnaṁ, bahuñca apuññaṁ pasavati.
+
+**an4.223:1.2** Katamehi catūhi?
+
+**an4.223:1.3** Kāyaduccaritena, vacīduccaritena, manoduccaritena, akataññutā akataveditā—
+
+**an4.223:1.4** imehi …pe… kāyasucaritena, vacīsucaritena, manosucaritena kataññutākataveditā …pe….
+
+**an4.223:1.5** Tatiyaṁ.
+

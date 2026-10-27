@@ -1,0 +1,50 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Tikanipāta
+
+# Abbhantaravagga
+
+# 10. Sīlavīmaṁsakajātaka
+
+**ja290:1.1** “Sīlaṁ kireva kalyāṇaṁ,
+
+**ja290:1.2** sīlaṁ loke anuttaraṁ;
+
+**ja290:1.3** Passa ghoraviso nāgo,
+
+**ja290:1.4** sīlavāti na haññati.
+
+**ja290:2.1** Sohaṁ sīlaṁ samādissaṁ,
+
+**ja290:2.2** loke anumataṁ sivaṁ;
+
+**ja290:2.3** Ariyavuttisamācāro,
+
+**ja290:2.4** yena vuccati sīlavā.
+
+**ja290:3.1** Ñātīnañca piyo hoti,
+
+**ja290:3.2** mittesu ca virocati;
+
+**ja290:3.3** Kāyassa bhedā sugatiṁ,
+
+**ja290:3.4** upapajjati sīlavā”ti.
+
+**ja290:4.1** Sīlavīmaṁsakajātakaṁ dasamaṁ.
+
+**ja290:4.2** Abbhantaravaggo catuttho.
+
+**ja290:5.1** Tassuddānaṁ
+
+**ja290:6.1** Duma kaṁsavaruttamabyagghamigā,
+
+**ja290:6.2** Maṇayo maṇi sālukamavhayano;
+
+**ja290:6.3** Anusāsaniyopi ca macchavaro,
+
+**ja290:6.4** Maṇikuṇḍalakena kirena dasāti.
+

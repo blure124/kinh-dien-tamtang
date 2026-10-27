@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 6.91
+
+# 9. Sītivagga
+
+# Abhabbasutta
+
+**an6.91:1.1** “Cha, bhikkhave, dhamme abhabbo diṭṭhisampanno puggalo uppādetuṁ.
+
+**an6.91:1.2** Katame cha?
+
+**an6.91:1.3** Sakkāyadiṭṭhiṁ, vicikicchaṁ, sīlabbataparāmāsaṁ, apāyagamanīyaṁ rāgaṁ, apāyagamanīyaṁ dosaṁ, apāyagamanīyaṁ mohaṁ.
+
+**an6.91:1.4** Ime kho, bhikkhave, cha dhamme abhabbo diṭṭhisampanno puggalo uppādetun”ti.
+
+**an6.91:1.5** Sattamaṁ.
+

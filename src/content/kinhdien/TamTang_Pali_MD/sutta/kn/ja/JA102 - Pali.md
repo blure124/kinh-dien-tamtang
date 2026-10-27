@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Parosatavagga
+
+# 2. Paṇṇikajātaka
+
+**ja102:1.1** “Yo dukkhaphuṭṭhāya bhaveyya tāṇaṁ,
+
+**ja102:1.2** So me pitā dubbhi vane karoti;
+
+**ja102:1.3** Sā kassa kandāmi vanassa majjhe,
+
+**ja102:1.4** Yo tāyitā so sahasaṁ karotī”ti.
+
+**ja102:2.1** Paṇṇikajātakaṁ dutiyaṁ.
+

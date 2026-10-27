@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 1.90
+
+# Ekakanipāta
+
+# Navamavagga
+
+# Sāmidattattheragāthā
+
+**thag1.90:1.1** “Pañcakkhandhā pariññātā,
+
+**thag1.90:1.2** tiṭṭhanti chinnamūlakā;
+
+**thag1.90:1.3** Vikkhīṇo jātisaṁsāro,
+
+**thag1.90:1.4** natthi dāni punabbhavo”ti.
+
+**thag1.90:1.5** … Sāmidatto thero …
+
+**thag1.90:1.6** vaggo navamo.
+
+**thag1.90:2.0** Tassuddānaṁ
+
+**thag1.90:2.1** Thero samitigutto ca,
+
+**thag1.90:2.2** kassapo sīhasavhayo;
+
+**thag1.90:2.3** Nīto sunāgo nāgito,
+
+**thag1.90:2.4** paviṭṭho ajjuno isi;
+
+**thag1.90:2.5** Devasabho ca yo thero,
+
+**thag1.90:2.6** sāmidatto mahabbaloti.
+

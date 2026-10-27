@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# 2 Khandhayamaka
+
+# 2.3 Pariññāvāra
+
+# 2.3.6. Atītānāgatavāra
+
+**ya2.3.6:1.1** Yo rūpakkhandhaṁ parijānittha so vedanākkhandhaṁ parijānissatīti? No.
+
+**ya2.3.6:2.1** Yo vā pana vedanākkhandhaṁ parijānissati so rūpakkhandhaṁ parijānitthāti? No.
+
+**ya2.3.6:3.1** Yo rūpakkhandhaṁ na parijānittha so vedanākkhandhaṁ na parijānissatīti?
+
+**ya2.3.6:4.1** Ye maggaṁ paṭilabhissanti te rūpakkhandhaṁ na parijānittha, no ca vedanākkhandhaṁ na parijānissanti. Aggamaggasamaṅgī ye ca puthujjanā maggaṁ na paṭilabhissanti te rūpakkhandhañca na parijānittha vedanākkhandhañca na parijānissanti.
+
+**ya2.3.6:5.1** Yo vā pana vedanākkhandhaṁ na parijānissati so rūpakkhandhaṁ na parijānitthāti?
+
+**ya2.3.6:6.1** Arahā vedanākkhandhaṁ na parijānissati, no ca rūpakkhandhaṁ na parijānittha. Aggamaggasamaṅgī ye ca puthujjanā maggaṁ na paṭilabhissanti te vedanākkhandhañca na parijānissanti rūpakkhandhañca na parijānittha.
+
+**ya2.3.6:7.1** Pariññāvāro.
+
+**ya2.3.6:8.1** Khandhayamakapāḷi niṭṭhitā.
+

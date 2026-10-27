@@ -1,0 +1,36 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Netti
+
+# Paṭiniddesavāra
+
+# Sampāta 12
+
+# Otaraṇahārasampāta
+
+**ne31:1.1** Tattha katamo otaraṇo hārasampāto?
+
+**ne31:2.1** “Tasmā rakkhitacittassa, sammāsaṅkappagocaro”ti gāthā.
+
+**ne31:2.2** “Tasmā rakkhitacittassa, sammāsaṅkappagocaro”.
+
+**ne31:2.3** “Sammādiṭṭhipurekkhāro”ti sammādiṭṭhiyā gahitāya gahitāni bhavanti pañcindriyāni, ayaṁ indriyehi otaraṇā.
+
+**ne31:3.1** Tāniyeva indriyāni vijjā, vijjuppādā avijjānirodho, avijjānirodhā saṅkhāranirodho, saṅkhāranirodhā viññāṇanirodho, evaṁ sabbaṁ, ayaṁ paṭiccasamuppādena otaraṇā.
+
+**ne31:4.1** Tāniyeva pañcindriyāni tīhi khandhehi saṅgahitāni—
+
+**ne31:4.2** sīlakkhandhena samādhikkhandhena paññākkhandhena.
+
+**ne31:4.3** Ayaṁ khandhehi otaraṇā.
+
+**ne31:5.1** Tāni yeva pañcindriyāni saṅkhārapariyāpannāni.
+
+**ne31:5.2** Ye saṅkhārā anāsavā no ca bhavaṅgā, te saṅkhārā dhammadhātusaṅgahitā, ayaṁ dhātūhi otaraṇā.
+
+**ne31:6.1** Sā dhammadhātu dhammāyatanapariyāpannā, yaṁ āyatanaṁ anāsavaṁ no ca bhavaṅgaṁ, ayaṁ āyatanehi otaraṇā.
+
+**ne31:6.2** Niyutto otaraṇo hārasampāto.
+

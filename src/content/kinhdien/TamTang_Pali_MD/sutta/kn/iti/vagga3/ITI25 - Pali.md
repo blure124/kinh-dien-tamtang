@@ -1,0 +1,36 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 25
+
+# Ekakanipāta
+
+# Tatiyavagga
+
+# Musāvādasutta
+
+**iti25:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti25:2.1** “Ekadhammaṁ atītassa, bhikkhave, purisapuggalassa nāhaṁ tassa kiñci pāpakammaṁ akaraṇīyanti vadāmi.
+
+**iti25:2.2** Katamaṁ ekadhammaṁ?
+
+**iti25:2.3** Yadidaṁ, bhikkhave, sampajānamusāvādo”ti.
+
+**iti25:2.4** Etamatthaṁ bhagavā avoca.
+
+**iti25:2.5** Tatthetaṁ iti vuccati:
+
+**iti25:3.1** “Ekadhammaṁ atītassa,
+
+**iti25:3.2** musāvādissa jantuno;
+
+**iti25:3.3** Vitiṇṇaparalokassa,
+
+**iti25:3.4** natthi pāpaṁ akāriyan”ti.
+
+**iti25:4.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti25:4.2** Pañcamaṁ.
+

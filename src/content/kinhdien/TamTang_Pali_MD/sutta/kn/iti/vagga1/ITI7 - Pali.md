@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 7
+
+# Ekakanipāta
+
+# Paṭhamavagga
+
+# Sabbapariññāsutta
+
+**iti7:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti7:2.1** “Sabbaṁ, bhikkhave, anabhijānaṁ aparijānaṁ tattha cittaṁ avirājayaṁ appajahaṁ abhabbo dukkhakkhayāya.
+
+**iti7:2.2** Sabbañca kho, bhikkhave, abhijānaṁ parijānaṁ tattha cittaṁ virājayaṁ pajahaṁ bhabbo dukkhakkhayāyā”ti.
+
+**iti7:2.3** Etamatthaṁ bhagavā avoca.
+
+**iti7:2.4** Tatthetaṁ iti vuccati:
+
+**iti7:3.1** “Yo sabbaṁ sabbato ñatvā,
+
+**iti7:3.2** sabbatthesu na rajjati;
+
+**iti7:3.3** Sa ve sabbapariññā so,
+
+**iti7:3.4** sabbadukkhamupaccagā”ti.
+
+**iti7:4.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti7:4.2** Sattamaṁ.
+

@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.18
+
+# 2. Caravagga
+
+# Dutiyaagatisutta
+
+**an4.18:1.1** “Cattārimāni, bhikkhave, nāgatigamanāni.
+
+**an4.18:1.2** Katamāni cattāri?
+
+**an4.18:1.3** Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—
+
+**an4.18:1.4** Imāni kho, bhikkhave, cattāri nāgatigamanānīti.
+
+**an4.18:2.1** Chandā dosā bhayā mohā,
+
+**an4.18:2.2** yo dhammaṁ nātivattati;
+
+**an4.18:2.3** Āpūrati tassa yaso,
+
+**an4.18:2.4** sukkapakkheva candimā”ti.
+
+**an4.18:2.5** Aṭṭhamaṁ.
+

@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 8.33
+
+# 4. Dānavagga
+
+# Dānavatthusutta
+
+**an8.33:1.1** “Aṭṭhimāni, bhikkhave, dānavatthūni.
+
+**an8.33:1.2** Katamāni aṭṭha?
+
+**an8.33:1.3** Chandā dānaṁ deti, dosā dānaṁ deti, mohā dānaṁ deti, bhayā dānaṁ deti, ‘dinnapubbaṁ katapubbaṁ pitupitāmahehi, nārahāmi porāṇaṁ kulavaṁsaṁ hāpetun’ti dānaṁ deti, ‘imāhaṁ dānaṁ datvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti dānaṁ deti, ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti, cittālaṅkāracittaparikkhāratthaṁ dānaṁ deti.
+
+**an8.33:1.4** Imāni kho, bhikkhave, aṭṭha dānavatthūnī”ti.
+
+**an8.33:1.5** Tatiyaṁ.
+

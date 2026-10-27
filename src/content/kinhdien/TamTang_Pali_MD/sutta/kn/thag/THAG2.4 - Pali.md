@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 2.4
+
+# Dukanipāta
+
+# Paṭhamavagga
+
+# Gaṅgātīriyattheragāthā
+
+**thag2.4:1.1** “Tiṇṇaṁ me tālapattānaṁ,
+
+**thag2.4:1.2** gaṅgātīre kuṭī katā;
+
+**thag2.4:1.3** Chavasittova me patto,
+
+**thag2.4:1.4** paṁsukūlañca cīvaraṁ.
+
+**thag2.4:2.1** Dvinnaṁ antaravassānaṁ,
+
+**thag2.4:2.2** ekā vācā me bhāsitā;
+
+**thag2.4:2.3** Tatiye antaravassamhi,
+
+**thag2.4:2.4** tamokhandho padālito”ti.
+
+**thag2.4:2.5** … Gaṅgātīriyo thero ….
+

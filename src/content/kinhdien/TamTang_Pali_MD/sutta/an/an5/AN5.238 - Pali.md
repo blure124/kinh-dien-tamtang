@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.238
+
+# 24. Āvāsikavagga
+
+# Tatiyaavaṇṇārahasutta
+
+**an5.238:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ niraye.
+
+**an5.238:1.2** Katamehi pañcahi?
+
+**an5.238:1.3** Ananuvicca apariyogāhetvā avaṇṇārahassa vaṇṇaṁ bhāsati;
+
+**an5.238:1.4** ananuvicca apariyogāhetvā vaṇṇārahassa avaṇṇaṁ bhāsati;
+
+**an5.238:1.5** āvāsamaccharī hoti;
+
+**an5.238:1.6** kulamaccharī hoti;
+
+**an5.238:1.7** lābhamaccharī hoti.
+
+**an5.238:1.8** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ niraye.
+
+**an5.238:2.1** Pañcahi, bhikkhave, dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ sagge.
+
+**an5.238:2.2** Katamehi pañcahi?
+
+**an5.238:2.3** Anuvicca pariyogāhetvā avaṇṇārahassa avaṇṇaṁ bhāsati;
+
+**an5.238:2.4** anuvicca pariyogāhetvā vaṇṇārahassa vaṇṇaṁ bhāsati;
+
+**an5.238:2.5** na āvāsamaccharī hoti;
+
+**an5.238:2.6** na kulamaccharī hoti;
+
+**an5.238:2.7** na lābhamaccharī hoti.
+
+**an5.238:2.8** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato āvāsiko bhikkhu yathābhataṁ nikkhitto evaṁ sagge”ti.
+
+**an5.238:2.9** Aṭṭhamaṁ.
+

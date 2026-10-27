@@ -1,0 +1,56 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theravāda Vinaya
+
+# Mahāvibhaṅga
+
+# Sekhiyakaṇḍa
+
+# Khambhakatavagga
+
+# 29. Samasūpakapaṭiggahaṇasikkhāpada
+
+**pli-tv-bu-vb-sk29:1.1** Tena samayena buddho bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme.
+
+**pli-tv-bu-vb-sk29:1.2** Tena kho pana samayena chabbaggiyā bhikkhū piṇḍapātaṁ paṭiggaṇhantā sūpaññeva bahuṁ paṭiggaṇhanti …pe….
+
+**pli-tv-bu-vb-sk29:1.3.1** “Samasūpakaṁ piṇḍapātaṁ paṭiggahessāmīti sikkhā karaṇīyā”ti.
+
+**pli-tv-bu-vb-sk29:1.4.1** Sūpo nāma
+
+**pli-tv-bu-vb-sk29:1.5** dve sūpā— muggasūpo, māsasūpo hatthahāriyo.
+
+**pli-tv-bu-vb-sk29:1.6** Samasūpako piṇḍapāto paṭiggahetabbo.
+
+**pli-tv-bu-vb-sk29:1.7** Yo anādariyaṁ paṭicca sūpaññeva bahuṁ paṭiggaṇhāti, āpatti dukkaṭassa.
+
+**pli-tv-bu-vb-sk29:1.8.1** Anāpatti—
+
+**pli-tv-bu-vb-sk29:1.9** asañcicca,
+
+**pli-tv-bu-vb-sk29:1.10** assatiyā,
+
+**pli-tv-bu-vb-sk29:1.11** ajānantassa,
+
+**pli-tv-bu-vb-sk29:1.12** gilānassa,
+
+**pli-tv-bu-vb-sk29:1.13** rasarase,
+
+**pli-tv-bu-vb-sk29:1.14** ñātakānaṁ,
+
+**pli-tv-bu-vb-sk29:1.15** pavāritānaṁ,
+
+**pli-tv-bu-vb-sk29:1.16** aññassatthāya,
+
+**pli-tv-bu-vb-sk29:1.17** attano dhanena,
+
+**pli-tv-bu-vb-sk29:1.18** āpadāsu,
+
+**pli-tv-bu-vb-sk29:1.19** ummattakassa,
+
+**pli-tv-bu-vb-sk29:1.20** ādikammikassāti.
+
+**pli-tv-bu-vb-sk29:1.21** Navamasikkhāpadaṁ niṭṭhitaṁ.
+

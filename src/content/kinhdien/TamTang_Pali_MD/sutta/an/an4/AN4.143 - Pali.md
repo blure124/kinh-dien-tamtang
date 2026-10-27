@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.143
+
+# 15. Ābhāvagga
+
+# Ālokasutta
+
+**an4.143:1.1** “Cattārome, bhikkhave, ālokā.
+
+**an4.143:1.2** Katame cattāro?
+
+**an4.143:1.3** Candāloko, sūriyāloko, aggāloko, paññāloko—
+
+**an4.143:1.4** Ime kho, bhikkhave, cattāro ālokā.
+
+**an4.143:1.5** Etadaggaṁ, bhikkhave, imesaṁ catunnaṁ ālokānaṁ yadidaṁ paññāloko”ti.
+
+**an4.143:1.6** Tatiyaṁ.
+

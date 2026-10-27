@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Itivuttaka 1
+
+# Ekakanipāta
+
+# Paṭhamavagga
+
+# Lobhasutta
+
+**iti1:1.1** Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:
+
+**iti1:2.1** “Ekadhammaṁ, bhikkhave, pajahatha;
+
+**iti1:2.2** ahaṁ vo pāṭibhogo anāgāmitāya.
+
+**iti1:2.3** Katamaṁ ekadhammaṁ?
+
+**iti1:2.4** Lobhaṁ, bhikkhave, ekadhammaṁ pajahatha;
+
+**iti1:2.5** ahaṁ vo pāṭibhogo anāgāmitāyā”ti.
+
+**iti1:2.6** Etamatthaṁ bhagavā avoca.
+
+**iti1:2.7** Tatthetaṁ iti vuccati:
+
+**iti1:3.1** “Yena lobhena luddhāse,
+
+**iti1:3.2** sattā gacchanti duggatiṁ;
+
+**iti1:3.3** Taṁ lobhaṁ sammadaññāya,
+
+**iti1:3.4** pajahanti vipassino;
+
+**iti1:3.5** Pahāya na punāyanti,
+
+**iti1:3.6** imaṁ lokaṁ kudācanan”ti.
+
+**iti1:4.1** Ayampi attho vutto bhagavatā, iti me sutanti.
+
+**iti1:4.2** Paṭhamaṁ.
+

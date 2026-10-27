@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# 5 Saccayamaka
+
+# 5.3 Pariññāvāra
+
+# 5.3.6. Atītānāgatavāra
+
+**ya5.3.6:1.1** Yo dukkhasaccaṁ parijānittha so samudayasaccaṁ pajahissatīti? No.
+
+**ya5.3.6:2.1** Yo vā pana samudayasaccaṁ pajahissati so dukkhasaccaṁ parijānitthāti? No.
+
+**ya5.3.6:3.1** Yo dukkhasaccaṁ na parijānittha so samudayasaccaṁ nappajahissatīti?
+
+**ya5.3.6:4.1** Ye maggaṁ paṭilabhissanti te dukkhasaccaṁ na parijānittha, no ca te samudayasaccaṁ nappajahissanti. Aggamaggasamaṅgī ye ca puthujjanā maggaṁ na paṭilabhissanti te dukkhasaccañca na parijānittha samudayasaccañca nappajahissanti.
+
+**ya5.3.6:5.1** Yo vā pana samudayasaccaṁ nappajahissati so dukkhasaccaṁ na parijānitthāti?
+
+**ya5.3.6:6.1** Arahā samudayasaccaṁ nappajahissati, no ca dukkhasaccaṁ na parijānittha. Aggamaggasamaṅgī ye ca puthujjanā maggaṁ na paṭilabhissanti te samudayasaccañca nappajahissanti dukkhasaccañca na parijānittha.
+
+**ya5.3.6:7.1** Pariññāvāro.
+
+**ya5.3.6:8.1** Saccayamakapāḷi niṭṭhitā.
+

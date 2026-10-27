@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Tikanipāta
+
+# Abbhantaravagga
+
+# 2. Seyyajātaka
+
+**ja282:1.1** “Seyyaṁso seyyaso hoti,
+
+**ja282:1.2** yo seyyamupasevati;
+
+**ja282:1.3** Ekena sandhiṁ katvāna,
+
+**ja282:1.4** sataṁ vajjhe amocayiṁ.
+
+**ja282:2.1** Tasmā sabbena lokena,
+
+**ja282:2.2** sandhiṁ katvāna ekato;
+
+**ja282:2.3** Pecca saggaṁ nigaccheyya,
+
+**ja282:2.4** idaṁ suṇātha kāsiyā”.
+
+**ja282:3.1** Idaṁ vatvā mahārājā,
+
+**ja282:3.2** Kaṁso bārāṇasiggaho;
+
+**ja282:3.3** Dhanuṁ kaṇḍañca nikkhippa,
+
+**ja282:3.4** Saṁyamaṁ ajjhupāgamīti.
+
+**ja282:4.1** Seyyajātakaṁ dutiyaṁ.
+

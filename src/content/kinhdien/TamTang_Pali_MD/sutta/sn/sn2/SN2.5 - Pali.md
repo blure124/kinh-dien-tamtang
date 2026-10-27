@@ -1,0 +1,46 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 2.5
+
+# 1. Paṭhamavagga
+
+# Dāmalisutta
+
+**sn2.5:1.1** Sāvatthinidānaṁ.
+
+**sn2.5:1.2** Atha kho dāmali devaputto abhikkantāya rattiyā abhikkantavaṇṇo kevalakappaṁ jetavanaṁ obhāsetvā yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ aṭṭhāsi.
+
+**sn2.5:1.3** Ekamantaṁ ṭhito kho dāmali devaputto bhagavato santike imaṁ gāthaṁ abhāsi:
+
+**sn2.5:2.1** “Karaṇīyametaṁ brāhmaṇena,
+
+**sn2.5:2.2** Padhānaṁ akilāsunā;
+
+**sn2.5:2.3** Kāmānaṁ vippahānena,
+
+**sn2.5:2.4** Na tenāsīsate bhavan”ti.
+
+**sn2.5:3.1** “Natthi kiccaṁ brāhmaṇassa,
+
+**sn2.5:3.2** (dāmalīti bhagavā)
+
+**sn2.5:3.3** Katakicco hi brāhmaṇo;
+
+**sn2.5:3.4** Yāva na gādhaṁ labhati nadīsu,
+
+**sn2.5:3.5** Āyūhati sabbagattebhi jantu;
+
+**sn2.5:3.6** Gādhañca laddhāna thale ṭhito yo,
+
+**sn2.5:3.7** Nāyūhatī pāragato hi sova.
+
+**sn2.5:4.1** Esūpamā dāmali brāhmaṇassa,
+
+**sn2.5:4.2** Khīṇāsavassa nipakassa jhāyino;
+
+**sn2.5:4.3** Pappuyya jātimaraṇassa antaṁ,
+
+**sn2.5:4.4** Nāyūhatī pāragato hi so”ti.
+

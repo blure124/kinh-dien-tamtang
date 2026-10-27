@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikatikapaṭṭhānapāḷi (5)
+
+# 17.27. Sanidassanattika, Kusalattika
+
+**patthana17.27:1.1** Anidassanaappaṭighaṁ kusalaṁ dhammaṁ paṭicca naanidassanaappaṭigho nakusalo dhammo uppajjati hetupaccayā. Anidassanaappaṭighaṁ kusalaṁ dhammaṁ paṭicca nasanidassanasappaṭigho nakusalo dhammo uppajjati hetupaccayā …pe… anidassanaappaṭighaṁ kusalaṁ dhammaṁ paṭicca nasanidassanasappaṭigho nakusalo ca naanidassanasappaṭigho nakusalo ca dhammā uppajjanti hetupaccayā. (Saṅkhittaṁ.) Hetuyā cha, adhipatiyā cha …pe… avigate cha.
+
+**patthana17.27:2.1** Anidassanaappaṭighaṁ akusalaṁ dhammaṁ paṭicca naanidassanaappaṭigho naakusalo dhammo uppajjati hetupaccayā. Anidassanaappaṭighaṁ akusalaṁ dhammaṁ paṭicca nasanidassanasappaṭigho nakusalo dhammo uppajjati hetupaccayā …pe… anidassanaappaṭighaṁ akusalaṁ dhammaṁ paṭicca nasanidassanasappaṭigho nakusalo ca naanidassanasappaṭigho naakusalo ca dhammā uppajjanti hetupaccayā. (Saṅkhittaṁ.) Hetuyā cha, adhipatiyā cha …pe… avigate cha
+
+**patthana17.27:3.1** Anidassanaappaṭighaṁ abyākataṁ dhammaṁ paccayā nasanidassanasappaṭigho naabyākato dhammo uppajjati hetupaccayā. Anidassanaappaṭighaṁ abyākataṁ dhammaṁ paccayā naanidassanasappaṭigho naabyākato dhammo uppajjati hetupaccayā. Anidassanaappaṭighaṁ abyākataṁ dhammaṁ paccayā nasanidassanasappaṭigho naabyākato ca naanidassanasappaṭigho naabyākato ca dhammā uppajjanti hetupaccayā …. Hetuyā tīṇi …pe… avigate tīṇi.
+

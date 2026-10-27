@@ -1,0 +1,54 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 8.38
+
+# 4. Dānavagga
+
+# Sappurisasutta
+
+**an8.38:1.1** “Sappuriso, bhikkhave, kule jāyamāno bahuno janassa atthāya hitāya sukhāya hoti—
+
+**an8.38:1.2** mātāpitūnaṁ atthāya hitāya sukhāya hoti, puttadārassa atthāya hitāya sukhāya hoti, dāsakammakaraporisassa atthāya hitāya sukhāya hoti, mittāmaccānaṁ atthāya hitāya sukhāya hoti, pubbapetānaṁ atthāya hitāya sukhāya hoti, rañño atthāya hitāya sukhāya hoti, devatānaṁ atthāya hitāya sukhāya hoti, samaṇabrāhmaṇānaṁ atthāya hitāya sukhāya hoti.
+
+**an8.38:2.1** Seyyathāpi, bhikkhave, mahāmegho sabbasassāni sampādento bahuno janassa atthāya hitāya sukhāya hoti;
+
+**an8.38:2.2** evamevaṁ kho, bhikkhave, sappuriso kule jāyamāno bahuno janassa atthāya hitāya sukhāya hoti—
+
+**an8.38:2.3** mātāpitūnaṁ atthāya hitāya sukhāya hoti, puttadārassa atthāya hitāya sukhāya hoti, dāsakammakaraporisassa atthāya hitāya sukhāya hoti, mittāmaccānaṁ atthāya hitāya sukhāya hoti, pubbapetānaṁ atthāya hitāya sukhāya hoti, rañño atthāya hitāya sukhāya hoti, devatānaṁ atthāya hitāya sukhāya hoti, samaṇabrāhmaṇānaṁ atthāya hitāya sukhāya hotīti.
+
+**an8.38:3.1** Bahūnaṁ vata atthāya,
+
+**an8.38:3.2** sappañño gharamāvasaṁ;
+
+**an8.38:3.3** Mātaraṁ pitaraṁ pubbe,
+
+**an8.38:3.4** rattindivamatandito.
+
+**an8.38:4.1** Pūjeti sahadhammena,
+
+**an8.38:4.2** pubbekatamanussaraṁ;
+
+**an8.38:4.3** Anāgāre pabbajite,
+
+**an8.38:4.4** apace brahmacārayo.
+
+**an8.38:5.1** Niviṭṭhasaddho pūjeti,
+
+**an8.38:5.2** ñatvā dhamme ca pesalo;
+
+**an8.38:5.3** Rañño hito devahito,
+
+**an8.38:5.4** ñātīnaṁ sakhinaṁ hito.
+
+**an8.38:6.1** Sabbesaṁ so hito hoti,
+
+**an8.38:6.2** saddhamme suppatiṭṭhito;
+
+**an8.38:6.3** Vineyya maccheramalaṁ,
+
+**an8.38:6.4** sa lokaṁ bhajate sivan”ti.
+
+**an8.38:6.5** Aṭṭhamaṁ.
+

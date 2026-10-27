@@ -1,0 +1,50 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.15
+
+# 2. Balavagga
+
+# Daṭṭhabbasutta
+
+**an5.15:1.1** “Pañcimāni, bhikkhave, balāni.
+
+**an5.15:1.2** Katamāni pañca?
+
+**an5.15:1.3** Saddhābalaṁ, vīriyabalaṁ, satibalaṁ, samādhibalaṁ, paññābalaṁ.
+
+**an5.15:1.4** Kattha ca, bhikkhave, saddhābalaṁ daṭṭhabbaṁ?
+
+**an5.15:1.5** Catūsu sotāpattiyaṅgesu.
+
+**an5.15:1.6** Ettha saddhābalaṁ daṭṭhabbaṁ.
+
+**an5.15:1.7** Kattha ca, bhikkhave, vīriyabalaṁ daṭṭhabbaṁ?
+
+**an5.15:1.8** Catūsu sammappadhānesu.
+
+**an5.15:1.9** Ettha vīriyabalaṁ daṭṭhabbaṁ.
+
+**an5.15:1.10** Kattha ca, bhikkhave, satibalaṁ daṭṭhabbaṁ?
+
+**an5.15:1.11** Catūsu satipaṭṭhānesu.
+
+**an5.15:1.12** Ettha satibalaṁ daṭṭhabbaṁ.
+
+**an5.15:1.13** Kattha ca, bhikkhave, samādhibalaṁ daṭṭhabbaṁ?
+
+**an5.15:1.14** Catūsu jhānesu.
+
+**an5.15:1.15** Ettha samādhibalaṁ daṭṭhabbaṁ.
+
+**an5.15:1.16** Kattha ca, bhikkhave, paññābalaṁ daṭṭhabbaṁ?
+
+**an5.15:1.17** Catūsu ariyasaccesu.
+
+**an5.15:1.18** Ettha paññābalaṁ daṭṭhabbaṁ.
+
+**an5.15:1.19** Imāni kho, bhikkhave, pañca balānī”ti.
+
+**an5.15:1.20** Pañcamaṁ.
+

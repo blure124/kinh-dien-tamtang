@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 2.24
+
+# Dukanipāta
+
+# Tatiyavagga
+
+# Valliyattheragāthā
+
+**thag2.24:1.1** “Yaṁ kiccaṁ daḷhavīriyena,
+
+**thag2.24:1.2** yaṁ kiccaṁ boddhumicchatā;
+
+**thag2.24:1.3** Karissaṁ nāvarajjhissaṁ,
+
+**thag2.24:1.4** passa vīriyaṁ parakkamaṁ.
+
+**thag2.24:2.1** Tvañca me maggamakkhāhi,
+
+**thag2.24:2.2** añjasaṁ amatogadhaṁ;
+
+**thag2.24:2.3** Ahaṁ monena monissaṁ,
+
+**thag2.24:2.4** gaṅgāsotova sāgaran”ti.
+
+**thag2.24:2.5** … Valliyo thero ….
+

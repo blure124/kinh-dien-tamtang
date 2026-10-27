@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Apāyimhavagga
+
+# 4. Atthassadvārajātaka
+
+**ja84:1.1** “Ārogyamicche paramañca lābhaṁ,
+
+**ja84:1.2** Sīlañca vuddhānumataṁ sutañca;
+
+**ja84:1.3** Dhammānuvattī ca alīnatā ca,
+
+**ja84:1.4** Atthassa dvārā pamukhā chaḷete”ti.
+
+**ja84:2.1** Atthassadvārajātakaṁ catutthaṁ.
+

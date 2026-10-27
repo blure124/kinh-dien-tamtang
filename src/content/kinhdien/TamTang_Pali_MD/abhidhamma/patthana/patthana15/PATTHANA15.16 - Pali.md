@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.16. Hetuduka, Maggārammaṇattika
+
+**patthana15.16:1.1** Hetuṁ maggārammaṇaṁ dhammaṁ paṭicca nahetu namaggārammaṇo dhammo uppajjati hetupaccayā …. (Sabbattha tīṇi.)
+
+**patthana15.16:2.1** Hetuṁ maggahetukaṁ dhammaṁ paṭicca nahetu namaggahetuko dhammo uppajjati hetupaccayā …. (Sabbattha tīṇi.)
+
+**patthana15.16:3.1** Hetuṁ maggādhipatiṁ dhammaṁ paṭicca nahetu namaggādhipati dhammo uppajjati hetupaccayā …. Hetuyā tīṇi …pe… avigate tīṇi.
+

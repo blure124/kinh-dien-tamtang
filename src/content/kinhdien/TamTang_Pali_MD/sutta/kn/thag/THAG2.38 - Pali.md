@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 2.38
+
+# Dukanipāta
+
+# Catutthavagga
+
+# Nisabhattheragāthā
+
+**thag2.38:1.1** “Pañca kāmaguṇe hitvā,
+
+**thag2.38:1.2** Piyarūpe manorame;
+
+**thag2.38:1.3** Saddhāya gharā nikkhamma,
+
+**thag2.38:1.4** Dukkhassantakaro bhave.
+
+**thag2.38:2.1** Nābhinandāmi maraṇaṁ,
+
+**thag2.38:2.2** nābhinandāmi jīvitaṁ;
+
+**thag2.38:2.3** Kālañca paṭikaṅkhāmi,
+
+**thag2.38:2.4** sampajāno patissato”ti.
+
+**thag2.38:2.5** … Nisabho thero ….
+

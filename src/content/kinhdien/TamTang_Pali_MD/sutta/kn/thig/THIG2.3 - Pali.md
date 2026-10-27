@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 2.3
+
+# Dukanipāta
+
+# Sumaṅgalamātātherīgāthā
+
+**thig2.3:1.1** “Sumuttikā sumuttikā,
+
+**thig2.3:1.2** Sādhumuttikāmhi musalassa;
+
+**thig2.3:1.3** Ahiriko me chattakaṁ vāpi,
+
+**thig2.3:1.4** Ukkhalikā me deḍḍubhaṁ vāti.
+
+**thig2.3:2.1** Rāgañca ahaṁ dosañca,
+
+**thig2.3:2.2** Cicciṭi cicciṭīti vihanāmi;
+
+**thig2.3:2.3** Sā rukkhamūlamupagamma,
+
+**thig2.3:2.4** Aho sukhanti sukhato jhāyāmī”ti.
+
+**thig2.3:3.1** … Sumaṅgalamātā therī ….
+

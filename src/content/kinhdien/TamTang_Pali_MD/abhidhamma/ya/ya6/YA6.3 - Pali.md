@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# 6 Saṅkhārayamaka
+
+# 6.3. Pariññāvāra
+
+**ya6.3:1.1** Yo kāyasaṅkhāraṁ parijānāti so vacīsaṅkhāraṁ parijānātīti? Āmantā.
+
+**ya6.3:2.1** Yo vā pana vacīsaṅkhāraṁ parijānāti so kāyasaṅkhāraṁ parijānātīti? Āmantā.
+
+**ya6.3:3.1** (Yathā khandhayamake pariññāvāraṁ vibhattaṁ evaṁ saṅkhārayamakepi pariññāvāraṁ vibhajitabbaṁ.)
+
+**ya6.3:4.1** Pariññāvāro.
+
+**ya6.3:5.1** Saṅkhārayamakapāḷi niṭṭhitā.
+

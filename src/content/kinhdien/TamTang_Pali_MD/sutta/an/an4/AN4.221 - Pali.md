@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.221
+
+# 23. Duccaritavagga
+
+# Duccaritasutta
+
+**an4.221:1.1** “Cattārimāni, bhikkhave, vacīduccaritāni.
+
+**an4.221:1.2** Katamāni cattāri?
+
+**an4.221:1.3** Musāvādo, pisuṇā vācā, pharusā vācā, samphappalāpo—
+
+**an4.221:1.4** Imāni kho, bhikkhave, cattāri vacīduccaritāni.
+
+**an4.221:1.5** Cattārimāni, bhikkhave, vacīsucaritāni.
+
+**an4.221:1.6** Katamāni cattāri?
+
+**an4.221:1.7** Saccavācā, apisuṇā vācā, saṇhā vācā, mantavācā—
+
+**an4.221:1.8** Imāni kho, bhikkhave, cattāri vacīsucaritānī”ti.
+
+**an4.221:1.9** Paṭhamaṁ.
+

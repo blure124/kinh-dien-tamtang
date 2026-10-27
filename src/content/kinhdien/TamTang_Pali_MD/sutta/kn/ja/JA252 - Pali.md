@@ -1,0 +1,38 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Tikanipāta
+
+# Saṅkappavagga
+
+# 2. Tilamuṭṭhijātaka
+
+**ja252:1.1** “Ajjāpi me taṁ manasi,
+
+**ja252:1.2** yaṁ maṁ tvaṁ tilamuṭṭhiyā;
+
+**ja252:1.3** Bāhāya maṁ gahetvāna,
+
+**ja252:1.4** laṭṭhiyā anutāḷayi.
+
+**ja252:2.1** Nanu jīvite na ramasi,
+
+**ja252:2.2** yenāsi brāhmaṇāgato;
+
+**ja252:2.3** Yaṁ maṁ bāhā gahetvāna,
+
+**ja252:2.4** tikkhattuṁ anutāḷayi”.
+
+**ja252:3.1** “Ariyo anariyaṁ kubbantaṁ,
+
+**ja252:3.2** Yo daṇḍena nisedhati;
+
+**ja252:3.3** Sāsanaṁ taṁ na taṁ veraṁ,
+
+**ja252:3.4** Iti naṁ paṇḍitā vidū”ti.
+
+**ja252:4.1** Tilamuṭṭhijātakaṁ dutiyaṁ.
+

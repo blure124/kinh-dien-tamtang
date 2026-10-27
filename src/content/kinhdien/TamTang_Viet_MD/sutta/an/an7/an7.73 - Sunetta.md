@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 7.73. Sunetta
+
+TTC 1 —Thuở xưa, này các Tỷ-kheo, có Ðạo Sư tên là Sunetta, thuộc ngoại đạo, đã ly tham đối với các dục. Ðạo sư Sunetta, này các Tỷ-kheo, có hàng trăm đệ tử. Ðạo sư Sunetta thuyết pháp cho các đệ tử để cọng trú với thế giới Phạm thiên. Này các Tỷ-kheo, những ai tâm không hoan hỷ với cuộc thuyết pháp của Ðạo sư Sunetta để cọng trú với thế giới Phạm thiên, khi thân hoại mạng chung, họ phải sanh vào cõi dữ, ác thú, đọa xứ, địa ngục. Này các Tỷ-kheo, còn những ai tâm hoan hỷ với cuộc thuyết pháp của Ðạo sư Sunetta để cọng trú với thế giới Phạm thiên, khi thân hoại mạng chung, họ được sanh lên thiện thú, thiên giới, cõi đời này.
+
+TTC 2 Thuở xưa, này các Tỷ-kheo, có Ðạo sư tên là Mùgapakkha… có Ðạo sư tên là Aranemi… có Ðạo sư tên là Kuddàla… có Ðạo sư tên là Hatthipàla… có Ðạo sư tên là Jotipàla… có Ðạo sư tên là Araka. Ðạo sư Araka thuộc ngoại đạo đã ly tham đối với các dục. Ðạo sư Araka, này các Tỷ-kheo, có hàng trăm đệ tử. Ðạo sư Araka thuyết pháp cho các đệ tử cọng trú với thế giới Phạm thiên. Này các Tỷ-kheo, những ai tâm không hoan hỷ với cuộc thuyết pháp của Ðạo sư Araka để cọng trú với thế giới Phạm thiên, khi thân hoại mạng chung, họ sanh vào cõi dữ, ác thú, đọa xứ, địa ngục. Này các Tỷ-kheo, còn những ai tâm hoan hỷ với cuộc thuyết pháp của Ðạo sư Araka để cọng trú với thế giới Phạm thiên, khi thân hoại mạng chung, họ sanh lên thiện thú, thiên giới, cõi đời này.
+
+TTC 3 Các Thầy nghĩ thế nào, này các Tỷ-kheo, ai với tâm ác quở trách, phỉ báng, bảy bậc Ðạo sư này thuộc ngoại đạo đã ly tham đối với các dục, được hàng trăm chúng đệ tử đoanh vây, người ấy có tạo ra nhiều điều vô phước không?
+
+—Thưa có, bạch Thế Tôn.
+
+—Này các Tỷ-kheo, ai với tâm quở trách, phỉ báng bảy Ðạo sư này, thuộc ngoại đạo, đã ly tham đối với các dục, được hàng trăm chúng đệ tử đoanh vây, người ấy tạo ra nhiều điều vô phước; còn ai với ác tâm, quở trách phỉ báng một bậc đầy đủ chánh kiến, do vậy, người này tạo ra nhiều điều vô phước hơn nữa. Vì cớ sao? Ta tuyên bố không kham nhẫn một người như vậy, từ trong ra ngoài, đối với các vị đồng Phạm hạnh. Do vậy, này các Tỷ-kheo, các Thầy cần phải học tập như sau: “Chúng ta sẽ không có tâm ác độc đối với các vị đồng Phạm hạnh”. Này các Tỷ-kheo, các Thầy cần phải học tập như vậy.
+
+Bộ kinh nầy được Hòa thượng Thích Minh Châu dịch từ tạng Pali sang Việt ngữ năm 1976–1977, và được Viện Phật Học Vạn Hạnh, Sài Gòn, ấn hành năm 1980–1981 . Trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được hiệu đính thành 4 tập và tái bản năm 1996, qua số thứ tự 21, 22, 23, và 24.
+
+These texts have been used with the kind permission of the webmaster of http://www.budsas.net/
+
+Prepared for SuttaCentral by Ayya Vimala .
+

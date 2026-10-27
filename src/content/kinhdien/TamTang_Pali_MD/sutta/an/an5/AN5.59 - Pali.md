@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.59
+
+# 6. Nīvaraṇavagga
+
+# Paṭhamavuḍḍhapabbajitasutta
+
+**an5.59:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato dullabho vuḍḍhapabbajito.
+
+**an5.59:1.2** Katamehi pañcahi?
+
+**an5.59:1.3** Dullabho, bhikkhave, vuḍḍhapabbajito nipuṇo, dullabho ākappasampanno, dullabho bahussuto, dullabho dhammakathiko, dullabho vinayadharo.
+
+**an5.59:1.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato dullabho vuḍḍhapabbajitoti.
+
+**an5.59:1.5** Navamaṁ.
+

@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 6
+
+# 13. Rāgapeyyāla
+
+# ~
+
+**an6.143-169:1.1** “Rāgassa, bhikkhave, pariññāya …pe…
+
+**an6.143-169:1.2** parikkhayāya …
+
+**an6.143-169:1.3** pahānāya …
+
+**an6.143-169:1.4** khayāya …
+
+**an6.143-169:1.5** vayāya …
+
+**an6.143-169:1.6** virāgāya …
+
+**an6.143-169:1.7** nirodhāya …
+
+**an6.143-169:1.8** cāgāya …
+
+**an6.143-169:1.9** paṭinissaggāya cha dhammā bhāvetabbā”.
+

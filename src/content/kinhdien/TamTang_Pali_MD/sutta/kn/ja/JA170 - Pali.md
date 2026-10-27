@@ -1,0 +1,42 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Santhavavagga
+
+# 10. Kakaṇṭakajātaka
+
+**ja170:1.1** “Nāyaṁ pure uṇṇamati,
+
+**ja170:1.2** toraṇagge kakaṇṭako;
+
+**ja170:1.3** Mahosadha vijānāhi,
+
+**ja170:1.4** kena thaddho kakaṇṭako”.
+
+**ja170:2.1** “Aladdhapubbaṁ laddhāna,
+
+**ja170:2.2** aḍḍhamāsaṁ kakaṇṭako;
+
+**ja170:2.3** Atimaññati rājānaṁ,
+
+**ja170:2.4** vedehaṁ mithilaggahan”ti.
+
+**ja170:3.1** Kakaṇṭakajātakaṁ dasamaṁ.
+
+**ja170:3.2** Santhavavaggo dutiyo.
+
+**ja170:4.1** Tassuddānaṁ
+
+**ja170:5.1** Atha indasamāna sapaṇṇakuṭi,
+
+**ja170:5.2** Susimuttama gijjha jalābujako;
+
+**ja170:5.3** Upasāḷaka bhikkhu salāpavaro,
+
+**ja170:5.4** Atha mettavaro dasapuṇṇamatīti.
+

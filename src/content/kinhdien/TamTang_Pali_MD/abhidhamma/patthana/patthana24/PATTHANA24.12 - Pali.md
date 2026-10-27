@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Dukadukapaṭṭhānapāḷi (6)
+
+# 24.12. Āsavagocchaka, Hetuduka
+
+**patthana24.12:1.1** Noāsavaṁ nahetuṁ dhammaṁ paṭicca āsavo hetu dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana24.12:2.1** Nanoāsavaṁ nahetuṁ dhammaṁ paṭicca āsavo hetu dhammo uppajjati hetupaccayā … ekaṁ.
+
+**patthana24.12:3.1** Noāsavaṁ nahetuñca nanoāsavaṁ nahetuñca dhammaṁ paṭicca āsavo hetu dhammo uppajjati hetupaccayā … ekaṁ. (Saṅkhittaṁ.) Hetuyā pañca …pe… vipāke ekaṁ …pe… avigate pañca.
+
+**patthana24.12:4.1** Noāsavaṁ nanahetuṁ dhammaṁ paṭicca noāsavo nahetu dhammo uppajjati hetupaccayā … ekaṁ.
+
+**patthana24.12:5.1** Nanoāsavaṁ nanahetuṁ dhammaṁ paṭicca noāsavo nahetu dhammo uppajjati hetupaccayā … tīṇi.
+
+**patthana24.12:6.1** Noāsavaṁ nanahetuñca nanoāsavaṁ nanahetuñca dhammaṁ paṭicca noāsavo nahetu dhammo uppajjati hetupaccayā … ekaṁ. (Saṅkhittaṁ.) Hetuyā pañca …pe… vipāke ekaṁ …pe… avigate pañca. (Saṅkhittaṁ.)
+

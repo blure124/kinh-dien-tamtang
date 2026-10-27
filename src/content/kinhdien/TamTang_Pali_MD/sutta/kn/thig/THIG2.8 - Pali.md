@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Therīgāthā 2.8
+
+# Dukanipāta
+
+# Abhayamātutherīgāthā
+
+**thig2.8:1.1** “Uddhaṁ pādatalā amma,
+
+**thig2.8:1.2** adho ve kesamatthakā;
+
+**thig2.8:1.3** Paccavekkhassumaṁ kāyaṁ,
+
+**thig2.8:1.4** asuciṁ pūtigandhikaṁ.
+
+**thig2.8:2.1** Evaṁ viharamānāya,
+
+**thig2.8:2.2** sabbo rāgo samūhato;
+
+**thig2.8:2.3** Pariḷāho samucchinno,
+
+**thig2.8:2.4** sītibhūtāmhi nibbutā”ti.
+
+**thig2.8:3.1** … Abhayamātā therī ….
+

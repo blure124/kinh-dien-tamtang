@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 1.48
+
+# Ekakanipāta
+
+# Pañcamavagga
+
+# Sañjayattheragāthā
+
+**thag1.48:1.1** “Yato ahaṁ pabbajito,
+
+**thag1.48:1.2** Agārasmānagāriyaṁ;
+
+**thag1.48:1.3** Nābhijānāmi saṅkappaṁ,
+
+**thag1.48:1.4** Anariyaṁ dosasaṁhitan”ti.
+
+**thag1.48:1.5** … Sañjayo thero ….
+

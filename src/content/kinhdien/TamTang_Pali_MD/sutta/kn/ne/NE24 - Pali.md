@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Netti
+
+# Paṭiniddesavāra
+
+# Sampāta 5
+
+# Lakkhaṇahārasampāta
+
+**ne24:1.1** Tattha katamo lakkhaṇo hārasampāto?
+
+**ne24:2.1** “Tasmā rakkhitacittassa, sammāsaṅkappagocaro”ti gāthā.
+
+**ne24:2.2** “Tasmā rakkhitacittassa, sammāsaṅkappagocaro”ti idaṁ satindriyaṁ, satindriye gahite gahitāni bhavanti pañcindriyāni.
+
+**ne24:2.3** “Sammādiṭṭhipurekkhāro”ti sammādiṭṭhiyā gahitāya gahito bhavati ariyo aṭṭhaṅgiko maggo.
+
+**ne24:2.4** Taṁ kissa hetu?
+
+**ne24:2.5** Sammādiṭṭhito hi sammāsaṅkappo pabhavati, sammāsaṅkappato sammāvācā pabhavati, sammāvācāto sammākammanto pabhavati, sammākammantato sammāājīvo pabhavati, sammāājīvato sammāvāyāmo pabhavati, sammāvāyāmato sammāsati pabhavati, sammāsatito sammāsamādhi pabhavati, sammāsamādhito sammāvimutti pabhavati, sammāvimuttito sammāvimuttiñāṇadassanaṁ pabhavati.
+
+**ne24:2.6** Niyutto lakkhaṇo hārasampāto.
+

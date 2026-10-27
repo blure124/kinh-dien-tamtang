@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Daḷhavagga
+
+# 8. Suhanujātaka
+
+**ja158:1.1** “Nayidaṁ visamasīlena,
+
+**ja158:1.2** soṇena suhanū saha;
+
+**ja158:1.3** Suhanūpi tādisoyeva,
+
+**ja158:1.4** yo soṇassa sagocaro.
+
+**ja158:2.1** Pakkhandinā pagabbhena,
+
+**ja158:2.2** niccaṁ sandānakhādinā;
+
+**ja158:2.3** Sameti pāpaṁ pāpena,
+
+**ja158:2.4** sameti asatā asan”ti.
+
+**ja158:3.1** Suhanujātakaṁ aṭṭhamaṁ.
+

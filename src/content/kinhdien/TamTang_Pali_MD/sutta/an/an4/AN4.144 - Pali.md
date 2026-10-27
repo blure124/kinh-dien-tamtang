@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.144
+
+# 15. Ābhāvagga
+
+# Obhāsasutta
+
+**an4.144:1.1** “Cattārome, bhikkhave, obhāsā.
+
+**an4.144:1.2** Katame cattāro?
+
+**an4.144:1.3** Candobhāso, sūriyobhāso, aggobhāso, paññobhāso—
+
+**an4.144:1.4** Ime kho, bhikkhave, cattāro obhāsā.
+
+**an4.144:1.5** Etadaggaṁ, bhikkhave, imesaṁ catunnaṁ obhāsānaṁ yadidaṁ paññobhāso”ti.
+
+**an4.144:1.6** Catutthaṁ.
+

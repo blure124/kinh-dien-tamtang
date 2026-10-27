@@ -1,0 +1,32 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 1.61–70. Tinh Cần Tinh Tấn
+
+TTC 1 —Ta không thấy một pháp nào khác, này các Tỷ-kheo, do pháp ấy, các pháp thiện chưa sanh được sanh khởi, và các pháp bất thiện đã sanh được đoạn tận, này các Tỷ-kheo, như tinh tấn tinh cần. Với người tinh cần tinh tấn, này các Tỷ-kheo, các pháp thiện chưa sanh được sanh khởi, và các pháp bất thiện đã sanh được đoạn tận.
+
+TTC 2 Ta không thấy một pháp nào khác, này các Tỷ-kheo, do pháp ấy, các pháp thiện chưa sanh được sanh khởi, và các pháp thiện đã sanh bị đoạn tận, này các Tỷ-kheo, như là dục lớn. Với người có dục lớn, này các Tỷ-kheo, các pháp bất thiện chưa sanh được sanh khởi, và các pháp thiện đã sanh bị đoạn tận.
+
+TTC 3 Ta không thấy một pháp nào khác, này các Tỷ-kheo, do pháp ấy, các pháp thiện chưa sanh được sanh khởi, và các pháp bất thiện đã sanh được đoạn tận, này các Tỷ-kheo, như ít dục. Với người có ít dục, này các Tỷ-kheo, các pháp thiện chưa sanh được sanh khởi, và các pháp bất thiện đã sanh được đoạn tận.
+
+TTC 4 (Như số 2 ở trên, chỉ thế vào “không biết vừa đủ”)…
+
+TTC 5 (Như số 3 ở trên, chỉ thế vào “biết vừa đủ”)…
+
+TTC 6 (Như số 2 ở trên, chỉ thế vào “không như lý tác ý”)…
+
+TTC 7 (Như số 3 ở trên, chỉ thế vào “như lý tác ý”)…
+
+TTC 8 (Như số 2 ở trên, chỉ thế vào “không tỉnh giác”)…
+
+TTC 9 (Như số 3 ở trên, chỉ thế vào “tỉnh giác”)…
+
+TTC 10 Ta không thấy một pháp nào khác, này các Tỷ-kheo, do pháp ấy, các pháp bất thiện chưa sanh được sanh khởi, và các pháp thiện đã sanh bị đoạn tận, này các Tỷ-kheo, như làm bạn với ác. Với người làm bạn với ác, này các Tỷ-kheo, các pháp bất thiện chưa sanh được sanh khởi, và các pháp thiện đã sanh bị đoạn tận.
+
+Bộ kinh nầy được Hòa thượng Thích Minh Châu dịch từ tạng Pali sang Việt ngữ năm 1976–1977, và được Viện Phật Học Vạn Hạnh, Sài Gòn, ấn hành năm 1980–1981 . Trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được hiệu đính thành 4 tập và tái bản năm 1996, qua số thứ tự 21, 22, 23, và 24.
+
+These texts have been used with the kind permission of the webmaster of http://www.budsas.net/
+
+Prepared for SuttaCentral by Ayya Vimala .
+

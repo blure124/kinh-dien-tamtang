@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Santhavavagga
+
+# 5. Nakulajātaka
+
+**ja165:1.1** “Sandhiṁ katvā amittena,
+
+**ja165:1.2** aṇḍajena jalābuja;
+
+**ja165:1.3** Vivariya dāṭhaṁ sesi,
+
+**ja165:1.4** kuto te bhayamāgataṁ”.
+
+**ja165:2.1** “Saṅketheva amittasmiṁ,
+
+**ja165:2.2** mittasmimpi na vissase;
+
+**ja165:2.3** Abhayā bhayamuppannaṁ,
+
+**ja165:2.4** api mūlāni kantatī”ti.
+
+**ja165:3.1** Nakulajātakaṁ pañcamaṁ.
+

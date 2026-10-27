@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Upāhanavagga
+
+# 6. Bakajātaka
+
+**ja236:1.1** “Bhaddako vatayaṁ pakkhī,
+
+**ja236:1.2** dijo kumudasannibho;
+
+**ja236:1.3** Vūpasantehi pakkhehi,
+
+**ja236:1.4** mandamandova jhāyati”.
+
+**ja236:2.1** “Nāssa sīlaṁ vijānātha,
+
+**ja236:2.2** anaññāya pasaṁsatha;
+
+**ja236:2.3** Amhe dijo na pāleti,
+
+**ja236:2.4** tena pakkhī na phandatī”ti.
+
+**ja236:3.1** Bakajātakaṁ chaṭṭhaṁ.
+

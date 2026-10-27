@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammapaccanīyānuloma (4), Tikatikapaṭṭhānapāḷi (5)
+
+# 23.31. Parittārammaṇattika, Kusalattika
+
+**patthana23.31:1.1** Naparittārammaṇaṁ nakusalaṁ dhammaṁ paccayā parittārammaṇo kusalo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā ekavīsa …pe… avigate ekavīsa.
+
+**patthana23.31:2.1** Naparittārammaṇaṁ naakusalaṁ dhammaṁ paccayā parittārammaṇo akusalo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā cuddasa …pe… avigate cuddasa.
+
+**patthana23.31:3.1** Naparittārammaṇo naabyākato dhammo parittārammaṇassa abyākatassa dhammassa ārammaṇapaccayena paccayo. (Saṅkhittaṁ.) … Ārammaṇe ekavīsa, adhipatiyā nava, anantare samanantare ekavīsa, upanissaye ekavīsa, natthiyā vigate ekavīsa.
+

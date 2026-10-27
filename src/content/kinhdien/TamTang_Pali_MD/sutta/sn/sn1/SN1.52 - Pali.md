@@ -1,0 +1,26 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.52
+
+# 6. Jarāvagga
+
+# Ajarasāsutta
+
+**sn1.52:1.1** “Kiṁsu ajarasā sādhu,
+
+**sn1.52:1.2** kiṁsu sādhu adhiṭṭhitaṁ;
+
+**sn1.52:1.3** Kiṁsu narānaṁ ratanaṁ,
+
+**sn1.52:1.4** kiṁsu corehyahāriyan”ti.
+
+**sn1.52:2.1** “Sīlaṁ ajarasā sādhu,
+
+**sn1.52:2.2** saddhā sādhu adhiṭṭhitā;
+
+**sn1.52:2.3** Paññā narānaṁ ratanaṁ,
+
+**sn1.52:2.4** puññaṁ corehyahāriyan”ti.
+

@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# 3 Āyatanayamaka
+
+# 3.3 Pariññāvāra
+
+# 3.3.5. Paccuppannānāgatavāra
+
+**ya3.3.5:1.1** Yo cakkhāyatanaṁ parijānāti so sotāyatanaṁ parijānissatīti? No.
+
+**ya3.3.5:2.1** Yo vā pana sotāyatanaṁ parijānissati so cakkhāyatanaṁ parijānātīti? No.
+
+**ya3.3.5:3.1** Yo cakkhāyatanaṁ na parijānāti so sotāyatanaṁ na parijānissatīti?
+
+**ya3.3.5:4.1** Ye maggaṁ paṭilabhissanti te cakkhāyatanaṁ na parijānanti, no ca sotāyatanaṁ na parijānissanti. Arahā ye ca puthujjanā maggaṁ na paṭilabhissanti te cakkhāyatanañca na parijānanti sotāyatanañca na parijānissanti.
+
+**ya3.3.5:5.1** Yo vā pana sotāyatanaṁ na parijānissati so cakkhāyatanaṁ na parijānātīti?
+
+**ya3.3.5:6.1** Aggamaggasamaṅgī sotāyatanaṁ na parijānissati, no ca cakkhāyatanaṁ na parijānāti. Arahā ye ca puthujjanā maggaṁ na paṭilabhissanti te sotāyatanañca na parijānissanti cakkhāyatanañca na parijānanti.
+

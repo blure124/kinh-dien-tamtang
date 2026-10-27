@@ -1,0 +1,16 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Dukatikapaṭṭhānapāḷi (3)
+
+# 15.33. Sāsavaduka, Kusalattika
+
+**patthana15.33:1.1** Sāsavaṁ kusalaṁ dhammaṁ paṭicca naanāsavo nakusalo dhammo uppajjati hetupaccayā. Anāsavaṁ kusalaṁ dhammaṁ paṭicca naanāsavo nakusalo dhammo uppajjati hetupaccayā …. Hetuyā dve …pe… avigate dve.
+
+**patthana15.33:2.1** Sāsavaṁ akusalaṁ dhammaṁ paṭicca naanāsavo naakusalo dhammo uppajjati hetupaccayā. Hetuyā ekaṁ …pe… avigate ekaṁ.
+
+**patthana15.33:3.1** Sāsavaṁ abyākataṁ dhammaṁ paccayā nasāsavo naabyākato dhammo uppajjati hetupaccayā …. Hetuyā dve …pe… avigate dve.
+

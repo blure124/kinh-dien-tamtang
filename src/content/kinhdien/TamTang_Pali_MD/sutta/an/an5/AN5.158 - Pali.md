@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.158
+
+# 16. Saddhammavagga
+
+# Sārajjasutta
+
+**an5.158:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato bhikkhu sārajjaṁ okkanto hoti.
+
+**an5.158:1.2** Katamehi pañcahi?
+
+**an5.158:1.3** Idha, bhikkhave, bhikkhu assaddho hoti, dussīlo hoti, appassuto hoti, kusīto hoti, duppañño hoti.
+
+**an5.158:1.4** Imehi kho, bhikkhave, pañcahi, dhammehi samannāgato bhikkhu sārajjaṁ okkanto hoti.
+
+**an5.158:2.1** Pañcahi, bhikkhave, dhammehi samannāgato bhikkhu visārado hoti.
+
+**an5.158:2.2** Katamehi pañcahi?
+
+**an5.158:2.3** Idha, bhikkhave, bhikkhu saddho hoti, sīlavā hoti, bahussuto hoti, āraddhavīriyo hoti, paññavā hoti.
+
+**an5.158:2.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato bhikkhu visārado hotī”ti.
+
+**an5.158:2.5** Aṭṭhamaṁ.
+

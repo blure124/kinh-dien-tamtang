@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Bīraṇathambhavagga
+
+# 1. Somadattajātaka
+
+**ja211:1.1** “Akāsi yoggaṁ dhuvamappamatto,
+
+**ja211:1.2** Saṁvaccharaṁ bīraṇathambhakasmiṁ;
+
+**ja211:1.3** Byākāsi saññaṁ parisaṁ vigayha,
+
+**ja211:1.4** Na niyyamo tāyati appapaññaṁ”.
+
+**ja211:2.1** “Dvayaṁ yācanako tāta,
+
+**ja211:2.2** somadatta nigacchati;
+
+**ja211:2.3** Alābhaṁ dhanalābhaṁ vā,
+
+**ja211:2.4** evaṁ dhammā hi yācanā”ti.
+
+**ja211:3.1** Somadattajātakaṁ paṭhamaṁ.
+

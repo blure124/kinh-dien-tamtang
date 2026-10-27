@@ -1,0 +1,50 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.19
+
+# 2. Nandanavagga
+
+# Kuṭikāsutta
+
+**sn1.19:1.1** “Kacci te kuṭikā natthi,
+
+**sn1.19:1.2** kacci natthi kulāvakā;
+
+**sn1.19:1.3** Kacci santānakā natthi,
+
+**sn1.19:1.4** kacci muttosi bandhanā”ti.
+
+**sn1.19:2.1** “Taggha me kuṭikā natthi,
+
+**sn1.19:2.2** taggha natthi kulāvakā;
+
+**sn1.19:2.3** Taggha santānakā natthi,
+
+**sn1.19:2.4** taggha muttomhi bandhanā”ti.
+
+**sn1.19:3.1** “Kintāhaṁ kuṭikaṁ brūmi,
+
+**sn1.19:3.2** kiṁ te brūmi kulāvakaṁ;
+
+**sn1.19:3.3** Kiṁ te santānakaṁ brūmi,
+
+**sn1.19:3.4** kintāhaṁ brūmi bandhanan”ti.
+
+**sn1.19:4.1** “Mātaraṁ kuṭikaṁ brūsi,
+
+**sn1.19:4.2** bhariyaṁ brūsi kulāvakaṁ;
+
+**sn1.19:4.3** Putte santānake brūsi,
+
+**sn1.19:4.4** taṇhaṁ me brūsi bandhanan”ti.
+
+**sn1.19:5.1** “Sāhu te kuṭikā natthi,
+
+**sn1.19:5.2** sāhu natthi kulāvakā;
+
+**sn1.19:5.3** Sāhu santānakā natthi,
+
+**sn1.19:5.4** sāhu muttosi bandhanā”ti.
+

@@ -1,0 +1,18 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Paṭṭhānapakaraṇa
+
+# Dhammānulomapaccanīya (3), Tikatikapaṭṭhānapāḷi (5)
+
+# 17.19. Kusalattika, Ajjhattattikadvaya
+
+**patthana17.19:1.1** Kusalo ajjhatto dhammo naajjhattassa nakusalassa dhammassa ārammaṇapaccayena paccayo. (Saṅkhittaṁ.) Ārammaṇe aṭṭhārasa, adhipatiyā nava, upanissaye aṭṭhārasa, purejāte cha, āhāre tīṇi, atthiyā avigate cha.
+
+**patthana17.19:2.1** Kusalo bahiddhā dhammo nabahiddhā nakusalassa dhammassa ārammaṇapaccayena paccayo. (Saṅkhittaṁ.) Ārammaṇe aṭṭhārasa, adhipatiyā pannarasa, upanissaye aṭṭhārasa, purejāte cha, āhāre tīṇi, atthiyā avigate cha.
+
+**patthana17.19:3.1** Kusalaṁ ajjhattārammaṇaṁ dhammaṁ paṭicca nakusalo naajjhattārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā nava, adhipatiyā nava …pe… aññamaññe tīṇi …pe… vipāke tīṇi …pe… avigate nava.
+
+**patthana17.19:4.1** Kusalaṁ bahiddhārammaṇaṁ dhammaṁ paṭicca nakusalo nabahiddhārammaṇo dhammo uppajjati hetupaccayā. (Saṅkhittaṁ.) Hetuyā nava, adhipatiyā nava …pe… aññamaññe tīṇi …pe… vipāke tīṇi …pe… avigate nava.
+

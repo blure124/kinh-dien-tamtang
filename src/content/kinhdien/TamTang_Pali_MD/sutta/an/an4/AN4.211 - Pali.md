@@ -1,0 +1,40 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.211
+
+# 22. Parisāvagga
+
+# Parisāsutta
+
+**an4.211:1.1** “Cattārome, bhikkhave, parisadūsanā.
+
+**an4.211:1.2** Katame cattāro?
+
+**an4.211:1.3** Bhikkhu, bhikkhave, dussīlo pāpadhammo parisadūsano;
+
+**an4.211:1.4** bhikkhunī, bhikkhave, dussīlā pāpadhammā parisadūsanā;
+
+**an4.211:1.5** upāsako, bhikkhave, dussīlo pāpadhammo parisadūsano;
+
+**an4.211:1.6** upāsikā, bhikkhave, dussīlā pāpadhammā parisadūsanā.
+
+**an4.211:1.7** Ime kho, bhikkhave, cattāro parisadūsanā.
+
+**an4.211:2.1** Cattārome, bhikkhave, parisasobhanā.
+
+**an4.211:2.2** Katame cattāro?
+
+**an4.211:2.3** Bhikkhu, bhikkhave, sīlavā kalyāṇadhammo parisasobhano;
+
+**an4.211:2.4** bhikkhunī, bhikkhave, sīlavatī kalyāṇadhammā parisasobhanā;
+
+**an4.211:2.5** upāsako, bhikkhave, sīlavā kalyāṇadhammo parisasobhano;
+
+**an4.211:2.6** upāsikā, bhikkhave, sīlavatī kalyāṇadhammā parisasobhanā.
+
+**an4.211:2.7** Ime kho, bhikkhave, cattāro parisasobhanā”ti.
+
+**an4.211:2.8** Paṭhamaṁ.
+

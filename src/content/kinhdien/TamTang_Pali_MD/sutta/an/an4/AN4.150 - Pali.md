@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 4.150
+
+# 15. Ābhāvagga
+
+# Sārasutta
+
+**an4.150:1.1** “Cattārome, bhikkhave, sārā.
+
+**an4.150:1.2** Katame cattāro?
+
+**an4.150:1.3** Sīlasāro, samādhisāro, paññāsāro, vimuttisāro—
+
+**an4.150:1.4** Ime kho, bhikkhave, cattāro sārā”ti.
+
+**an4.150:1.5** Dasamaṁ.
+
+**an4.150:1.6** Ābhāvaggo pañcamo.
+
+**an4.150:2.0** Tassuddānaṁ
+
+**an4.150:2.1** Ābhā pabhā ca ālokā,
+
+**an4.150:2.2** obhāsā ceva pajjotā;
+
+**an4.150:2.3** Dve kālā caritā dve ca,
+
+**an4.150:2.4** honti sārena te dasāti.
+
+**an4.150:2.5** Tatiyo paṇṇāsako samatto.
+

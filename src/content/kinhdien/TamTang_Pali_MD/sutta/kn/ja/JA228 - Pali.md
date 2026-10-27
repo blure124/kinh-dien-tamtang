@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Kāsāvavagga
+
+# 8. Kāmanītajātaka
+
+**ja228:1.1** “Tayo giriṁ antaraṁ kāmayāmi,
+
+**ja228:1.2** Pañcālā kuruyo kekake ca;
+
+**ja228:1.3** Tatuttariṁ brāhmaṇa kāmayāmi,
+
+**ja228:1.4** Tikiccha maṁ brāhmaṇa kāmanītaṁ”.
+
+**ja228:2.1** “Kaṇhāhidaṭṭhassa karonti heke,
+
+**ja228:2.2** Amanussapaviṭṭhassa karonti paṇḍitā;
+
+**ja228:2.3** Na kāmanītassa karoti koci,
+
+**ja228:2.4** Okkantasukkassa hi kā tikicchā”ti.
+
+**ja228:3.1** Kāmanītajātakaṁ aṭṭhamaṁ.
+

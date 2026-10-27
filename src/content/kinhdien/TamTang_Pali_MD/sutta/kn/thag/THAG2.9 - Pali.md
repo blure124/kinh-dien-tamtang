@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 2.9
+
+# Dukanipāta
+
+# Paṭhamavagga
+
+# Gotamattheragāthā
+
+**thag2.9:1.1** “Sukhaṁ supanti munayo,
+
+**thag2.9:1.2** ye itthīsu na bajjhare;
+
+**thag2.9:1.3** Sadā ve rakkhitabbāsu,
+
+**thag2.9:1.4** yāsu saccaṁ sudullabhaṁ.
+
+**thag2.9:2.1** Vadhaṁ carimha te kāma,
+
+**thag2.9:2.2** anaṇā dāni te mayaṁ;
+
+**thag2.9:2.3** Gacchāma dāni nibbānaṁ,
+
+**thag2.9:2.4** yattha gantvā na socatī”ti.
+
+**thag2.9:2.5** … Gotamo thero ….
+

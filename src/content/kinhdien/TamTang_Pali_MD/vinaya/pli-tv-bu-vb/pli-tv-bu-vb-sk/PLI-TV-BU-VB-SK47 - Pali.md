@@ -1,0 +1,44 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theravāda Vinaya
+
+# Mahāvibhaṅga
+
+# Sekhiyakaṇḍa
+
+# Kabaḷavagga
+
+# 47. Hatthaniddhunakasikkhāpada
+
+**pli-tv-bu-vb-sk47:1.1** Tena samayena buddho bhagavā sāvatthiyaṁ viharati jetavane anāthapiṇḍikassa ārāme.
+
+**pli-tv-bu-vb-sk47:1.2** Tena kho pana samayena chabbaggiyā bhikkhū hatthaniddhunakaṁ bhuñjanti …pe….
+
+**pli-tv-bu-vb-sk47:1.3.1** “Na hatthaniddhunakaṁ bhuñjissāmīti sikkhā karaṇīyā”ti.
+
+**pli-tv-bu-vb-sk47:1.4** Na hatthaniddhunakaṁ bhuñjitabbaṁ.
+
+**pli-tv-bu-vb-sk47:1.5** Yo anādariyaṁ paṭicca hatthaniddhunakaṁ bhuñjati, āpatti dukkaṭassa.
+
+**pli-tv-bu-vb-sk47:1.6.1** Anāpatti—
+
+**pli-tv-bu-vb-sk47:1.7** asañcicca,
+
+**pli-tv-bu-vb-sk47:1.8** assatiyā,
+
+**pli-tv-bu-vb-sk47:1.9** ajānantassa,
+
+**pli-tv-bu-vb-sk47:1.10** gilānassa,
+
+**pli-tv-bu-vb-sk47:1.11** kacavaraṁ chaḍḍento hatthaṁ niddhunāti,
+
+**pli-tv-bu-vb-sk47:1.12** āpadāsu,
+
+**pli-tv-bu-vb-sk47:1.13** ummattakassa,
+
+**pli-tv-bu-vb-sk47:1.14** ādikammikassāti.
+
+**pli-tv-bu-vb-sk47:1.15** Sattamasikkhāpadaṁ niṭṭhitaṁ.
+

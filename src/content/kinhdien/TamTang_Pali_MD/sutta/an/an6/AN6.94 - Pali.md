@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 6.94
+
+# 9. Sītivagga
+
+# Tatiyaabhabbaṭṭhānasutta
+
+**an6.94:1.1** “Chayimāni, bhikkhave, abhabbaṭṭhānāni.
+
+**an6.94:1.2** Katamāni cha?
+
+**an6.94:1.3** Abhabbo diṭṭhisampanno puggalo mātaraṁ jīvitā voropetuṁ, abhabbo diṭṭhisampanno puggalo pitaraṁ jīvitā voropetuṁ, abhabbo diṭṭhisampanno puggalo arahantaṁ jīvitā voropetuṁ, abhabbo diṭṭhisampanno puggalo tathāgatassa duṭṭhena cittena lohitaṁ uppādetuṁ, abhabbo diṭṭhisampanno puggalo saṅghaṁ bhindituṁ, abhabbo diṭṭhisampanno puggalo aññaṁ satthāraṁ uddisituṁ.
+
+**an6.94:1.4** Imāni kho, bhikkhave, cha abhabbaṭṭhānānī”ti.
+
+**an6.94:1.5** Dasamaṁ.
+

@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Kusanāḷivagga
+
+# 10. Kosiyajātaka
+
+**ja130:1.1** “Yathā vācā ca bhuñjassu,
+
+**ja130:1.2** yathā bhuttañca byāhara;
+
+**ja130:1.3** Ubhayaṁ te na sameti,
+
+**ja130:1.4** vācā bhuttañca kosiye”ti.
+
+**ja130:2.1** Kosiyajātakaṁ dasamaṁ.
+
+**ja130:2.2** Kusanāḷivaggo terasamo.
+
+**ja130:3.1** Tassuddānaṁ
+
+**ja130:4.1** Kusanāḷisirivhayano ca yasaṁ,
+
+**ja130:4.2** Dadhi mamba kaṭāhakapañcamako;
+
+**ja130:4.3** Atha pāpaka khīra biḷāravataṁ,
+
+**ja130:4.4** Sikhi kosiyasavhayanena dasāti.
+

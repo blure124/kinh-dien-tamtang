@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.112
+
+# 12. Andhakavindavagga
+
+# Pacchāsamaṇasutta
+
+**an5.112:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato pacchāsamaṇo na ādātabbo.
+
+**an5.112:1.2** Katamehi pañcahi?
+
+**an5.112:1.3** Atidūre vā gacchati accāsanne vā, na pattapariyāpannaṁ gaṇhati, āpattisāmantā bhaṇamānaṁ na nivāreti, bhaṇamānassa antarantarā kathaṁ opāteti, duppañño hoti jaḷo eḷamūgo.
+
+**an5.112:1.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato pacchāsamaṇo na ādātabbo.
+
+**an5.112:2.1** Pañcahi, bhikkhave, dhammehi samannāgato pacchāsamaṇo ādātabbo.
+
+**an5.112:2.2** Katamehi pañcahi?
+
+**an5.112:2.3** Nātidūre gacchati na accāsanne, pattapariyāpannaṁ gaṇhati, āpattisāmantā bhaṇamānaṁ nivāreti, bhaṇamānassa na antarantarā kathaṁ opāteti, paññavā hoti ajaḷo aneḷamūgo.
+
+**an5.112:2.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato pacchāsamaṇo ādātabbo”ti.
+
+**an5.112:2.5** Dutiyaṁ.
+

@@ -1,0 +1,20 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 5.95
+
+# 10. Kakudhavagga
+
+# Akuppasutta
+
+**an5.95:1.1** “Pañcahi, bhikkhave, dhammehi samannāgato bhikkhu nacirasseva akuppaṁ paṭivijjhati.
+
+**an5.95:1.2** Katamehi pañcahi?
+
+**an5.95:1.3** Idha, bhikkhave, bhikkhu atthapaṭisambhidāpatto hoti, dhammapaṭisambhidāpatto hoti, niruttipaṭisambhidāpatto hoti, paṭibhānapaṭisambhidāpatto hoti, yathāvimuttaṁ cittaṁ paccavekkhati.
+
+**an5.95:1.4** Imehi kho, bhikkhave, pañcahi dhammehi samannāgato bhikkhu nacirasseva akuppaṁ paṭivijjhatī”ti.
+
+**an5.95:1.5** Pañcamaṁ.
+

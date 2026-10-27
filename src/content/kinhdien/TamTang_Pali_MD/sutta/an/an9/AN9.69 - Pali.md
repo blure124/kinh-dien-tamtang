@@ -1,0 +1,22 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Aṅguttara Nikāya 9.69
+
+# 7. Satipaṭṭhānavagga
+
+# Macchariyasutta
+
+**an9.69:1.1** “Pañcimāni, bhikkhave, macchariyāni.
+
+**an9.69:1.2** Katamāni pañca?
+
+**an9.69:1.3** Āvāsamacchariyaṁ, kulamacchariyaṁ, lābhamacchariyaṁ, vaṇṇamacchariyaṁ, dhammamacchariyaṁ—
+
+**an9.69:1.4** imāni kho, bhikkhave, pañca macchariyāni.
+
+**an9.69:2.1** Imesaṁ kho, bhikkhave, pañcannaṁ macchariyānaṁ pahānāya …pe… ime cattāro satipaṭṭhānā bhāvetabbā”ti.
+
+**an9.69:2.2** Sattamaṁ.
+

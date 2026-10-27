@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Saṁyutta Nikāya 1.71
+
+# 8. Chetvāvagga
+
+# Chetvāsutta
+
+**sn1.71:1.1** Sāvatthinidānaṁ.
+
+**sn1.71:1.2** Ekamantaṁ ṭhitā kho sā devatā bhagavantaṁ gāthāya ajjhabhāsi:
+
+**sn1.71:2.1** “Kiṁsu chetvā sukhaṁ seti,
+
+**sn1.71:2.2** kiṁsu chetvā na socati;
+
+**sn1.71:2.3** Kissassu ekadhammassa,
+
+**sn1.71:2.4** vadhaṁ rocesi gotamā”ti.
+
+**sn1.71:3.1** “Kodhaṁ chetvā sukhaṁ seti,
+
+**sn1.71:3.2** kodhaṁ chetvā na socati;
+
+**sn1.71:3.3** Kodhassa visamūlassa,
+
+**sn1.71:3.4** madhuraggassa devate;
+
+**sn1.71:3.5** Vadhaṁ ariyā pasaṁsanti,
+
+**sn1.71:3.6** tañhi chetvā na socatī”ti.
+

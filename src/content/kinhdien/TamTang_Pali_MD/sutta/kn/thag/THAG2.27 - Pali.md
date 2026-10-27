@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Theragāthā 2.27
+
+# Dukanipāta
+
+# Tatiyavagga
+
+# Nandakattheragāthā
+
+**thag2.27:1.1** “Yathāpi bhaddo ājañño,
+
+**thag2.27:1.2** khalitvā patitiṭṭhati;
+
+**thag2.27:1.3** Bhiyyo laddhāna saṁvegaṁ,
+
+**thag2.27:1.4** adīno vahate dhuraṁ.
+
+**thag2.27:2.1** Evaṁ dassanasampannaṁ,
+
+**thag2.27:2.2** sammāsambuddhasāvakaṁ;
+
+**thag2.27:2.3** Ājānīyaṁ maṁ dhāretha,
+
+**thag2.27:2.4** puttaṁ buddhassa orasan”ti.
+
+**thag2.27:2.5** … Nandako thero ….
+

@@ -1,0 +1,30 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Dukanipāta
+
+# Daḷhavagga
+
+# 3. Sūkarajātaka
+
+**ja153:1.1** “Catuppado ahaṁ samma,
+
+**ja153:1.2** tvampi samma catuppado;
+
+**ja153:1.3** Ehi samma nivattassu,
+
+**ja153:1.4** kiṁ nu bhīto palāyasi”.
+
+**ja153:2.1** “Asuci pūtilomosi,
+
+**ja153:2.2** duggandho vāsi sūkara;
+
+**ja153:2.3** Sace yujjhitukāmosi,
+
+**ja153:2.4** jayaṁ samma dadāmi te”ti.
+
+**ja153:3.1** Sūkarajātakaṁ tatiyaṁ.
+

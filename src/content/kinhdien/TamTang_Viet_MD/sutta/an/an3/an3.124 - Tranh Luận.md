@@ -1,0 +1,28 @@
+> Nguồn: SuttaCentral - Bản dịch: Thích Minh Châu
+
+---
+
+# 3.124. Tranh Luận
+
+—Tại phương hướng nào, này các Tỷ-kheo, các Tỷ-kheo sống cạnh tranh, luận tranh, đấu tranh, đả thương nhau với binh khí miệng lưỡi, thật không thoải mái cho ta, này các Tỷ-kheo, khi nghĩ đến phương hướng ấy, còn nói gì đến chỗ ấy. Ở đây, Ta đi đến kết luận như sau: “Thật vậy, các Tỷ-kheo ấy đã từ bỏ ba pháp và đã làm quá nhiều ba pháp”.
+
+Ba pháp họ đã từ bỏ là gì? Viễn ly tầm, vô sân tầm, bất hại tầm. Ba pháp này họ đã từ bỏ.
+
+Ba pháp gì họ đã làm quá nhiều? Dục tầm, sân tầm, hại tầm. Ba pháp này họ đã làm quá nhiều.
+
+Tại phương hướng nào, này các Tỷ-kheo, các Tỷ-kheo sống cạnh tranh, luận tranh, đấu tranh, đả thương nhau với binh khí miệng lưỡi, thật không thoải mái cho ta, này các Tỷ-kheo, khi nghĩ đến phương hướng ấy, còn nói gì đến chỗ ấy. Ở đây, Ta đi đến kết luận như sau: “Thật vậy, các Tỷ-kheo ấy đã từ bỏ ba pháp này và đã làm quá nhiều ba pháp này”.
+
+Tại phương hướng nào, này các Tỷ-kheo, các Tỷ-kheo sống hòa hợp, hoan hỷ, không đấu tranh nhau, như sữa và nước lẫn lộn, nhìn nhau với cặp mắt ái kính, này các Tỷ-kheo, đi đến phương hướng ấy thật thoải mái cho ta, còn nói gì nghĩ đến phương hướng ấy. Ở đây, Ta đi đến kết luận như sau: “Thật vậy, các Tỷ-kheo ấy đã từ bỏ ba pháp này và đã làm quá nhiều ba pháp này”.
+
+Ba pháp họ đã từ bỏ là gì? Dục tầm, sân tầm, hại tầm. Ba pháp này họ đã từ bỏ.
+
+Ba pháp gì họ đã làm quá nhiều? Viễn ly tầm, vô sân tầm, bất hại tầm.
+
+Tại phương hướng nào, này các Tỷ-kheo, các Tỷ-kheo sống hòa hợp, hoan hỷ, không đấu tranh nhau, như sữa và nước lẫn lộn, nhìn nhau với cặp mắt ái kính, này các Tỷ-kheo, đi đến phương hướng ấy thật thoải mái cho ta, còn nói gì nghĩ đến phương hướng ấy. Ở đây, Ta đi đến kết luận như sau: “Thật vậy, các Tỷ-kheo ấy đã từ bỏ ba pháp này và đã làm quá nhiều ba pháp này”.
+
+Bộ kinh nầy được Hòa thượng Thích Minh Châu dịch từ tạng Pali sang Việt ngữ năm 1976–1977, và được Viện Phật Học Vạn Hạnh, Sài Gòn, ấn hành năm 1980–1981 . Trong chương trình phiên dịch và ấn hành Ðại tạng kinh Việt Nam, bộ kinh được hiệu đính thành 4 tập và tái bản năm 1996, qua số thứ tự 21, 22, 23, và 24.
+
+These texts have been used with the kind permission of the webmaster of http://www.budsas.net/
+
+Prepared for SuttaCentral by Ayya Vimala .
+

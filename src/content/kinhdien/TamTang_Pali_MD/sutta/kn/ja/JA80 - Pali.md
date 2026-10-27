@@ -1,0 +1,34 @@
+> Nguồn: SuttaCentral - Ấn bản Pāli: Mahāsaṅgīti Tipiṭaka
+
+---
+
+# Jātaka
+
+# Ekakanipāta
+
+# Varuṇavagga
+
+# 10. Bhīmasenajātaka
+
+**ja80:1.1** “Yaṁ te pavikatthitaṁ pure,
+
+**ja80:1.2** Atha te pūtisarā sajanti pacchā;
+
+**ja80:1.3** Ubhayaṁ na sameti bhīmasena,
+
+**ja80:1.4** Yuddhakathā ca idañca te vihaññan”ti.
+
+**ja80:2.1** Bhīmasenajātakaṁ dasamaṁ.
+
+**ja80:2.2** Varuṇavaggo aṭṭhamo.
+
+**ja80:3.1** Tassuddānaṁ
+
+**ja80:4.1** Varuṇā akataññūvare tu saccavaraṁ,
+
+**ja80:4.2** Savanappatinā ca abhitthanaya;
+
+**ja80:4.3** Karuṇāya silāplava illisato,
+
+**ja80:4.4** Puna ḍiṇḍimapūtisarena dasāti.
+
