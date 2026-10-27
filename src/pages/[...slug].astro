@@ -1,15 +1,13 @@
 ---
 import AuthUI from '../components/AuthUI.astro';
+import Sidebar from '../components/Sidebar.astro';
 
 export async function getStaticPaths() {
   const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
-  
   return tatCaKinh.map(kinh => {
-    // Trích xuất đường dẫn tương đối từ cấu trúc thư mục để làm URL
     const filePath = kinh.file;
     const pathParts = filePath.split('/content/kinhdien/');
     const urlSlug = pathParts[1].replace('.md', '');
-    
     return {
       params: { slug: urlSlug },
       props: { kinh },
@@ -23,15 +21,21 @@ const { Content } = kinh;
 <html lang="vi">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kinh Điển Tam Tạng</title>
   </head>
-  <body class="max-w-4xl mx-auto p-6 bg-gray-50 text-gray-900 leading-relaxed relative">
+  <body class="bg-gray-50 text-gray-900 leading-relaxed flex flex-col md:flex-row min-h-screen">
     
-    <!-- Nhúng giao diện đăng nhập / đăng ký -->
-    <AuthUI />
+    <!-- Sidebar tự động -->
+    <Sidebar />
 
-    <article class="prose prose-lg mt-12">
-      <Content />
-    </article>
+    <!-- Nội dung kinh -->
+    <main class="flex-1 p-6 md:p-10 relative overflow-x-hidden">
+      <AuthUI />
+      <article class="prose prose-lg max-w-4xl mx-auto mt-12 md:mt-4">
+        <Content />
+      </article>
+    </main>
+
   </body>
 </html>
