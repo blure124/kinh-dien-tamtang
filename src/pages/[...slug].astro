@@ -1,0 +1,31 @@
+---
+export async function getStaticPaths() {
+  const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
+  
+  return tatCaKinh.map(kinh => {
+    // Trích xuất đường dẫn tương đối từ cấu trúc thư mục để làm URL
+    const filePath = kinh.file;
+    const pathParts = filePath.split('/content/kinhdien/');
+    const urlSlug = pathParts[1].replace('.md', '');
+    
+    return {
+      params: { slug: urlSlug },
+      props: { kinh },
+    };
+  });
+}
+
+const { kinh } = Astro.props;
+const { Content } = kinh;
+---
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kinh Điển Tam Tạng</title>
+  </head>
+  <body class="max-w-4xl mx-auto p-6 bg-gray-50 text-gray-900 leading-relaxed">
+    <article class="prose prose-lg">
+      <Content />
+    </article>
+  </body>
+</html>
