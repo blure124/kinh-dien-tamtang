@@ -8,3 +8,6 @@ directory = "dist"
 binding = "DB"
 database_name = "kinhdien-db"
 database_id = "d95461e7-a98b-4f58-9603-eb06307f7f8b"
+
+# Thêm dòng này để định tuyến API
+main = "src/worker.js"
