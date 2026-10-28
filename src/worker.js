@@ -47,6 +47,40 @@ export default {
           return new Response(JSON.stringify({ success: true, token, username }), { status: 200, headers });
         }
 
+        // API 3: Lưu và Tải Ghi chú (Bookmarks)
+        if (url.pathname === '/api/bookmarks') {
+          const authHeader = request.headers.get('Authorization');
+          if (!authHeader) return new Response(JSON.stringify({ error: 'Chưa đăng nhập' }), { status: 401, headers });
+          
+          const tokenStr = authHeader.replace('Bearer ', '');
+          let username = '';
+          try {
+            const tokenData = JSON.parse(atob(tokenStr));
+            if (tokenData.exp < Date.now()) throw new Error('Token hết hạn');
+            username = tokenData.username;
+          } catch(e) {
+            return new Response(JSON.stringify({ error: 'Token không hợp lệ' }), { status: 401, headers });
+          }
+
+          // [POST] Lưu ghi chú mới
+          if (request.method === 'POST') {
+            const { url_kinh, selected_text, note_content } = await request.json();
+            await env.DB.prepare(
+              "INSERT INTO Bookmarks (username, url_kinh, paragraph_id, start_offset, end_offset, selected_text, note_content) VALUES (?, ?, ?, ?, ?, ?, ?)"
+            ).bind(username, url_kinh, "global", 0, 0, selected_text, note_content || '').run();
+            return new Response(JSON.stringify({ success: true }), { status: 200, headers });
+          }
+
+          // [GET] Tải danh sách ghi chú của bài kinh hiện tại
+          if (request.method === 'GET') {
+            const urlKinh = url.searchParams.get('url');
+            const { results } = await env.DB.prepare(
+              "SELECT selected_text, note_content FROM Bookmarks WHERE username = ? AND url_kinh = ?"
+            ).bind(username, urlKinh).all();
+            return new Response(JSON.stringify(results), { status: 200, headers });
+          }
+        }
+
         return new Response(JSON.stringify({ error: 'API route not found' }), { status: 404, headers });
 
       } catch (err) {
