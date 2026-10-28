@@ -3,6 +3,7 @@ import AuthUI from '../components/AuthUI.astro';
 import Sidebar from '../components/Sidebar.astro';
 import Highlighter from '../components/Highlighter.astro';
 import BookmarkProgress from '../components/BookmarkProgress.astro';
+import ReadingPreferences from '../components/ReadingPreferences.astro';
 
 export async function getStaticPaths() {
   const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
@@ -26,22 +27,25 @@ const { Content } = kinh;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kinh Điển Tam Tạng</title>
   </head>
-  <body class="bg-gray-50 text-gray-900 leading-relaxed flex flex-col md:flex-row min-h-screen">
+  <body class="bg-gray-50 text-gray-900 leading-relaxed flex flex-col md:flex-row min-h-screen transition-colors duration-300">
     
     <!-- Sidebar tự động -->
     <Sidebar />
 
     <!-- Nội dung kinh -->
-    <main class="flex-1 p-6 md:p-10 relative overflow-x-hidden">
+    <main class="flex-1 p-6 md:p-10 relative overflow-x-hidden transition-colors duration-300">
       <AuthUI />
       
       <!-- Công cụ Bôi đen & Ghi chú -->
       <Highlighter />
       
-      <!-- Công cụ Lưu vị trí đọc dở -->
+      <!-- Công cụ Lưu vị trí đọc dở (Bookmark) -->
       <BookmarkProgress />
       
-      <article class="prose prose-lg max-w-4xl mx-auto mt-12 md:mt-4">
+      <!-- Công cụ Tùy chỉnh Giao diện / Chế độ đọc -->
+      <ReadingPreferences />
+      
+      <article class="prose prose-lg max-w-4xl mx-auto mt-12 md:mt-4 transition-all duration-300">
         <Content />
       </article>
     </main>
