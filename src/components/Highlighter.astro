@@ -127,6 +127,18 @@
       });
     }
 
+    // 6. Xử lý chạm vào chữ màu vàng để xem ghi chú trên Điện thoại
+    article.addEventListener('click', (e) => {
+      const target = e.target;
+      // Nếu người dùng chạm vào đúng thẻ MARK (vùng đã highlight)
+      if (target && target.tagName === 'MARK') {
+        const noteTitle = target.getAttribute('title');
+        if (noteTitle) {
+          alert(noteTitle);
+        }
+      }
+    });
+
     loadBookmarks();
   }
 </script>
