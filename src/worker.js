@@ -71,13 +71,22 @@ export default {
             return new Response(JSON.stringify({ success: true }), { status: 200, headers });
           }
 
-          // [GET] Tải danh sách ghi chú của bài kinh hiện tại
+          // [GET] Tải danh sách ghi chú
           if (request.method === 'GET') {
             const urlKinh = url.searchParams.get('url');
-            const { results } = await env.DB.prepare(
-              "SELECT selected_text, note_content FROM Bookmarks WHERE username = ? AND url_kinh = ?"
-            ).bind(username, urlKinh).all();
-            return new Response(JSON.stringify(results), { status: 200, headers });
+            if (urlKinh) {
+              // Đang đọc kinh: Chỉ tải ghi chú của trang hiện tại
+              const { results } = await env.DB.prepare(
+                "SELECT selected_text, note_content FROM Bookmarks WHERE username = ? AND url_kinh = ?"
+              ).bind(username, urlKinh).all();
+              return new Response(JSON.stringify(results), { status: 200, headers });
+            } else {
+              // Mở Tủ sách: Tải TOÀN BỘ thư viện Bookmark của độc giả
+              const { results } = await env.DB.prepare(
+                "SELECT url_kinh, selected_text, note_content, updated_at FROM Bookmarks WHERE username = ? ORDER BY updated_at DESC"
+              ).bind(username).all();
+              return new Response(JSON.stringify(results), { status: 200, headers });
+            }
           }
         }
 
