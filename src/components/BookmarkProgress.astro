@@ -17,24 +17,33 @@
 </div>
 
 <style is:global>
-  /* Hiệu ứng khi bật chế độ Chọn đoạn văn để Bookmark */
+  /* Hiệu ứng Chọn đoạn văn (Fix lỗi giật trang tuyệt đối bằng outline) */
   .bookmark-mode-active p,
   .bookmark-mode-active h2,
   .bookmark-mode-active h3,
   .bookmark-mode-active li {
-    transition: all 0.2s ease;
-    border: 2px solid transparent;
-    padding: 4px;
-    margin: -4px 0; /* Bù lại padding để không xô lệch trang */
+    transition: background-color 0.2s ease, outline 0.2s ease;
+    border-radius: 4px;
   }
+  
   .bookmark-mode-active p:hover,
   .bookmark-mode-active h2:hover,
   .bookmark-mode-active h3:hover,
   .bookmark-mode-active li:hover {
-    background-color: #fef3c7; /* Vàng nhạt */
-    border-color: #f59e0b; /* Viền cam */
+    background-color: #fef3c7; /* Màu nền vàng nhạt */
+    outline: 2px dashed #f59e0b; /* Viền ảo không chiếm diện tích */
+    outline-offset: 4px; /* Đẩy viền ra ngoài một chút cho đẹp */
     cursor: pointer;
-    border-radius: 6px;
+  }
+
+  /* Tinh chỉnh cho Dark Mode/Sepia khỏi chói mắt */
+  html.theme-dark .bookmark-mode-active p:hover,
+  html.theme-dark .bookmark-mode-active h2:hover,
+  html.theme-dark .bookmark-mode-active h3:hover,
+  html.theme-dark .bookmark-mode-active li:hover {
+    background-color: #78350f !important;
+    outline: 2px dashed #fbbf24 !important;
+    color: #fff !important;
   }
 </style>
 
@@ -109,10 +118,8 @@
       btnSaveText.innerText = 'Hủy chọn';
       btnSaveText.classList.remove('hidden');
       
-      // Thêm class tạo hiệu ứng hover cho văn bản
       if (article) article.classList.add('bookmark-mode-active');
       
-      // Tạo thông báo nhỏ để hướng dẫn
       const msg = document.createElement('div');
       msg.id = 'bookmark-instruction';
       msg.className = 'fixed top-20 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-white px-5 py-2 rounded-full shadow-lg z-50 text-sm font-bold animate-bounce';
@@ -132,7 +139,6 @@
     btnSaveProgress.classList.remove('bg-yellow-500', 'hover:bg-yellow-600', 'animate-pulse');
     btnSaveText.innerText = successText;
     
-    // Khôi phục lại giao diện nút sau 2s nếu có thông báo thành công
     if (successText !== 'Lưu vị trí') {
        setTimeout(() => {
           btnSaveText.innerText = 'Lưu vị trí';
@@ -150,7 +156,6 @@
     if (msg) msg.remove();
   }
 
-  // Lắng nghe nút ấn
   if (btnSaveProgress) {
     btnSaveProgress.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -164,22 +169,18 @@
       if (!isBookmarkMode) return;
       e.stopPropagation();
 
-      // Tìm đoạn văn bản gần nhất được click (p, h2, h3, li)
       const targetNode = e.target.closest('p, h2, h3, h4, li');
       if (!targetNode) return;
 
       const tokenStr = localStorage.getItem('auth_token');
       const url_kinh = window.location.pathname;
       
-      // Trích xuất đoạn văn (tối đa 100 ký tự để lưu vào Database)
       let snippet = targetNode.textContent.trim().substring(0, 100);
       if (targetNode.textContent.length > 100) snippet += '...';
 
-      // Tính toán tọa độ cuộn của chính đoạn văn đó (Trừ đi 100px lề trên để không bị che khuất)
       const rect = targetNode.getBoundingClientRect();
       const exactScrollY = window.scrollY + rect.top - 100;
 
-      // Đổi trạng thái nút thành Đang lưu
       const msg = document.getElementById('bookmark-instruction');
       if (msg) msg.innerText = '⏳ Đang lưu...';
       btnSaveProgress.classList.remove('animate-pulse');
