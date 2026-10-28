@@ -1,6 +1,7 @@
 ---
 import AuthUI from '../components/AuthUI.astro';
 import Sidebar from '../components/Sidebar.astro';
+import Highlighter from '../components/Highlighter.astro';
 
 export async function getStaticPaths() {
   const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
@@ -32,6 +33,10 @@ const { Content } = kinh;
     <!-- Nội dung kinh -->
     <main class="flex-1 p-6 md:p-10 relative overflow-x-hidden">
       <AuthUI />
+      
+      <!-- Công cụ Bôi đen & Lưu chú -->
+      <Highlighter />
+      
       <article class="prose prose-lg max-w-4xl mx-auto mt-12 md:mt-4">
         <Content />
       </article>
