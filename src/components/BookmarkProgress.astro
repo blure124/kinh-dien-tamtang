@@ -45,6 +45,18 @@
     outline: 2px dashed #fbbf24 !important;
     color: #fff !important;
   }
+
+  /* Hiệu ứng chớp sáng khi tìm thấy đoạn văn (Nhảy Bookmark) */
+  .highlight-found { animation: highlight-pulse 2s ease-out; }
+  @keyframes highlight-pulse { 
+    0% { background-color: #fef08a; } 
+    100% { background-color: transparent; } 
+  }
+  html.theme-dark .highlight-found { animation: highlight-pulse-dark 2s ease-out; }
+  @keyframes highlight-pulse-dark { 
+    0% { background-color: #92400e; } 
+    100% { background-color: transparent; } 
+  }
 </style>
 
 <script>
@@ -55,7 +67,8 @@
   const btnResumeNo = document.getElementById('btn-resume-no');
   const article = document.querySelector('article.prose');
 
-  let savedScrollY = 0;
+  let savedPIndex = -1;
+  let savedSnippet = '';
   let isBookmarkMode = false;
 
   // 1. Tải tiến trình khi mở trang
@@ -71,30 +84,55 @@
       if (res.ok) {
         const result = await res.json();
         if (result.data) {
-          let parsed = { y: 0, text: '' };
-          try { 
-            parsed = JSON.parse(result.data); 
-          } catch(e) { 
-            parsed.y = parseInt(result.data);
-          }
-          
-          if (parsed.y > 50) { 
-            savedScrollY = parsed.y;
-            document.getElementById('resume-text').innerText = parsed.text ? `"...${parsed.text}"` : 'Bạn có một vị trí đang đọc dở ở bài kinh này.';
-            resumePopup.classList.remove('hidden');
-          }
+          try {
+            const parsed = JSON.parse(result.data); 
+            if (typeof parsed.pIndex === 'number') savedPIndex = parsed.pIndex;
+            if (parsed.text) {
+              savedSnippet = parsed.text.replace('...', '').trim();
+              document.getElementById('resume-text').innerText = `"...${savedSnippet}..."`;
+              resumePopup.classList.remove('hidden');
+            }
+          } catch(e) {}
         }
       }
     } catch (err) {}
   }
 
-  // Xử lý Popup
+  // Xử lý cuộn chính xác theo Chỉ số đoạn văn (pIndex)
   if (btnResumeYes) {
     btnResumeYes.addEventListener('click', () => {
-      window.scrollTo({ top: savedScrollY, behavior: 'smooth' });
       resumePopup.classList.add('hidden');
+      if (!article) return;
+
+      const elements = Array.from(article.querySelectorAll('p, h2, h3, h4, li'));
+      let targetNode = null;
+
+      // 1. Định vị chuẩn xác tuyệt đối qua chỉ số thứ tự pIndex
+      if (savedPIndex >= 0 && savedPIndex < elements.length) {
+        targetNode = elements[savedPIndex];
+      }
+
+      // 2. Dự phòng: Nếu chỉ số không khớp, tìm theo chuỗi chữ
+      if (!targetNode && savedSnippet) {
+        for (let el of elements) {
+          if (el.textContent.includes(savedSnippet)) {
+            targetNode = el;
+            break;
+          }
+        }
+      }
+
+      if (targetNode) {
+        // Cuộn mượt mà đến đoạn văn và chớp sáng
+        targetNode.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        targetNode.classList.add('highlight-found');
+        setTimeout(() => targetNode.classList.remove('highlight-found'), 2000);
+      } else {
+        alert('Không tìm thấy vị trí đã lưu.');
+      }
     });
   }
+
   if (btnResumeNo) {
     btnResumeNo.addEventListener('click', () => {
       resumePopup.classList.add('hidden');
@@ -112,7 +150,6 @@
     isBookmarkMode = !isBookmarkMode;
 
     if (isBookmarkMode) {
-      // Bật chế độ
       btnSaveProgress.classList.remove('bg-indigo-600', 'hover:bg-indigo-700');
       btnSaveProgress.classList.add('bg-yellow-500', 'hover:bg-yellow-600', 'animate-pulse');
       btnSaveText.innerText = 'Hủy chọn';
@@ -127,7 +164,6 @@
       document.body.appendChild(msg);
 
     } else {
-      // Tắt chế độ
       resetBookmarkMode();
     }
   }
@@ -163,7 +199,7 @@
     });
   }
 
-  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản
+  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản (Lưu pIndex)
   if (article) {
     article.addEventListener('click', async (e) => {
       if (!isBookmarkMode) return;
@@ -172,14 +208,15 @@
       const targetNode = e.target.closest('p, h2, h3, h4, li');
       if (!targetNode) return;
 
+      // Tìm vị trí của đoạn văn trong bài kinh
+      const elements = Array.from(article.querySelectorAll('p, h2, h3, h4, li'));
+      const pIndex = elements.indexOf(targetNode);
+
       const tokenStr = localStorage.getItem('auth_token');
       const url_kinh = window.location.pathname;
       
-      let snippet = targetNode.textContent.trim().substring(0, 100);
-      if (targetNode.textContent.length > 100) snippet += '...';
-
-      const rect = targetNode.getBoundingClientRect();
-      const exactScrollY = window.scrollY + rect.top - 100;
+      let snippet = targetNode.textContent.trim().substring(0, 150);
+      if (targetNode.textContent.length > 150) snippet += '...';
 
       const msg = document.getElementById('bookmark-instruction');
       if (msg) msg.innerText = '⏳ Đang lưu...';
@@ -189,7 +226,12 @@
         const res = await fetch('/api/progress', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${tokenStr}` },
-          body: JSON.stringify({ url_kinh, scroll_y: Math.max(0, exactScrollY), text_snippet: snippet })
+          // Lưu cả tọa độ y (dự phòng) và text_snippet chứa pIndex
+          body: JSON.stringify({ 
+            url_kinh, 
+            scroll_y: window.scrollY, 
+            text_snippet: JSON.stringify({ pIndex, text: snippet }) 
+          })
         });
 
         if (res.ok) {
