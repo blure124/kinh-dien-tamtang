@@ -26,6 +26,14 @@ const { Content } = kinh;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kinh Điển Tam Tạng</title>
+    <!-- THUẬT TOÁN CHỐNG NHÁY SÁNG (FOUC): NẠP THEME NGAY TRƯỚC KHI RENDER BODY -->
+    <script is:inline>
+      try {
+        const prefs = JSON.parse(localStorage.getItem('reading_prefs'));
+        if (prefs && prefs.theme) document.documentElement.classList.add(`theme-${prefs.theme}`);
+        if (prefs && prefs.font) document.documentElement.classList.add(`font-reading-${prefs.font}`);
+      } catch (e) {}
+    </script>
   </head>
   <body class="bg-gray-50 text-gray-900 leading-relaxed flex flex-col md:flex-row min-h-screen transition-colors duration-300">
     
