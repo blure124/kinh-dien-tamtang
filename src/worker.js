@@ -75,17 +75,50 @@ export default {
           if (request.method === 'GET') {
             const urlKinh = url.searchParams.get('url');
             if (urlKinh) {
-              // Đang đọc kinh: Chỉ tải ghi chú của trang hiện tại
               const { results } = await env.DB.prepare(
                 "SELECT selected_text, note_content FROM Bookmarks WHERE username = ? AND url_kinh = ?"
               ).bind(username, urlKinh).all();
               return new Response(JSON.stringify(results), { status: 200, headers });
             } else {
-              // Mở Tủ sách: Tải TOÀN BỘ thư viện Bookmark của độc giả
               const { results } = await env.DB.prepare(
                 "SELECT url_kinh, selected_text, note_content, updated_at FROM Bookmarks WHERE username = ? ORDER BY updated_at DESC"
               ).bind(username).all();
               return new Response(JSON.stringify(results), { status: 200, headers });
+            }
+          }
+        }
+
+        // API 4: Lưu tiến trình đọc (Bookmark Vị trí)
+        if (url.pathname === '/api/progress') {
+          const authHeader = request.headers.get('Authorization');
+          if (!authHeader) return new Response(JSON.stringify({ error: 'Chưa đăng nhập' }), { status: 401, headers });
+          
+          const tokenStr = authHeader.replace('Bearer ', '');
+          let username = '';
+          try {
+            const tokenData = JSON.parse(atob(tokenStr));
+            if (tokenData.exp < Date.now()) throw new Error('Token hết hạn');
+            username = tokenData.username;
+          } catch(e) {
+            return new Response(JSON.stringify({ error: 'Token không hợp lệ' }), { status: 401, headers });
+          }
+
+          if (request.method === 'POST') {
+            const { url_kinh, scroll_y } = await request.json();
+            // Xóa tiến trình cũ của bài kinh này
+            await env.DB.prepare("DELETE FROM Bookmarks WHERE username = ? AND url_kinh = ? AND selected_text = '[PROGRESS]'").bind(username, url_kinh).run();
+            // Lưu tọa độ cuộn chuột mới vào hệ thống
+            await env.DB.prepare(
+              "INSERT INTO Bookmarks (username, url_kinh, paragraph_id, start_offset, end_offset, selected_text, note_content) VALUES (?, ?, 'PROGRESS', 0, 0, '[PROGRESS]', ?)"
+            ).bind(username, url_kinh, scroll_y.toString()).run();
+            return new Response(JSON.stringify({ success: true }), { status: 200, headers });
+          }
+
+          if (request.method === 'GET') {
+            const urlKinh = url.searchParams.get('url');
+            if (urlKinh) {
+               const record = await env.DB.prepare("SELECT note_content FROM Bookmarks WHERE username = ? AND url_kinh = ? AND selected_text = '[PROGRESS]'").bind(username, urlKinh).first();
+               return new Response(JSON.stringify({ scroll_y: record ? parseInt(record.note_content) : 0 }), { status: 200, headers });
             }
           }
         }
