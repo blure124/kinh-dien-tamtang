@@ -36,35 +36,60 @@ import Sidebar from '../components/Sidebar.astro';
         }
 
         try {
-          const res = await fetch('/api/bookmarks', {
-            headers: { 'Authorization': `Bearer ${tokenStr}` }
-          });
-          
+          const res = await fetch('/api/bookmarks', { headers: { 'Authorization': `Bearer ${tokenStr}` } });
           if (!res.ok) throw new Error('Không thể tải dữ liệu');
-          const bookmarks = await res.json();
           
+          const bookmarks = await res.json();
           if (bookmarks.length === 0) {
-            container.innerHTML = '<p class="text-gray-500">Bạn chưa lưu đoạn kinh hay ghi chú nào.</p>';
+            container.innerHTML = '<p class="text-gray-500">Bạn chưa lưu đoạn kinh hay Bookmark nào.</p>';
             return;
           }
 
+          // Tách riêng Tiến trình (Bookmark) và Ghi chú (Highlight)
+          const progresses = bookmarks.filter(b => b.selected_text === '[PROGRESS]');
+          const highlights = bookmarks.filter(b => b.selected_text !== '[PROGRESS]');
+
           let html = '';
-          bookmarks.forEach(bm => {
-            const date = new Date(bm.updated_at).toLocaleDateString('vi-VN');
-            const decodedUrl = decodeURIComponent(bm.url_kinh);
-            const title = decodedUrl.split('/').pop(); 
-            
-            html += `
-              <div class="p-5 border border-gray-200 rounded-lg hover:shadow-md transition bg-gray-50">
-                <a href="${bm.url_kinh}" class="text-lg font-semibold text-blue-700 hover:underline mb-3 block">📄 ${title}</a>
-                <blockquote class="border-l-4 border-yellow-400 pl-4 py-2 mb-3 text-gray-700 bg-yellow-50/50 italic">
-                  "${bm.selected_text}"
-                </blockquote>
-                ${bm.note_content ? `<p class="text-sm text-gray-900 font-medium">✏️ Ghi chú: <span class="font-normal text-gray-600">${bm.note_content}</span></p>` : ''}
-                <p class="text-xs text-gray-400 mt-4 text-right">Đã lưu ngày: ${date}</p>
-              </div>
-            `;
-          });
+
+          // Hiển thị phần Bookmark Đang đọc dở
+          if (progresses.length > 0) {
+            html += '<h2 class="text-xl font-bold text-gray-800 mb-4 mt-2">📖 Đang đọc dở (Bookmark)</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">';
+            progresses.forEach(bm => {
+              const date = new Date(bm.updated_at).toLocaleDateString('vi-VN');
+              const decodedUrl = decodeURIComponent(bm.url_kinh);
+              const title = decodedUrl.split('/').pop(); 
+              
+              html += `
+                <a href="${bm.url_kinh}" class="block p-4 border border-indigo-200 rounded-lg hover:shadow-md transition bg-indigo-50 group">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm font-semibold text-indigo-600">🔖 Bookmark</span>
+                    <span class="text-xs text-gray-400">${date}</span>
+                  </div>
+                  <h3 class="font-medium text-gray-800 group-hover:text-indigo-700 truncate" title="${title}">${title}</h3>
+                </a>
+              `;
+            });
+            html += '</div>';
+          }
+
+          // Hiển thị phần Ghi chú & Bôi đen
+          if (highlights.length > 0) {
+             html += '<h2 class="text-xl font-bold text-gray-800 mb-4 border-t border-gray-200 pt-6">✏️ Ghi chú & Bôi đen</h2><div class="space-y-4">';
+             highlights.forEach(bm => {
+                const date = new Date(bm.updated_at).toLocaleDateString('vi-VN');
+                const decodedUrl = decodeURIComponent(bm.url_kinh);
+                const title = decodedUrl.split('/').pop(); 
+                
+                html += `
+                  <div class="p-5 border border-gray-200 rounded-lg bg-gray-50">
+                    <a href="${bm.url_kinh}" class="text-lg font-semibold text-blue-700 hover:underline mb-3 block">📄 ${title}</a>
+                    <blockquote class="border-l-4 border-yellow-400 pl-4 py-2 mb-3 text-gray-700 bg-yellow-50/50 italic">"${bm.selected_text}"</blockquote>
+                    ${bm.note_content ? `<p class="text-sm text-gray-900 font-medium">✏️ Ghi chú: <span class="font-normal text-gray-600">${bm.note_content}</span></p>` : ''}
+                  </div>
+                `;
+             });
+             html += '</div>';
+          }
           
           container.innerHTML = html;
         } catch (err) {
