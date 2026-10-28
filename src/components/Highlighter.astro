@@ -1,0 +1,104 @@
+---
+// src/components/Highlighter.astro
+---
+<!-- Nút nổi khi bôi đen -->
+<div id="highlight-tooltip" class="hidden absolute z-50 bg-gray-900 text-white text-sm font-medium px-3 py-1.5 rounded shadow-lg cursor-pointer hover:bg-blue-600 transition">
+  ✏️ Lưu chú
+</div>
+
+<script>
+  const tooltip = document.getElementById('highlight-tooltip');
+  const article = document.querySelector('article.prose');
+  let currentSelection = '';
+
+  if (article) {
+    // 1. Hiển thị nút khi bôi đen chữ
+    document.addEventListener('mouseup', (e) => {
+      const selection = window.getSelection();
+      const text = selection.toString().trim();
+      
+      // Chỉ hiện nút nếu có bôi đen và vùng bôi đen nằm trong bài kinh
+      if (text.length > 0 && article.contains(selection.anchorNode)) {
+        currentSelection = text;
+        tooltip.style.left = `${e.pageX - 20}px`;
+        tooltip.style.top = `${e.pageY - 40}px`;
+        tooltip.classList.remove('hidden');
+      } else {
+        tooltip.classList.add('hidden');
+      }
+    });
+
+    // 2. Xử lý khi bấm nút "Lưu chú"
+    tooltip.addEventListener('click', async () => {
+      const tokenStr = localStorage.getItem('auth_token');
+      if (!tokenStr) {
+        alert('Bạn cần đăng nhập hoặc tạo tài khoản để sử dụng tính năng Lưu chú!');
+        return;
+      }
+
+      const note = prompt('Thêm ghi chú cá nhân cho đoạn này (có thể để trống):');
+      if (note === null) return; // Người dùng bấm Hủy
+
+      const url_kinh = window.location.pathname;
+
+      try {
+        const res = await fetch('/api/bookmarks', {
+          method: 'POST',
+          headers: { 
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${tokenStr}`
+          },
+          body: JSON.stringify({ url_kinh, selected_text: currentSelection, note_content: note })
+        });
+
+        if (res.ok) {
+          applyHighlight(currentSelection, note);
+          tooltip.classList.add('hidden');
+          window.getSelection().removeAllRanges(); // Xóa vệt bôi đen mặc định
+        } else {
+          alert('Có lỗi xảy ra khi lưu vào máy chủ.');
+        }
+      } catch (err) {
+        console.error(err);
+      }
+    });
+
+    // 3. Tải danh sách lưu chú khi mở trang
+    async function loadBookmarks() {
+      const tokenStr = localStorage.getItem('auth_token');
+      if (!tokenStr) return;
+
+      const url_kinh = window.location.pathname;
+      try {
+        const res = await fetch(`/api/bookmarks?url=${encodeURIComponent(url_kinh)}`, {
+          headers: { 'Authorization': `Bearer ${tokenStr}` }
+        });
+        if (res.ok) {
+          const bookmarks = await res.json();
+          bookmarks.forEach(bm => applyHighlight(bm.selected_text, bm.note_content));
+        }
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    // 4. Thuật toán tìm và bôi vàng đoạn chữ (Highlight)
+    function applyHighlight(text, note) {
+      if (!text) return;
+      const escapedText = text.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const regex = new RegExp(`(${escapedText})`, 'g');
+      
+      const elements = article.querySelectorAll('p, li, h2, h3, h4');
+      const noteTitle = note ? `Ghi chú: ${note}` : 'Đoạn đã lưu';
+
+      elements.forEach(el => {
+         if (el.textContent.includes(text) && !el.innerHTML.includes('<mark>'+text)) {
+             el.innerHTML = el.innerHTML.replace(regex, `<mark class="bg-yellow-200 rounded px-1 cursor-help" title="${noteTitle}">$1</mark>`);
+         }
+      });
+    }
+
+    // Khởi chạy khi load trang
+    loadBookmarks();
+  }
+</script>
