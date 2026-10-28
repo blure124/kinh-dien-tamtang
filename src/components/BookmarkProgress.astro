@@ -1,0 +1,92 @@
+---
+// src/components/BookmarkProgress.astro
+---
+<!-- Nút Đánh dấu trang -->
+<button id="btn-save-progress" class="fixed bottom-4 left-4 md:bottom-8 md:left-8 z-40 bg-indigo-600 text-white p-3 rounded-full shadow-xl hover:bg-indigo-700 transition-all flex items-center justify-center border-2 border-white" title="Lưu vị trí đọc">
+  🔖 <span class="hidden md:inline ml-2 text-sm font-medium">Lưu vị trí</span>
+</button>
+
+<!-- Popup hỏi Đọc tiếp -->
+<div id="resume-popup" class="hidden fixed top-20 left-1/2 transform -translate-x-1/2 z-50 bg-white p-4 rounded-xl shadow-2xl border border-gray-200 flex flex-col items-center w-[90%] md:w-80">
+  <p class="text-sm text-gray-700 mb-3 text-center">Bạn có một Bookmark ở bài kinh này. Tiếp tục đọc từ vị trí đã lưu?</p>
+  <div class="flex space-x-3 w-full">
+    <button id="btn-resume-yes" class="bg-indigo-600 text-white flex-1 py-2 rounded-lg text-sm font-medium hover:bg-indigo-700">Đọc tiếp</button>
+    <button id="btn-resume-no" class="bg-gray-200 text-gray-700 flex-1 py-2 rounded-lg text-sm font-medium hover:bg-gray-300">Bỏ qua</button>
+  </div>
+</div>
+
+<script>
+  const btnSaveProgress = document.getElementById('btn-save-progress');
+  const resumePopup = document.getElementById('resume-popup');
+  const btnResumeYes = document.getElementById('btn-resume-yes');
+  const btnResumeNo = document.getElementById('btn-resume-no');
+  let savedScrollY = 0;
+
+  // 1. Tải tiến trình khi mở trang
+  async function loadProgress() {
+    const tokenStr = localStorage.getItem('auth_token');
+    if (!tokenStr) return;
+
+    const url_kinh = window.location.pathname;
+    try {
+      const res = await fetch(`/api/progress?url=${encodeURIComponent(url_kinh)}`, {
+        headers: { 'Authorization': `Bearer ${tokenStr}` }
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data.scroll_y > 100) { 
+          savedScrollY = data.scroll_y;
+          resumePopup.classList.remove('hidden');
+        }
+      }
+    } catch (err) {}
+  }
+
+  // 2. Xử lý popup Đọc tiếp
+  if (btnResumeYes) {
+    btnResumeYes.addEventListener('click', () => {
+      window.scrollTo({ top: savedScrollY, behavior: 'smooth' });
+      resumePopup.classList.add('hidden');
+    });
+  }
+  if (btnResumeNo) {
+    btnResumeNo.addEventListener('click', () => {
+      resumePopup.classList.add('hidden');
+    });
+  }
+
+  // 3. Xử lý Lưu Bookmark
+  if (btnSaveProgress) {
+    btnSaveProgress.addEventListener('click', async () => {
+      const tokenStr = localStorage.getItem('auth_token');
+      if (!tokenStr) {
+        alert('Vui lòng đăng nhập để lưu Bookmark.');
+        return;
+      }
+
+      const currentScroll = window.scrollY;
+      const url_kinh = window.location.pathname;
+      const originalHTML = btnSaveProgress.innerHTML;
+      
+      btnSaveProgress.innerHTML = '⏳...';
+
+      try {
+        const res = await fetch('/api/progress', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${tokenStr}` },
+          body: JSON.stringify({ url_kinh, scroll_y: currentScroll })
+        });
+
+        if (res.ok) {
+          btnSaveProgress.innerHTML = '✅ Đã lưu';
+          setTimeout(() => { btnSaveProgress.innerHTML = originalHTML; }, 2000);
+        }
+      } catch (err) {
+        alert('Lỗi lưu tiến trình.');
+        btnSaveProgress.innerHTML = originalHTML;
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', loadProgress);
+</script>
