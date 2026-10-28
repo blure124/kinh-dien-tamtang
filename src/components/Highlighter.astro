@@ -1,9 +1,8 @@
 ---
 // src/components/Highlighter.astro
 ---
-<!-- Đổi từ absolute sang fixed, thêm transform để luôn tự động căn giữa chữ -->
-<div id="highlight-tooltip" class="hidden fixed z-50 bg-gray-900 text-white text-sm font-medium px-3 py-1.5 rounded shadow-lg cursor-pointer hover:bg-blue-600 transition" style="transform: translateX(-50%);">
-  ✏️ Lưu chú
+<div id="highlight-tooltip" class="hidden fixed z-50 bg-gray-900 text-white text-sm font-medium px-4 py-2 rounded-full shadow-2xl cursor-pointer hover:bg-blue-600 transition-all border border-gray-700" style="transform: translateX(-50%);">
+  ✏️ Lưu chú đoạn này
 </div>
 
 <script>
@@ -12,26 +11,34 @@
   let currentSelection = '';
 
   if (article) {
-    // 1. Hàm tính toán và hiển thị nút thông minh
+    // 1. Hàm tính toán và hiển thị nút thông minh (Responsive)
     const showTooltip = () => {
       const selection = window.getSelection();
       const text = selection.toString().trim();
       
       if (text.length > 0 && article.contains(selection.anchorNode)) {
         currentSelection = text;
-        
-        // Lấy tọa độ hộp của chính đoạn chữ được bôi đen thay vì tọa độ chuột
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
         
-        // Định vị chính giữa đoạn bôi đen (dựa vào tọa độ màn hình do dùng fixed)
-        tooltip.style.left = `${rect.left + (rect.width / 2)}px`;
-        
-        // Đặt nổi lên trên đoạn chữ. Nếu sát mép trên màn hình quá thì cho chúi xuống dưới
-        if (rect.top < 60) {
-            tooltip.style.top = `${rect.bottom + 15}px`;
+        // Kiểm tra kích thước màn hình (Mobile thường < 768px)
+        const isMobile = window.innerWidth <= 768;
+
+        if (isMobile) {
+          // MOBILE: Neo nút ở dưới đáy màn hình để né menu của Chrome/Safari
+          tooltip.style.top = 'auto';
+          tooltip.style.bottom = '40px';
+          tooltip.style.left = '50%';
         } else {
-            tooltip.style.top = `${rect.top - 40}px`;
+          // DESKTOP: Đặt nút nổi lên ngay trên đoạn chữ
+          tooltip.style.bottom = 'auto';
+          tooltip.style.left = `${rect.left + (rect.width / 2)}px`;
+          
+          if (rect.top < 60) {
+              tooltip.style.top = `${rect.bottom + 15}px`;
+          } else {
+              tooltip.style.top = `${rect.top - 40}px`;
+          }
         }
         
         tooltip.classList.remove('hidden');
@@ -40,7 +47,7 @@
       }
     };
 
-    // 2. Lắng nghe đa sự kiện để tương thích mọi thiết bị (Desktop + Mobile)
+    // 2. Lắng nghe đa sự kiện
     document.addEventListener('selectionchange', showTooltip);
     document.addEventListener('mouseup', showTooltip);
     document.addEventListener('touchend', showTooltip);
@@ -59,6 +66,9 @@
       const url_kinh = window.location.pathname;
 
       try {
+        // Đổi lại màu để báo hiệu đang xử lý
+        tooltip.textContent = '⏳ Đang lưu...';
+        
         const res = await fetch('/api/bookmarks', {
           method: 'POST',
           headers: { 
@@ -70,13 +80,15 @@
 
         if (res.ok) {
           applyHighlight(currentSelection, note);
-          tooltip.classList.add('hidden');
           window.getSelection().removeAllRanges(); 
         } else {
           alert('Có lỗi xảy ra khi lưu vào máy chủ.');
         }
       } catch (err) {
         console.error(err);
+      } finally {
+        tooltip.textContent = '✏️ Lưu chú đoạn này';
+        tooltip.classList.add('hidden');
       }
     });
 
