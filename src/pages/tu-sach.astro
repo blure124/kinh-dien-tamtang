@@ -17,7 +17,7 @@ import Sidebar from '../components/Sidebar.astro';
       
       <div class="max-w-4xl mx-auto mt-12 md:mt-4 bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
         <h1 class="text-3xl font-bold text-gray-800 mb-2">🔖 Tủ Sách Của Tôi</h1>
-        <p class="text-gray-500 mb-8 border-b pb-4">Quản lý các đoạn kinh điển và ghi chú bạn đã lưu.</p>
+        <p class="text-gray-500 mb-8 border-b pb-4">Quản lý các đoạn kinh điển và tiến trình đọc.</p>
         
         <div id="bookmarks-container" class="space-y-5">
           <p class="text-gray-500 italic">Đang tải dữ liệu...</p>
@@ -45,13 +45,12 @@ import Sidebar from '../components/Sidebar.astro';
             return;
           }
 
-          // Tách riêng Tiến trình (Bookmark) và Ghi chú (Highlight)
           const progresses = bookmarks.filter(b => b.selected_text === '[PROGRESS]');
           const highlights = bookmarks.filter(b => b.selected_text !== '[PROGRESS]');
 
           let html = '';
 
-          // Hiển thị phần Bookmark Đang đọc dở
+          // 1. Render Tiến trình (Hiển thị trích đoạn + Nút Xóa)
           if (progresses.length > 0) {
             html += '<h2 class="text-xl font-bold text-gray-800 mb-4 mt-2">📖 Đang đọc dở (Bookmark)</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">';
             progresses.forEach(bm => {
@@ -59,20 +58,32 @@ import Sidebar from '../components/Sidebar.astro';
               const decodedUrl = decodeURIComponent(bm.url_kinh);
               const title = decodedUrl.split('/').pop(); 
               
+              let snippet = 'Vị trí đang đọc dở...';
+              try {
+                const parsed = JSON.parse(bm.note_content);
+                if(parsed.text) snippet = parsed.text;
+              } catch(e) {}
+              
               html += `
-                <a href="${bm.url_kinh}" class="block p-4 border border-indigo-200 rounded-lg hover:shadow-md transition bg-indigo-50 group">
-                  <div class="flex items-center justify-between mb-2">
-                    <span class="text-sm font-semibold text-indigo-600">🔖 Bookmark</span>
-                    <span class="text-xs text-gray-400">${date}</span>
+                <div class="block p-5 border border-indigo-200 rounded-lg hover:shadow-md transition bg-indigo-50/50 group relative">
+                  <div class="flex items-center justify-between mb-3">
+                    <span class="text-sm font-bold text-indigo-700">🔖 Đang đọc dở</span>
+                    <div class="flex items-center space-x-2">
+                       <span class="text-xs text-gray-400 mr-2">${date}</span>
+                       <button class="delete-btn text-red-500 hover:text-red-700 bg-white px-2 py-1 rounded shadow-sm text-xs font-medium" data-id="${bm.id}">Xóa</button>
+                    </div>
                   </div>
-                  <h3 class="font-medium text-gray-800 group-hover:text-indigo-700 truncate" title="${title}">${title}</h3>
-                </a>
+                  <a href="${bm.url_kinh}" class="block">
+                    <h3 class="font-bold text-gray-900 group-hover:text-indigo-700 mb-2 truncate" title="${title}">📄 ${title}</h3>
+                    <p class="text-sm text-gray-600 italic border-l-2 border-indigo-300 pl-3">"...${snippet}"</p>
+                  </a>
+                </div>
               `;
             });
             html += '</div>';
           }
 
-          // Hiển thị phần Ghi chú & Bôi đen
+          // 2. Render Ghi chú & Bôi đen (Nút Xóa)
           if (highlights.length > 0) {
              html += '<h2 class="text-xl font-bold text-gray-800 mb-4 border-t border-gray-200 pt-6">✏️ Ghi chú & Bôi đen</h2><div class="space-y-4">';
              highlights.forEach(bm => {
@@ -81,10 +92,14 @@ import Sidebar from '../components/Sidebar.astro';
                 const title = decodedUrl.split('/').pop(); 
                 
                 html += `
-                  <div class="p-5 border border-gray-200 rounded-lg bg-gray-50">
-                    <a href="${bm.url_kinh}" class="text-lg font-semibold text-blue-700 hover:underline mb-3 block">📄 ${title}</a>
-                    <blockquote class="border-l-4 border-yellow-400 pl-4 py-2 mb-3 text-gray-700 bg-yellow-50/50 italic">"${bm.selected_text}"</blockquote>
-                    ${bm.note_content ? `<p class="text-sm text-gray-900 font-medium">✏️ Ghi chú: <span class="font-normal text-gray-600">${bm.note_content}</span></p>` : ''}
+                  <div class="p-5 border border-gray-200 rounded-lg bg-white shadow-sm group">
+                    <div class="flex items-start justify-between mb-3">
+                      <a href="${bm.url_kinh}" class="text-base font-bold text-blue-700 hover:underline flex-1 pr-4 leading-tight">📄 ${title}</a>
+                      <button class="delete-btn text-red-500 hover:text-red-700 bg-red-50 px-2 py-1 rounded text-xs font-medium shrink-0" data-id="${bm.id}">Xóa</button>
+                    </div>
+                    <blockquote class="border-l-4 border-yellow-400 pl-4 py-2 mb-3 text-gray-700 bg-yellow-50/50 italic text-sm">"${bm.selected_text}"</blockquote>
+                    ${bm.note_content ? `<p class="text-sm text-gray-900 font-medium bg-gray-50 p-2 rounded border border-gray-100">✏️ Ghi chú: <span class="font-normal text-gray-600">${bm.note_content}</span></p>` : ''}
+                    <p class="text-xs text-gray-400 mt-3 text-right">Đã lưu: ${date}</p>
                   </div>
                 `;
              });
@@ -97,7 +112,39 @@ import Sidebar from '../components/Sidebar.astro';
         }
       }
 
-      document.addEventListener('DOMContentLoaded', loadAllBookmarks);
+      // Xử lý sự kiện Xóa
+      document.addEventListener('DOMContentLoaded', () => {
+        loadAllBookmarks();
+        
+        document.getElementById('bookmarks-container').addEventListener('click', async (e) => {
+          if (e.target.classList.contains('delete-btn')) {
+             if (!confirm('Bạn có chắc chắn muốn xóa mục này? Dữ liệu không thể khôi phục.')) return;
+             
+             const btn = e.target;
+             const id = btn.getAttribute('data-id');
+             const tokenStr = localStorage.getItem('auth_token');
+             
+             btn.innerText = '⏳';
+             
+             try {
+               const res = await fetch('/api/bookmarks', {
+                 method: 'DELETE',
+                 headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${tokenStr}` },
+                 body: JSON.stringify({ id: parseInt(id) })
+               });
+               
+               if (res.ok) {
+                 loadAllBookmarks(); // Tải lại danh sách sau khi xóa thành công
+               } else {
+                 alert('Có lỗi xảy ra khi xóa dữ liệu.');
+                 btn.innerText = 'Xóa';
+               }
+             } catch(err) {
+               alert('Lỗi kết nối máy chủ.');
+             }
+          }
+        });
+      });
     </script>
   </body>
 </html>
