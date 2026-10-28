@@ -4,7 +4,7 @@
 <!-- Nút Bật/Tắt Menu Tùy Chỉnh -->
 <div class="fixed bottom-20 right-4 md:bottom-8 md:right-8 z-50 flex flex-col items-end">
   
-  <!-- Bảng Tùy Chỉnh (Ẩn mặc định) -->
+  <!-- Bảng Tùy Chỉnh (Cố định thiết kế gốc, không bị nhiễm màu từ Theme) -->
   <div id="reading-prefs-panel" class="hidden mb-3 w-64 bg-white rounded-xl shadow-2xl border border-gray-200 p-4 transition-all origin-bottom-right">
      <h3 class="font-bold text-gray-800 text-sm border-b pb-2 mb-3">Tùy chỉnh Giao diện</h3>
      
@@ -31,7 +31,7 @@
      <div>
        <p class="text-xs text-gray-500 mb-1 font-semibold">Màu nền</p>
        <div class="grid grid-cols-3 gap-2">
-         <button id="btn-theme-light" class="border-2 border-transparent py-3 rounded bg-white hover:border-gray-300 shadow-sm transition" title="Sáng (Mặc định)"></button>
+         <button id="btn-theme-light" class="border-2 border-transparent py-3 rounded bg-gray-100 hover:border-gray-300 shadow-sm transition" title="Sáng (Mặc định)"></button>
          <button id="btn-theme-sepia" class="border-2 border-transparent py-3 rounded bg-[#fbf0d9] hover:border-[#e8dcc4] shadow-sm transition" title="Sepia (Ngả vàng)"></button>
          <button id="btn-theme-dark" class="border-2 border-transparent py-3 rounded bg-gray-800 hover:border-gray-600 shadow-sm transition" title="Tối (Dark mode)"></button>
        </div>
@@ -46,7 +46,7 @@
   </button>
 </div>
 
-<!-- Script Inline chống giật màn hình (FOUC) khi F5 tải lại trang -->
+<!-- Script Inline chống giật màn hình -->
 <script is:inline>
   (function() {
     try {
@@ -75,12 +75,11 @@
 
   let currentPrefs = JSON.parse(localStorage.getItem('reading_prefs')) || { theme: 'light', font: 'sans', size: 100 };
 
-  // Bật/Tắt Menu
   btnPrefs.addEventListener('click', (e) => {
     e.stopPropagation();
     prefsPanel.classList.toggle('hidden');
   });
-  // Bấm ra ngoài để đóng menu
+  
   document.addEventListener('click', (e) => {
     if (!prefsPanel.contains(e.target) && !btnPrefs.contains(e.target)) {
       prefsPanel.classList.add('hidden');
@@ -88,16 +87,13 @@
   });
 
   function applyPrefs() {
-    // 1. Cập nhật Cỡ chữ
     if (article) article.style.fontSize = `${currentPrefs.size}%`;
     fontSizeDisplay.innerText = `${currentPrefs.size}%`;
 
-    // 2. Cập nhật HTML Classes cho Theme & Font
-    document.documentElement.className = ''; // Xóa hết class cũ
+    document.documentElement.className = ''; 
     document.documentElement.classList.add(`theme-${currentPrefs.theme}`);
     document.documentElement.classList.add(`font-reading-${currentPrefs.font}`);
 
-    // 3. Cập nhật trạng thái Active cho các nút bấm
     btnFontSans.classList.toggle('bg-blue-100', currentPrefs.font === 'sans');
     btnFontSans.classList.toggle('border-blue-400', currentPrefs.font === 'sans');
     btnFontSerif.classList.toggle('bg-blue-100', currentPrefs.font === 'serif');
@@ -107,60 +103,48 @@
     btnThemeSepia.classList.toggle('border-blue-500', currentPrefs.theme === 'sepia');
     btnThemeDark.classList.toggle('border-blue-500', currentPrefs.theme === 'dark');
 
-    // Lưu vào LocalStorage
     localStorage.setItem('reading_prefs', JSON.stringify(currentPrefs));
   }
 
-  // Lắng nghe sự kiện Cỡ chữ
   btnFontInc.addEventListener('click', () => { if (currentPrefs.size < 200) { currentPrefs.size += 10; applyPrefs(); } });
   btnFontDec.addEventListener('click', () => { if (currentPrefs.size > 80) { currentPrefs.size -= 10; applyPrefs(); } });
 
-  // Lắng nghe sự kiện Phông chữ
   btnFontSans.addEventListener('click', () => { currentPrefs.font = 'sans'; applyPrefs(); });
   btnFontSerif.addEventListener('click', () => { currentPrefs.font = 'serif'; applyPrefs(); });
 
-  // Lắng nghe sự kiện Màu nền
   btnThemeLight.addEventListener('click', () => { currentPrefs.theme = 'light'; applyPrefs(); });
   btnThemeSepia.addEventListener('click', () => { currentPrefs.theme = 'sepia'; applyPrefs(); });
   btnThemeDark.addEventListener('click', () => { currentPrefs.theme = 'dark'; applyPrefs(); });
 
-  // Chạy ngay khi giao diện đã sẵn sàng
   applyPrefs();
 </script>
 
 <style is:global>
   /* =========================================
-     THEME CSS VARIABLES & OVERRIDES
-     (Gắn lên thẻ html để có tác dụng toàn cục)
+     THEME CSS (CHỈ ÁP DỤNG LÊN NỀN VÀ TRANG ĐỌC)
   ========================================= */
 
-  /* 1. SEPIA THEME (Chống mỏi mắt) */
-  html.theme-sepia body { background-color: #fbf0d9 !important; color: #5f4b32 !important; }
-  html.theme-sepia .bg-white, html.theme-sepia .bg-gray-50 { background-color: #f4e8d1 !important; border-color: #e8dcc4 !important; }
-  html.theme-sepia aside, html.theme-sepia header, html.theme-sepia #reading-prefs-panel, html.theme-sepia #auth-modal, html.theme-sepia #resume-popup { background-color: #fbf0d9 !important; border-color: #e8dcc4 !important; }
-  html.theme-sepia .text-gray-900, html.theme-sepia .text-gray-800, html.theme-sepia .text-gray-700 { color: #3f3121 !important; }
+  /* 1. SEPIA THEME */
+  html.theme-sepia body { background-color: #fbf0d9 !important; }
+  html.theme-sepia aside { background-color: #fbf0d9 !important; border-color: #e8dcc4 !important; }
+  html.theme-sepia aside a, html.theme-sepia aside summary, html.theme-sepia aside span { color: #5f4b32 !important; }
+  html.theme-sepia aside a:hover, html.theme-sepia aside summary:hover { color: #b45309 !important; }
+  
   html.theme-sepia .prose { color: #5f4b32 !important; }
   html.theme-sepia .prose h1, html.theme-sepia .prose h2, html.theme-sepia .prose h3, html.theme-sepia .prose h4 { color: #3f3121 !important; }
   html.theme-sepia .prose strong { color: #3f3121 !important; }
   
-  /* 2. DARK THEME (Chế độ ban đêm) */
+  /* 2. DARK THEME */
   html.theme-dark body { background-color: #121212 !important; color: #e0e0e0 !important; }
-  html.theme-dark .bg-white, html.theme-dark .bg-gray-50 { background-color: #1e1e1e !important; border-color: #333 !important; }
-  html.theme-dark aside, html.theme-dark header, html.theme-dark #reading-prefs-panel, html.theme-dark #auth-modal, html.theme-dark #resume-popup { background-color: #121212 !important; border-color: #333 !important; }
-  
-  html.theme-dark .text-gray-900, html.theme-dark .text-gray-800 { color: #f5f5f5 !important; }
-  html.theme-dark .text-gray-700, html.theme-dark .text-gray-600, html.theme-dark .text-gray-500 { color: #a3a3a3 !important; }
-  html.theme-dark .text-blue-600, html.theme-dark .text-blue-700 { color: #60a5fa !important; }
+  html.theme-dark aside { background-color: #1a1a1a !important; border-color: #333 !important; }
+  html.theme-dark aside a, html.theme-dark aside summary, html.theme-dark aside span { color: #d4d4d4 !important; }
+  html.theme-dark aside a:hover, html.theme-dark aside summary:hover { color: #60a5fa !important; }
   
   html.theme-dark .prose { color: #d4d4d4 !important; }
   html.theme-dark .prose h1, html.theme-dark .prose h2, html.theme-dark .prose h3, html.theme-dark .prose h4 { color: #f5f5f5 !important; }
   html.theme-dark .prose strong { color: #f5f5f5 !important; }
   html.theme-dark .prose a { color: #60a5fa !important; }
-  
-  /* Cân bằng các thành phần đặc biệt trong Dark Mode */
   html.theme-dark mark { background-color: #92400e !important; color: #fef3c7 !important; }
-  html.theme-dark summary { color: #f5f5f5 !important; }
-  html.theme-dark input { background-color: #262626 !important; color: #fff !important; border-color: #404040 !important; }
 
   /* 3. FONT FAMILY */
   html.font-reading-serif .prose, html.font-reading-serif .prose h1, html.font-reading-serif .prose h2, html.font-reading-serif .prose h3 {
@@ -168,5 +152,21 @@
   }
   html.font-reading-sans .prose, html.font-reading-sans .prose h1, html.font-reading-sans .prose h2, html.font-reading-sans .prose h3 {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  }
+
+  /* =========================================
+     4. TỐI ƯU KHOẢNG CÁCH ĐOẠN VĂN
+  ========================================= */
+  .prose p {
+    margin-bottom: 1.5em !important;
+    line-height: 1.8 !important;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4 {
+    margin-top: 2em !important;
+    margin-bottom: 1em !important;
+    line-height: 1.4 !important;
+  }
+  .prose li {
+    margin-bottom: 0.75em !important;
   }
 </style>
