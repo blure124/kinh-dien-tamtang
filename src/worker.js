@@ -42,12 +42,11 @@ export default {
             return new Response(JSON.stringify({ error: 'Sai tài khoản hoặc mã PIN' }), { status: 401, headers });
           }
 
-          // Cấp Token đơn giản (Hạn 30 ngày) cho Frontend lưu vào LocalStorage
           const token = btoa(JSON.stringify({ username, exp: Date.now() + (86400000 * 30) }));
           return new Response(JSON.stringify({ success: true, token, username }), { status: 200, headers });
         }
 
-        // API 3: Lưu và Tải Ghi chú (Bookmarks)
+        // API 3: Lưu, Tải và XÓA Ghi chú (Bookmarks)
         if (url.pathname === '/api/bookmarks') {
           const authHeader = request.headers.get('Authorization');
           if (!authHeader) return new Response(JSON.stringify({ error: 'Chưa đăng nhập' }), { status: 401, headers });
@@ -71,20 +70,27 @@ export default {
             return new Response(JSON.stringify({ success: true }), { status: 200, headers });
           }
 
-          // [GET] Tải danh sách ghi chú
+          // [GET] Tải danh sách ghi chú (Cập nhật lấy thêm id)
           if (request.method === 'GET') {
             const urlKinh = url.searchParams.get('url');
             if (urlKinh) {
               const { results } = await env.DB.prepare(
-                "SELECT selected_text, note_content FROM Bookmarks WHERE username = ? AND url_kinh = ?"
+                "SELECT id, selected_text, note_content FROM Bookmarks WHERE username = ? AND url_kinh = ?"
               ).bind(username, urlKinh).all();
               return new Response(JSON.stringify(results), { status: 200, headers });
             } else {
               const { results } = await env.DB.prepare(
-                "SELECT url_kinh, selected_text, note_content, updated_at FROM Bookmarks WHERE username = ? ORDER BY updated_at DESC"
+                "SELECT id, url_kinh, selected_text, note_content, updated_at FROM Bookmarks WHERE username = ? ORDER BY updated_at DESC"
               ).bind(username).all();
               return new Response(JSON.stringify(results), { status: 200, headers });
             }
+          }
+
+          // [DELETE] Xóa Ghi chú hoặc Tiến trình theo ID
+          if (request.method === 'DELETE') {
+            const { id } = await request.json();
+            await env.DB.prepare("DELETE FROM Bookmarks WHERE id = ? AND username = ?").bind(id, username).run();
+            return new Response(JSON.stringify({ success: true }), { status: 200, headers });
           }
         }
 
@@ -97,28 +103,31 @@ export default {
           let username = '';
           try {
             const tokenData = JSON.parse(atob(tokenStr));
-            if (tokenData.exp < Date.now()) throw new Error('Token hết hạn');
             username = tokenData.username;
           } catch(e) {
             return new Response(JSON.stringify({ error: 'Token không hợp lệ' }), { status: 401, headers });
           }
 
+          // [POST] Lưu tọa độ VÀ đoạn chữ đang đọc dở
           if (request.method === 'POST') {
-            const { url_kinh, scroll_y } = await request.json();
-            // Xóa tiến trình cũ của bài kinh này
+            const { url_kinh, scroll_y, text_snippet } = await request.json();
             await env.DB.prepare("DELETE FROM Bookmarks WHERE username = ? AND url_kinh = ? AND selected_text = '[PROGRESS]'").bind(username, url_kinh).run();
-            // Lưu tọa độ cuộn chuột mới vào hệ thống
+            
+            // Gom chung tọa độ và đoạn chữ vào JSON lưu vào trường note_content
+            const noteData = JSON.stringify({ y: scroll_y, text: text_snippet || '' });
+            
             await env.DB.prepare(
               "INSERT INTO Bookmarks (username, url_kinh, paragraph_id, start_offset, end_offset, selected_text, note_content) VALUES (?, ?, 'PROGRESS', 0, 0, '[PROGRESS]', ?)"
-            ).bind(username, url_kinh, scroll_y.toString()).run();
+            ).bind(username, url_kinh, noteData).run();
             return new Response(JSON.stringify({ success: true }), { status: 200, headers });
           }
 
+          // [GET] Tải dữ liệu tiến trình (Trả về nguyên chuỗi JSON)
           if (request.method === 'GET') {
             const urlKinh = url.searchParams.get('url');
             if (urlKinh) {
                const record = await env.DB.prepare("SELECT note_content FROM Bookmarks WHERE username = ? AND url_kinh = ? AND selected_text = '[PROGRESS]'").bind(username, urlKinh).first();
-               return new Response(JSON.stringify({ scroll_y: record ? parseInt(record.note_content) : 0 }), { status: 200, headers });
+               return new Response(JSON.stringify({ data: record ? record.note_content : null }), { status: 200, headers });
             }
           }
         }
@@ -130,7 +139,6 @@ export default {
       }
     }
 
-    // 2. NẾU LÀ YÊU CẦU ĐỌC KINH -> Trả về HTML tĩnh siêu tốc
     return env.ASSETS.fetch(request);
   }
 };
