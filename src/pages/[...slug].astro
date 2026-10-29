@@ -5,8 +5,8 @@ import Sidebar from '../components/Sidebar.astro';
 import Highlighter from '../components/Highlighter.astro';
 import BookmarkProgress from '../components/BookmarkProgress.astro';
 import ReadingPreferences from '../components/ReadingPreferences.astro';
-import PageTools from '../components/PageTools.astro'; // Component mới
-import TableOfContents from '../components/TableOfContents.astro'; // Component mới
+import PageTools from '../components/PageTools.astro';
+import TableOfContents from '../components/TableOfContents.astro';
 
 export async function getStaticPaths() {
   const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
@@ -49,7 +49,7 @@ const { Content } = kinh;
       </svg>
     </button>
 
-    <!-- Sidebar (Thêm class id để nhận lệnh Ẩn/Hiện) -->
+    <!-- Sidebar -->
     <div id="sidebar-container" class="transition-transform transform -translate-x-full md:translate-x-0 fixed md:relative z-[55] h-screen bg-white">
        <Sidebar />
        <!-- Nút đóng Sidebar trên Mobile -->
@@ -68,7 +68,8 @@ const { Content } = kinh;
         <BookmarkProgress />
         <ReadingPreferences />
         
-        <article class="prose prose-lg max-w-3xl mx-auto transition-all duration-300 data-pagefind-body">
+        <!-- Đã sửa: data-pagefind-body đứng độc lập như một thuộc tính HTML -->
+        <article class="prose prose-lg max-w-3xl mx-auto transition-all duration-300" data-pagefind-body>
           <Content />
         </article>
       </main>
