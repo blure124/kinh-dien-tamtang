@@ -1,3 +1,4 @@
+pages_build_output_dir = "dist"
 name = "kinh-dien-tamtang"
 compatibility_date = "2024-10-27"
 main = "src/worker.js"
