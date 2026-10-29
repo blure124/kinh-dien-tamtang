@@ -1,5 +1,6 @@
 name = "kinh-dien-tamtang"
 main = "public/_worker.js"
+compatibility_date = "2026-10-23"
 
 [assets]
 directory = "dist"
