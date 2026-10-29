@@ -1,5 +1,8 @@
 name = "kinh-dien-tamtang"
-pages_build_output_dir = "dist"
+main = "public/_worker.js"
+
+[assets]
+directory = "dist"
 
 [[d1_databases]]
 binding = "DB"
