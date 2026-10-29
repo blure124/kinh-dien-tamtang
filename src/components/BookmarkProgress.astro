@@ -71,7 +71,7 @@
   let savedSnippet = '';
   let isBookmarkMode = false;
 
-  // 1. Tải tiến trình khi mở trang
+  // 1. Tải tiến trình khi mở trang (Đã sửa lỗi giải mã JSON 2 lớp)
   async function loadProgress() {
     const tokenStr = localStorage.getItem('auth_token');
     if (!tokenStr) return;
@@ -85,12 +85,22 @@
         const result = await res.json();
         if (result.data) {
           try {
-            const parsed = JSON.parse(result.data); 
-            if (typeof parsed.pIndex === 'number') savedPIndex = parsed.pIndex;
-            if (parsed.text) {
-              savedSnippet = parsed.text.replace('...', '').trim();
-              document.getElementById('resume-text').innerText = `"...${savedSnippet}..."`;
-              resumePopup.classList.remove('hidden');
+            const parsedOuter = JSON.parse(result.data); 
+            if (parsedOuter.text) {
+              try {
+                // Giải mã lớp JSON thứ 2 chứa pIndex và text
+                const parsedInner = JSON.parse(parsedOuter.text);
+                if (typeof parsedInner.pIndex === 'number') savedPIndex = parsedInner.pIndex;
+                if (parsedInner.text) savedSnippet = parsedInner.text.replace('...', '').trim();
+              } catch(err) {
+                // Nếu lỗi, nghĩa là dữ liệu cũ không có JSON lớp 2
+                savedSnippet = parsedOuter.text.replace('...', '').trim();
+              }
+
+              if (savedSnippet) {
+                document.getElementById('resume-text').innerText = `"...${savedSnippet}..."`;
+                resumePopup.classList.remove('hidden');
+              }
             }
           } catch(e) {}
         }
