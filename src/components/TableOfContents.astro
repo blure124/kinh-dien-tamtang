@@ -1,0 +1,59 @@
+---
+// src/components/TableOfContents.astro
+---
+<!-- Khung Mục Lục (Chỉ hiện trên Desktop, ghim bên phải) -->
+<aside class="hidden xl:block w-64 flex-shrink-0 pt-16 pr-4">
+  <div class="sticky top-20 bg-white/50 backdrop-blur border border-gray-200 rounded-xl p-4 shadow-sm max-h-[80vh] overflow-y-auto custom-scrollbar">
+    <h3 class="font-bold text-gray-800 text-sm border-b border-gray-200 pb-2 mb-3 uppercase tracking-wider">📑 Mục lục</h3>
+    <ul id="toc-container" class="space-y-2 text-sm text-gray-600">
+      <li class="italic text-gray-400">Đang tạo mục lục...</li>
+    </ul>
+  </div>
+</aside>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tocContainer = document.getElementById('toc-container');
+    const article = document.querySelector('article.prose');
+    if (!article || !tocContainer) return;
+
+    // Quét tìm H2, H3
+    const headings = article.querySelectorAll('h2, h3');
+    if (headings.length === 0) {
+      tocContainer.innerHTML = '<li class="italic text-gray-400">Bài kinh này không có phân đoạn.</li>';
+      return;
+    }
+
+    let tocHTML = '';
+    headings.forEach((heading, index) => {
+      // Cấp ID cho thẻ H nếu chưa có
+      if (!heading.id) heading.id = 'section-' + index;
+      
+      const isH3 = heading.tagName.toLowerCase() === 'h3';
+      const paddingClass = isH3 ? 'pl-4 border-l-2 border-gray-200 text-xs' : 'font-medium text-gray-800';
+      
+      tocHTML += `
+        <li class="${paddingClass}">
+          <a href="#${heading.id}" class="hover:text-indigo-600 transition block py-1 line-clamp-2" title="${heading.textContent}">${heading.textContent}</a>
+        </li>
+      `;
+    });
+
+    tocContainer.innerHTML = tocHTML;
+
+    // Xử lý Scroll mượt khi bấm vào mục lục
+    const tocLinks = tocContainer.querySelectorAll('a');
+    tocLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          // Cuộn cách đỉnh 80px để không bị lẹm vào viền trên
+          const y = targetElement.getBoundingClientRect().top + window.scrollY - 80;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      });
+    });
+  });
+</script>
