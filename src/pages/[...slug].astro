@@ -1,9 +1,12 @@
 ---
+// src/pages/[...slug].astro
 import AuthUI from '../components/AuthUI.astro';
 import Sidebar from '../components/Sidebar.astro';
 import Highlighter from '../components/Highlighter.astro';
 import BookmarkProgress from '../components/BookmarkProgress.astro';
 import ReadingPreferences from '../components/ReadingPreferences.astro';
+import PageTools from '../components/PageTools.astro'; // Component mới
+import TableOfContents from '../components/TableOfContents.astro'; // Component mới
 
 export async function getStaticPaths() {
   const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
@@ -26,7 +29,6 @@ const { Content } = kinh;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kinh Điển Tam Tạng</title>
-    <!-- THUẬT TOÁN CHỐNG NHÁY SÁNG (FOUC): NẠP THEME NGAY TRƯỚC KHI RENDER BODY -->
     <script is:inline>
       try {
         const prefs = JSON.parse(localStorage.getItem('reading_prefs'));
@@ -37,26 +39,65 @@ const { Content } = kinh;
   </head>
   <body class="bg-gray-50 text-gray-900 leading-relaxed flex flex-col md:flex-row min-h-screen transition-colors duration-300">
     
-    <!-- Sidebar tự động -->
-    <Sidebar />
+    <!-- Thanh tiến trình, Nút cuộn & Tìm kiếm -->
+    <PageTools />
 
-    <!-- Nội dung kinh -->
-    <main class="flex-1 p-6 md:p-10 relative overflow-x-hidden transition-colors duration-300">
-      <AuthUI />
-      
-      <!-- Công cụ Bôi đen & Ghi chú -->
-      <Highlighter />
-      
-      <!-- Công cụ Lưu vị trí đọc dở (Bookmark) -->
-      <BookmarkProgress />
-      
-      <!-- Công cụ Tùy chỉnh Giao diện / Chế độ đọc -->
-      <ReadingPreferences />
-      
-      <article class="prose prose-lg max-w-4xl mx-auto mt-12 md:mt-4 transition-all duration-300">
-        <Content />
-      </article>
-    </main>
+    <!-- Nút Hamburger Mở Sidebar (Nằm góc trên trái) -->
+    <button id="btn-toggle-sidebar" class="fixed top-3 left-3 z-50 bg-white p-2 rounded-lg shadow-sm border border-gray-200 text-gray-600 hover:text-indigo-600 transition" title="Mở danh mục">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
 
+    <!-- Sidebar (Thêm class id để nhận lệnh Ẩn/Hiện) -->
+    <div id="sidebar-container" class="transition-transform transform -translate-x-full md:translate-x-0 fixed md:relative z-[55] h-screen bg-white">
+       <Sidebar />
+       <!-- Nút đóng Sidebar trên Mobile -->
+       <button id="btn-close-sidebar" class="md:hidden absolute top-4 right-4 bg-gray-100 p-2 rounded-full text-gray-600">✕</button>
+    </div>
+    
+    <!-- Lớp phủ đen khi mở menu trên Mobile -->
+    <div id="sidebar-overlay" class="hidden fixed inset-0 bg-black/50 z-50 md:hidden"></div>
+
+    <!-- Nội dung kinh & Mục lục -->
+    <div class="flex-1 flex flex-col xl:flex-row w-full max-w-full overflow-hidden">
+      
+      <main class="flex-1 p-6 md:p-10 relative transition-colors duration-300 w-full overflow-x-hidden pt-16">
+        <AuthUI />
+        <Highlighter />
+        <BookmarkProgress />
+        <ReadingPreferences />
+        
+        <article class="prose prose-lg max-w-3xl mx-auto transition-all duration-300 data-pagefind-body">
+          <Content />
+        </article>
+      </main>
+
+      <!-- Mục lục tự động bên phải -->
+      <TableOfContents />
+
+    </div>
+
+    <!-- Script xử lý Sidebar Ẩn/Hiện -->
+    <script>
+      const btnToggle = document.getElementById('btn-toggle-sidebar');
+      const btnClose = document.getElementById('btn-close-sidebar');
+      const sidebar = document.getElementById('sidebar-container');
+      const overlay = document.getElementById('sidebar-overlay');
+
+      function openSidebar() {
+        sidebar.classList.remove('-translate-x-full');
+        overlay.classList.remove('hidden');
+      }
+
+      function closeSidebar() {
+        sidebar.classList.add('-translate-x-full');
+        overlay.classList.add('hidden');
+      }
+
+      if (btnToggle) btnToggle.addEventListener('click', openSidebar);
+      if (btnClose) btnClose.addEventListener('click', closeSidebar);
+      if (overlay) overlay.addEventListener('click', closeSidebar);
+    </script>
   </body>
 </html>
