@@ -50,7 +50,7 @@ import Sidebar from '../components/Sidebar.astro';
 
           let html = '';
 
-          // 1. Render Tiến trình (Hiển thị trích đoạn + Nút Xóa)
+          // 1. Render Tiến trình (Đã sửa lỗi JSON)
           if (progresses.length > 0) {
             html += '<h2 class="text-xl font-bold text-gray-800 mb-4 mt-2">📖 Đang đọc dở (Bookmark)</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">';
             progresses.forEach(bm => {
@@ -60,8 +60,16 @@ import Sidebar from '../components/Sidebar.astro';
               
               let snippet = 'Vị trí đang đọc dở...';
               try {
-                const parsed = JSON.parse(bm.note_content);
-                if(parsed.text) snippet = parsed.text;
+                const parsedOuter = JSON.parse(bm.note_content);
+                if(parsedOuter.text) {
+                  try {
+                    // Giải mã lớp JSON thứ 2
+                    const parsedInner = JSON.parse(parsedOuter.text);
+                    snippet = parsedInner.text;
+                  } catch (e) {
+                    snippet = parsedOuter.text;
+                  }
+                }
               } catch(e) {}
               
               html += `
@@ -83,7 +91,7 @@ import Sidebar from '../components/Sidebar.astro';
             html += '</div>';
           }
 
-          // 2. Render Ghi chú & Bôi đen (Nút Xóa)
+          // 2. Render Ghi chú & Bôi đen
           if (highlights.length > 0) {
              html += '<h2 class="text-xl font-bold text-gray-800 mb-4 border-t border-gray-200 pt-6">✏️ Ghi chú & Bôi đen</h2><div class="space-y-4">';
              highlights.forEach(bm => {
@@ -134,7 +142,7 @@ import Sidebar from '../components/Sidebar.astro';
                });
                
                if (res.ok) {
-                 loadAllBookmarks(); // Tải lại danh sách sau khi xóa thành công
+                 loadAllBookmarks(); // Tải lại danh sách
                } else {
                  alert('Có lỗi xảy ra khi xóa dữ liệu.');
                  btn.innerText = 'Xóa';
