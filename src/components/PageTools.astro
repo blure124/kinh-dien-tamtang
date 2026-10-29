@@ -6,61 +6,56 @@
   <div id="reading-progress-bar" class="h-1 bg-indigo-600 w-0 transition-all duration-150"></div>
 </div>
 
-<!-- 2. Nút Cuộn lên đầu (Ẩn mặc định, hiện khi cuộn xuống) -->
+<!-- 2. Nút Cuộn lên đầu -->
 <button id="btn-scroll-top" class="fixed bottom-36 right-4 md:bottom-24 md:right-8 z-40 bg-white text-gray-700 p-3 rounded-xl shadow-xl hover:bg-gray-100 hover:text-indigo-600 transition-all border border-gray-200 opacity-0 pointer-events-none transform translate-y-4" title="Cuộn lên đầu trang">
   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
   </svg>
 </button>
 
-<!-- 3. Nút Kính lúp Tìm kiếm (Nằm góc trên bên trái, cạnh nút Menu) -->
+<!-- 3. Nút Kính lúp Tìm kiếm -->
 <button id="btn-open-search" class="fixed top-3 left-14 md:left-72 z-50 bg-white p-2 rounded-lg shadow-sm border border-gray-200 text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 transition" title="Tra cứu Kinh tạng">
   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
   </svg>
 </button>
 
-<!-- Modal Tìm Kiếm Pagefind -->
-<div id="search-modal" class="hidden fixed inset-0 z-[100] bg-gray-900/50 backdrop-blur-sm flex justify-center items-start pt-10 px-4">
+<!-- Modal Tìm Kiếm (Database FTS5) -->
+<div id="search-modal" class="hidden fixed inset-0 z-[100] bg-gray-900/60 backdrop-blur-sm flex justify-center items-start pt-10 px-4">
   <div class="bg-white w-full max-w-3xl rounded-2xl shadow-2xl overflow-hidden flex flex-col h-[85vh]">
-    <div class="p-4 border-b flex justify-between items-center bg-gray-50">
+    <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
       <h3 class="font-bold text-lg text-gray-800">🔍 Tra cứu Kinh tạng</h3>
       <button id="btn-close-search" class="text-gray-500 hover:text-red-500 font-bold p-2 rounded-lg bg-gray-200 hover:bg-red-100 transition">✕ Đóng</button>
     </div>
-    <!-- Khu vực hiển thị UI của Pagefind -->
-    <div id="search" class="p-6 overflow-y-auto custom-scrollbar flex-1 bg-white text-gray-900"></div>
+    
+    <div class="p-6 flex flex-col h-full overflow-hidden">
+      <!-- Ô nhập liệu Tự viết thay thế cho Pagefind -->
+      <input type="text" id="search-input" class="w-full border-2 border-indigo-200 rounded-xl p-4 text-lg focus:outline-none focus:border-indigo-600 transition shadow-sm" placeholder="Gõ từ khóa (VD: bát chánh đạo, tứ diệu đế)..." autocomplete="off" />
+      
+      <!-- Thông báo Loading -->
+      <div id="search-loading" class="hidden mt-6 text-center text-indigo-600 font-medium animate-pulse">
+        ⏳ Đang lục tìm trong 12.500 bài kinh...
+      </div>
+      
+      <!-- Danh sách Kết quả -->
+      <ul id="search-results" class="mt-6 space-y-4 overflow-y-auto custom-scrollbar pr-2 flex-1 pb-10">
+         <li class="text-gray-400 italic text-center mt-10">Kết quả tìm kiếm sẽ hiển thị tại đây</li>
+      </ul>
+    </div>
   </div>
 </div>
 
-<!-- Load CSS của Pagefind -->
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-
-<script is:inline>
-  // Script khởi tạo Pagefind (Phải dùng is:inline để chạy đúng)
-  window.addEventListener('DOMContentLoaded', (event) => {
-    try {
-      new PagefindUI({ 
-        element: "#search", 
-        showSubResults: true,
-        translations: { placeholder: "Nhập từ khóa cần tìm..." }
-      });
-    } catch(e) { console.log("Pagefind sẽ hoạt động sau khi build"); }
-  });
-</script>
-
 <script>
-  // Xử lý Thanh tiến trình & Nút Cuộn lên đầu
+  // ================= Xử lý Cuộn Trang & Tiến trình =================
   const progressBar = document.getElementById('reading-progress-bar');
   const btnScrollTop = document.getElementById('btn-scroll-top');
   
   window.addEventListener('scroll', () => {
-    // Tiến trình
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrolled = (winScroll / height) * 100;
     if (progressBar) progressBar.style.width = scrolled + "%";
 
-    // Nút cuộn lên
     if (winScroll > 300) {
       btnScrollTop.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
     } else {
@@ -69,41 +64,72 @@
   });
 
   if (btnScrollTop) {
-    btnScrollTop.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+    btnScrollTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
-  // Xử lý Modal Tìm kiếm
+  // ================= Xử lý Tìm kiếm FTS5 API =================
   const btnOpenSearch = document.getElementById('btn-open-search');
   const btnCloseSearch = document.getElementById('btn-close-search');
   const searchModal = document.getElementById('search-modal');
+  
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+  const searchLoading = document.getElementById('search-loading');
+  let searchTimeout;
 
   if (btnOpenSearch && btnCloseSearch && searchModal) {
     btnOpenSearch.addEventListener('click', () => {
       searchModal.classList.remove('hidden');
-      // Tự động focus vào ô tìm kiếm sau khi mở
-      setTimeout(() => {
-        const input = document.querySelector('.pagefind-ui__search-input');
-        if (input) input.focus();
-      }, 100);
+      setTimeout(() => searchInput && searchInput.focus(), 100);
     });
     
-    btnCloseSearch.addEventListener('click', () => {
-      searchModal.classList.add('hidden');
-    });
+    btnCloseSearch.addEventListener('click', () => searchModal.classList.add('hidden'));
+    searchModal.addEventListener('click', (e) => { if (e.target === searchModal) searchModal.classList.add('hidden'); });
 
-    // Bấm ra ngoài nền mờ để đóng
-    searchModal.addEventListener('click', (e) => {
-      if (e.target === searchModal) searchModal.classList.add('hidden');
-    });
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        const query = e.target.value.trim();
+        
+        if (query.length < 2) {
+          searchResults.innerHTML = '<li class="text-gray-400 italic text-center mt-10">Kết quả tìm kiếm sẽ hiển thị tại đây</li>';
+          return;
+        }
+
+        searchLoading.classList.remove('hidden');
+        searchResults.innerHTML = '';
+
+        // Thuật toán Debounce: Đợi 500ms sau khi người dùng ngừng gõ mới gọi API để chống Spam
+        searchTimeout = setTimeout(async () => {
+          try {
+            const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+            if (!res.ok) throw new Error();
+            const data = await res.json();
+            
+            if (data.length === 0) {
+              searchResults.innerHTML = '<li class="text-gray-500 italic text-center mt-4">Không tìm thấy bài kinh nào chứa từ khóa này.</li>';
+            } else {
+              let html = '';
+              data.forEach(item => {
+                const fileName = decodeURIComponent(item.url_kinh).split('/').pop();
+                html += `
+                  <li class="border-b border-gray-100 pb-4">
+                    <a href="${item.url_kinh}" class="block group bg-gray-50 p-4 rounded-lg hover:bg-indigo-50 border border-transparent hover:border-indigo-100 transition">
+                      <h4 class="text-indigo-700 font-bold group-hover:underline mb-2">📄 ${fileName}</h4>
+                      <p class="text-sm text-gray-700 leading-relaxed italic">"...${item.snippet}..."</p>
+                    </a>
+                  </li>
+                `;
+              });
+              searchResults.innerHTML = html;
+            }
+          } catch(err) {
+            searchResults.innerHTML = '<li class="text-red-500 italic text-center mt-4">Lỗi kết nối máy chủ tìm kiếm.</li>';
+          } finally {
+            searchLoading.classList.add('hidden');
+          }
+        }, 500);
+      });
+    }
   }
 </script>
-
-<style is:global>
-  /* Cân chỉnh lại CSS của Pagefind cho hợp Theme */
-  html.theme-dark .pagefind-ui__search-input { background: #333; color: #fff; border-color: #555; }
-  html.theme-dark .pagefind-ui__result-title { color: #60a5fa; }
-  html.theme-dark .pagefind-ui__result-excerpt { color: #ccc; }
-  html.theme-dark .pagefind-ui__button { background: #444; color: #fff; border-color: #555; }
-</style>
