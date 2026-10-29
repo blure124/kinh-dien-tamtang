@@ -17,7 +17,7 @@
 </div>
 
 <style is:global>
-  /* Hiệu ứng Chọn đoạn văn (Fix lỗi giật trang tuyệt đối bằng outline) */
+  /* Hiệu ứng Chọn đoạn văn (Fix lỗi giật trang) */
   .bookmark-mode-active p,
   .bookmark-mode-active h2,
   .bookmark-mode-active h3,
@@ -30,13 +30,12 @@
   .bookmark-mode-active h2:hover,
   .bookmark-mode-active h3:hover,
   .bookmark-mode-active li:hover {
-    background-color: #fef3c7; /* Màu nền vàng nhạt */
-    outline: 2px dashed #f59e0b; /* Viền ảo không chiếm diện tích */
-    outline-offset: 4px; /* Đẩy viền ra ngoài một chút cho đẹp */
+    background-color: #fef3c7;
+    outline: 2px dashed #f59e0b;
+    outline-offset: 4px;
     cursor: pointer;
   }
 
-  /* Tinh chỉnh cho Dark Mode/Sepia khỏi chói mắt */
   html.theme-dark .bookmark-mode-active p:hover,
   html.theme-dark .bookmark-mode-active h2:hover,
   html.theme-dark .bookmark-mode-active h3:hover,
@@ -46,16 +45,15 @@
     color: #fff !important;
   }
 
-  /* Hiệu ứng chớp sáng khi tìm thấy đoạn văn (Nhảy Bookmark) */
-  .highlight-found { animation: highlight-pulse 2s ease-out; }
-  @keyframes highlight-pulse { 
-    0% { background-color: #fef08a; } 
-    100% { background-color: transparent; } 
+  /* Hiệu ứng Vệt sáng tĩnh khi Resume (Sẽ mờ dần khi tắt class) */
+  .resume-highlight { 
+    background-color: #fef08a !important; 
+    border-radius: 4px;
+    transition: background-color 1s ease-out; /* Mờ đi từ từ cho êm mắt */
   }
-  html.theme-dark .highlight-found { animation: highlight-pulse-dark 2s ease-out; }
-  @keyframes highlight-pulse-dark { 
-    0% { background-color: #92400e; } 
-    100% { background-color: transparent; } 
+  html.theme-dark .resume-highlight { 
+    background-color: #92400e !important; 
+    color: #fff !important;
   }
 </style>
 
@@ -71,7 +69,7 @@
   let savedSnippet = '';
   let isBookmarkMode = false;
 
-  // 1. Tải tiến trình khi mở trang (Đã sửa lỗi giải mã JSON 2 lớp)
+  // 1. Tải tiến trình khi mở trang
   async function loadProgress() {
     const tokenStr = localStorage.getItem('auth_token');
     if (!tokenStr) return;
@@ -88,12 +86,10 @@
             const parsedOuter = JSON.parse(result.data); 
             if (parsedOuter.text) {
               try {
-                // Giải mã lớp JSON thứ 2 chứa pIndex và text
                 const parsedInner = JSON.parse(parsedOuter.text);
                 if (typeof parsedInner.pIndex === 'number') savedPIndex = parsedInner.pIndex;
                 if (parsedInner.text) savedSnippet = parsedInner.text.replace('...', '').trim();
               } catch(err) {
-                // Nếu lỗi, nghĩa là dữ liệu cũ không có JSON lớp 2
                 savedSnippet = parsedOuter.text.replace('...', '').trim();
               }
 
@@ -108,7 +104,7 @@
     } catch (err) {}
   }
 
-  // Xử lý cuộn chính xác theo Chỉ số đoạn văn (pIndex)
+  // Xử lý cuộn và Giữ vệt sáng (Mới)
   if (btnResumeYes) {
     btnResumeYes.addEventListener('click', () => {
       resumePopup.classList.add('hidden');
@@ -117,12 +113,10 @@
       const elements = Array.from(article.querySelectorAll('p, h2, h3, h4, li'));
       let targetNode = null;
 
-      // 1. Định vị chuẩn xác tuyệt đối qua chỉ số thứ tự pIndex
       if (savedPIndex >= 0 && savedPIndex < elements.length) {
         targetNode = elements[savedPIndex];
       }
 
-      // 2. Dự phòng: Nếu chỉ số không khớp, tìm theo chuỗi chữ
       if (!targetNode && savedSnippet) {
         for (let el of elements) {
           if (el.textContent.includes(savedSnippet)) {
@@ -133,10 +127,28 @@
       }
 
       if (targetNode) {
-        // Cuộn mượt mà đến đoạn văn và chớp sáng
+        // Cuộn mượt mà đến đoạn văn
         targetNode.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        targetNode.classList.add('highlight-found');
-        setTimeout(() => targetNode.classList.remove('highlight-found'), 2000);
+        
+        // Bật vệt sáng tĩnh
+        targetNode.classList.add('resume-highlight');
+
+        // Đợi 1 giây cho lệnh scrollIntoView tự động cuộn xong, rồi mới bắt đầu bắt sự kiện của người dùng
+        setTimeout(() => {
+          const removeHighlight = () => {
+            targetNode.classList.remove('resume-highlight');
+            // Gỡ bỏ sự kiện lắng nghe để tiết kiệm tài nguyên sau khi đã mờ vệt sáng
+            window.removeEventListener('scroll', removeHighlight);
+            window.removeEventListener('click', removeHighlight);
+            window.removeEventListener('touchstart', removeHighlight);
+          };
+
+          // Lắng nghe người dùng cuộn, click chuột hoặc chạm vào màn hình (Mobile)
+          window.addEventListener('scroll', removeHighlight, { once: true });
+          window.addEventListener('click', removeHighlight, { once: true });
+          window.addEventListener('touchstart', removeHighlight, { once: true });
+        }, 1000);
+
       } else {
         alert('Không tìm thấy vị trí đã lưu.');
       }
@@ -209,7 +221,7 @@
     });
   }
 
-  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản (Lưu pIndex)
+  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản
   if (article) {
     article.addEventListener('click', async (e) => {
       if (!isBookmarkMode) return;
@@ -218,7 +230,6 @@
       const targetNode = e.target.closest('p, h2, h3, h4, li');
       if (!targetNode) return;
 
-      // Tìm vị trí của đoạn văn trong bài kinh
       const elements = Array.from(article.querySelectorAll('p, h2, h3, h4, li'));
       const pIndex = elements.indexOf(targetNode);
 
@@ -236,7 +247,6 @@
         const res = await fetch('/api/progress', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${tokenStr}` },
-          // Lưu cả tọa độ y (dự phòng) và text_snippet chứa pIndex
           body: JSON.stringify({ 
             url_kinh, 
             scroll_y: window.scrollY, 
