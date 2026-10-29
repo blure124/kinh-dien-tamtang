@@ -1,0 +1,36 @@
+name: Tự động cập nhật Dữ liệu Tìm kiếm D1
+
+# Cấu hình "Cò súng": Chỉ chạy tự động khi bạn cập nhật nhánh main và file thay đổi nằm trong thư mục kinh điển.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/content/kinhdien/**'
+      - 'scripts/build-search.js'
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tải mã nguồn về máy ảo
+        uses: actions/checkout@v4
+
+      - name: Cài đặt Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cài đặt thư viện
+        run: npm install
+
+      - name: Chạy kịch bản quét Kinh tạng ra file SQL
+        run: npm run index:db
+
+      - name: Đẩy thẳng lên Cloudflare D1
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # LƯU Ý QUAN TRỌNG: Thay TEN_DATABASE_CUA_BAN bằng tên thật của D1 Database
+          command: d1 execute kinhdien-db --remote --file=seed-search.sql
