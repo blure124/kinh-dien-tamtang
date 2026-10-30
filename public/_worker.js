@@ -1,6 +1,5 @@
 // public/_worker.js
 
-// Hàm mã hóa PIN một chiều (SHA-256)
 async function hashPIN(pin) {
   const msgUint8 = new TextEncoder().encode(pin);
   const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8);
@@ -12,52 +11,53 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
-    // Header CORS dùng chung cho toàn bộ API
     const corsHeaders = {
-      'Content-Type': 'application/json',
+      'Content-Type': 'application/json; charset=utf-8',
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type, Authorization'
     };
 
-    // 0. Xử lý Request Preflight CORS (Bắt buộc cho Bookmark POST/DELETE)
     if (request.method === 'OPTIONS') {
       return new Response(null, { status: 204, headers: corsHeaders });
     }
 
-    // =========================================================
-    // 1. KHU VỰC XỬ LÝ API (BACKEND)
-    // =========================================================
     if (url.pathname.startsWith('/api/')) {
+      // 1. Kiểm tra Binding DB
+      if (!env.DB) {
+        return new Response(JSON.stringify({ error: 'Chưa cấu hình Binding D1 Database (DB) trên Cloudflare Dashboard.' }), { status: 500, headers: corsHeaders });
+      }
+
       try {
-        // -----------------------------------------------------
-        // API 1: Tra Cứu Kinh Tạng Toàn Văn (FTS5) - ĐÃ FIX LỖI 500
-        // -----------------------------------------------------
+        // API 1: Tra cứu Tìm kiếm (FTS5)
         if (url.pathname === '/api/search') {
           const query = url.searchParams.get('q');
           if (!query) return new Response(JSON.stringify([]), { status: 200, headers: corsHeaders });
           
-          // Loại bỏ ký tự đặc biệt, chỉ giữ lại chữ và số
           const cleanQuery = query.replace(/[^\p{L}\p{N}\s]/gu, '').trim();
-          if (cleanQuery.length < 2) return new Response(JSON.stringify([]), { status: 200, headers: corsHeaders });
+          if (cleanQuery.length < 1) return new Response(JSON.stringify([]), { status: 200, headers: corsHeaders });
 
-          // Tách các từ và gắn dấu * phía sau mỗi từ (VD: "tứ diệu" -> "tứ* diệu*")
-          const ftsQuery = cleanQuery.split(/\s+/).filter(Boolean).map(w => `${w}*`).join(' ');
+          // Chuẩn hóa từ khóa FTS5 chống lỗi syntax
+          const words = cleanQuery.split(/\s+/).filter(Boolean);
+          const ftsQuery = words.map(w => `"${w}"*`).join(' AND ');
 
-          const { results } = await env.DB.prepare(`
-            SELECT url_kinh, title, snippet(SearchIndex, 2, '<mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">', '</mark>', '...', 25) as snippet
-            FROM SearchIndex
-            WHERE SearchIndex MATCH ?
-            ORDER BY rank
-            LIMIT 30
-          `).bind(ftsQuery).all();
-          
-          return new Response(JSON.stringify(results), { status: 200, headers: corsHeaders });
+          try {
+            const { results } = await env.DB.prepare(`
+              SELECT url_kinh, title, snippet(SearchIndex, 2, '<mark class="bg-yellow-200 text-gray-900 font-bold px-1 rounded">', '</mark>', '...', 25) as snippet
+              FROM SearchIndex
+              WHERE SearchIndex MATCH ?
+              ORDER BY rank
+              LIMIT 30
+            `).bind(ftsQuery).all();
+            
+            return new Response(JSON.stringify(results || []), { status: 200, headers: corsHeaders });
+          } catch(sqlErr) {
+            // Nếu chưa có bảng SearchIndex, trả về mảng rỗng kèm thông báo thay vì sập 500
+            return new Response(JSON.stringify({ error: 'Bảng dữ liệu tìm kiếm chưa được khởi tạo. Hãy nạp seed-search.sql vào D1.' }), { status: 500, headers: corsHeaders });
+          }
         }
 
-        // -----------------------------------------------------
-        // API 2: Đăng Ký Tài Khoản
-        // -----------------------------------------------------
+        // API 2: Đăng ký
         if (request.method === 'POST' && url.pathname === '/api/register') {
           const { username, pin } = await request.json();
           if (!username || !pin || pin.length !== 6) {
@@ -74,9 +74,7 @@ export default {
           return new Response(JSON.stringify({ success: true, message: 'Đăng ký thành công' }), { status: 200, headers: corsHeaders });
         }
 
-        // -----------------------------------------------------
-        // API 3: Đăng Nhập
-        // -----------------------------------------------------
+        // API 3: Đăng nhập
         if (request.method === 'POST' && url.pathname === '/api/login') {
           const { username, pin } = await request.json();
           const pinHash = await hashPIN(pin);
@@ -90,9 +88,7 @@ export default {
           return new Response(JSON.stringify({ success: true, token, username }), { status: 200, headers: corsHeaders });
         }
 
-        // -----------------------------------------------------
-        // API 4: Quản Lý Ghi Chú & Tủ Sách (Bookmarks)
-        // -----------------------------------------------------
+        // API 4: Bookmarks
         if (url.pathname === '/api/bookmarks') {
           const authHeader = request.headers.get('Authorization');
           if (!authHeader) return new Response(JSON.stringify({ error: 'Chưa đăng nhập' }), { status: 401, headers: corsHeaders });
@@ -107,7 +103,6 @@ export default {
             return new Response(JSON.stringify({ error: 'Token không hợp lệ' }), { status: 401, headers: corsHeaders });
           }
 
-          // [POST] Lưu ghi chú mới
           if (request.method === 'POST') {
             const { url_kinh, selected_text, note_content } = await request.json();
             const cleanUrl = decodeURIComponent(url_kinh);
@@ -117,7 +112,6 @@ export default {
             return new Response(JSON.stringify({ success: true }), { status: 200, headers: corsHeaders });
           }
 
-          // [GET] Tải danh sách ghi chú
           if (request.method === 'GET') {
             const urlKinh = url.searchParams.get('url');
             if (urlKinh) {
@@ -125,16 +119,15 @@ export default {
               const { results } = await env.DB.prepare(
                 "SELECT id, selected_text, note_content FROM Bookmarks WHERE username = ? AND url_kinh = ?"
               ).bind(username, cleanUrl).all();
-              return new Response(JSON.stringify(results), { status: 200, headers: corsHeaders });
+              return new Response(JSON.stringify(results || []), { status: 200, headers: corsHeaders });
             } else {
               const { results } = await env.DB.prepare(
                 "SELECT id, url_kinh, selected_text, note_content, updated_at FROM Bookmarks WHERE username = ? ORDER BY updated_at DESC"
               ).bind(username).all();
-              return new Response(JSON.stringify(results), { status: 200, headers: corsHeaders });
+              return new Response(JSON.stringify(results || []), { status: 200, headers: corsHeaders });
             }
           }
 
-          // [DELETE] Xóa Ghi chú hoặc Tiến trình theo ID
           if (request.method === 'DELETE') {
             const { id } = await request.json();
             await env.DB.prepare("DELETE FROM Bookmarks WHERE id = ? AND username = ?").bind(id, username).run();
@@ -142,9 +135,7 @@ export default {
           }
         }
 
-        // -----------------------------------------------------
-        // API 5: Lưu & Tải Tiến Trình Đọc (Progress) - ĐÃ FIX CHUẨN HOÁ URL
-        // -----------------------------------------------------
+        // API 5: Progress
         if (url.pathname === '/api/progress') {
           const authHeader = request.headers.get('Authorization');
           if (!authHeader) return new Response(JSON.stringify({ error: 'Chưa đăng nhập' }), { status: 401, headers: corsHeaders });
@@ -158,7 +149,6 @@ export default {
             return new Response(JSON.stringify({ error: 'Token không hợp lệ' }), { status: 401, headers: corsHeaders });
           }
 
-          // [POST] Lưu tọa độ VÀ đoạn chữ đang đọc dở
           if (request.method === 'POST') {
             const { url_kinh, scroll_y, text_snippet } = await request.json();
             const cleanUrl = decodeURIComponent(url_kinh);
@@ -173,7 +163,6 @@ export default {
             return new Response(JSON.stringify({ success: true }), { status: 200, headers: corsHeaders });
           }
 
-          // [GET] Tải dữ liệu tiến trình
           if (request.method === 'GET') {
             const urlKinh = url.searchParams.get('url');
             if (urlKinh) {
@@ -191,9 +180,6 @@ export default {
       }
     }
 
-    // =========================================================
-    // 2. KHU VỰC TRẢ VỀ WEB TĨNH (FRONTEND)
-    // =========================================================
     return env.ASSETS.fetch(request);
   }
 };
