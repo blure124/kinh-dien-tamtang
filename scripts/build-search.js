@@ -20,33 +20,33 @@ const files = getFiles(contentDir).filter(f => f.endsWith('.md'));
 let sql = "DROP TABLE IF EXISTS SearchIndex;\n";
 sql += "CREATE VIRTUAL TABLE SearchIndex USING fts5(url_kinh UNINDEXED, title, content);\n\n";
 
-// Bắt đầu khối Transaction đầu tiên
-sql += "BEGIN TRANSACTION;\n";
-
-let count = 0;
+let values = [];
 for (const file of files) {
   const relativePath = file.replace(contentDir, '').replace(/\\/g, '/').replace(/^\//, '').replace('.md', '');
   const url_kinh = '/' + relativePath;
   const title = path.basename(file, '.md').replace(/'/g, "''");
   
   let content = fs.readFileSync(file, 'utf-8');
+  // Dọn dẹp Markdown
   content = content.replace(/[#'"*_\[\]>\-\n]/g, ' ').replace(/\s+/g, ' ').replace(/'/g, "''").trim();
   
-  // Cắt bớt văn bản nếu quá 50.000 ký tự để giữ file SQL siêu nhẹ
-  if (content.length > 50000) {
-    content = content.substring(0, 50000);
+  // Giới hạn 20.000 ký tự mỗi bài để giữ câu lệnh nhẹ nhàng
+  if (content.length > 20000) {
+    content = content.substring(0, 20000);
   }
   
-  sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ('${url_kinh}', '${title}', '${content}');\n`;
-  count++;
-
-  // Cứ 300 bài kinh thì COMMIT 1 lần và mở TRANSACTION mới để D1 xử lý siêu nhanh
-  if (count % 300 === 0) {
-    sql += "COMMIT;\nBEGIN TRANSACTION;\n";
+  values.push(`('${url_kinh}', '${title}', '${content}')`);
+  
+  // Gom 5 bài kinh / 1 lệnh INSERT (vừa không quá dài, vừa không làm nổ transaction)
+  if (values.length === 5) {
+    sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${values.join(', ')};\n`;
+    values = [];
   }
 }
 
-sql += "\nCOMMIT;\n";
+if (values.length > 0) {
+  sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${values.join(', ')};\n`;
+}
 
 fs.writeFileSync(sqlFile, sql);
-console.log(`✅ Đã tạo thành công file seed-search.sql tối ưu Transaction cho ${files.length} bài kinh!`);
+console.log(`✅ Đã tạo thành công file seed-search.sql chứa ${files.length} bài kinh!`);
