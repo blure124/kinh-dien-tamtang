@@ -1,13 +1,13 @@
 ---
 // src/components/PageTools.astro
 ---
-<!-- 1. Thanh tiến trình đọc (Nằm sát mép trên cùng) -->
+<!-- 1. Thanh tiến trình đọc -->
 <div class="fixed top-0 left-0 w-full h-1 bg-gray-200 z-[60]">
   <div id="reading-progress-bar" class="h-1 bg-indigo-600 w-0 transition-all duration-150"></div>
 </div>
 
-<!-- 2. Nút Cuộn lên đầu -->
-<button id="btn-scroll-top" class="fixed bottom-36 right-4 md:bottom-24 md:right-8 z-40 bg-white text-gray-700 p-3 rounded-xl shadow-xl hover:bg-gray-100 hover:text-indigo-600 transition-all border border-gray-200 opacity-0 pointer-events-none transform translate-y-4" title="Cuộn lên đầu trang">
+<!-- 2. Nút Cuộn lên đầu (Đã chỉnh bottom-20 để nằm ngay trên nút cài đặt) -->
+<button id="btn-scroll-top" class="fixed bottom-20 right-4 md:bottom-24 md:right-8 z-40 bg-white text-gray-700 p-3 rounded-xl shadow-xl hover:bg-gray-100 hover:text-indigo-600 transition-all border border-gray-200 opacity-0 pointer-events-none transform translate-y-4" title="Cuộn lên đầu trang">
   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
   </svg>
@@ -29,15 +29,12 @@
     </div>
     
     <div class="p-6 flex flex-col h-full overflow-hidden">
-      <!-- Ô nhập liệu Tự viết thay thế cho Pagefind -->
       <input type="text" id="search-input" class="w-full border-2 border-indigo-200 rounded-xl p-4 text-lg focus:outline-none focus:border-indigo-600 transition shadow-sm" placeholder="Gõ từ khóa (VD: bát chánh đạo, tứ diệu đế)..." autocomplete="off" />
       
-      <!-- Thông báo Loading -->
       <div id="search-loading" class="hidden mt-6 text-center text-indigo-600 font-medium animate-pulse">
         ⏳ Đang lục tìm trong 12.500 bài kinh...
       </div>
       
-      <!-- Danh sách Kết quả -->
       <ul id="search-results" class="mt-6 space-y-4 overflow-y-auto custom-scrollbar pr-2 flex-1 pb-10">
          <li class="text-gray-400 italic text-center mt-10">Kết quả tìm kiếm sẽ hiển thị tại đây</li>
       </ul>
@@ -46,7 +43,6 @@
 </div>
 
 <script>
-  // ================= Xử lý Cuộn Trang & Tiến trình =================
   const progressBar = document.getElementById('reading-progress-bar');
   const btnScrollTop = document.getElementById('btn-scroll-top');
   
@@ -67,7 +63,6 @@
     btnScrollTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
-  // ================= Xử lý Tìm kiếm FTS5 API =================
   const btnOpenSearch = document.getElementById('btn-open-search');
   const btnCloseSearch = document.getElementById('btn-close-search');
   const searchModal = document.getElementById('search-modal');
@@ -99,7 +94,6 @@
         searchLoading.classList.remove('hidden');
         searchResults.innerHTML = '';
 
-        // Thuật toán Debounce: Đợi 500ms sau khi người dùng ngừng gõ mới gọi API để chống Spam
         searchTimeout = setTimeout(async () => {
           try {
             const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
