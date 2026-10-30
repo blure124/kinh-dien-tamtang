@@ -1,30 +1,44 @@
 ---
 // src/components/AuthUI.astro
 ---
-<div id="auth-container" class="fixed top-3 right-3 md:top-4 md:right-4 z-50 max-w-[calc(100vw-3.5rem)]">
-  <!-- Nút mở menu (Khi chưa đăng nhập) -->
-  <button id="auth-toggle-btn" class="bg-gray-800 text-white text-xs md:text-sm px-3 py-1.5 md:px-4 md:py-2 rounded-lg shadow-md hover:bg-gray-700 transition">
-    Đăng nhập / Đăng ký
+<div id="auth-container" class="fixed top-3 right-3 md:top-4 md:right-4 z-50">
+  <!-- 1. Nút khi CHƯA đăng nhập -->
+  <button id="auth-toggle-btn" class="bg-gray-800 text-white text-xs md:text-sm font-semibold px-3.5 py-2 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-1.5 active:scale-95">
+    <span>🔑</span>
+    <span>Đăng nhập</span>
   </button>
 
-  <!-- Khung hiển thị khi ĐÃ đăng nhập (Đã tối ưu chống tràn/che nút) -->
-  <div id="user-info" class="hidden flex items-center bg-white px-2.5 py-1.5 md:px-4 md:py-2 rounded-lg shadow-md border border-gray-200 text-xs md:text-sm max-w-full">
-    <span class="text-gray-700 flex items-center mr-1.5 md:mr-3 shrink truncate">
-      <span class="hidden sm:inline mr-1 text-gray-500">Chào,</span>
-      <span id="username-display" class="font-bold text-gray-900 truncate max-w-[70px] sm:max-w-[120px]"></span>
-    </span>
-    
-    <a href="/tu-sach" class="text-blue-600 hover:text-blue-800 font-semibold mr-1.5 md:mr-3 border-l border-r px-1.5 md:px-3 border-gray-300 shrink-0 flex items-center">
-      🔖 <span class="hidden sm:inline ml-1">Tủ sách</span>
-    </a>
-    
-    <button id="logout-btn" class="text-red-500 hover:text-red-700 font-semibold underline shrink-0">
-      <span class="hidden sm:inline">Đăng xuất</span>
-      <span class="sm:hidden">Thoát</span>
+  <!-- 2. Khung khi ĐÃ đăng nhập (Dạng Menu Dropdown chạm dễ dàng) -->
+  <div id="user-info" class="hidden relative">
+    <!-- Nút đại diện tài khoản -->
+    <button id="user-menu-btn" class="flex items-center gap-2 bg-white text-gray-800 px-3 py-1.5 md:py-2 rounded-xl shadow-md border border-gray-200 hover:bg-gray-50 transition active:scale-95 text-xs md:text-sm font-semibold">
+      <span id="user-avatar" class="w-6 h-6 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs uppercase">U</span>
+      <span id="username-display" class="font-bold text-gray-800 max-w-[80px] sm:max-w-[120px] truncate"></span>
+      <span class="text-gray-400 text-[10px]">▼</span>
     </button>
+
+    <!-- Menu thả xuống khi bấm vào nút tài khoản -->
+    <div id="user-dropdown" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-2xl border border-gray-100 p-1.5 z-50">
+      <div class="px-3 py-2 border-b border-gray-100 mb-1">
+        <p class="text-[11px] text-gray-400 font-medium">Tài khoản đăng nhập</p>
+        <p id="dropdown-username" class="text-sm font-bold text-indigo-700 truncate"></p>
+      </div>
+
+      <!-- Nút Tủ sách (Rộng rãi, dễ bấm) -->
+      <a href="/tu-sach" class="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 font-medium transition">
+        <span class="text-base">🔖</span>
+        <span>Tủ sách cá nhân</span>
+      </a>
+
+      <!-- Nút Đăng xuất (Rộng rãi, dễ bấm) -->
+      <button id="logout-btn" class="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm text-red-600 hover:bg-red-50 font-medium transition text-left">
+        <span class="text-base">🚪</span>
+        <span>Đăng xuất</span>
+      </button>
+    </div>
   </div>
 
-  <!-- Modal Đăng nhập / Đăng ký -->
+  <!-- 3. Modal Đăng nhập / Đăng ký -->
   <div id="auth-modal" class="hidden absolute top-11 md:top-12 right-0 bg-white w-72 p-5 rounded-xl shadow-2xl border border-gray-200">
     <div class="flex justify-between mb-4 border-b pb-2">
       <button id="tab-login" class="font-semibold text-blue-600 border-b-2 border-blue-600 pb-1 w-1/2">Đăng nhập</button>
@@ -48,7 +62,11 @@
   const toggleBtn = document.getElementById('auth-toggle-btn');
   const authModal = document.getElementById('auth-modal');
   const userInfo = document.getElementById('user-info');
+  const userMenuBtn = document.getElementById('user-menu-btn');
+  const userDropdown = document.getElementById('user-dropdown');
   const usernameDisplay = document.getElementById('username-display');
+  const dropdownUsername = document.getElementById('dropdown-username');
+  const userAvatar = document.getElementById('user-avatar');
   const logoutBtn = document.getElementById('logout-btn');
   
   const authForm = document.getElementById('auth-form');
@@ -68,27 +86,43 @@
       try {
         const tokenData = JSON.parse(atob(tokenStr));
         if (tokenData.exp > Date.now()) {
-          // Trạng thái: Đã đăng nhập
           toggleBtn.classList.add('hidden');
           authModal.classList.add('hidden');
           userInfo.classList.remove('hidden');
-          userInfo.classList.add('flex'); // Bật flexbox cho UI mới
-          usernameDisplay.textContent = tokenData.username;
+          
+          const uname = tokenData.username;
+          usernameDisplay.textContent = uname;
+          if (dropdownUsername) dropdownUsername.textContent = uname;
+          if (userAvatar) userAvatar.textContent = uname.charAt(0).toUpperCase();
           return;
         } else {
-          localStorage.removeItem('auth_token'); // Token hết hạn
+          localStorage.removeItem('auth_token');
         }
       } catch(e) {}
     }
-    // Trạng thái: Chưa đăng nhập
     toggleBtn.classList.remove('hidden');
     userInfo.classList.add('hidden');
-    userInfo.classList.remove('flex');
+    userDropdown?.classList.add('hidden');
   }
 
   checkAuth();
 
-  // 2. Chuyển đổi giao diện (UI Toggles)
+  // 2. Bật / Tắt Menu Dropdown khi bấm vào Avatar
+  if (userMenuBtn && userDropdown) {
+    userMenuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      userDropdown.classList.toggle('hidden');
+    });
+
+    // Ẩn dropdown khi click ra ngoài màn hình
+    document.addEventListener('click', (e) => {
+      if (!userInfo.contains(e.target as Node)) {
+        userDropdown.classList.add('hidden');
+      }
+    });
+  }
+
+  // 3. Bật Modal Đăng nhập / Đăng ký
   toggleBtn.addEventListener('click', () => {
     authModal.classList.toggle('hidden');
     authMessage.classList.add('hidden');
@@ -117,7 +151,7 @@
     checkAuth();
   });
 
-  // 3. Xử lý Form Submit (Gọi API)
+  // 4. Xử lý Gọi API Đăng nhập / Đăng ký
   authForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     submitBtn.disabled = true;
@@ -137,24 +171,20 @@
       });
       
       const data = await res.json();
-      
       if (!res.ok) throw new Error(data.error || 'Có lỗi xảy ra từ máy chủ');
 
       if (isLoginMode) {
-        // Lưu token vào trình duyệt và đổi giao diện
         localStorage.setItem('auth_token', data.token);
         usernameInput.value = '';
         pinInput.value = '';
         checkAuth();
       } else {
-        // Đăng ký thành công -> Báo xanh và tự động chuyển về tab đăng nhập
         authMessage.textContent = 'Đăng ký thành công! Đang chuyển...';
         authMessage.className = "text-sm text-green-600 font-medium";
         authMessage.classList.remove('hidden');
         setTimeout(() => tabLogin.click(), 1000);
       }
     } catch (err: any) {
-      // Báo lỗi đỏ
       authMessage.textContent = err.message;
       authMessage.className = "text-sm text-red-500 font-medium";
       authMessage.classList.remove('hidden');
