@@ -3,36 +3,46 @@
 ---
 <div id="auth-container" class="fixed top-3 right-3 md:top-4 md:right-4 z-50">
   <!-- 1. Nút khi CHƯA đăng nhập -->
-  <button id="auth-toggle-btn" class="bg-gray-800 text-white text-xs md:text-sm font-semibold px-3.5 py-2 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-1.5 active:scale-95">
-    <span>🔑</span>
+  <button id="auth-toggle-btn" class="bg-gray-800 text-white text-xs md:text-sm font-semibold px-3.5 py-2 rounded-xl shadow-lg hover:bg-gray-700 transition flex items-center gap-2 active:scale-95">
+    <!-- Icon Key -->
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 0121 9z"></path>
+    </svg>
     <span>Đăng nhập</span>
   </button>
 
-  <!-- 2. Khung khi ĐÃ đăng nhập (Dạng Menu Dropdown chạm dễ dàng) -->
+  <!-- 2. Khung khi ĐÃ đăng nhập (Menu Dropdown Icon chuẩn SVG) -->
   <div id="user-info" class="hidden relative">
     <!-- Nút đại diện tài khoản -->
     <button id="user-menu-btn" class="flex items-center gap-2 bg-white text-gray-800 px-3 py-1.5 md:py-2 rounded-xl shadow-md border border-gray-200 hover:bg-gray-50 transition active:scale-95 text-xs md:text-sm font-semibold">
-      <span id="user-avatar" class="w-6 h-6 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs uppercase">U</span>
+      <span id="user-avatar" class="w-6 h-6 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold text-xs uppercase shrink-0">U</span>
       <span id="username-display" class="font-bold text-gray-800 max-w-[80px] sm:max-w-[120px] truncate"></span>
-      <span class="text-gray-400 text-[10px]">▼</span>
+      <!-- Icon Mũi tên xổ xuống -->
+      <svg class="w-3.5 h-3.5 text-gray-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+      </svg>
     </button>
 
-    <!-- Menu thả xuống khi bấm vào nút tài khoản -->
+    <!-- Menu thả xuống -->
     <div id="user-dropdown" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-2xl border border-gray-100 p-1.5 z-50">
       <div class="px-3 py-2 border-b border-gray-100 mb-1">
         <p class="text-[11px] text-gray-400 font-medium">Tài khoản đăng nhập</p>
         <p id="dropdown-username" class="text-sm font-bold text-indigo-700 truncate"></p>
       </div>
 
-      <!-- Nút Tủ sách (Rộng rãi, dễ bấm) -->
-      <a href="/tu-sach" class="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 font-medium transition">
-        <span class="text-base">🔖</span>
+      <!-- Nút Tủ sách (Icon Bookmark SVG) -->
+      <a href="/tu-sach" class="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 font-medium transition group">
+        <svg class="w-4 h-4 text-gray-500 group-hover:text-indigo-700 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
+        </svg>
         <span>Tủ sách cá nhân</span>
       </a>
 
-      <!-- Nút Đăng xuất (Rộng rãi, dễ bấm) -->
-      <button id="logout-btn" class="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm text-red-600 hover:bg-red-50 font-medium transition text-left">
-        <span class="text-base">🚪</span>
+      <!-- Nút Đăng xuất (Icon Logout SVG) -->
+      <button id="logout-btn" class="w-full flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-sm text-red-600 hover:bg-red-50 font-medium transition text-left group">
+        <svg class="w-4 h-4 text-red-500 group-hover:text-red-700 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+        </svg>
         <span>Đăng xuất</span>
       </button>
     </div>
@@ -79,7 +89,6 @@
 
   let isLoginMode = true;
 
-  // 1. Kiểm tra trạng thái đăng nhập từ LocalStorage
   function checkAuth() {
     const tokenStr = localStorage.getItem('auth_token');
     if (tokenStr) {
@@ -107,14 +116,12 @@
 
   checkAuth();
 
-  // 2. Bật / Tắt Menu Dropdown khi bấm vào Avatar
   if (userMenuBtn && userDropdown) {
     userMenuBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       userDropdown.classList.toggle('hidden');
     });
 
-    // Ẩn dropdown khi click ra ngoài màn hình
     document.addEventListener('click', (e) => {
       if (!userInfo.contains(e.target as Node)) {
         userDropdown.classList.add('hidden');
@@ -122,7 +129,6 @@
     });
   }
 
-  // 3. Bật Modal Đăng nhập / Đăng ký
   toggleBtn.addEventListener('click', () => {
     authModal.classList.toggle('hidden');
     authMessage.classList.add('hidden');
@@ -151,7 +157,6 @@
     checkAuth();
   });
 
-  // 4. Xử lý Gọi API Đăng nhập / Đăng ký
   authForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     submitBtn.disabled = true;
