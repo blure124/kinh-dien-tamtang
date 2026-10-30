@@ -20,33 +20,40 @@ const files = getFiles(contentDir).filter(f => f.endsWith('.md'));
 let sql = "DROP TABLE IF EXISTS SearchIndex;\n";
 sql += "CREATE VIRTUAL TABLE SearchIndex USING fts5(url_kinh UNINDEXED, title, content);\n\n";
 
-let values = [];
+let currentBatch = [];
+let currentBatchLength = 0;
+const MAX_BATCH_BYTES = 100000; // Giới hạn 100KB cho mỗi câu lệnh INSERT (an toàn tuyệt đối trước ngưỡng 1MB)
+const MAX_CONTENT_LENGTH = 10000; // 10.000 ký tự / bài kinh (đủ trích xuất từ khóa tìm kiếm)
+
 for (const file of files) {
   const relativePath = file.replace(contentDir, '').replace(/\\/g, '/').replace(/^\//, '').replace('.md', '');
   const url_kinh = '/' + relativePath;
   const title = path.basename(file, '.md').replace(/'/g, "''");
   
   let content = fs.readFileSync(file, 'utf-8');
-  // Dọn dẹp Markdown
-  content = content.replace(/[#'"*_\[\]>\-\n]/g, ' ').replace(/\s+/g, ' ').replace(/'/g, "''").trim();
+  // Dọn dẹp ký tự Markdown
+  content = content.replace(/[#'"*_\[\]>\-\n\r]/g, ' ').replace(/\s+/g, ' ').replace(/'/g, "''").trim();
   
-  // Giới hạn 20.000 ký tự mỗi bài để giữ câu lệnh nhẹ nhàng
-  if (content.length > 20000) {
-    content = content.substring(0, 20000);
+  if (content.length > MAX_CONTENT_LENGTH) {
+    content = content.substring(0, MAX_CONTENT_LENGTH);
   }
   
-  values.push(`('${url_kinh}', '${title}', '${content}')`);
+  const valueStr = `('${url_kinh}', '${title}', '${content}')`;
   
-  // Gom 5 bài kinh / 1 lệnh INSERT (vừa không quá dài, vừa không làm nổ transaction)
-  if (values.length === 5) {
-    sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${values.join(', ')};\n`;
-    values = [];
+  // Nếu thêm bài này vào làm câu lệnh vượt quá 100KB, ghi câu lệnh cũ và tạo câu lệnh mới
+  if (currentBatchLength + valueStr.length > MAX_BATCH_BYTES && currentBatch.length > 0) {
+    sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${currentBatch.join(', ')};\n`;
+    currentBatch = [];
+    currentBatchLength = 0;
   }
+  
+  currentBatch.push(valueStr);
+  currentBatchLength += valueStr.length;
 }
 
-if (values.length > 0) {
-  sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${values.join(', ')};\n`;
+if (currentBatch.length > 0) {
+  sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${currentBatch.join(', ')};\n`;
 }
 
 fs.writeFileSync(sqlFile, sql);
-console.log(`✅ Đã tạo thành công file seed-search.sql chứa ${files.length} bài kinh!`);
+console.log(`✅ Đã tạo thành công file seed-search.sql tối ưu dung lượng cho ${files.length} bài kinh!`);
