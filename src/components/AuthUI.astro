@@ -1,21 +1,31 @@
 ---
 // src/components/AuthUI.astro
 ---
-<div id="auth-container" class="fixed top-4 right-4 z-50">
+<div id="auth-container" class="fixed top-3 right-3 md:top-4 md:right-4 z-50 max-w-[calc(100vw-3.5rem)]">
   <!-- Nút mở menu (Khi chưa đăng nhập) -->
-  <button id="auth-toggle-btn" class="bg-gray-800 text-white px-4 py-2 rounded shadow-md hover:bg-gray-700 transition">
+  <button id="auth-toggle-btn" class="bg-gray-800 text-white text-xs md:text-sm px-3 py-1.5 md:px-4 md:py-2 rounded-lg shadow-md hover:bg-gray-700 transition">
     Đăng nhập / Đăng ký
   </button>
 
-  <!-- Khung hiển thị khi ĐÃ đăng nhập -->
-  <div id="user-info" class="hidden flex items-center bg-white px-4 py-2 rounded shadow-md border border-gray-200">
-    <span class="text-gray-700 mr-3">Chào, <span id="username-display" class="font-bold text-gray-900"></span></span>
-    <a href="/tu-sach" class="text-blue-600 hover:text-blue-800 text-sm font-semibold mr-3 border-l border-r px-3 border-gray-300">🔖 Tủ sách</a>
-    <button id="logout-btn" class="text-red-500 hover:text-red-700 text-sm font-semibold underline">Đăng xuất</button>
+  <!-- Khung hiển thị khi ĐÃ đăng nhập (Đã tối ưu chống tràn/che nút) -->
+  <div id="user-info" class="hidden flex items-center bg-white px-2.5 py-1.5 md:px-4 md:py-2 rounded-lg shadow-md border border-gray-200 text-xs md:text-sm max-w-full">
+    <span class="text-gray-700 flex items-center mr-1.5 md:mr-3 shrink truncate">
+      <span class="hidden sm:inline mr-1 text-gray-500">Chào,</span>
+      <span id="username-display" class="font-bold text-gray-900 truncate max-w-[70px] sm:max-w-[120px]"></span>
+    </span>
+    
+    <a href="/tu-sach" class="text-blue-600 hover:text-blue-800 font-semibold mr-1.5 md:mr-3 border-l border-r px-1.5 md:px-3 border-gray-300 shrink-0 flex items-center">
+      🔖 <span class="hidden sm:inline ml-1">Tủ sách</span>
+    </a>
+    
+    <button id="logout-btn" class="text-red-500 hover:text-red-700 font-semibold underline shrink-0">
+      <span class="hidden sm:inline">Đăng xuất</span>
+      <span class="sm:hidden">Thoát</span>
+    </button>
   </div>
 
   <!-- Modal Đăng nhập / Đăng ký -->
-  <div id="auth-modal" class="hidden absolute top-12 right-0 bg-white w-72 p-5 rounded-xl shadow-2xl border border-gray-200">
+  <div id="auth-modal" class="hidden absolute top-11 md:top-12 right-0 bg-white w-72 p-5 rounded-xl shadow-2xl border border-gray-200">
     <div class="flex justify-between mb-4 border-b pb-2">
       <button id="tab-login" class="font-semibold text-blue-600 border-b-2 border-blue-600 pb-1 w-1/2">Đăng nhập</button>
       <button id="tab-register" class="font-semibold text-gray-400 hover:text-blue-500 pb-1 w-1/2">Đăng ký</button>
