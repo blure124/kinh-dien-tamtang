@@ -49,7 +49,7 @@
   .resume-highlight { 
     background-color: #fef08a !important; 
     border-radius: 4px;
-    transition: background-color 1s ease-out; /* Mờ đi từ từ cho êm mắt */
+    transition: background-color 1s ease-out;
   }
   html.theme-dark .resume-highlight { 
     background-color: #92400e !important; 
@@ -69,12 +69,12 @@
   let savedSnippet = '';
   let isBookmarkMode = false;
 
-  // 1. Tải tiến trình khi mở trang
+  // 1. Tải tiến trình khi mở trang (Đã cập nhật decodeURIComponent)
   async function loadProgress() {
     const tokenStr = localStorage.getItem('auth_token');
     if (!tokenStr) return;
 
-    const url_kinh = window.location.pathname;
+    const url_kinh = decodeURIComponent(window.location.pathname);
     try {
       const res = await fetch(`/api/progress?url=${encodeURIComponent(url_kinh)}`, {
         headers: { 'Authorization': `Bearer ${tokenStr}` }
@@ -104,7 +104,7 @@
     } catch (err) {}
   }
 
-  // Xử lý cuộn và Giữ vệt sáng (Mới)
+  // Xử lý cuộn và Giữ vệt sáng
   if (btnResumeYes) {
     btnResumeYes.addEventListener('click', () => {
       resumePopup.classList.add('hidden');
@@ -127,23 +127,17 @@
       }
 
       if (targetNode) {
-        // Cuộn mượt mà đến đoạn văn
         targetNode.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        
-        // Bật vệt sáng tĩnh
         targetNode.classList.add('resume-highlight');
 
-        // Đợi 1 giây cho lệnh scrollIntoView tự động cuộn xong, rồi mới bắt đầu bắt sự kiện của người dùng
         setTimeout(() => {
           const removeHighlight = () => {
             targetNode.classList.remove('resume-highlight');
-            // Gỡ bỏ sự kiện lắng nghe để tiết kiệm tài nguyên sau khi đã mờ vệt sáng
             window.removeEventListener('scroll', removeHighlight);
             window.removeEventListener('click', removeHighlight);
             window.removeEventListener('touchstart', removeHighlight);
           };
 
-          // Lắng nghe người dùng cuộn, click chuột hoặc chạm vào màn hình (Mobile)
           window.addEventListener('scroll', removeHighlight, { once: true });
           window.addEventListener('click', removeHighlight, { once: true });
           window.addEventListener('touchstart', removeHighlight, { once: true });
@@ -221,7 +215,7 @@
     });
   }
 
-  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản
+  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản (Đã cập nhật decodeURIComponent)
   if (article) {
     article.addEventListener('click', async (e) => {
       if (!isBookmarkMode) return;
@@ -234,7 +228,7 @@
       const pIndex = elements.indexOf(targetNode);
 
       const tokenStr = localStorage.getItem('auth_token');
-      const url_kinh = window.location.pathname;
+      const url_kinh = decodeURIComponent(window.location.pathname);
       
       let snippet = targetNode.textContent.trim().substring(0, 150);
       if (targetNode.textContent.length > 150) snippet += '...';
