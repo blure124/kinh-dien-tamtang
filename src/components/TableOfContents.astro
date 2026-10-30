@@ -1,8 +1,8 @@
 ---
 // src/components/TableOfContents.astro
 ---
-<!-- 1. MỤC LỤC MOBILE (Chỉ hiện trên Mobile/Tablet < xl, dạng thẻ thu gọn) -->
-<div class="xl:hidden w-full mb-6 bg-white/80 backdrop-blur border border-gray-200 rounded-xl p-3 shadow-sm transition-all">
+<!-- 1. MỤC LỤC MOBILE (Được JS tự động di chuyển lên ĐẦU bài kinh khi chạy) -->
+<div id="toc-mobile-wrapper" class="hidden xl:hidden w-full mb-6 bg-white/80 backdrop-blur border border-gray-200 rounded-xl p-3 shadow-sm transition-all">
   <details id="toc-mobile-details" class="group">
     <summary class="flex items-center justify-between font-bold text-gray-800 text-sm cursor-pointer select-none">
       <span class="flex items-center gap-2 text-indigo-700">
@@ -24,7 +24,7 @@
   </details>
 </div>
 
-<!-- 2. MỤC LỤC DESKTOP (Chỉ hiện trên PC >= xl, ghim cố định bên phải) -->
+<!-- 2. MỤC LỤC DESKTOP (Ghim cố định bên phải trên PC) -->
 <aside class="hidden xl:block w-64 flex-shrink-0 pt-16 pr-4">
   <div class="sticky top-20 bg-white/50 backdrop-blur border border-gray-200 rounded-xl p-4 shadow-sm max-h-[80vh] overflow-y-auto custom-scrollbar">
     <h3 class="font-bold text-gray-800 text-sm border-b border-gray-200 pb-2 mb-3 uppercase tracking-wider flex items-center gap-2">
@@ -41,19 +41,26 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    const article = document.querySelector('article.prose');
+    const mobileTocWrapper = document.getElementById('toc-mobile-wrapper');
     const tocMobile = document.getElementById('toc-container-mobile');
     const tocDesktop = document.getElementById('toc-container-desktop');
     const mobileDetails = document.getElementById('toc-mobile-details');
-    const article = document.querySelector('article.prose');
 
     if (!article) return;
+
+    // Tự động chèn khối Mục Lục Mobile lên TRƯỚC bài kinh
+    if (mobileTocWrapper && article.parentNode) {
+      article.parentNode.insertBefore(mobileTocWrapper, article);
+      mobileTocWrapper.classList.remove('hidden');
+    }
 
     // Quét tìm các thẻ tiêu đề H2, H3 trong bài kinh
     const headings = article.querySelectorAll('h2, h3');
     if (headings.length === 0) {
-      const emptyMsg = '<li class="italic text-gray-400">Bài kinh này không có phân đoạn.</li>';
-      if (tocMobile) tocMobile.innerHTML = emptyMsg;
-      if (tocDesktop) tocDesktop.innerHTML = emptyMsg;
+      // Ẩn khung mục lục mobile nếu bài kinh không có phân đoạn H2/H3
+      if (mobileTocWrapper) mobileTocWrapper.style.display = 'none';
+      if (tocDesktop) tocDesktop.innerHTML = '<li class="italic text-gray-400">Bài kinh này không có phân đoạn.</li>';
       return;
     }
 
@@ -71,11 +78,10 @@
       `;
     });
 
-    // Bơm danh sách vào cả 2 khung Mobile và Desktop
     if (tocMobile) tocMobile.innerHTML = tocHTML;
     if (tocDesktop) tocDesktop.innerHTML = tocHTML;
 
-    // Xử lý sự kiện Cuộn mượt khi nhấp vào link
+    // Xử lý cuộn mượt khi bấm nhấp vào liên kết mục lục
     document.querySelectorAll('.toc-link').forEach(link => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
@@ -84,12 +90,10 @@
 
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-          // Nếu đang mở trên mobile thì tự động đóng thẻ accordion lại
           if (mobileDetails && mobileDetails.hasAttribute('open')) {
             mobileDetails.removeAttribute('open');
           }
 
-          // Cuộn mượt cách mép trên 80px để không bị che
           const y = targetElement.getBoundingClientRect().top + window.scrollY - 80;
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
