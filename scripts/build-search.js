@@ -20,7 +20,6 @@ const files = getFiles(contentDir).filter(f => f.endsWith('.md'));
 let sql = "DROP TABLE IF EXISTS SearchIndex;\n";
 sql += "CREATE VIRTUAL TABLE SearchIndex USING fts5(url_kinh UNINDEXED, title, content);\n";
 
-let values = [];
 for (const file of files) {
   // Lấy đường dẫn tương đối chuẩn hóa
   const relativePath = file.replace(contentDir, '').replace(/\\/g, '/').replace(/^\//, '').replace('.md', '');
@@ -28,18 +27,16 @@ for (const file of files) {
   const title = path.basename(file, '.md').replace(/'/g, "''");
   
   let content = fs.readFileSync(file, 'utf-8');
+  // Dọn dẹp ký tự đặc biệt
   content = content.replace(/[#'"*_\[\]>\-\n]/g, ' ').replace(/\s+/g, ' ').replace(/'/g, "''").trim();
   
-  values.push(`('${url_kinh}', '${title}', '${content}')`);
-  
-  if (values.length === 20) {
-    sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${values.join(', ')};\n`;
-    values = [];
+  // Giới hạn độ dài tối đa mỗi bài để đảm bảo an toàn tuyệt đối cho SQLite
+  if (content.length > 100000) {
+    content = content.substring(0, 100000);
   }
-}
-
-if (values.length > 0) {
-  sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ${values.join(', ')};\n`;
+  
+  // Ghi mỗi bài kinh thành 1 lệnh INSERT riêng biệt để tránh lỗi SQLITE_TOOBIG
+  sql += `INSERT INTO SearchIndex (url_kinh, title, content) VALUES ('${url_kinh}', '${title}', '${content}');\n`;
 }
 
 fs.writeFileSync(sqlFile, sql);
