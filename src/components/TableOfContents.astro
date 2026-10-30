@@ -1,11 +1,39 @@
 ---
 // src/components/TableOfContents.astro
 ---
-<!-- Khung Mục Lục (Chỉ hiện trên Desktop, ghim bên phải) -->
+<!-- 1. MỤC LỤC MOBILE (Chỉ hiện trên Mobile/Tablet < xl, dạng thẻ thu gọn) -->
+<div class="xl:hidden w-full mb-6 bg-white/80 backdrop-blur border border-gray-200 rounded-xl p-3 shadow-sm transition-all">
+  <details id="toc-mobile-details" class="group">
+    <summary class="flex items-center justify-between font-bold text-gray-800 text-sm cursor-pointer select-none">
+      <span class="flex items-center gap-2 text-indigo-700">
+        <!-- Icon List SVG -->
+        <svg class="w-4 h-4 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7"></path>
+        </svg>
+        <span>MỤC LỤC BÀI KINH</span>
+      </span>
+      <!-- Icon mũi tên xoay khi mở -->
+      <svg class="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </summary>
+    
+    <ul id="toc-container-mobile" class="mt-3 pt-3 border-t border-gray-100 space-y-2 text-sm text-gray-600 max-h-60 overflow-y-auto custom-scrollbar">
+      <li class="italic text-gray-400">Đang tạo mục lục...</li>
+    </ul>
+  </details>
+</div>
+
+<!-- 2. MỤC LỤC DESKTOP (Chỉ hiện trên PC >= xl, ghim cố định bên phải) -->
 <aside class="hidden xl:block w-64 flex-shrink-0 pt-16 pr-4">
   <div class="sticky top-20 bg-white/50 backdrop-blur border border-gray-200 rounded-xl p-4 shadow-sm max-h-[80vh] overflow-y-auto custom-scrollbar">
-    <h3 class="font-bold text-gray-800 text-sm border-b border-gray-200 pb-2 mb-3 uppercase tracking-wider">📑 Mục lục</h3>
-    <ul id="toc-container" class="space-y-2 text-sm text-gray-600">
+    <h3 class="font-bold text-gray-800 text-sm border-b border-gray-200 pb-2 mb-3 uppercase tracking-wider flex items-center gap-2">
+      <svg class="w-4 h-4 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7"></path>
+      </svg>
+      <span>Mục lục</span>
+    </h3>
+    <ul id="toc-container-desktop" class="space-y-2 text-sm text-gray-600">
       <li class="italic text-gray-400">Đang tạo mục lục...</li>
     </ul>
   </div>
@@ -13,20 +41,24 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const tocContainer = document.getElementById('toc-container');
+    const tocMobile = document.getElementById('toc-container-mobile');
+    const tocDesktop = document.getElementById('toc-container-desktop');
+    const mobileDetails = document.getElementById('toc-mobile-details');
     const article = document.querySelector('article.prose');
-    if (!article || !tocContainer) return;
 
-    // Quét tìm H2, H3
+    if (!article) return;
+
+    // Quét tìm các thẻ tiêu đề H2, H3 trong bài kinh
     const headings = article.querySelectorAll('h2, h3');
     if (headings.length === 0) {
-      tocContainer.innerHTML = '<li class="italic text-gray-400">Bài kinh này không có phân đoạn.</li>';
+      const emptyMsg = '<li class="italic text-gray-400">Bài kinh này không có phân đoạn.</li>';
+      if (tocMobile) tocMobile.innerHTML = emptyMsg;
+      if (tocDesktop) tocDesktop.innerHTML = emptyMsg;
       return;
     }
 
     let tocHTML = '';
     headings.forEach((heading, index) => {
-      // Cấp ID cho thẻ H nếu chưa có
       if (!heading.id) heading.id = 'section-' + index;
       
       const isH3 = heading.tagName.toLowerCase() === 'h3';
@@ -34,22 +66,30 @@
       
       tocHTML += `
         <li class="${paddingClass}">
-          <a href="#${heading.id}" class="hover:text-indigo-600 transition block py-1 line-clamp-2" title="${heading.textContent}">${heading.textContent}</a>
+          <a href="#${heading.id}" class="toc-link hover:text-indigo-600 transition block py-1 line-clamp-2" title="${heading.textContent}">${heading.textContent}</a>
         </li>
       `;
     });
 
-    tocContainer.innerHTML = tocHTML;
+    // Bơm danh sách vào cả 2 khung Mobile và Desktop
+    if (tocMobile) tocMobile.innerHTML = tocHTML;
+    if (tocDesktop) tocDesktop.innerHTML = tocHTML;
 
-    // Xử lý Scroll mượt khi bấm vào mục lục
-    const tocLinks = tocContainer.querySelectorAll('a');
-    tocLinks.forEach(link => {
+    // Xử lý sự kiện Cuộn mượt khi nhấp vào link
+    document.querySelectorAll('.toc-link').forEach(link => {
       link.addEventListener('click', (e) => {
         e.preventDefault();
-        const targetId = link.getAttribute('href').substring(1);
+        const targetId = link.getAttribute('href')?.substring(1);
+        if (!targetId) return;
+
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-          // Cuộn cách đỉnh 80px để không bị lẹm vào viền trên
+          // Nếu đang mở trên mobile thì tự động đóng thẻ accordion lại
+          if (mobileDetails && mobileDetails.hasAttribute('open')) {
+            mobileDetails.removeAttribute('open');
+          }
+
+          // Cuộn mượt cách mép trên 80px để không bị che
           const y = targetElement.getBoundingClientRect().top + window.scrollY - 80;
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
