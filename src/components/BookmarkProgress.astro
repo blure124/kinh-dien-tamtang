@@ -1,18 +1,27 @@
 ---
 // src/components/BookmarkProgress.astro
 ---
-<!-- Nút Đánh dấu trang -->
-<button id="btn-save-progress" class="fixed bottom-4 left-4 md:bottom-8 md:left-8 z-40 bg-indigo-600 text-white p-3 rounded-full shadow-xl hover:bg-indigo-700 transition-all flex items-center justify-center border-2 border-white" title="Lưu vị trí đọc">
-  🔖 <span id="btn-save-text" class="hidden md:inline ml-2 text-sm font-medium">Lưu vị trí</span>
+<!-- Nút Đánh dấu trang (Icon SVG) -->
+<button id="btn-save-progress" class="fixed bottom-4 left-4 md:bottom-8 md:left-8 z-40 bg-indigo-600 text-white p-3 rounded-full shadow-xl hover:bg-indigo-700 transition-all flex items-center justify-center border-2 border-white active:scale-95" title="Lưu vị trí đọc">
+  <!-- Icon Bookmark SVG -->
+  <svg class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
+  </svg>
+  <span id="btn-save-text" class="hidden md:inline ml-2 text-sm font-medium">Lưu vị trí</span>
 </button>
 
 <!-- Popup hỏi Đọc tiếp có hiển thị trích đoạn -->
 <div id="resume-popup" class="hidden fixed top-20 left-1/2 transform -translate-x-1/2 z-50 bg-white p-5 rounded-xl shadow-2xl border border-gray-200 flex flex-col items-center w-[95%] md:w-[400px]">
-  <p class="text-sm font-bold text-indigo-700 mb-2">🔖 Tiếp tục đọc?</p>
+  <p class="text-sm font-bold text-indigo-700 mb-2 flex items-center gap-1.5">
+    <svg class="w-4 h-4 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
+    </svg>
+    <span>Tiếp tục đọc?</span>
+  </p>
   <p id="resume-text" class="text-sm text-gray-600 mb-4 text-center italic line-clamp-3 bg-gray-50 p-3 rounded border border-gray-100 w-full">Đang tải vị trí...</p>
   <div class="flex space-x-3 w-full">
-    <button id="btn-resume-yes" class="bg-indigo-600 text-white flex-1 py-2 rounded-lg text-sm font-medium hover:bg-indigo-700 shadow-md">Đọc tiếp</button>
-    <button id="btn-resume-no" class="bg-gray-100 text-gray-700 flex-1 py-2 rounded-lg text-sm font-medium hover:bg-gray-200">Bỏ qua</button>
+    <button id="btn-resume-yes" class="bg-indigo-600 text-white flex-1 py-2 rounded-lg text-sm font-medium hover:bg-indigo-700 shadow-md transition">Đọc tiếp</button>
+    <button id="btn-resume-no" class="bg-gray-100 text-gray-700 flex-1 py-2 rounded-lg text-sm font-medium hover:bg-gray-200 transition">Bỏ qua</button>
   </div>
 </div>
 
@@ -69,7 +78,7 @@
   let savedSnippet = '';
   let isBookmarkMode = false;
 
-  // 1. Tải tiến trình khi mở trang (Đã cập nhật decodeURIComponent)
+  // 1. Tải tiến trình khi mở trang
   async function loadProgress() {
     const tokenStr = localStorage.getItem('auth_token');
     if (!tokenStr) return;
@@ -215,7 +224,7 @@
     });
   }
 
-  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản (Đã cập nhật decodeURIComponent)
+  // 3. Xử lý khi người dùng CLICK chọn 1 đoạn văn bản
   if (article) {
     article.addEventListener('click', async (e) => {
       if (!isBookmarkMode) return;
@@ -251,7 +260,7 @@
         if (res.ok) {
           if (msg) msg.remove();
           btnSaveText.classList.remove('hidden');
-          resetBookmarkMode('✅ Đã lưu');
+          resetBookmarkMode('Đã lưu');
         }
       } catch (err) {
         alert('Lỗi kết nối máy chủ.');
