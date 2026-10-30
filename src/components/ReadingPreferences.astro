@@ -1,10 +1,10 @@
 ---
 // src/components/ReadingPreferences.astro
 ---
-<!-- Nút Bật/Tắt Menu Tùy Chỉnh -->
-<div class="fixed bottom-20 right-4 md:bottom-8 md:right-8 z-50 flex flex-col items-end">
+<!-- Nút Bật/Tắt Menu Tùy Chỉnh (Đã cân bằng bottom-4 chuẩn hàng với nút Bookmark) -->
+<div class="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-50 flex flex-col items-end">
   
-  <!-- Bảng Tùy Chỉnh (Cố định thiết kế gốc, không bị nhiễm màu từ Theme) -->
+  <!-- Bảng Tùy Chỉnh -->
   <div id="reading-prefs-panel" class="hidden mb-3 w-64 bg-white rounded-xl shadow-2xl border border-gray-200 p-4 transition-all origin-bottom-right">
      <h3 class="font-bold text-gray-800 text-sm border-b pb-2 mb-3">Tùy chỉnh Giao diện</h3>
      
@@ -120,10 +120,6 @@
 </script>
 
 <style is:global>
-  /* =========================================
-     THEME CSS (CHỈ ÁP DỤNG LÊN NỀN VÀ TRANG ĐỌC)
-  ========================================= */
-
   /* 1. SEPIA THEME */
   html.theme-sepia body { background-color: #fbf0d9 !important; }
   html.theme-sepia aside { background-color: #fbf0d9 !important; border-color: #e8dcc4 !important; }
@@ -154,9 +150,7 @@
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
 
-  /* =========================================
-     4. TỐI ƯU KHOẢNG CÁCH ĐOẠN VĂN
-  ========================================= */
+  /* 4. TỐI ƯU KHOẢNG CÁCH ĐOẠN VĂN */
   .prose p {
     margin-bottom: 1.5em !important;
     line-height: 1.8 !important;
