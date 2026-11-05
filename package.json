@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "ulimit -n 65536 2>/dev/null || true; NODE_OPTIONS=--max_old_space_size=8192 astro build",
+    "build": "NODE_OPTIONS=--max_old_space_size=8192 astro build",
     "preview": "astro preview",
     "astro": "astro",
     "index:db": "node scripts/build-search.js",
