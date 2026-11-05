@@ -1,9 +1,13 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind'; // (Hoặc các plugin khác bạn đang dùng)
+import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
   integrations: [tailwind()],
-  build: {
-    format: 'file' // Tắt chế độ tạo thư mục, giảm 50% số lượng file!
+  vite: {
+    build: {
+      rollupOptions: {
+        maxParallelFileOps: 50 // Khống chế số file mở đồng thời để không bị vượt ngưỡng EMFILE
+      }
+    }
   }
 });
