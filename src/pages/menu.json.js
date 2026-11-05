@@ -1,16 +1,30 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
 export async function GET() {
-  // Chỉ lấy đường dẫn, không tải nội dung file vào RAM
-  const files = import.meta.glob('../content/kinhdien/**/*.md');
+  const contentDir = path.join(process.cwd(), 'src/content/kinhdien');
+
+  function getFiles(dir) {
+    if (!fs.existsSync(dir)) return [];
+    const dirents = fs.readdirSync(dir, { withFileTypes: true });
+    const files = dirents.map((dirent) => {
+      const res = path.resolve(dir, dirent.name);
+      return dirent.isDirectory() ? getFiles(res) : res;
+    });
+    return Array.prototype.concat(...files);
+  }
+
+  const mdFiles = getFiles(contentDir).filter(f => f.endsWith('.md'));
   const tree = {};
 
-  Object.keys(files).forEach(file => {
-    const urlPath = file.split('/content/kinhdien/')[1].replace('.md', '');
-    const pathParts = urlPath.split('/');
+  mdFiles.forEach(file => {
+    const relativePath = file.replace(contentDir, '').replace(/\\/g, '/').replace(/^\//, '').replace('.md', '');
+    const pathParts = relativePath.split('/');
 
     let currentLevel = tree;
     pathParts.forEach((part, index) => {
       if (index === pathParts.length - 1) {
-        currentLevel[part] = { isFile: true, url: urlPath };
+        currentLevel[part] = { isFile: true, url: relativePath };
       } else {
         if (!currentLevel[part]) currentLevel[part] = { isFile: false, children: {} };
         currentLevel = currentLevel[part].children;
