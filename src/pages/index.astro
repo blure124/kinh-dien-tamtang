@@ -6,6 +6,8 @@ import Sidebar from '../components/Sidebar.astro';
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Thêm Favicon từ thư mục public -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Trang Chủ - Kinh Điển Tam Tạng</title>
   </head>
   <body class="bg-gray-50 text-gray-900 flex flex-col md:flex-row min-h-screen">
@@ -17,8 +19,15 @@ import Sidebar from '../components/Sidebar.astro';
       <div class="text-center mt-12 md:mt-0 max-w-2xl">
         <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">Thư Viện Kinh Điển<br>Tam Tạng</h1>
         <p class="text-gray-600 text-lg">Hệ thống lưu trữ 12.000+ văn bản kinh điển Phật giáo.</p>
+        
         <div class="mt-8 p-4 bg-blue-50 text-blue-700 rounded-lg border border-blue-100 inline-block">
           👆 Vui lòng bấm vào các danh mục ở thanh menu bên trái để mở rộng và chọn bài kinh bạn muốn đọc.
+        </div>
+
+        <!-- Thông tin liên hệ Email -->
+        <div class="mt-6 text-sm text-gray-500 flex items-center justify-center gap-1.5">
+          <span>📧 Liên hệ & Góp ý:</span>
+          <a href="mailto:info@tamtangpali.org" class="text-indigo-600 hover:underline font-medium">info@tamtangpali.org</a>
         </div>
       </div>
     </main>
