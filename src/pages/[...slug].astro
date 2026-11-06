@@ -1,5 +1,8 @@
 ---
 // src/pages/[...slug].astro
+import fs from 'node:fs';
+import path from 'node:path';
+
 import AuthUI from '../components/AuthUI.astro';
 import Sidebar from '../components/Sidebar.astro';
 import Highlighter from '../components/Highlighter.astro';
@@ -9,26 +12,98 @@ import PageTools from '../components/PageTools.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 
 export async function getStaticPaths() {
-  const tatCaKinh = await Astro.glob('../content/kinhdien/**/*.md');
-  return tatCaKinh.map(kinh => {
-    const filePath = kinh.file;
-    const pathParts = filePath.split('/content/kinhdien/');
-    const urlSlug = pathParts[1].replace('.md', '');
+  const contentDir = path.join(process.cwd(), 'src/content/kinhdien');
+
+  // Quét danh sách file qua fs.readdirSync (không mở file vào bộ nhớ Vite -> chống tràn EMFILE)
+  function getFiles(dir) {
+    if (!fs.existsSync(dir)) return [];
+    const dirents = fs.readdirSync(dir, { withFileTypes: true });
+    const files = dirents.map((dirent) => {
+      const res = path.resolve(dir, dirent.name);
+      return dirent.isDirectory() ? getFiles(res) : res;
+    });
+    return Array.prototype.concat(...files);
+  }
+
+  const mdFiles = getFiles(contentDir).filter(f => f.endsWith('.md'));
+
+  return mdFiles.map(filePath => {
+    const urlSlug = filePath
+      .replace(contentDir, '')
+      .replace(/\\/g, '/')
+      .replace(/^\//, '')
+      .replace(/\.md$/, '');
+
     return {
       params: { slug: urlSlug },
-      props: { kinh },
+      props: { filePath },
     };
   });
 }
 
-const { kinh } = Astro.props;
-const { Content } = kinh;
+const { filePath } = Astro.props;
+
+// Đọc duy nhất 1 file đĩa tại thời điểm render
+let rawContent = '';
+if (filePath && fs.existsSync(filePath)) {
+  rawContent = fs.readFileSync(filePath, 'utf-8');
+}
+
+const title = path.basename(filePath, '.md');
+
+// Hàm chuyển đổi cú pháp Markdown cơ bản thành HTML chuẩn cho bài kinh
+function parseMarkdown(md) {
+  if (!md) return '';
+  const blocks = md.split(/\n\r?\n/);
+  return blocks.map(block => {
+    const trimmed = block.trim();
+    if (!trimmed) return '';
+
+    // Xử lý các tiêu đề H1, H2, H3, H4
+    if (trimmed.startsWith('#### ')) {
+      return `<h4 class="text-lg font-bold text-gray-800 mt-6 mb-3">${formatInline(trimmed.slice(5))}</h4>`;
+    }
+    if (trimmed.startsWith('### ')) {
+      return `<h3 class="text-xl font-bold text-indigo-900 mt-8 mb-4">${formatInline(trimmed.slice(4))}</h3>`;
+    }
+    if (trimmed.startsWith('## ')) {
+      return `<h2 class="text-2xl font-bold text-indigo-900 mt-10 mb-5 border-b pb-2">${formatInline(trimmed.slice(3))}</h2>`;
+    }
+    if (trimmed.startsWith('# ')) {
+      return `<h1 class="text-3xl font-bold text-indigo-950 mt-12 mb-6 border-b-2 pb-3">${formatInline(trimmed.slice(2))}</h1>`;
+    }
+
+    // Xử lý Trích dẫn / Blockquote
+    if (trimmed.startsWith('>')) {
+      const content = trimmed.replace(/^>\s*/gm, '');
+      return `<blockquote class="border-l-4 border-indigo-400 pl-4 py-2 italic text-gray-700 bg-indigo-50/50 my-4 rounded-r">${formatInline(content)}</blockquote>`;
+    }
+
+    // Xử lý Danh sách / List
+    if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
+      const items = trimmed.split(/\n/).map(line => line.replace(/^[\-\*]\s*/, '').trim());
+      return `<ul class="list-disc list-inside space-y-1 my-4">${items.map(item => `<li>${formatInline(item)}</li>`).join('')}</ul>`;
+    }
+
+    // Đoạn văn mặc định
+    return `<p class="mb-4 leading-relaxed">${formatInline(trimmed).replace(/\n/g, '<br/>')}</p>`;
+  }).join('\n');
+}
+
+function formatInline(text) {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+    .replace(/`([^`]+)`/g, '<code class="bg-gray-100 px-1 rounded text-sm font-mono">$1</code>');
+}
+
+const htmlContent = parseMarkdown(rawContent);
 ---
 <html lang="vi">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kinh Điển Tam Tạng</title>
+    <title>{title ? `${title} - Kinh Điển Tam Tạng` : 'Kinh Điển Tam Tạng'}</title>
     <script is:inline>
       try {
         const prefs = JSON.parse(localStorage.getItem('reading_prefs'));
@@ -70,7 +145,7 @@ const { Content } = kinh;
         
         <!-- Đã sửa: data-pagefind-body đứng độc lập như một thuộc tính HTML -->
         <article class="prose prose-lg max-w-3xl mx-auto transition-all duration-300" data-pagefind-body>
-          <Content />
+          <div set:html={htmlContent} />
         </article>
       </main>
 
