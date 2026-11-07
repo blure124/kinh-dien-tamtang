@@ -26,7 +26,10 @@
       const container = document.getElementById('sidebar-content');
 
       function buildHTML(node) {
-        const keys = Object.keys(node).sort();
+        // Sắp xếp các khóa theo thứ tự số tự nhiên (Natural Sort: an1 -> an2 -> ... -> an10)
+        const keys = Object.keys(node).sort((a, b) => 
+          a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
+        );
         if (keys.length === 0) return '';
 
         let html = '<ul class="pl-3 border-l border-gray-200 ml-2 space-y-1">';
