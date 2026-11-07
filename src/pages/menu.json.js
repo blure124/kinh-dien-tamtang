@@ -1,3 +1,4 @@
+// src/pages/menu.json.js
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -32,7 +33,29 @@ export async function GET() {
     });
   });
 
-  return new Response(JSON.stringify(tree), {
+  // Đệ quy sắp xếp thư mục và tập tin theo thứ tự số tự nhiên (Natural Sort: an1 -> an2 -> ... -> an10)
+  function sortTree(obj) {
+    const sorted = {};
+    const keys = Object.keys(obj).sort((a, b) => 
+      a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
+    );
+
+    for (const key of keys) {
+      if (obj[key].isFile) {
+        sorted[key] = obj[key];
+      } else {
+        sorted[key] = {
+          isFile: false,
+          children: sortTree(obj[key].children)
+        };
+      }
+    }
+    return sorted;
+  }
+
+  const sortedTree = sortTree(tree);
+
+  return new Response(JSON.stringify(sortedTree), {
     headers: { 'Content-Type': 'application/json' }
   });
 }
