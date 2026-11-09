@@ -17,7 +17,13 @@ import Sidebar from '../components/Sidebar.astro';
       <AuthUI />
       
       <div class="max-w-4xl mx-auto mt-12 md:mt-4 bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
-        <h1 class="text-3xl font-bold text-gray-800 mb-2">🔖 Tủ Sách Của Tôi</h1>
+        <!-- Tiêu đề Tủ sách với SVG Bookmark Tag -->
+        <h1 class="text-3xl font-bold text-gray-800 mb-2 flex items-center gap-2.5">
+          <svg class="w-7 h-7 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+          </svg>
+          <span>Tủ Sách Của Tôi</span>
+        </h1>
         <p class="text-gray-500 mb-8 border-b pb-4">Quản lý các đoạn kinh điển và tiến trình đọc.</p>
         
         <div id="bookmarks-container" class="space-y-5">
@@ -51,9 +57,18 @@ import Sidebar from '../components/Sidebar.astro';
 
           let html = '';
 
-          // 1. Render Tiến trình (Đã sửa lỗi JSON)
+          // 1. Render Tiến trình (Đang đọc dở)
           if (progresses.length > 0) {
-            html += '<h2 class="text-xl font-bold text-gray-800 mb-4 mt-2">📖 Đang đọc dở (Bookmark)</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">';
+            html += `
+              <h2 class="text-xl font-bold text-gray-800 mb-4 mt-2 flex items-center gap-2">
+                <svg class="w-5 h-5 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+                <span>Đang đọc dở (Bookmark)</span>
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            `;
+
             progresses.forEach(bm => {
               const date = new Date(bm.updated_at).toLocaleDateString('vi-VN');
               const decodedUrl = decodeURIComponent(bm.url_kinh);
@@ -64,7 +79,6 @@ import Sidebar from '../components/Sidebar.astro';
                 const parsedOuter = JSON.parse(bm.note_content);
                 if(parsedOuter.text) {
                   try {
-                    // Giải mã lớp JSON thứ 2
                     const parsedInner = JSON.parse(parsedOuter.text);
                     snippet = parsedInner.text;
                   } catch (e) {
@@ -76,14 +90,24 @@ import Sidebar from '../components/Sidebar.astro';
               html += `
                 <div class="block p-5 border border-indigo-200 rounded-lg hover:shadow-md transition bg-indigo-50/50 group relative">
                   <div class="flex items-center justify-between mb-3">
-                    <span class="text-sm font-bold text-indigo-700">🔖 Đang đọc dở</span>
+                    <span class="text-sm font-bold text-indigo-700 flex items-center gap-1.5">
+                      <svg class="w-4 h-4 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                      </svg>
+                      Đang đọc dở
+                    </span>
                     <div class="flex items-center space-x-2">
                        <span class="text-xs text-gray-400 mr-2">${date}</span>
                        <button class="delete-btn text-red-500 hover:text-red-700 bg-white px-2 py-1 rounded shadow-sm text-xs font-medium" data-id="${bm.id}">Xóa</button>
                     </div>
                   </div>
                   <a href="${bm.url_kinh}" class="block">
-                    <h3 class="font-bold text-gray-900 group-hover:text-indigo-700 mb-2 truncate" title="${title}">📄 ${title}</h3>
+                    <h3 class="font-bold text-gray-900 group-hover:text-indigo-700 mb-2 truncate flex items-center gap-1.5" title="${title}">
+                      <svg class="w-4 h-4 text-gray-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                      </svg>
+                      <span class="truncate">${title}</span>
+                    </h3>
                     <p class="text-sm text-gray-600 italic border-l-2 border-indigo-300 pl-3">"...${snippet}"</p>
                   </a>
                 </div>
@@ -94,7 +118,16 @@ import Sidebar from '../components/Sidebar.astro';
 
           // 2. Render Ghi chú & Bôi đen
           if (highlights.length > 0) {
-             html += '<h2 class="text-xl font-bold text-gray-800 mb-4 border-t border-gray-200 pt-6">✏️ Ghi chú & Bôi đen</h2><div class="space-y-4">';
+             html += `
+              <h2 class="text-xl font-bold text-gray-800 mb-4 border-t border-gray-200 pt-6 flex items-center gap-2">
+                <svg class="w-5 h-5 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                </svg>
+                <span>Ghi chú & Bôi đen</span>
+              </h2>
+              <div class="space-y-4">
+             `;
+
              highlights.forEach(bm => {
                 const date = new Date(bm.updated_at).toLocaleDateString('vi-VN');
                 const decodedUrl = decodeURIComponent(bm.url_kinh);
@@ -103,11 +136,23 @@ import Sidebar from '../components/Sidebar.astro';
                 html += `
                   <div class="p-5 border border-gray-200 rounded-lg bg-white shadow-sm group">
                     <div class="flex items-start justify-between mb-3">
-                      <a href="${bm.url_kinh}" class="text-base font-bold text-blue-700 hover:underline flex-1 pr-4 leading-tight">📄 ${title}</a>
+                      <a href="${bm.url_kinh}" class="text-base font-bold text-blue-700 hover:underline flex-1 pr-4 leading-tight flex items-center gap-1.5">
+                        <svg class="w-4 h-4 text-blue-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        <span>${title}</span>
+                      </a>
                       <button class="delete-btn text-red-500 hover:text-red-700 bg-red-50 px-2 py-1 rounded text-xs font-medium shrink-0" data-id="${bm.id}">Xóa</button>
                     </div>
                     <blockquote class="border-l-4 border-yellow-400 pl-4 py-2 mb-3 text-gray-700 bg-yellow-50/50 italic text-sm">"${bm.selected_text}"</blockquote>
-                    ${bm.note_content ? `<p class="text-sm text-gray-900 font-medium bg-gray-50 p-2 rounded border border-gray-100">✏️ Ghi chú: <span class="font-normal text-gray-600">${bm.note_content}</span></p>` : ''}
+                    ${bm.note_content ? `
+                      <p class="text-sm text-gray-900 font-medium bg-gray-50 p-2 rounded border border-gray-100 flex items-start gap-1.5">
+                        <svg class="w-4 h-4 text-indigo-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                        </svg>
+                        <span>Ghi chú: <span class="font-normal text-gray-600">${bm.note_content}</span></span>
+                      </p>
+                    ` : ''}
                     <p class="text-xs text-gray-400 mt-3 text-right">Đã lưu: ${date}</p>
                   </div>
                 `;
