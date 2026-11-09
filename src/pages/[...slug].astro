@@ -14,7 +14,6 @@ import TableOfContents from '../components/TableOfContents.astro';
 export async function getStaticPaths() {
   const contentDir = path.join(process.cwd(), 'src/content/kinhdien');
 
-  // Quét danh sách file qua fs.readdirSync (không mở file vào bộ nhớ Vite -> chống tràn EMFILE)
   function getFiles(dir) {
     if (!fs.existsSync(dir)) return [];
     const dirents = fs.readdirSync(dir, { withFileTypes: true });
@@ -36,14 +35,13 @@ export async function getStaticPaths() {
 
     return {
       params: { slug: urlSlug },
-      props: { filePath },
+      props: { filePath, urlSlug },
     };
   });
 }
 
-const { filePath } = Astro.props;
+const { filePath, urlSlug } = Astro.props;
 
-// Đọc duy nhất 1 file đĩa tại thời điểm render
 let rawContent = '';
 if (filePath && fs.existsSync(filePath)) {
   rawContent = fs.readFileSync(filePath, 'utf-8');
@@ -51,7 +49,15 @@ if (filePath && fs.existsSync(filePath)) {
 
 const title = path.basename(filePath, '.md');
 
-// Hàm chuyển đổi cú pháp Markdown cơ bản thành HTML chuẩn cho bài kinh
+// Trích xuất 160 ký tự đầu làm Description SEO tự động
+const seoDescription = rawContent
+  .replace(/[#*`>-]/g, '')
+  .replace(/\s+/g, ' ')
+  .trim()
+  .slice(0, 160) + '...';
+
+const canonicalUrl = `https://tamtangpali.org/${urlSlug}`;
+
 function parseMarkdown(md) {
   if (!md) return '';
   const blocks = md.split(/\n\r?\n/);
@@ -59,7 +65,6 @@ function parseMarkdown(md) {
     const trimmed = block.trim();
     if (!trimmed) return '';
 
-    // Xử lý các tiêu đề H1, H2, H3, H4
     if (trimmed.startsWith('#### ')) {
       return `<h4 class="text-lg font-bold text-gray-800 mt-6 mb-3">${formatInline(trimmed.slice(5))}</h4>`;
     }
@@ -73,19 +78,16 @@ function parseMarkdown(md) {
       return `<h1 class="text-3xl font-bold text-indigo-950 mt-12 mb-6 border-b-2 pb-3">${formatInline(trimmed.slice(2))}</h1>`;
     }
 
-    // Xử lý Trích dẫn / Blockquote
     if (trimmed.startsWith('>')) {
       const content = trimmed.replace(/^>\s*/gm, '');
       return `<blockquote class="border-l-4 border-indigo-400 pl-4 py-2 italic text-gray-700 bg-indigo-50/50 my-4 rounded-r">${formatInline(content)}</blockquote>`;
     }
 
-    // Xử lý Danh sách / List
     if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
       const items = trimmed.split(/\n/).map(line => line.replace(/^[\-\*]\s*/, '').trim());
       return `<ul class="list-disc list-inside space-y-1 my-4">${items.map(item => `<li>${formatInline(item)}</li>`).join('')}</ul>`;
     }
 
-    // Đoạn văn mặc định
     return `<p class="mb-4 leading-relaxed">${formatInline(trimmed).replace(/\n/g, '<br/>')}</p>`;
   }).join('\n');
 }
@@ -104,7 +106,23 @@ const htmlContent = parseMarkdown(rawContent);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
     <title>{title ? `${title} - Kinh Điển Tam Tạng` : 'Kinh Điển Tam Tạng'}</title>
+    <meta name="description" content={seoDescription} />
+
+    <!-- Open Graph Dynamic cho từng bài kinh -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={`${title} - Kinh Điển Tam Tạng`} />
+    <meta property="og:description" content={seoDescription} />
+    <meta property="og:image" content="https://tamtangpali.org/og-image.jpg" />
+
+    <!-- Twitter Dynamic -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} - Kinh Điển Tam Tạng`} />
+    <meta name="twitter:description" content={seoDescription} />
+    <meta name="twitter:image" content="https://tamtangpali.org/og-image.jpg" />
+
     <script is:inline>
       try {
         const prefs = JSON.parse(localStorage.getItem('reading_prefs'));
@@ -115,27 +133,21 @@ const htmlContent = parseMarkdown(rawContent);
   </head>
   <body class="bg-gray-50 text-gray-900 leading-relaxed flex flex-col md:flex-row min-h-screen transition-colors duration-300">
     
-    <!-- Thanh tiến trình, Nút cuộn & Tìm kiếm -->
     <PageTools />
 
-    <!-- Nút Hamburger Mở Sidebar (Nằm góc trên trái) -->
     <button id="btn-toggle-sidebar" class="fixed top-3 left-3 z-50 bg-white p-2 rounded-lg shadow-sm border border-gray-200 text-gray-600 hover:text-indigo-600 transition" title="Mở danh mục">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </button>
 
-    <!-- Sidebar -->
     <div id="sidebar-container" class="transition-transform transform -translate-x-full md:translate-x-0 fixed md:relative z-[55] h-screen bg-white">
        <Sidebar />
-       <!-- Nút đóng Sidebar trên Mobile -->
        <button id="btn-close-sidebar" class="md:hidden absolute top-4 right-4 bg-gray-100 p-2 rounded-full text-gray-600">✕</button>
     </div>
     
-    <!-- Lớp phủ đen khi mở menu trên Mobile -->
     <div id="sidebar-overlay" class="hidden fixed inset-0 bg-black/50 z-50 md:hidden"></div>
 
-    <!-- Nội dung kinh & Mục lục -->
     <div class="flex-1 flex flex-col xl:flex-row w-full max-w-full overflow-hidden">
       
       <main class="flex-1 p-6 md:p-10 relative transition-colors duration-300 w-full overflow-x-hidden pt-16">
@@ -144,18 +156,15 @@ const htmlContent = parseMarkdown(rawContent);
         <BookmarkProgress />
         <ReadingPreferences />
         
-        <!-- Đã sửa: data-pagefind-body đứng độc lập như một thuộc tính HTML -->
         <article class="prose prose-lg max-w-3xl mx-auto transition-all duration-300" data-pagefind-body>
           <div set:html={htmlContent} />
         </article>
       </main>
 
-      <!-- Mục lục tự động bên phải -->
       <TableOfContents />
 
     </div>
 
-    <!-- Script xử lý Sidebar Ẩn/Hiện -->
     <script>
       const btnToggle = document.getElementById('btn-toggle-sidebar');
       const btnClose = document.getElementById('btn-close-sidebar');
