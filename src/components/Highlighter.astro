@@ -1,17 +1,99 @@
 ---
 // src/components/Highlighter.astro
 ---
-<div id="highlight-tooltip" class="hidden fixed z-50 bg-gray-900 text-white text-sm font-medium px-4 py-2 rounded-full shadow-2xl cursor-pointer hover:bg-blue-600 transition-all border border-gray-700" style="transform: translateX(-50%);">
-  ✏️ Lưu chú đoạn này
+<!-- NÚT NỔI THÔNG MINH (TOOLTIP) KHI BÔI ĐEN CHỮ -->
+<div id="highlight-tooltip" class="hidden fixed z-50 bg-gray-900 text-white text-sm font-medium px-4 py-2 rounded-full shadow-2xl cursor-pointer hover:bg-indigo-600 transition-all border border-gray-700 select-none flex items-center gap-1.5" style="transform: translateX(-50%);">
+  <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+  </svg>
+  <span>Lưu chú đoạn này</span>
+</div>
+
+<!-- HỘP THOẠI TUỲ CHỈNH (CUSTOM MODAL) THAY THẾ NATIVE PROMPT & ALERT -->
+<div id="custom-modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm transition-all duration-200">
+  <div id="custom-modal-card" class="bg-white rounded-2xl shadow-2xl border border-gray-100 w-full max-w-md p-6 transform transition-all scale-95 opacity-0">
+    
+    <!-- Tiêu đề Modal -->
+    <div class="flex items-center justify-between pb-3 border-b border-gray-100 mb-4">
+      <h3 id="custom-modal-title" class="font-bold text-gray-800 text-lg flex items-center gap-2"></h3>
+      <button id="custom-modal-close" class="text-gray-400 hover:text-gray-600 p-1.5 rounded-full hover:bg-gray-100 transition">✕</button>
+    </div>
+
+    <!-- Nội dung Modal -->
+    <div id="custom-modal-body" class="mb-5 space-y-3"></div>
+
+    <!-- Nút thao tác -->
+    <div id="custom-modal-footer" class="flex items-center justify-end gap-2.5 pt-2"></div>
+  </div>
 </div>
 
 <script>
   const tooltip = document.getElementById('highlight-tooltip');
   const article = document.querySelector('article.prose');
+  
+  // Các phần tử Modal
+  const modal = document.getElementById('custom-modal');
+  const modalCard = document.getElementById('custom-modal-card');
+  const modalTitle = document.getElementById('custom-modal-title');
+  const modalBody = document.getElementById('custom-modal-body');
+  const modalFooter = document.getElementById('custom-modal-footer');
+  const modalCloseBtn = document.getElementById('custom-modal-close');
+
   let currentSelection = '';
 
+  // 1. Quản lý Đóng / Mở Modal
+  function openModal({ titleHtml, bodyHtml, footerButtons }) {
+    if (!modal || !modalCard) return;
+    
+    modalTitle.innerHTML = titleHtml;
+    modalBody.innerHTML = bodyHtml;
+    modalFooter.innerHTML = '';
+    
+    footerButtons.forEach(btn => modalFooter.appendChild(btn));
+
+    modal.classList.remove('hidden');
+    setTimeout(() => {
+      modalCard.classList.remove('scale-95', 'opacity-0');
+      modalCard.classList.add('scale-100', 'opacity-100');
+    }, 10);
+  }
+
+  function closeModal() {
+    if (!modal || !modalCard) return;
+    modalCard.classList.remove('scale-100', 'opacity-100');
+    modalCard.classList.add('scale-95', 'opacity-0');
+    setTimeout(() => {
+      modal.classList.add('hidden');
+    }, 150);
+  }
+
+  if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeModal);
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+  }
+
+  // 2. Thông báo kiểu Alert tùy chỉnh
+  function customAlert(title, message, iconType = 'info') {
+    const iconSvg = iconType === 'error' 
+      ? `<svg class="w-6 h-6 text-red-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>`
+      : `<svg class="w-6 h-6 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium rounded-xl transition';
+    closeBtn.innerText = 'Đã hiểu';
+    closeBtn.onclick = closeModal;
+
+    openModal({
+      titleHtml: `${iconSvg}<span>${title}</span>`,
+      bodyHtml: `<p class="text-sm text-gray-600 leading-relaxed">${message}</p>`,
+      footerButtons: [closeBtn]
+    });
+  }
+
   if (article) {
-    // 1. Hàm tính toán và hiển thị nút thông minh (Responsive)
+    // 3. Định vị Nút Nổi Tooltip theo vùng chọn
     const showTooltip = () => {
       const selection = window.getSelection();
       const text = selection.toString().trim();
@@ -21,23 +103,20 @@
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
         
-        // Kiểm tra kích thước màn hình (Mobile thường < 768px)
         const isMobile = window.innerWidth <= 768;
 
         if (isMobile) {
-          // MOBILE: Neo nút ở dưới đáy màn hình để né menu của Chrome/Safari
           tooltip.style.top = 'auto';
           tooltip.style.bottom = '40px';
           tooltip.style.left = '50%';
         } else {
-          // DESKTOP: Đặt nút nổi lên ngay trên đoạn chữ
           tooltip.style.bottom = 'auto';
           tooltip.style.left = `${rect.left + (rect.width / 2)}px`;
           
           if (rect.top < 60) {
-              tooltip.style.top = `${rect.bottom + 15}px`;
+            tooltip.style.top = `${rect.bottom + 15}px`;
           } else {
-              tooltip.style.top = `${rect.top - 40}px`;
+            tooltip.style.top = `${rect.top - 40}px`;
           }
         }
         
@@ -47,52 +126,92 @@
       }
     };
 
-    // 2. Lắng nghe đa sự kiện
     document.addEventListener('selectionchange', showTooltip);
     document.addEventListener('mouseup', showTooltip);
     document.addEventListener('touchend', showTooltip);
 
-    // 3. Xử lý khi bấm nút "Lưu chú"
-    tooltip.addEventListener('click', async () => {
+    // 4. Xử lý khi nhấp nút "Lưu chú" -> Hiện Hộp thoại Nhập Ghi chú
+    tooltip.addEventListener('click', () => {
       const tokenStr = localStorage.getItem('auth_token');
       if (!tokenStr) {
-        alert('Bạn cần đăng nhập hoặc tạo tài khoản để sử dụng tính năng Lưu chú!');
+        customAlert('Yêu cầu đăng nhập', 'Bạn cần đăng nhập hoặc tạo tài khoản để sử dụng tính năng Lưu chú!', 'info');
         return;
       }
 
-      const note = prompt('Thêm ghi chú cá nhân cho đoạn này (có thể để trống):');
-      if (note === null) return; 
+      // Xây dựng Modal Nhập Ghi Chú
+      const titleHtml = `
+        <svg class="w-6 h-6 text-indigo-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/>
+        </svg>
+        <span>Lưu chú đoạn kinh</span>
+      `;
 
-      const url_kinh = window.location.pathname;
+      const bodyHtml = `
+        <div>
+          <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-1">Trích đoạn đã chọn:</span>
+          <blockquote class="border-l-4 border-indigo-400 pl-3 py-2 text-xs italic text-gray-700 bg-indigo-50/50 rounded-r line-clamp-3 mb-4">"${currentSelection}"</blockquote>
+          
+          <label for="modal-note-input" class="block text-xs font-semibold text-gray-600 mb-1">Ghi chú cá nhân (có thể để trống):</label>
+          <textarea id="modal-note-input" rows="3" class="w-full p-3 border border-gray-200 rounded-xl text-sm text-gray-800 focus:outline-none focus:border-indigo-600 focus:ring-1 focus:ring-indigo-600 transition resize-none" placeholder="Nhập suy ngẫm hoặc chú giải của bạn..."></textarea>
+        </div>
+      `;
 
-      try {
-        // Đổi lại màu để báo hiệu đang xử lý
-        tooltip.textContent = '⏳ Đang lưu...';
-        
-        const res = await fetch('/api/bookmarks', {
-          method: 'POST',
-          headers: { 
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${tokenStr}`
-          },
-          body: JSON.stringify({ url_kinh, selected_text: currentSelection, note_content: note })
-        });
+      const cancelBtn = document.createElement('button');
+      cancelBtn.className = 'px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium rounded-xl transition';
+      cancelBtn.innerText = 'Hủy bỏ';
+      cancelBtn.onclick = closeModal;
 
-        if (res.ok) {
-          applyHighlight(currentSelection, note);
-          window.getSelection().removeAllRanges(); 
-        } else {
-          alert('Có lỗi xảy ra khi lưu vào máy chủ.');
+      const saveBtn = document.createElement('button');
+      saveBtn.className = 'px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium rounded-xl transition flex items-center gap-1.5';
+      saveBtn.innerText = 'Lưu ghi chú';
+
+      saveBtn.onclick = async () => {
+        const inputEl = document.getElementById('modal-note-input');
+        const note = inputEl ? inputEl.value.trim() : '';
+        const url_kinh = window.location.pathname;
+
+        saveBtn.disabled = true;
+        saveBtn.innerText = '⏳ Đang lưu...';
+
+        try {
+          const res = await fetch('/api/bookmarks', {
+            method: 'POST',
+            headers: { 
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${tokenStr}`
+            },
+            body: JSON.stringify({ url_kinh, selected_text: currentSelection, note_content: note })
+          });
+
+          if (res.ok) {
+            applyHighlight(currentSelection, note);
+            window.getSelection().removeAllRanges();
+            closeModal();
+          } else {
+            customAlert('Lỗi máy chủ', 'Có lỗi xảy ra khi lưu ghi chú vào máy chủ.', 'error');
+          }
+        } catch (err) {
+          console.error(err);
+          customAlert('Lỗi kết nối', 'Không thể kết nối đến máy chủ.', 'error');
+        } finally {
+          tooltip.classList.add('hidden');
         }
-      } catch (err) {
-        console.error(err);
-      } finally {
-        tooltip.textContent = '✏️ Lưu chú đoạn này';
-        tooltip.classList.add('hidden');
-      }
+      };
+
+      openModal({
+        titleHtml,
+        bodyHtml,
+        footerButtons: [cancelBtn, saveBtn]
+      });
+
+      // Tự động focus vào ô nhập
+      setTimeout(() => {
+        const inputEl = document.getElementById('modal-note-input');
+        if (inputEl) inputEl.focus();
+      }, 100);
     });
 
-    // 4. Tải danh sách lưu chú khi mở trang
+    // 5. Tải danh sách lưu chú từ Database khi vào bài kinh
     async function loadBookmarks() {
       const tokenStr = localStorage.getItem('auth_token');
       if (!tokenStr) return;
@@ -111,7 +230,7 @@
       }
     }
 
-    // 5. Thuật toán tìm và bôi vàng đoạn chữ (Highlight)
+    // 6. Thuật toán tìm và bôi vàng đoạn chữ (Highlight)
     function applyHighlight(text, note) {
       if (!text) return;
       const escapedText = text.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
@@ -119,23 +238,53 @@
       
       const elements = article.querySelectorAll('p, li, h2, h3, h4');
       const noteTitle = note ? `Ghi chú: ${note}` : 'Đoạn đã lưu';
+      const encodedNote = note ? encodeURIComponent(note) : '';
 
       elements.forEach(el => {
          if (el.textContent.includes(text) && !el.innerHTML.includes('<mark>'+text)) {
-             el.innerHTML = el.innerHTML.replace(regex, `<mark class="bg-yellow-200 rounded px-1 cursor-help" title="${noteTitle}">$1</mark>`);
+             el.innerHTML = el.innerHTML.replace(regex, `<mark class="bg-yellow-200 rounded px-1 cursor-pointer hover:bg-yellow-300 transition" data-note="${encodedNote}" title="${noteTitle}">$1</mark>`);
          }
       });
     }
 
-    // 6. Xử lý chạm vào chữ màu vàng để xem ghi chú trên Điện thoại
+    // 7. Nhấp vào đoạn chữ màu vàng -> Mở Modal Xem Ghi chú
     article.addEventListener('click', (e) => {
       const target = e.target;
-      // Nếu người dùng chạm vào đúng thẻ MARK (vùng đã highlight)
       if (target && target.tagName === 'MARK') {
-        const noteTitle = target.getAttribute('title');
-        if (noteTitle) {
-          alert(noteTitle);
-        }
+        const rawNote = target.getAttribute('data-note');
+        const noteContent = rawNote ? decodeURIComponent(rawNote) : '';
+        const selectedText = target.innerText;
+
+        const titleHtml = `
+          <svg class="w-6 h-6 text-yellow-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
+          <span>Ghi chú đã lưu</span>
+        `;
+
+        const bodyHtml = `
+          <div class="space-y-3">
+            <div>
+              <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-1">Đoạn kinh bôi màu:</span>
+              <blockquote class="border-l-4 border-yellow-400 pl-3 py-2 text-xs italic text-gray-700 bg-yellow-50/50 rounded-r">"${selectedText}"</blockquote>
+            </div>
+            <div>
+              <span class="text-xs font-semibold text-gray-400 uppercase tracking-wider block mb-1">Ghi chú cá nhân:</span>
+              <p class="text-sm font-medium text-gray-800 bg-gray-50 p-3 rounded-xl border border-gray-100">${noteContent || '<span class="text-gray-400 italic">Không có nội dung ghi chú.</span>'}</p>
+            </div>
+          </div>
+        `;
+
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium rounded-xl transition';
+        closeBtn.innerText = 'Đóng';
+        closeBtn.onclick = closeModal;
+
+        openModal({
+          titleHtml,
+          bodyHtml,
+          footerButtons: [closeBtn]
+        });
       }
     });
 
