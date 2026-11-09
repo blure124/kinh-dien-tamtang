@@ -8,12 +8,12 @@ import Sidebar from '../components/Sidebar.astro';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     
-    <!-- SEO Meta Tags Cơ Bản -->
+    <!-- SEO Meta Tags -->
     <title>Thư Viện Kinh Điển Tam Tạng Pali - Việt</title>
     <meta name="description" content="Hệ thống lưu trữ và tra cứu 12.000+ văn bản kinh điển Phật giáo Tam Tạng Pali - Việt dịch bởi HT. Thích Minh Châu." />
     <meta name="keywords" content="Kinh Điển Tam Tạng, Pali, Thích Minh Châu, Tam Tạng Kinh, Phật giáo" />
 
-    <!-- Open Graph Meta Tags (Zalo, Facebook, Messenger preview) -->
+    <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://tamtangpali.org/" />
     <meta property="og:title" content="Thư Viện Kinh Điển Tam Tạng Pali - Việt" />
@@ -32,11 +32,39 @@ import Sidebar from '../components/Sidebar.astro';
 
     <main class="flex-1 p-6 md:p-10 flex items-center justify-center relative">
       <AuthUI />
-      <div class="text-center mt-12 md:mt-0 max-w-2xl">
+      <div class="text-center mt-12 md:mt-0 max-w-2xl w-full">
         <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 leading-tight">Thư Viện Kinh Điển<br>Tam Tạng</h1>
-        <p class="text-gray-600 text-lg">Hệ thống lưu trữ 12.000+ văn bản kinh điển Phật giáo.</p>
+        <p class="text-gray-600 text-lg mb-8">Hệ thống lưu trữ 12.000+ văn bản kinh điển Phật giáo.</p>
+
+        <!-- Ô TÌM KIẾM NỔI BẬT TRÊN TRANG CHỦ -->
+        <div class="relative max-w-xl mx-auto mb-8 text-left">
+          <div class="relative">
+            <input 
+              type="text" 
+              id="home-search-input" 
+              class="w-full pl-12 pr-4 py-3.5 bg-white border-2 border-indigo-200 rounded-2xl text-gray-800 placeholder-gray-400 focus:outline-none focus:border-indigo-600 shadow-md transition-all text-base"
+              placeholder="Nhập từ khóa tìm kiếm (VD: bát chánh đạo, tứ diệu đế)..." 
+              autocomplete="off"
+            />
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-indigo-500">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Thông báo Loading -->
+          <div id="home-search-loading" class="hidden mt-2 text-center text-sm text-indigo-600 font-medium animate-pulse">
+            ⏳ Đang lục tìm trong 12.500 bài kinh...
+          </div>
+
+          <!-- Dropdown Danh sách kết quả -->
+          <div id="home-search-results-wrapper" class="hidden absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl shadow-2xl border border-gray-200 max-h-80 overflow-y-auto z-50 p-2 custom-scrollbar">
+            <ul id="home-search-results" class="space-y-1"></ul>
+          </div>
+        </div>
         
-        <div class="mt-8 p-4 bg-blue-50 text-blue-700 rounded-lg border border-blue-100 inline-block">
+        <div class="p-4 bg-blue-50 text-blue-700 rounded-lg border border-blue-100 inline-block text-sm md:text-base">
           👆 Vui lòng bấm vào các danh mục ở thanh menu bên trái để mở rộng và chọn bài kinh bạn muốn đọc.
         </div>
 
@@ -48,5 +76,74 @@ import Sidebar from '../components/Sidebar.astro';
       </div>
     </main>
     
+    <!-- Script xử lý tìm kiếm trực tiếp trên Trang chủ -->
+    <script>
+      const searchInput = document.getElementById('home-search-input');
+      const searchLoading = document.getElementById('home-search-loading');
+      const resultsWrapper = document.getElementById('home-search-results-wrapper');
+      const resultsList = document.getElementById('home-search-results');
+      let searchTimeout;
+
+      if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+          clearTimeout(searchTimeout);
+          const query = e.target.value.trim();
+
+          if (query.length < 2) {
+            resultsWrapper.classList.add('hidden');
+            searchLoading.classList.add('hidden');
+            return;
+          }
+
+          searchLoading.classList.remove('hidden');
+
+          searchTimeout = setTimeout(async () => {
+            try {
+              const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+              if (!res.ok) throw new Error();
+              const data = await res.json();
+
+              if (data.length === 0) {
+                resultsList.innerHTML = '<li class="text-gray-500 italic text-center py-4 text-sm">Không tìm thấy bài kinh nào chứa từ khóa này.</li>';
+              } else {
+                let html = '';
+                data.forEach(item => {
+                  const fileName = decodeURIComponent(item.url_kinh).split('/').pop();
+                  html += `
+                    <li>
+                      <a href="${item.url_kinh}" class="block group p-3 rounded-xl hover:bg-indigo-50 border border-transparent hover:border-indigo-100 transition text-left">
+                        <h4 class="text-indigo-700 font-bold text-sm group-hover:underline mb-1">📄 ${fileName}</h4>
+                        <p class="text-xs text-gray-600 leading-relaxed italic line-clamp-2">"...${item.snippet}..."</p>
+                      </a>
+                    </li>
+                  `;
+                });
+                resultsList.innerHTML = html;
+              }
+              resultsWrapper.classList.remove('hidden');
+            } catch(err) {
+              resultsList.innerHTML = '<li class="text-red-500 italic text-center py-4 text-sm">Lỗi kết nối máy chủ tìm kiếm.</li>';
+              resultsWrapper.classList.remove('hidden');
+            } finally {
+              searchLoading.classList.add('hidden');
+            }
+          }, 400);
+        });
+
+        // Ẩn dropdown khi bấm ra ngoài vùng tìm kiếm
+        document.addEventListener('click', (e) => {
+          if (!searchInput.contains(e.target) && !resultsWrapper.contains(e.target)) {
+            resultsWrapper.classList.add('hidden');
+          }
+        });
+
+        // Hiện lại dropdown nếu nhấp chuột lại vào ô tìm kiếm khi đã có kết quả
+        searchInput.addEventListener('focus', () => {
+          if (resultsList.children.length > 0 && searchInput.value.trim().length >= 2) {
+            resultsWrapper.classList.remove('hidden');
+          }
+        });
+      }
+    </script>
   </body>
 </html>
